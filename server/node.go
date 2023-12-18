@@ -208,7 +208,15 @@ func (n *Node) NodeClass() ua.NodeClass {
 	if v == nil || v.Value() == nil {
 		return ua.NodeClassUnspecified
 	}
-	return ua.NodeClass(v.Value().(uint32))
+	vi32, ok := v.Value().(int32)
+	if !ok {
+		vui32, ok := v.Value().(uint32)
+		if !ok {
+			return ua.NodeClassUnspecified
+		}
+		return ua.NodeClass(int32(vui32))
+	}
+	return ua.NodeClass(vi32)
 
 }
 
@@ -241,12 +249,19 @@ func (n *Node) AddVariable(o *Node) *Node {
 	return nn
 }
 
-func (n *Node) AddRef(o *Node) {
+type RefType int
+
+const (
+	RefTypeIDHasComponent = id.HasComponent
+	RefTypeIDOrganizes    = id.Organizes
+)
+
+func (n *Node) AddRef(o *Node, rt RefType) {
 	//eoid := ua.NewNumericExpandedNodeID(o.ns.ID(), o.)
 	eoid := ua.NewExpandedNodeID(o.ID(), "", 0)
 
 	ref := ua.ReferenceDescription{
-		ReferenceTypeID: &ua.NodeID{}, //o.refs[0].ReferenceTypeID,
+		ReferenceTypeID: ua.NewNumericNodeID(0, uint32(rt)), //o.refs[0].ReferenceTypeID,
 		IsForward:       true,
 		NodeID:          eoid,
 		BrowseName:      o.BrowseName(),

@@ -15,6 +15,7 @@ import (
 	"time"
 
 	"github.com/gopcua/opcua/debug"
+	"github.com/gopcua/opcua/id"
 	"github.com/gopcua/opcua/server"
 	"github.com/gopcua/opcua/ua"
 )
@@ -124,13 +125,42 @@ func main() {
 
 	// add the namespaces to the server, and add a reference to them
 	root_ns, _ := s.Namespace(0)
-	root_obj := root_ns.Objects()
+	root_obj := root_ns.Root()
+
+	// add the "Types" folder
+	tf := root_ns.Node(ua.NewNumericNodeID(0, 86))
+	root_obj.AddRef(tf, id.HasComponent)
+	dtf := root_ns.Node(ua.NewNumericNodeID(0, 90))
+	tf.AddRef(dtf, id.HasComponent)
+	base_type := root_ns.Node(ua.NewNumericNodeID(0, 24))
+	dtf.AddRef(base_type, id.HasComponent)
+	bool_type := root_ns.Node(ua.NewNumericNodeID(0, 1))
+	ByteString_type := root_ns.Node(ua.NewNumericNodeID(0, 15))
+	DataValue_type := root_ns.Node(ua.NewNumericNodeID(0, 23))
+	DateTime_type := root_ns.Node(ua.NewNumericNodeID(0, 13))
+	DiagnosticInfo_type := root_ns.Node(ua.NewNumericNodeID(0, 25))
+	Enumeration_type := root_ns.Node(ua.NewNumericNodeID(0, 29))
+	Uint32_type := root_ns.Node(ua.NewNumericNodeID(0, 7))
+	dtf.AddRef(bool_type, id.HasComponent)
+	dtf.AddRef(DataValue_type, id.HasComponent)
+	dtf.AddRef(ByteString_type, id.HasComponent)
+	dtf.AddRef(DateTime_type, id.HasComponent)
+	dtf.AddRef(DiagnosticInfo_type, id.HasComponent)
+	dtf.AddRef(Enumeration_type, id.HasComponent)
+	dtf.AddRef(Uint32_type, id.HasComponent)
+
+	root_obj = root_ns.Objects()
+	folder_type := root_ns.Node(ua.NewNumericNodeID(0, id.FolderType))
+	root_obj.AddRef(folder_type, id.HasTypeDefinition)
+
+	server_obj := root_ns.Node(ua.NewNumericNodeID(0, 2253))
+	root_obj.AddRef(server_obj, id.HasComponent)
 
 	mrw_id := s.AddNamespace(mrw)
-	root_obj.AddRef(mrw.Objects())
+	root_obj.AddRef(mrw.Objects(), id.HasComponent)
 	log.Printf("map namespace added at index %d", mrw_id)
 	mrw_id2 := s.AddNamespace(mrw2)
-	root_obj.AddRef(mrw2.Objects())
+	root_obj.AddRef(mrw2.Objects(), id.HasComponent)
 	log.Printf("map namespace added at index %d", mrw_id2)
 
 	// Start the server
@@ -151,10 +181,10 @@ func main() {
 	var1 := nodeNS.AddNewVariableNode("TestVar1", float32(123.45))
 	// Make sure there is a reference to the variable from the root object folder
 	nns_obj := nodeNS.Objects()
-	nns_obj.AddRef(var1)
+	nns_obj.AddRef(var1, id.HasComponent)
 
 	// add the reference for this namespace's root object folder to the server's root object folder
-	root_obj.AddRef(nns_obj)
+	root_obj.AddRef(nns_obj, id.HasComponent)
 
 	log.Printf("Press CTRL-C to exit")
 	<-sigch

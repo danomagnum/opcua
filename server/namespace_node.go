@@ -117,8 +117,23 @@ func (as *NodeNameSpace) Attribute(id *ua.NodeID, attr ua.AttributeID) *ua.DataV
 			Status:          ua.StatusBadNodeIDUnknown,
 		}
 	}
+	var a *AttrValue
+	var err error
 
-	a, err := n.Attribute(attr)
+	switch attr {
+	case ua.AttributeIDNodeID:
+		a = &AttrValue{Value: ua.MustVariant(id)}
+	case ua.AttributeIDNodeClass:
+		a, err = n.Attribute(attr)
+		// TODO: we need int32 instead of uint32 here.  this isn't the right place to fix it, but it is a bandaid
+		x, ok := a.Value.Value().(uint32)
+		if ok {
+			a.Value = ua.MustVariant(int32(x))
+		}
+	default:
+		a, err = n.Attribute(attr)
+	}
+
 	if err != nil {
 		return &ua.DataValue{
 			EncodingMask:    ua.DataValueServerTimestamp | ua.DataValueStatusCode,
