@@ -82,6 +82,8 @@ func main() {
 		m[n.NodeID.Identifier.String()] = n
 	}
 
+	commonRefs := make(map[string]*ua.ReferenceDescription)
+
 	// create HasSubtype refs
 	for _, n := range m {
 		sid := n.SuperTypeID.Identifier.String()
@@ -99,7 +101,10 @@ func main() {
 			DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: n.BrowseName.Name},
 			TypeDefinition:  eoid,
 		}
-		m[sid].Refs = append(m[sid].Refs, newref)
+
+		refname := fmt.Sprintf("%s_%s", "subtype", n.NodeID.Identifier.String())
+		commonRefs[refname] = newref
+		m[sid].Refs = append(m[sid].Refs, refname)
 	}
 
 	// create other refs
@@ -128,7 +133,9 @@ func main() {
 				DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: o.BrowseName.Name},
 				TypeDefinition:  eoid,
 			}
-			n.Refs = append(n.Refs, newref)
+			refname := fmt.Sprintf("%s_%s_%v", ref.ReferenceTypeID.Identifier.String(), target_id.Identifier.String(), !ref.IsInverse)
+			commonRefs[refname] = newref
+			n.Refs = append(n.Refs, refname)
 
 			// if it's a reverse reference, we need to add it in the forward direction also maybe.
 			if ref.IsInverse {
@@ -142,14 +149,17 @@ func main() {
 					DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: n.BrowseName.Name},
 					TypeDefinition:  eoid2,
 				}
-				o.Refs = append(o.Refs, newref2)
+
+				refname := fmt.Sprintf("%s_%s_%v", ref.ReferenceTypeID.Identifier.String(), n.NodeID.Identifier.String(), ref.IsInverse)
+				commonRefs[refname] = newref2
+				o.Refs = append(o.Refs, refname)
+
 			}
 
 		}
 
 	}
 
-	//commonRefs := make(map[string]*ua.ReferenceDescription)
 	// create references for type defs
 	for _, n := range m {
 		target_id := n.TypeDefinitionID.Identifier
@@ -176,13 +186,17 @@ func main() {
 			TypeDefinition:  &ua.ExpandedNodeID{},
 			NodeClass:       ua.NodeClassObjectType,
 		}
-		n.Refs = append(n.Refs, newref)
+		//n.Refs = append(n.Refs, newref)
+		refname := fmt.Sprintf("%s_%s", "hastypedef", target_id.String())
+		commonRefs[refname] = newref
+		n.Refs = append(n.Refs, refname)
 
 	}
 
 	data := map[string]interface{}{
 		"Package": *pkg,
 		"Nodes":   nodes,
+		"Refs":    commonRefs,
 	}
 
 	var b bytes.Buffer
@@ -227,7 +241,7 @@ type Node struct {
 	}
 	IsAbstract bool
 
-	Refs       []*ua.ReferenceDescription
+	Refs       []string
 	References []Reference `xml:"References>Reference"`
 }
 
@@ -285,6 +299,30 @@ var tmpl = template.Must(template.New("").Funcs(funcs).Parse(`// Generated code.
 	"github.com/gopcua/opcua/ua"
  )
 
+ var commonRefs = map[string]*ua.ReferenceDescription{
+	{{- range $key, $value := .Refs }}
+				"{{$key}}": {
+					{{- if $value.NodeID }}
+					NodeID: ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, {{$value.NodeID.NodeID.IntID}}),"", 0),
+					{{- end}}
+					{{- if $value.BrowseName}}
+					BrowseName:    &ua.QualifiedName{NamespaceIndex: 0, Name: "{{$value.BrowseName.Name}}"},
+					{{- end}}
+					{{- if $value.DisplayName}}
+					DisplayName:   &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "{{$value.DisplayName.Text}}"},
+					{{- end}}
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.{{idname $value.ReferenceTypeID.IntID}}),
+					{{- if $value.TypeDefinition.NodeID}}
+					TypeDefinition: ua.NewNumericExpandedNodeID(0, {{$value.TypeDefinition.NodeID.IntID}}),
+					{{- else}}
+					TypeDefinition: &ua.ExpandedNodeID{},
+					{{- end}}
+					IsForward: {{$value.IsForward}},
+					NodeClass:       {{nodeclass $value.NodeClass}},
+				},
+	{{- end}}
+ }
+
  func PredefinedNodes() []*Node{
  	return []*Node{
  {{- range .Nodes }}
@@ -304,26 +342,8 @@ var tmpl = template.Must(template.New("").Funcs(funcs).Parse(`// Generated code.
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
  			},
 			[]*ua.ReferenceDescription{
-			{{- range .Refs }}
-				{
-					{{- if .NodeID }}
-					NodeID: ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, {{.NodeID.NodeID.IntID}}),"", 0),
-					{{- end}}
-					{{- if .BrowseName}}
-					BrowseName:    &ua.QualifiedName{NamespaceIndex: 0, Name: "{{.BrowseName.Name}}"},
-					{{- end}}
-					{{- if .DisplayName}}
-					DisplayName:   &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "{{.DisplayName.Text}}"},
-					{{- end}}
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.{{idname .ReferenceTypeID.IntID}}),
-					{{- if .TypeDefinition.NodeID}}
-					TypeDefinition: ua.NewNumericExpandedNodeID(0, {{.TypeDefinition.NodeID.IntID}}),
-					{{- else}}
-					TypeDefinition: &ua.ExpandedNodeID{},
-					{{- end}}
-					IsForward: {{.IsForward}},
-					NodeClass:       {{nodeclass .NodeClass}},
-				},
+			{{- range $i, $val := .Refs }}
+				commonRefs["{{$val}}"],
  			{{- end }}
 			},
 			nil,
