@@ -43,25 +43,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 20),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 1),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14),
 					IsForward:       true,
 				},
 				{
@@ -73,7 +55,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 20),
 					IsForward:       true,
 				},
 				{
@@ -85,13 +73,25 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 22),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 1),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15),
 					IsForward:       true,
 				},
 				{
@@ -103,25 +103,25 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 22),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 26),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21),
 					IsForward:       true,
 				},
 				{
@@ -135,18 +135,6 @@ func PredefinedNodes() []*Node {
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16),
 					IsForward:       true,
-				},
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 90), "", 90),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "DataTypes"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "DataTypes"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 90),
-					IsForward:       false,
 				},
 			},
 			nil,
@@ -162,13 +150,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 28),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 50),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 27),
 					IsForward:       true,
 				},
 				{
@@ -180,13 +162,19 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 27),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 50),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 28),
 					IsForward:       true,
 				},
 			},
@@ -203,25 +191,25 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 8),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 4),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 6),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 8),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 4),
 					IsForward:       true,
 				},
 			},
@@ -238,7 +226,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 9),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 7),
 					IsForward:       true,
 				},
 				{
@@ -250,7 +238,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 7),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 9),
 					IsForward:       true,
 				},
 				{
@@ -273,187 +261,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 20408),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24214),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 852),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 98),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 307),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24224),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 303),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 120),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15632),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 348),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 256),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24218),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12077),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15008),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 315),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24216),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24210),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 890),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15874),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24222),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19730),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11234),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11293),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 851),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19723),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 302),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 257),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12552),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11939),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24212),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 576),
 					IsForward:       true,
 				},
 				{
@@ -465,7 +273,187 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11939),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11293),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 20408),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 315),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 348),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15874),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14647),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 256),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15632),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12552),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15008),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11234),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24218),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24224),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 890),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24222),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 852),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24214),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 303),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 98),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24210),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24216),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19723),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12077),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 257),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 120),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 302),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 307),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 851),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 576),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24212),
 					IsForward:       true,
 				},
 			},
@@ -574,13 +562,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23564),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15654),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25517),
 					IsForward:       true,
 				},
 				{
@@ -592,13 +574,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24277),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 31917),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15658),
 					IsForward:       true,
 				},
 				{
@@ -610,7 +586,25 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24279),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15654),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 347),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 288),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23564),
 					IsForward:       true,
 				},
 				{
@@ -628,7 +622,19 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15658),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 31917),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24277),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15642),
 					IsForward:       true,
 				},
 				{
@@ -640,31 +646,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 347),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25517),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 288),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 94),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15642),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24279),
 					IsForward:       true,
 				},
 				{
@@ -741,19 +729,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12877),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24263),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 291),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23751),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12880),
 					IsForward:       true,
 				},
 				{
@@ -765,13 +747,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24263),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 31918),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12877),
 					IsForward:       true,
 				},
 				{
@@ -783,7 +759,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12881),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 291),
 					IsForward:       true,
 				},
 				{
@@ -795,13 +771,25 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 31918),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12881),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 295),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12880),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23751),
 					IsForward:       true,
 				},
 			},
@@ -845,13 +833,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 311),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 30),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 30),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16307),
 					IsForward:       true,
 				},
 				{
@@ -863,7 +851,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16307),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 311),
 					IsForward:       true,
 				},
 			},
@@ -947,31 +935,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18811),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14273),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12755),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 540),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24033),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14744),
 					IsForward:       true,
 				},
 				{
@@ -983,25 +947,31 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25520),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12756),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 8912),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12171),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 891),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 537),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18813),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32285),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 7594),
 					IsForward:       true,
 				},
 				{
@@ -1013,7 +983,211 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17548),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 379),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14524),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 868),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 96),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18813),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 540),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15578),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11943),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15502),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15622),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15609),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 659),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15628),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 385),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 856),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14533),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23498),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14273),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 853),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12890),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 865),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15623),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24107),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15630),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23603),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 948),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 586),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15598),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 338),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 344),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 719),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 583),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15605),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 877),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12080),
 					IsForward:       true,
 				},
 				{
@@ -1031,6 +1205,306 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23601),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 887),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11944),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 382),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 891),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 304),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18811),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15534),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17548),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 101),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15621),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 331),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 308),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 871),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 312),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25519),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15530),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25520),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23468),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14593),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25270),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 589),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14525),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25220),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24281),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15580),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 8912),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18807),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12554),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12189),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15528),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 296),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 894),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32660),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 862),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12755),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 874),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 432),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24106),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 884),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32659),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15616),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15629),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 897),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16313),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24033),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15634),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 376),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 299),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15597),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15611),
 					IsForward:       true,
 				},
@@ -1043,421 +1517,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11943),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 862),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15609),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15617),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14744),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 948),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23603),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15630),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 382),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 583),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 379),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 344),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15578),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14533),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 659),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 96),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 338),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 376),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18807),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32659),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 432),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24105),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 7594),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15530),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 856),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16313),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24107),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 589),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24281),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 312),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 865),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15629),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12554),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15598),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 853),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15622),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 308),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 868),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 877),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15580),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 101),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24106),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 874),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32285),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15616),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15618),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32660),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 586),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 887),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 385),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 331),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14593),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 537),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15528),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 871),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15621),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25519),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11944),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 884),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12171),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14524),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12189),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 304),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15628),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14525),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15605),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 296),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12890),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15634),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15597),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12079),
 					IsForward:       true,
 				},
 				{
@@ -1469,25 +1529,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 719),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25270),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23601),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 897),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15618),
 					IsForward:       true,
 				},
 				{
@@ -1499,67 +1541,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 299),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24105),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12080),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 894),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15623),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15534),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12079),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15502),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23498),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23468),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25220),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12756),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15617),
 					IsForward:       true,
 				},
 			},
@@ -1596,7 +1584,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2000),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2001),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2002),
 					IsForward:       true,
 				},
 				{
@@ -1608,13 +1602,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2001),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2002),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2000),
 					IsForward:       true,
 				},
 			},
@@ -1641,26 +1629,14 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 33),
 					IsForward:       true,
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 91), "", 91),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "ReferenceTypes"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "ReferenceTypes"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 91),
-					IsForward:       false,
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32),
+					IsForward:       true,
 				},
 			},
 			nil,
@@ -1676,79 +1652,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24137),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 9005),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 38),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25257),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25253),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 39),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 117),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 9006),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 52),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 40),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 54),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23469),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 9004),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25255),
 					IsForward:       true,
 				},
 				{
@@ -1760,13 +1664,61 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25258),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25237),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25255),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 54),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17597),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 40),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25257),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24137),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 38),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 52),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 117),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 9004),
 					IsForward:       true,
 				},
 				{
@@ -1784,6 +1736,24 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 41),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 9006),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23469),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 53),
 					IsForward:       true,
 				},
@@ -1796,19 +1766,25 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17597),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25258),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25237),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 39),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 41),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 9005),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25253),
 					IsForward:       true,
 				},
 			},
@@ -1826,31 +1802,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 35),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25345),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14936),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25254),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25256),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 35),
 					IsForward:       true,
 				},
 				{
@@ -1862,7 +1820,25 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25254),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 36),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25256),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14936),
 					IsForward:       true,
 				},
 				{
@@ -1886,6 +1862,12 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32679),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 44),
 					IsForward:       true,
 				},
@@ -1893,12 +1875,6 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 45),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32679),
 					IsForward:       true,
 				},
 			},
@@ -2031,13 +2007,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 56),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 46),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 46),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 56),
 					IsForward:       true,
 				},
 			},
@@ -2077,12 +2053,6 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14476),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15296),
 					IsForward:       true,
 				},
@@ -2095,19 +2065,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 129),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15112),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24136),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18804),
 					IsForward:       true,
 				},
 				{
@@ -2119,13 +2077,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18805),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16361),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24136),
 					IsForward:       true,
 				},
 				{
@@ -2143,7 +2095,31 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18804),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 129),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16361),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14476),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15112),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18805),
 					IsForward:       true,
 				},
 			},
@@ -2222,13 +2198,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17276),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17985),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17985),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17276),
 					IsForward:       true,
 				},
 				{
@@ -2294,289 +2270,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11645),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17852),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15906),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21096),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25221),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 61),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21145),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2041),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17589),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15620),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14509),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12555),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15298),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11575),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12556),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21091),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2033),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21090),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23455),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2299),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 77),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14209),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14232),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2029),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11187),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15319),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25227),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2034),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2330),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15744),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 75),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2340),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18001),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 76),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2307),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32286),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23828),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17279),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15489),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21104),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11616),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2310),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15471),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17721),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12581),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15306),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15607),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2026),
 					IsForward:       true,
 				},
 				{
@@ -2588,43 +2282,73 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23832),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2013),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11163),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11616),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2318),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15298),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 26871),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2340),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17602),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12556),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15108),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17852),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14232),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17997),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25221),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14509),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15620),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15319),
 					IsForward:       true,
 				},
 				{
@@ -2636,7 +2360,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25337),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21091),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 61),
 					IsForward:       true,
 				},
 				{
@@ -2654,19 +2384,157 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14643),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2034),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17997),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23828),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2020),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15489),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15744),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12581),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17589),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12555),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21096),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17998),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 77),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21145),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2026),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2029),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25227),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2033),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17602),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21090),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2299),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11645),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15607),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2307),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14209),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15471),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11575),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17721),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15108),
 					IsForward:       true,
 				},
 				{
@@ -2678,20 +2546,116 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17998),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 75),
 					IsForward:       true,
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 88), "", 88),
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11163),
+					IsForward:       true,
+				},
+				{
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "ObjectTypes"},
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32286),
+					IsForward:       true,
+				},
+				{
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "ObjectTypes"},
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17279),
+					IsForward:       true,
+				},
+				{
 
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 88),
-					IsForward:       false,
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23832),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11187),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2330),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2310),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 76),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2041),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2318),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18001),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2020),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21104),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 26871),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25337),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14643),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23455),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15906),
+					IsForward:       true,
 				},
 			},
 			nil,
@@ -2707,13 +2671,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23556),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17496),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11564),
 					IsForward:       true,
 				},
 				{
@@ -2725,25 +2683,19 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17591),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25346),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11564),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23795),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 13813),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17496),
 					IsForward:       true,
 				},
 				{
@@ -2755,13 +2707,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14477),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16405),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16405),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17591),
 					IsForward:       true,
 				},
 				{
@@ -2773,7 +2725,19 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23795),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 13813),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14477),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23556),
 					IsForward:       true,
 				},
 			},
@@ -2790,26 +2754,14 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 63),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 68),
 					IsForward:       true,
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 89), "", 89),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "VariableTypes"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "VariableTypes"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 89),
-					IsForward:       false,
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 63),
+					IsForward:       true,
 				},
 			},
 			nil,
@@ -2825,19 +2777,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2380),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16309),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2755),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2171),
 					IsForward:       true,
 				},
 				{
@@ -2849,31 +2789,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2137),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 72),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2197),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2171),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 3051),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17986),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2762),
 					IsForward:       true,
 				},
 				{
@@ -2891,61 +2813,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2165),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19725),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15113),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2196),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32657),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2150),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17714),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17277),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2244),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 72),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 3051),
 					IsForward:       true,
 				},
 				{
@@ -2963,37 +2837,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 69),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18786),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2164),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2243),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2762),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15383),
 					IsForward:       true,
 				},
 				{
@@ -3005,7 +2849,115 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2196),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2165),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2244),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15113),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32657),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2137),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19725),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2755),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16309),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 69),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2380),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17277),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2164),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11487),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2243),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2197),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15383),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18772),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17986),
 					IsForward:       true,
 				},
 				{
@@ -3017,7 +2969,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18772),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2150),
 					IsForward:       true,
 				},
 			},
@@ -3153,6 +3105,18 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 87), "", 87),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Views"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Views"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 87),
+					IsForward:       true,
+				},
+				{
+
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 86), "", 86),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Types"},
@@ -3175,18 +3139,6 @@ func PredefinedNodes() []*Node {
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 85),
 					IsForward:       true,
 				},
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 87), "", 87),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Views"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Views"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 87),
-					IsForward:       true,
-				},
 			},
 			nil,
 		),
@@ -3198,18 +3150,6 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDDisplayName: ua.MustVariant(attrs.DisplayName("Objects", "")),
 			},
 			[]*ua.ReferenceDescription{
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 84), "", 84),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Root"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Root"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 84),
-					IsForward:       false,
-				},
 				{
 
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23470), "", 23470),
@@ -3236,6 +3176,18 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 84), "", 84),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Root"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Root"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 84),
+					IsForward:       false,
+				},
+				{
+
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 31915), "", 31915),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Locations"},
@@ -3257,6 +3209,54 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDDisplayName: ua.MustVariant(attrs.DisplayName("Types", "")),
 			},
 			[]*ua.ReferenceDescription{
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 89), "", 89),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "VariableTypes"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "VariableTypes"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 89),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 90), "", 90),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "DataTypes"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "DataTypes"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 90),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 84), "", 84),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Root"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Root"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 84),
+					IsForward:       false,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 91), "", 91),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "ReferenceTypes"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "ReferenceTypes"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 91),
+					IsForward:       true,
+				},
 				{
 
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 3048), "", 3048),
@@ -3283,30 +3283,6 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 84), "", 84),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Root"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Root"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 84),
-					IsForward:       false,
-				},
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 90), "", 90),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "DataTypes"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "DataTypes"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 90),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 88), "", 88),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "ObjectTypes"},
@@ -3315,30 +3291,6 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 88),
-					IsForward:       true,
-				},
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 91), "", 91),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "ReferenceTypes"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "ReferenceTypes"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 91),
-					IsForward:       true,
-				},
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 89), "", 89),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "VariableTypes"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "VariableTypes"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 89),
 					IsForward:       true,
 				},
 			},
@@ -3447,6 +3399,18 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 92), "", 92),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "XML Schema"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "XML Schema"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 92),
+					IsForward:       true,
+				},
+				{
+
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 86), "", 86),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Types"},
@@ -3479,18 +3443,6 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 93),
-					IsForward:       true,
-				},
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 92), "", 92),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "XML Schema"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "XML Schema"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 92),
 					IsForward:       true,
 				},
 			},
@@ -3541,18 +3493,6 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 8252), "", 8252),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Opc.Ua"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Opc.Ua"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasComponent),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 8252),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 90), "", 90),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "DataTypes"},
@@ -3562,6 +3502,18 @@ func PredefinedNodes() []*Node {
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 90),
 					IsForward:       false,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 8252), "", 8252),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Opc.Ua"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Opc.Ua"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasComponent),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 8252),
+					IsForward:       true,
 				},
 			},
 			nil,
@@ -3576,18 +3528,6 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 90), "", 90),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "DataTypes"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "DataTypes"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 90),
-					IsForward:       false,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 7617), "", 7617),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Opc.Ua"},
@@ -3597,6 +3537,18 @@ func PredefinedNodes() []*Node {
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasComponent),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 7617),
 					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 90), "", 90),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "DataTypes"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "DataTypes"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 90),
+					IsForward:       false,
 				},
 			},
 			nil,
@@ -3880,18 +3832,6 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 12758), "", 12758),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12758),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15085), "", 15085),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
@@ -3900,6 +3840,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15085),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 12758), "", 12758),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12758),
 					IsForward:       true,
 				},
 				{
@@ -4139,12 +4091,6 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2738),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11436),
 					IsForward:       true,
 				},
@@ -4152,12 +4098,6 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2782),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2052),
 					IsForward:       true,
 				},
 				{
@@ -4174,15 +4114,15 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 3048), "", 3048),
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2738),
+					IsForward:       true,
+				},
+				{
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "EventTypes"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "EventTypes"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 3048),
-					IsForward:       false,
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2052),
+					IsForward:       true,
 				},
 			},
 			nil,
@@ -4198,31 +4138,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2090),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12561),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23606),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2099),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2058),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12561),
 					IsForward:       true,
 				},
 				{
@@ -4235,6 +4157,24 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12620),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2058),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2099),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2090),
 					IsForward:       true,
 				},
 			},
@@ -4251,6 +4191,12 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2059),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2080),
 					IsForward:       true,
 				},
@@ -4258,12 +4204,6 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2069),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2059),
 					IsForward:       true,
 				},
 			},
@@ -4307,13 +4247,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2075),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2071),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2071),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2075),
 					IsForward:       true,
 				},
 				{
@@ -4383,13 +4323,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2085),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2088),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2082),
 					IsForward:       true,
 				},
 				{
@@ -4401,19 +4335,25 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2087),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2088),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2082),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2085),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2089),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2087),
 					IsForward:       true,
 				},
 			},
@@ -4490,7 +4430,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2095),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2093),
 					IsForward:       true,
 				},
 				{
@@ -4502,7 +4442,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2093),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2095),
 					IsForward:       true,
 				},
 				{
@@ -4565,13 +4505,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2100),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2104),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2104),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2100),
 					IsForward:       true,
 				},
 			},
@@ -4598,7 +4538,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2999),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 3012),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 3006),
 					IsForward:       true,
 				},
 				{
@@ -4610,13 +4556,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 3012),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 3006),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2999),
 					IsForward:       true,
 				},
 			},
@@ -4633,13 +4573,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18011),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2790),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32260),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17641),
 					IsForward:       true,
 				},
 				{
@@ -4651,7 +4591,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2790),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32260),
 					IsForward:       true,
 				},
 				{
@@ -4663,7 +4603,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17641),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18011),
 					IsForward:       true,
 				},
 			},
@@ -4680,13 +4620,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2787),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11446),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11446),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2787),
 					IsForward:       true,
 				},
 				{
@@ -4704,13 +4644,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2131),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15535),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15535),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2131),
 					IsForward:       true,
 				},
 			},
@@ -4760,20 +4700,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDBrowseName:  ua.MustVariant(attrs.BrowseName("GeneralModelChangeEventType")),
 				ua.AttributeIDDisplayName: ua.MustVariant(attrs.DisplayName("GeneralModelChangeEventType", "")),
 			},
-			[]*ua.ReferenceDescription{
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23518), "", 23518),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "OrderedListType"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "OrderedListType"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.GeneratesEvent),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23518),
-					IsForward:       false,
-				},
-			},
+			[]*ua.ReferenceDescription{},
 			nil,
 		),
 		NewNode(
@@ -5061,54 +4988,6 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 12637), "", 12637),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "ServerConfiguration"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "ServerConfiguration"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasComponent),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12637),
-					IsForward:       true,
-				},
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 17594), "", 17594),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Dictionaries"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Dictionaries"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasComponent),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17594),
-					IsForward:       true,
-				},
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 14443), "", 14443),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "PublishSubscribe"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "PublishSubscribe"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasComponent),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14443),
-					IsForward:       true,
-				},
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 24226), "", 24226),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Resources"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Resources"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasComponent),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24226),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 85), "", 85),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Objects"},
@@ -5129,6 +5008,54 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasComponent),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32405),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 17594), "", 17594),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Dictionaries"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Dictionaries"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasComponent),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17594),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 12637), "", 12637),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "ServerConfiguration"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "ServerConfiguration"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasComponent),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12637),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 24226), "", 24226),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Resources"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Resources"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasComponent),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24226),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 14443), "", 14443),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "PublishSubscribe"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "PublishSubscribe"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasComponent),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14443),
 					IsForward:       true,
 				},
 			},
@@ -5237,18 +5164,6 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15041), "", 15041),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15041),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 14802), "", 14802),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
@@ -5257,6 +5172,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14802),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15041), "", 15041),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15041),
 					IsForward:       true,
 				},
 			},
@@ -5272,14 +5199,14 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 17541), "", 17541),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 17547), "", 17547),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17541),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17547),
 					IsForward:       true,
 				},
 				{
@@ -5296,14 +5223,14 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 17547), "", 17547),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 17541), "", 17541),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17547),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17541),
 					IsForward:       true,
 				},
 			},
@@ -5319,18 +5246,6 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 17553), "", 17553),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17553),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 17557), "", 17557),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
@@ -5339,6 +5254,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17557),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 17553), "", 17553),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17553),
 					IsForward:       true,
 				},
 				{
@@ -5451,13 +5378,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2760),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 8995),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 8995),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2760),
 					IsForward:       true,
 				},
 			},
@@ -5491,18 +5418,6 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2929),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15803),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 9318),
 					IsForward:       true,
 				},
@@ -5510,6 +5425,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2391),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2929),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15803),
 					IsForward:       true,
 				},
 			},
@@ -5546,13 +5473,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2309),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15109),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15109),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2309),
 					IsForward:       true,
 				},
 			},
@@ -5770,6 +5697,18 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 19064), "", 19064),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19064),
+					IsForward:       true,
+				},
+				{
+
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 18815), "", 18815),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
@@ -5792,18 +5731,6 @@ func PredefinedNodes() []*Node {
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18851),
 					IsForward:       true,
 				},
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 19064), "", 19064),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19064),
-					IsForward:       true,
-				},
 			},
 			nil,
 		),
@@ -5819,6 +5746,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18808),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 18852), "", 18852),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18852),
 					IsForward:       true,
 				},
 				{
@@ -5845,18 +5784,6 @@ func PredefinedNodes() []*Node {
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18816),
 					IsForward:       true,
 				},
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 18852), "", 18852),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18852),
-					IsForward:       true,
-				},
 			},
 			nil,
 		),
@@ -5868,6 +5795,18 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDDisplayName: ua.MustVariant(attrs.DisplayName("3DVector", "")),
 			},
 			[]*ua.ReferenceDescription{
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 18853), "", 18853),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18853),
+					IsForward:       true,
+				},
 				{
 
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 19066), "", 19066),
@@ -5892,18 +5831,6 @@ func PredefinedNodes() []*Node {
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18817),
 					IsForward:       true,
 				},
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 18853), "", 18853),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18853),
-					IsForward:       true,
-				},
 			},
 			nil,
 		),
@@ -5919,6 +5846,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18810),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 18854), "", 18854),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18854),
 					IsForward:       true,
 				},
 				{
@@ -5945,18 +5884,6 @@ func PredefinedNodes() []*Node {
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19067),
 					IsForward:       true,
 				},
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 18854), "", 18854),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18854),
-					IsForward:       true,
-				},
 			},
 			nil,
 		),
@@ -5970,14 +5897,14 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 18855), "", 18855),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 18819), "", 18819),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18855),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18819),
 					IsForward:       true,
 				},
 				{
@@ -5994,14 +5921,14 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 18819), "", 18819),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 18855), "", 18855),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18819),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18855),
 					IsForward:       true,
 				},
 			},
@@ -6019,18 +5946,6 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18812),
-					IsForward:       true,
-				},
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 18820), "", 18820),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18820),
 					IsForward:       true,
 				},
 				{
@@ -6055,6 +5970,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18856),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 18820), "", 18820),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18820),
 					IsForward:       true,
 				},
 			},
@@ -6123,18 +6050,6 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 18822), "", 18822),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18822),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 19071), "", 19071),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
@@ -6155,6 +6070,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18858),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 18822), "", 18822),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18822),
 					IsForward:       true,
 				},
 			},
@@ -6349,18 +6276,6 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15042), "", 15042),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15042),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15728), "", 15728),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
@@ -6369,6 +6284,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15728),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15042), "", 15042),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15042),
 					IsForward:       true,
 				},
 			},
@@ -6505,13 +6432,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17598),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17600),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17600),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17598),
 					IsForward:       true,
 				},
 			},
@@ -6592,19 +6519,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24205),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24202),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24169),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24233),
 					IsForward:       true,
 				},
 				{
@@ -6616,13 +6531,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24199),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24158),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24173),
 					IsForward:       true,
 				},
 				{
@@ -6634,25 +6543,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24169),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24188),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24179),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25218),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24173),
 					IsForward:       true,
 				},
 				{
@@ -6664,26 +6561,44 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25218),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24205),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24179),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23513),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24233),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24199),
 					IsForward:       true,
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 17708), "", 17708),
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24202),
+					IsForward:       true,
+				},
+				{
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "InterfaceTypes"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "InterfaceTypes"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17708),
-					IsForward:       false,
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24158),
+					IsForward:       true,
 				},
 			},
 			nil,
@@ -6755,14 +6670,14 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23520), "", 23520),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23528), "", 23528),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23520),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23528),
 					IsForward:       true,
 				},
 				{
@@ -6779,14 +6694,14 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23528), "", 23528),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23520), "", 23520),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23528),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23520),
 					IsForward:       true,
 				},
 			},
@@ -6846,12 +6761,6 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2372),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12021),
 					IsForward:       true,
 				},
@@ -6859,6 +6768,12 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15318),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2372),
 					IsForward:       true,
 				},
 			},
@@ -6875,13 +6790,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2368),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17497),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17497),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2368),
 					IsForward:       true,
 				},
 			},
@@ -7001,7 +6916,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12047),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12068),
 					IsForward:       true,
 				},
 				{
@@ -7013,19 +6928,19 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12029),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12038),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12068),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12029),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12047),
 					IsForward:       true,
 				},
 			},
@@ -7290,13 +7205,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 9906),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 9341),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 9341),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 9906),
 					IsForward:       true,
 				},
 			},
@@ -7323,7 +7238,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 9623),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 9482),
 					IsForward:       true,
 				},
 				{
@@ -7335,7 +7250,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 9482),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 9623),
 					IsForward:       true,
 				},
 			},
@@ -7352,6 +7267,12 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 10368),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 10060),
 					IsForward:       true,
 				},
@@ -7359,12 +7280,6 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 10214),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 10368),
 					IsForward:       true,
 				},
 			},
@@ -7458,13 +7373,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18347),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11753),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11753),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 10751),
 					IsForward:       true,
 				},
 				{
@@ -7476,7 +7391,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 10751),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18347),
 					IsForward:       true,
 				},
 			},
@@ -7542,20 +7457,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDBrowseName:  ua.MustVariant(attrs.BrowseName("CertificateExpirationAlarmType")),
 				ua.AttributeIDDisplayName: ua.MustVariant(attrs.DisplayName("CertificateExpirationAlarmType", "")),
 			},
-			[]*ua.ReferenceDescription{
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 12555), "", 12555),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "CertificateGroupType"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "CertificateGroupType"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasCondition),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12555),
-					IsForward:       false,
-				},
-			},
+			[]*ua.ReferenceDescription{},
 			nil,
 		),
 		NewNode(
@@ -7579,19 +7481,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17221),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11164),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18665),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17220),
 					IsForward:       true,
 				},
 				{
@@ -7603,7 +7493,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11166),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17221),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11164),
 					IsForward:       true,
 				},
 				{
@@ -7621,7 +7517,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17220),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11166),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18665),
 					IsForward:       true,
 				},
 			},
@@ -7718,13 +7620,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2803),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15013),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 8944),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17259),
 					IsForward:       true,
 				},
 				{
@@ -7736,7 +7638,31 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15013),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2803),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 8961),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 8944),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 8927),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17242),
 					IsForward:       true,
 				},
 				{
@@ -7749,30 +7675,6 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11093),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 8927),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17259),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17242),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 8961),
 					IsForward:       true,
 				},
 			},
@@ -8154,12 +8056,6 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 3019),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 3014),
 					IsForward:       true,
 				},
@@ -8167,6 +8063,12 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 3022),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 3019),
 					IsForward:       true,
 				},
 			},
@@ -8242,14 +8144,14 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 12676), "", 12676),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 12680), "", 12680),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12676),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12680),
 					IsForward:       true,
 				},
 				{
@@ -8266,14 +8168,14 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 12680), "", 12680),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 12676), "", 12676),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12680),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12676),
 					IsForward:       true,
 				},
 			},
@@ -8333,13 +8235,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12557),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12558),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12558),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12557),
 					IsForward:       true,
 				},
 				{
@@ -8362,6 +8264,12 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12560),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23537),
 					IsForward:       true,
 				},
@@ -8369,12 +8277,6 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12559),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12560),
 					IsForward:       true,
 				},
 			},
@@ -8431,19 +8333,19 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23541),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23542),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23543),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23540),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23541),
 					IsForward:       true,
 				},
 				{
@@ -8455,13 +8357,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23539),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23543),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23540),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23539),
 					IsForward:       true,
 				},
 			},
@@ -8569,18 +8471,6 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 32386), "", 32386),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32386),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 32382), "", 32382),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
@@ -8589,6 +8479,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32382),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 32386), "", 32386),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32386),
 					IsForward:       true,
 				},
 			},
@@ -8651,6 +8553,18 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 18155), "", 18155),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "KeyCredentialConfiguration"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "KeyCredentialConfiguration"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasComponent),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18155),
+					IsForward:       true,
+				},
+				{
+
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 2253), "", 2253),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Server"},
@@ -8660,18 +8574,6 @@ func PredefinedNodes() []*Node {
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasComponent),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2253),
 					IsForward:       false,
-				},
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 24290), "", 24290),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "UserManagement"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "UserManagement"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasComponent),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24290),
-					IsForward:       true,
 				},
 				{
 
@@ -8687,14 +8589,14 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 18155), "", 18155),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 24290), "", 24290),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "KeyCredentialConfiguration"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "UserManagement"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "KeyCredentialConfiguration"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "UserManagement"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasComponent),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18155),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24290),
 					IsForward:       true,
 				},
 			},
@@ -8754,13 +8656,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18047),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18029),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18029),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18047),
 					IsForward:       true,
 				},
 			},
@@ -9231,14 +9133,14 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 16151), "", 16151),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15676), "", 15676),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16151),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15676),
 					IsForward:       true,
 				},
 				{
@@ -9255,14 +9157,14 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15676), "", 15676),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 16151), "", 16151),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15676),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16151),
 					IsForward:       true,
 				},
 			},
@@ -9279,7 +9181,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15487),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15005),
 					IsForward:       true,
 				},
 				{
@@ -9291,19 +9193,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15005),
-					IsForward:       true,
-				},
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15057), "", 15057),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15057),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15487),
 					IsForward:       true,
 				},
 				{
@@ -9316,6 +9206,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 125),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15057), "", 15057),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15057),
 					IsForward:       true,
 				},
 				{
@@ -9343,18 +9245,6 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15589), "", 15589),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15589),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15058), "", 15058),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
@@ -9377,6 +9267,18 @@ func PredefinedNodes() []*Node {
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 126),
 					IsForward:       true,
 				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15589), "", 15589),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15589),
+					IsForward:       true,
+				},
 			},
 			nil,
 		),
@@ -9390,14 +9292,14 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15059), "", 15059),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 127), "", 127),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15059),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 127),
 					IsForward:       true,
 				},
 				{
@@ -9414,14 +9316,14 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 127), "", 127),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15059), "", 15059),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 127),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15059),
 					IsForward:       true,
 				},
 			},
@@ -9435,6 +9337,18 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDDisplayName: ua.MustVariant(attrs.DisplayName("SimpleTypeDescription", "")),
 			},
 			[]*ua.ReferenceDescription{
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15529), "", 15529),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15529),
+					IsForward:       true,
+				},
 				{
 
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15700), "", 15700),
@@ -9459,18 +9373,6 @@ func PredefinedNodes() []*Node {
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15421),
 					IsForward:       true,
 				},
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15529), "", 15529),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15529),
-					IsForward:       true,
-				},
 			},
 			nil,
 		),
@@ -9482,6 +9384,18 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDDisplayName: ua.MustVariant(attrs.DisplayName("UABinaryFileDataType", "")),
 			},
 			[]*ua.ReferenceDescription{
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15422), "", 15422),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15422),
+					IsForward:       true,
+				},
 				{
 
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15714), "", 15714),
@@ -9506,18 +9420,6 @@ func PredefinedNodes() []*Node {
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15531),
 					IsForward:       true,
 				},
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15422), "", 15422),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15422),
-					IsForward:       true,
-				},
 			},
 			nil,
 		),
@@ -9529,18 +9431,6 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDDisplayName: ua.MustVariant(attrs.DisplayName("PortableQualifiedName", "")),
 			},
 			[]*ua.ReferenceDescription{
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 24108), "", 24108),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24108),
-					IsForward:       true,
-				},
 				{
 
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 24132), "", 24132),
@@ -9565,6 +9455,18 @@ func PredefinedNodes() []*Node {
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24120),
 					IsForward:       true,
 				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 24108), "", 24108),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24108),
+					IsForward:       true,
+				},
 			},
 			nil,
 		),
@@ -9576,6 +9478,18 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDDisplayName: ua.MustVariant(attrs.DisplayName("PortableNodeId", "")),
 			},
 			[]*ua.ReferenceDescription{
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 24121), "", 24121),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24121),
+					IsForward:       true,
+				},
 				{
 
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 24133), "", 24133),
@@ -9600,18 +9514,6 @@ func PredefinedNodes() []*Node {
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24109),
 					IsForward:       true,
 				},
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 24121), "", 24121),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24121),
-					IsForward:       true,
-				},
 			},
 			nil,
 		),
@@ -9623,18 +9525,6 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDDisplayName: ua.MustVariant(attrs.DisplayName("UnsignedRationalNumber", "")),
 			},
 			[]*ua.ReferenceDescription{
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 24110), "", 24110),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24110),
-					IsForward:       true,
-				},
 				{
 
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 24122), "", 24122),
@@ -9657,6 +9547,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24134),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 24110), "", 24110),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24110),
 					IsForward:       true,
 				},
 			},
@@ -9741,18 +9643,6 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15051), "", 15051),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15051),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 14839), "", 14839),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
@@ -9761,6 +9651,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14839),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15051), "", 15051),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15051),
 					IsForward:       true,
 				},
 			},
@@ -9786,18 +9688,6 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15049), "", 15049),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15049),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 14803), "", 14803),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
@@ -9818,6 +9708,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14847),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15049), "", 15049),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15049),
 					IsForward:       true,
 				},
 			},
@@ -9881,6 +9783,12 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15581),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15582),
 					IsForward:       true,
 				},
@@ -9888,12 +9796,6 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25269),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15581),
 					IsForward:       true,
 				},
 				{
@@ -9910,18 +9812,6 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15952), "", 15952),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15952),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15678), "", 15678),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
@@ -9930,6 +9820,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15678),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15952), "", 15952),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15952),
 					IsForward:       true,
 				},
 			},
@@ -9945,18 +9847,6 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 14323), "", 14323),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14323),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 14319), "", 14319),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
@@ -9965,6 +9855,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14319),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 14323), "", 14323),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14323),
 					IsForward:       true,
 				},
 				{
@@ -9992,18 +9894,6 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15679), "", 15679),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15679),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 16154), "", 16154),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
@@ -10026,6 +9916,18 @@ func PredefinedNodes() []*Node {
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15953),
 					IsForward:       true,
 				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15679), "", 15679),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15679),
+					IsForward:       true,
+				},
 			},
 			nil,
 		),
@@ -10039,14 +9941,14 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 16155), "", 16155),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15681), "", 15681),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16155),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15681),
 					IsForward:       true,
 				},
 				{
@@ -10063,14 +9965,14 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15681), "", 15681),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 16155), "", 16155),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15681),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16155),
 					IsForward:       true,
 				},
 			},
@@ -10098,18 +10000,6 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 25545), "", 25545),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25545),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 25529), "", 25529),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
@@ -10118,6 +10008,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25529),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 25545), "", 25545),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25545),
 					IsForward:       true,
 				},
 			},
@@ -10143,6 +10045,18 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15682), "", 15682),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15682),
+					IsForward:       true,
+				},
+				{
+
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 16156), "", 16156),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
@@ -10165,18 +10079,6 @@ func PredefinedNodes() []*Node {
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15955),
 					IsForward:       true,
 				},
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15682), "", 15682),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15682),
-					IsForward:       true,
-				},
 			},
 			nil,
 		),
@@ -10196,18 +10098,6 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15683), "", 15683),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15683),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15956), "", 15956),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
@@ -10216,6 +10106,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15956),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15683), "", 15683),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15683),
 					IsForward:       true,
 				},
 				{
@@ -10244,13 +10146,25 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15652),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15664),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15664),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15652),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 16158), "", 16158),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16158),
 					IsForward:       true,
 				},
 				{
@@ -10277,18 +10191,6 @@ func PredefinedNodes() []*Node {
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15688),
 					IsForward:       true,
 				},
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 16158), "", 16158),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16158),
-					IsForward:       true,
-				},
 			},
 			nil,
 		),
@@ -10303,13 +10205,25 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15520),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15480),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15480),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15520),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15689), "", 15689),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15689),
 					IsForward:       true,
 				},
 				{
@@ -10336,18 +10250,6 @@ func PredefinedNodes() []*Node {
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16159),
 					IsForward:       true,
 				},
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15689), "", 15689),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15689),
-					IsForward:       true,
-				},
 			},
 			nil,
 		),
@@ -10359,6 +10261,18 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDDisplayName: ua.MustVariant(attrs.DisplayName("WriterGroupDataType", "")),
 			},
 			[]*ua.ReferenceDescription{
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 21150), "", 21150),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21150),
+					IsForward:       true,
+				},
 				{
 
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 21198), "", 21198),
@@ -10381,18 +10295,6 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21174),
-					IsForward:       true,
-				},
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 21150), "", 21150),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21150),
 					IsForward:       true,
 				},
 			},
@@ -10468,25 +10370,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15657),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15645),
 					IsForward:       true,
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 16280), "", 16280),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16280),
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15657),
 					IsForward:       true,
 				},
 				{
@@ -10499,6 +10389,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15991),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 16280), "", 16280),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16280),
 					IsForward:       true,
 				},
 				{
@@ -10574,25 +10476,25 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15007),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17467),
 					IsForward:       true,
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15993), "", 15993),
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15007),
+					IsForward:       true,
+				},
+				{
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15695), "", 15695),
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15993),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15695),
 					IsForward:       true,
 				},
 				{
@@ -10609,14 +10511,14 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15695), "", 15695),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15993), "", 15993),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15695),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15993),
 					IsForward:       true,
 				},
 			},
@@ -10650,18 +10552,6 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 21175), "", 21175),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21175),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 21199), "", 21199),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
@@ -10670,6 +10560,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21199),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 21175), "", 21175),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21175),
 					IsForward:       true,
 				},
 			},
@@ -10685,14 +10587,14 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 21152), "", 21152),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 21200), "", 21200),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21152),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21200),
 					IsForward:       true,
 				},
 				{
@@ -10709,14 +10611,14 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 21200), "", 21200),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 21152), "", 21152),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21200),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21152),
 					IsForward:       true,
 				},
 			},
@@ -10730,18 +10632,6 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDDisplayName: ua.MustVariant(attrs.DisplayName("ReaderGroupDataType", "")),
 			},
 			[]*ua.ReferenceDescription{
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 21153), "", 21153),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21153),
-					IsForward:       true,
-				},
 				{
 
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 21177), "", 21177),
@@ -10764,6 +10654,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21201),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 21153), "", 21153),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21153),
 					IsForward:       true,
 				},
 			},
@@ -10838,18 +10740,6 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 16285), "", 16285),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16285),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15702), "", 15702),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
@@ -10858,6 +10748,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15702),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 16285), "", 16285),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16285),
 					IsForward:       true,
 				},
 			},
@@ -10921,13 +10823,25 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15670),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23614),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23614),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15670),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 16287), "", 16287),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16287),
 					IsForward:       true,
 				},
 				{
@@ -10954,18 +10868,6 @@ func PredefinedNodes() []*Node {
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16008),
 					IsForward:       true,
 				},
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 16287), "", 16287),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16287),
-					IsForward:       true,
-				},
 			},
 			nil,
 		),
@@ -10980,25 +10882,25 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15653),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15665),
 					IsForward:       true,
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 16288), "", 16288),
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15653),
+					IsForward:       true,
+				},
+				{
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15706), "", 15706),
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16288),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15706),
 					IsForward:       true,
 				},
 				{
@@ -11015,14 +10917,14 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15706), "", 15706),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 16288), "", 16288),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15706),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16288),
 					IsForward:       true,
 				},
 			},
@@ -11039,18 +10941,6 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15631),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23599),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15635),
 					IsForward:       true,
 				},
@@ -11062,14 +10952,14 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 16010), "", 16010),
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23599),
+					IsForward:       true,
+				},
+				{
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16010),
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15631),
 					IsForward:       true,
 				},
 				{
@@ -11082,6 +10972,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16308),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 16010), "", 16010),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16010),
 					IsForward:       true,
 				},
 				{
@@ -11109,14 +11011,14 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15712), "", 15712),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 16011), "", 16011),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15712),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16011),
 					IsForward:       true,
 				},
 				{
@@ -11133,14 +11035,14 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 16011), "", 16011),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15712), "", 15712),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16011),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15712),
 					IsForward:       true,
 				},
 			},
@@ -11213,18 +11115,6 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15713), "", 15713),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15713),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 16012), "", 16012),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
@@ -11233,6 +11123,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16012),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15713), "", 15713),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15713),
 					IsForward:       true,
 				},
 				{
@@ -11313,6 +11215,18 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23987), "", 23987),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23987),
+					IsForward:       true,
+				},
+				{
+
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23851), "", 23851),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
@@ -11335,18 +11249,6 @@ func PredefinedNodes() []*Node {
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23919),
 					IsForward:       true,
 				},
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23987), "", 23987),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23987),
-					IsForward:       true,
-				},
 			},
 			nil,
 		),
@@ -11358,6 +11260,18 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDDisplayName: ua.MustVariant(attrs.DisplayName("StandaloneSubscribedDataSetDataType", "")),
 			},
 			[]*ua.ReferenceDescription{
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23920), "", 23920),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23920),
+					IsForward:       true,
+				},
 				{
 
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23852), "", 23852),
@@ -11380,18 +11294,6 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23988),
-					IsForward:       true,
-				},
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23920), "", 23920),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23920),
 					IsForward:       true,
 				},
 			},
@@ -11419,18 +11321,6 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23921), "", 23921),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23921),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23853), "", 23853),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
@@ -11439,6 +11329,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23853),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23921), "", 23921),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23921),
 					IsForward:       true,
 				},
 			},
@@ -11501,18 +11403,6 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23854), "", 23854),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23854),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23922), "", 23922),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
@@ -11533,6 +11423,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23990),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23854), "", 23854),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23854),
 					IsForward:       true,
 				},
 			},
@@ -11568,6 +11470,18 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 16014), "", 16014),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16014),
+					IsForward:       true,
+				},
+				{
+
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 16323), "", 16323),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
@@ -11588,18 +11502,6 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15715),
-					IsForward:       true,
-				},
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 16014), "", 16014),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16014),
 					IsForward:       true,
 				},
 			},
@@ -11625,14 +11527,14 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15717), "", 15717),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 16015), "", 16015),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15717),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16015),
 					IsForward:       true,
 				},
 				{
@@ -11649,14 +11551,14 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 16015), "", 16015),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15717), "", 15717),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16015),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15717),
 					IsForward:       true,
 				},
 			},
@@ -11684,18 +11586,6 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15718), "", 15718),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15718),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 16392), "", 16392),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
@@ -11704,6 +11594,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16392),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15718), "", 15718),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15718),
 					IsForward:       true,
 				},
 			},
@@ -11798,18 +11700,6 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 16394), "", 16394),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16394),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15724), "", 15724),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
@@ -11818,6 +11708,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15724),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 16394), "", 16394),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16394),
 					IsForward:       true,
 				},
 			},
@@ -11833,14 +11735,14 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 16404), "", 16404),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 16019), "", 16019),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16404),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16019),
 					IsForward:       true,
 				},
 				{
@@ -11857,14 +11759,14 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 16019), "", 16019),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 16404), "", 16404),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16019),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16404),
 					IsForward:       true,
 				},
 			},
@@ -11892,18 +11794,6 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23855), "", 23855),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23855),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23991), "", 23991),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
@@ -11926,6 +11816,18 @@ func PredefinedNodes() []*Node {
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23923),
 					IsForward:       true,
 				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23855), "", 23855),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23855),
+					IsForward:       true,
+				},
 			},
 			nil,
 		),
@@ -11945,18 +11847,6 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23992), "", 23992),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23992),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23924), "", 23924),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
@@ -11965,6 +11855,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23924),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23992), "", 23992),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23992),
 					IsForward:       true,
 				},
 				{
@@ -11992,18 +11894,6 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23925), "", 23925),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23925),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23857), "", 23857),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
@@ -12012,6 +11902,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23857),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23925), "", 23925),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23925),
 					IsForward:       true,
 				},
 				{
@@ -12045,14 +11947,14 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23860), "", 23860),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23996), "", 23996),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23860),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23996),
 					IsForward:       true,
 				},
 				{
@@ -12069,14 +11971,14 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23996), "", 23996),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23860), "", 23860),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23996),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23860),
 					IsForward:       true,
 				},
 			},
@@ -12104,18 +12006,6 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23929), "", 23929),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23929),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23861), "", 23861),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
@@ -12124,6 +12014,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23861),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23929), "", 23929),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23929),
 					IsForward:       true,
 				},
 			},
@@ -12141,18 +12043,6 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23612),
-					IsForward:       true,
-				},
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 17476), "", 17476),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17476),
 					IsForward:       true,
 				},
 				{
@@ -12177,6 +12067,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17468),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 17476), "", 17476),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17476),
 					IsForward:       true,
 				},
 			},
@@ -12204,18 +12106,6 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 24000), "", 24000),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24000),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23864), "", 23864),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
@@ -12224,6 +12114,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23864),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 24000), "", 24000),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24000),
 					IsForward:       true,
 				},
 			},
@@ -12257,18 +12159,6 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 21155), "", 21155),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21155),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 21203), "", 21203),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
@@ -12277,6 +12167,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21203),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 21155), "", 21155),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21155),
 					IsForward:       true,
 				},
 			},
@@ -12339,6 +12241,18 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23866), "", 23866),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23866),
+					IsForward:       true,
+				},
+				{
+
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 24002), "", 24002),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
@@ -12361,18 +12275,6 @@ func PredefinedNodes() []*Node {
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23934),
 					IsForward:       true,
 				},
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23866), "", 23866),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23866),
-					IsForward:       true,
-				},
 			},
 			nil,
 		),
@@ -12384,18 +12286,6 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDDisplayName: ua.MustVariant(attrs.DisplayName("BrokerConnectionTransportDataType", "")),
 			},
 			[]*ua.ReferenceDescription{
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15726), "", 15726),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15726),
-					IsForward:       true,
-				},
 				{
 
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15579), "", 15579),
@@ -12418,6 +12308,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15479),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15726), "", 15726),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15726),
 					IsForward:       true,
 				},
 			},
@@ -12455,18 +12357,6 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 16021), "", 16021),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16021),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15727), "", 15727),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
@@ -12475,6 +12365,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15727),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 16021), "", 16021),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16021),
 					IsForward:       true,
 				},
 			},
@@ -12537,18 +12439,6 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15733), "", 15733),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15733),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 16526), "", 16526),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
@@ -12569,6 +12459,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16023),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15733), "", 15733),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15733),
 					IsForward:       true,
 				},
 			},
@@ -12739,6 +12641,18 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 25563), "", 25563),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25563),
+					IsForward:       true,
+				},
+				{
+
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 25547), "", 25547),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
@@ -12761,18 +12675,6 @@ func PredefinedNodes() []*Node {
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25531),
 					IsForward:       true,
 				},
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 25563), "", 25563),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25563),
-					IsForward:       true,
-				},
 			},
 			nil,
 		),
@@ -12786,18 +12688,6 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 25564), "", 25564),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25564),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 25532), "", 25532),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
@@ -12806,6 +12696,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25532),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 25564), "", 25564),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25564),
 					IsForward:       true,
 				},
 				{
@@ -12834,13 +12736,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14534),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14572),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14572),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14534),
 					IsForward:       true,
 				},
 			},
@@ -12941,13 +12843,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17999),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17725),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17725),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17999),
 					IsForward:       true,
 				},
 			},
@@ -12996,13 +12898,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21133),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21136),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21136),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21133),
 					IsForward:       true,
 				},
 			},
@@ -13121,13 +13023,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21111),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21128),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21128),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21111),
 					IsForward:       true,
 				},
 			},
@@ -13177,13 +13079,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21116),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21130),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21130),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21116),
 					IsForward:       true,
 				},
 			},
@@ -13200,13 +13102,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15111),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15127),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15127),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15111),
 					IsForward:       true,
 				},
 			},
@@ -13273,13 +13175,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19732),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19786),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 20027),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19968),
 					IsForward:       true,
 				},
 				{
@@ -13291,19 +13193,19 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19732),
+					IsForward:       true,
+				},
+				{
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19834),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19786),
-					IsForward:       true,
-				},
-				{
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19968),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 20027),
 					IsForward:       true,
 				},
 			},
@@ -13420,13 +13322,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15548),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15563),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15563),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15548),
 					IsForward:       true,
 				},
 			},
@@ -13639,14 +13541,14 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23505), "", 23505),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23511), "", 23511),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23505),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23511),
 					IsForward:       true,
 				},
 				{
@@ -13663,14 +13565,14 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23511), "", 23511),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 23505), "", 23505),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23511),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23505),
 					IsForward:       true,
 				},
 			},
@@ -13967,20 +13869,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDBrowseName:  ua.MustVariant(attrs.BrowseName("IIetfBaseNetworkInterfaceType")),
 				ua.AttributeIDDisplayName: ua.MustVariant(attrs.DisplayName("IIetfBaseNetworkInterfaceType", "")),
 			},
-			[]*ua.ReferenceDescription{
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 25221), "", 25221),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "IetfBaseNetworkInterfaceType"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "IetfBaseNetworkInterfaceType"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasInterface),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25221),
-					IsForward:       false,
-				},
-			},
+			[]*ua.ReferenceDescription{},
 			nil,
 		),
 		NewNode(
@@ -14074,13 +13963,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24195),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24191),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24191),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24195),
 					IsForward:       true,
 				},
 			},
@@ -14226,6 +14115,18 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 25243), "", 25243),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25243),
+					IsForward:       true,
+				},
+				{
+
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 25247), "", 25247),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
@@ -14248,18 +14149,6 @@ func PredefinedNodes() []*Node {
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25239),
 					IsForward:       true,
 				},
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 25243), "", 25243),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25243),
-					IsForward:       true,
-				},
 			},
 			nil,
 		),
@@ -14273,15 +14162,15 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 2253), "", 2253),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 24227), "", 24227),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Server"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Communication"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Server"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Communication"},
 
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasComponent),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2253),
-					IsForward:       false,
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24227),
+					IsForward:       true,
 				},
 				{
 
@@ -14297,15 +14186,15 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 24227), "", 24227),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 2253), "", 2253),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Communication"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Server"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Communication"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Server"},
 
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24227),
-					IsForward:       true,
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasComponent),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2253),
+					IsForward:       false,
 				},
 			},
 			nil,
@@ -14320,14 +14209,14 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 24229), "", 24229),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 24230), "", 24230),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "NetworkInterfaces"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Streams"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "NetworkInterfaces"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Streams"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24229),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24230),
 					IsForward:       true,
 				},
 				{
@@ -14344,18 +14233,6 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 24230), "", 24230),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Streams"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Streams"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24230),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 24226), "", 24226),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Resources"},
@@ -14365,6 +14242,18 @@ func PredefinedNodes() []*Node {
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24226),
 					IsForward:       false,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 24229), "", 24229),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "NetworkInterfaces"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "NetworkInterfaces"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24229),
+					IsForward:       true,
 				},
 			},
 			nil,
@@ -14437,18 +14326,6 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 24232), "", 24232),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "ListenerStreams"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "ListenerStreams"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24232),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 24227), "", 24227),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Communication"},
@@ -14458,6 +14335,18 @@ func PredefinedNodes() []*Node {
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24227),
 					IsForward:       false,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 24232), "", 24232),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "ListenerStreams"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "ListenerStreams"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24232),
+					IsForward:       true,
 				},
 			},
 			nil,
@@ -14597,13 +14486,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25261),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25265),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25265),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25261),
 					IsForward:       true,
 				},
 			},
@@ -14652,13 +14541,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25260),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25259),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25259),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25260),
 					IsForward:       true,
 				},
 			},
@@ -14707,13 +14596,13 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25264),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25263),
 					IsForward:       true,
 				},
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25263),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25264),
 					IsForward:       true,
 				},
 			},
@@ -14819,14 +14708,14 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 32670), "", 32670),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 32662), "", 32662),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32670),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32662),
 					IsForward:       true,
 				},
 				{
@@ -14843,14 +14732,14 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 32662), "", 32662),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 32670), "", 32670),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32662),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32670),
 					IsForward:       true,
 				},
 			},
@@ -14936,14 +14825,14 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15062), "", 15062),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 128), "", 128),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15062),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 128),
 					IsForward:       true,
 				},
 				{
@@ -14960,14 +14849,14 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 128), "", 128),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15062), "", 15062),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 128),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15062),
 					IsForward:       true,
 				},
 			},
@@ -15052,18 +14941,6 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 14800), "", 14800),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14800),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15065), "", 15065),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
@@ -15072,6 +14949,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15065),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 14800), "", 14800),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14800),
 					IsForward:       true,
 				},
 				{
@@ -15099,18 +14988,6 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 14798), "", 14798),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14798),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15066), "", 15066),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
@@ -15133,6 +15010,18 @@ func PredefinedNodes() []*Node {
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 122),
 					IsForward:       true,
 				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 14798), "", 14798),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14798),
+					IsForward:       true,
+				},
 			},
 			nil,
 		),
@@ -15146,14 +15035,14 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 123), "", 123),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15067), "", 15067),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 123),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15067),
 					IsForward:       true,
 				},
 				{
@@ -15170,14 +15059,14 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15067), "", 15067),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 123), "", 123),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15067),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 123),
 					IsForward:       true,
 				},
 			},
@@ -15258,18 +15147,6 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 7616), "", 7616),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 7616),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15082), "", 15082),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
@@ -15278,6 +15155,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15082),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 7616), "", 7616),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 7616),
 					IsForward:       true,
 				},
 			},
@@ -15305,18 +15194,6 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 14845), "", 14845),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14845),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 14801), "", 14801),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
@@ -15325,6 +15202,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14801),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 14845), "", 14845),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14845),
 					IsForward:       true,
 				},
 			},
@@ -15340,18 +15229,6 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15084), "", 15084),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15084),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 12765), "", 12765),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
@@ -15360,6 +15237,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12765),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15084), "", 15084),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15084),
 					IsForward:       true,
 				},
 				{
@@ -15479,18 +15368,6 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15086), "", 15086),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15086),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 8917), "", 8917),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
@@ -15499,6 +15376,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 8917),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15086), "", 15086),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15086),
 					IsForward:       true,
 				},
 			},
@@ -15544,14 +15433,14 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 310), "", 310),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15087), "", 15087),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 310),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15087),
 					IsForward:       true,
 				},
 				{
@@ -15568,14 +15457,14 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15087), "", 15087),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 310), "", 310),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15087),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 310),
 					IsForward:       true,
 				},
 			},
@@ -15725,18 +15614,6 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 314), "", 314),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 314),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15099), "", 15099),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
@@ -15745,6 +15622,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15099),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 314), "", 314),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 314),
 					IsForward:       true,
 				},
 				{
@@ -15772,18 +15661,6 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15102), "", 15102),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15102),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 433), "", 433),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
@@ -15792,6 +15669,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 433),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15102), "", 15102),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15102),
 					IsForward:       true,
 				},
 				{
@@ -15825,18 +15714,6 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 12892), "", 12892),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12892),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 12900), "", 12900),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
@@ -15845,6 +15722,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12900),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 12892), "", 12892),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12892),
 					IsForward:       true,
 				},
 				{
@@ -15929,14 +15818,14 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 345), "", 345),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15136), "", 15136),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 345),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15136),
 					IsForward:       true,
 				},
 				{
@@ -15953,14 +15842,14 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15136), "", 15136),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 345), "", 345),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15136),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 345),
 					IsForward:       true,
 				},
 			},
@@ -15987,7 +15876,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 325),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 938),
 					IsForward:       true,
 				},
 				{
@@ -16005,19 +15894,19 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 938),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 325),
 					IsForward:       true,
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 317), "", 317),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15140), "", 15140),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 317),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15140),
 					IsForward:       true,
 				},
 				{
@@ -16034,14 +15923,14 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15140), "", 15140),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 317), "", 317),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15140),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 317),
 					IsForward:       true,
 				},
 			},
@@ -16055,6 +15944,18 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDDisplayName: ua.MustVariant(attrs.DisplayName("AnonymousIdentityToken", "")),
 			},
 			[]*ua.ReferenceDescription{
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 320), "", 320),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 320),
+					IsForward:       true,
+				},
 				{
 
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 321), "", 321),
@@ -16079,18 +15980,6 @@ func PredefinedNodes() []*Node {
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15141),
 					IsForward:       true,
 				},
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 320), "", 320),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 320),
-					IsForward:       true,
-				},
 			},
 			nil,
 		),
@@ -16102,18 +15991,6 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDDisplayName: ua.MustVariant(attrs.DisplayName("UserNameIdentityToken", "")),
 			},
 			[]*ua.ReferenceDescription{
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 323), "", 323),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 323),
-					IsForward:       true,
-				},
 				{
 
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 324), "", 324),
@@ -16136,6 +16013,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15142),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 323), "", 323),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 323),
 					IsForward:       true,
 				},
 			},
@@ -16163,18 +16052,6 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15143), "", 15143),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15143),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 327), "", 327),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
@@ -16183,6 +16060,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 327),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15143), "", 15143),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15143),
 					IsForward:       true,
 				},
 			},
@@ -16196,18 +16085,6 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDDisplayName: ua.MustVariant(attrs.DisplayName("IssuedIdentityToken", "")),
 			},
 			[]*ua.ReferenceDescription{
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 940), "", 940),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 940),
-					IsForward:       true,
-				},
 				{
 
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 939), "", 939),
@@ -16230,6 +16107,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15144),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 940), "", 940),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 940),
 					IsForward:       true,
 				},
 			},
@@ -16255,14 +16144,14 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 377), "", 377),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 378), "", 378),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 377),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 378),
 					IsForward:       true,
 				},
 				{
@@ -16279,14 +16168,14 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 378), "", 378),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 377), "", 377),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 378),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 377),
 					IsForward:       true,
 				},
 			},
@@ -16300,6 +16189,18 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDDisplayName: ua.MustVariant(attrs.DisplayName("AddReferencesItem", "")),
 			},
 			[]*ua.ReferenceDescription{
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 380), "", 380),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 380),
+					IsForward:       true,
+				},
 				{
 
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 381), "", 381),
@@ -16322,18 +16223,6 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15169),
-					IsForward:       true,
-				},
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 380), "", 380),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 380),
 					IsForward:       true,
 				},
 			},
@@ -16396,6 +16285,18 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15175), "", 15175),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15175),
+					IsForward:       true,
+				},
+				{
+
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 386), "", 386),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
@@ -16416,18 +16317,6 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 387),
-					IsForward:       true,
-				},
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15175), "", 15175),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15175),
 					IsForward:       true,
 				},
 			},
@@ -16589,18 +16478,6 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 332), "", 332),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 332),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15199), "", 15199),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
@@ -16609,6 +16486,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15199),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 332), "", 332),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 332),
 					IsForward:       true,
 				},
 			},
@@ -16634,18 +16523,6 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 584), "", 584),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 584),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15204), "", 15204),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
@@ -16666,6 +16543,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 585),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 584), "", 584),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 584),
 					IsForward:       true,
 				},
 			},
@@ -16693,18 +16582,6 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 587), "", 587),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 587),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 588), "", 588),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
@@ -16713,6 +16590,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 588),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 587), "", 587),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 587),
 					IsForward:       true,
 				},
 			},
@@ -16735,7 +16624,7 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 601),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 595),
 					IsForward:       true,
 				},
 				{
@@ -16747,19 +16636,19 @@ func PredefinedNodes() []*Node {
 				{
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 595),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 601),
 					IsForward:       true,
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15206), "", 15206),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 590), "", 590),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15206),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 590),
 					IsForward:       true,
 				},
 				{
@@ -16776,14 +16665,14 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 590), "", 590),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15206), "", 15206),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 590),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15206),
 					IsForward:       true,
 				},
 			},
@@ -16811,18 +16700,6 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15207), "", 15207),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15207),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 594), "", 594),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
@@ -16831,6 +16708,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 594),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15207), "", 15207),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15207),
 					IsForward:       true,
 				},
 			},
@@ -16858,18 +16747,6 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 597), "", 597),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 597),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 596), "", 596),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
@@ -16878,6 +16755,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 596),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 597), "", 597),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 597),
 					IsForward:       true,
 				},
 			},
@@ -16905,18 +16794,6 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 600), "", 600),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 600),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15209), "", 15209),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
@@ -16925,6 +16802,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15209),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 600), "", 600),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 600),
 					IsForward:       true,
 				},
 			},
@@ -16940,18 +16829,6 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15210), "", 15210),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15210),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 602), "", 602),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
@@ -16960,6 +16837,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 602),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15210), "", 15210),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15210),
 					IsForward:       true,
 				},
 				{
@@ -16987,14 +16876,14 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 661), "", 661),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15273), "", 15273),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 661),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15273),
 					IsForward:       true,
 				},
 				{
@@ -17011,14 +16900,14 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15273), "", 15273),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 661), "", 661),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15273),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 661),
 					IsForward:       true,
 				},
 			},
@@ -17060,18 +16949,6 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 720), "", 720),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 720),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15293), "", 15293),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
@@ -17094,6 +16971,18 @@ func PredefinedNodes() []*Node {
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 721),
 					IsForward:       true,
 				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 720), "", 720),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 720),
+					IsForward:       true,
+				},
 			},
 			nil,
 		),
@@ -17107,14 +16996,14 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 726), "", 726),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15295), "", 15295),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 726),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15295),
 					IsForward:       true,
 				},
 				{
@@ -17131,14 +17020,14 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15295), "", 15295),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 726), "", 726),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15295),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 726),
 					IsForward:       true,
 				},
 			},
@@ -17154,14 +17043,14 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 949), "", 949),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 950), "", 950),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 949),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 950),
 					IsForward:       true,
 				},
 				{
@@ -17178,14 +17067,14 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 950), "", 950),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 949), "", 949),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 950),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 949),
 					IsForward:       true,
 				},
 			},
@@ -17201,18 +17090,6 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 922), "", 922),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 922),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15349), "", 15349),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
@@ -17221,6 +17098,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15349),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 922), "", 922),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 922),
 					IsForward:       true,
 				},
 				{
@@ -17248,18 +17137,6 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 340), "", 340),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 340),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15361), "", 15361),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
@@ -17268,6 +17145,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15361),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 340), "", 340),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 340),
 					IsForward:       true,
 				},
 				{
@@ -17315,18 +17204,6 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15362), "", 15362),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15362),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 855), "", 855),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
@@ -17349,6 +17226,18 @@ func PredefinedNodes() []*Node {
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 854),
 					IsForward:       true,
 				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15362), "", 15362),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15362),
+					IsForward:       true,
+				},
 			},
 			nil,
 		),
@@ -17362,14 +17251,14 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 11957), "", 11957),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 11949), "", 11949),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11957),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11949),
 					IsForward:       true,
 				},
 				{
@@ -17386,14 +17275,14 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 11949), "", 11949),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 11957), "", 11957),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11949),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11957),
 					IsForward:       true,
 				},
 			},
@@ -17407,18 +17296,6 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDDisplayName: ua.MustVariant(attrs.DisplayName("NetworkGroupDataType", "")),
 			},
 			[]*ua.ReferenceDescription{
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 11950), "", 11950),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11950),
-					IsForward:       true,
-				},
 				{
 
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 11958), "", 11958),
@@ -17443,6 +17320,18 @@ func PredefinedNodes() []*Node {
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15364),
 					IsForward:       true,
 				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 11950), "", 11950),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11950),
+					IsForward:       true,
+				},
 			},
 			nil,
 		),
@@ -17454,6 +17343,18 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDDisplayName: ua.MustVariant(attrs.DisplayName("SamplingIntervalDiagnosticsDataType", "")),
 			},
 			[]*ua.ReferenceDescription{
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 858), "", 858),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 858),
+					IsForward:       true,
+				},
 				{
 
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 857), "", 857),
@@ -17478,18 +17379,6 @@ func PredefinedNodes() []*Node {
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15365),
 					IsForward:       true,
 				},
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 858), "", 858),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 858),
-					IsForward:       true,
-				},
 			},
 			nil,
 		),
@@ -17503,18 +17392,6 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 860), "", 860),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 860),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15366), "", 15366),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
@@ -17523,6 +17400,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15366),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 860), "", 860),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 860),
 					IsForward:       true,
 				},
 				{
@@ -17597,6 +17486,18 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 867), "", 867),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 867),
+					IsForward:       true,
+				},
+				{
+
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15368), "", 15368),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
@@ -17619,18 +17520,6 @@ func PredefinedNodes() []*Node {
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 866),
 					IsForward:       true,
 				},
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 867), "", 867),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 867),
-					IsForward:       true,
-				},
 			},
 			nil,
 		),
@@ -17644,14 +17533,14 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15369), "", 15369),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 869), "", 869),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15369),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 869),
 					IsForward:       true,
 				},
 				{
@@ -17668,14 +17557,14 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 869), "", 869),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15369), "", 15369),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 869),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15369),
 					IsForward:       true,
 				},
 			},
@@ -17691,18 +17580,6 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 872), "", 872),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 872),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 873), "", 873),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
@@ -17711,6 +17588,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 873),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 872), "", 872),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 872),
 					IsForward:       true,
 				},
 				{
@@ -17750,18 +17639,6 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15371), "", 15371),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15371),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 301), "", 301),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
@@ -17770,6 +17647,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 301),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15371), "", 15371),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15371),
 					IsForward:       true,
 				},
 			},
@@ -17797,18 +17686,6 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15372), "", 15372),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15372),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 875), "", 875),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
@@ -17817,6 +17694,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 875),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15372), "", 15372),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15372),
 					IsForward:       true,
 				},
 			},
@@ -17832,14 +17721,14 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 879), "", 879),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15373), "", 15373),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 879),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15373),
 					IsForward:       true,
 				},
 				{
@@ -17856,14 +17745,14 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 15373), "", 15373),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 879), "", 879),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default JSON"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default JSON"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15373),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 879),
 					IsForward:       true,
 				},
 			},
@@ -17877,6 +17766,18 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDDisplayName: ua.MustVariant(attrs.DisplayName("SemanticChangeStructureDataType", "")),
 			},
 			[]*ua.ReferenceDescription{
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 898), "", 898),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 898),
+					IsForward:       true,
+				},
 				{
 
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 899), "", 899),
@@ -17901,18 +17802,6 @@ func PredefinedNodes() []*Node {
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15374),
 					IsForward:       true,
 				},
-				{
-
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 898), "", 898),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 898),
-					IsForward:       true,
-				},
 			},
 			nil,
 		),
@@ -17926,14 +17815,14 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 885), "", 885),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 886), "", 886),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 885),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 886),
 					IsForward:       true,
 				},
 				{
@@ -17950,14 +17839,14 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 886), "", 886),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 885), "", 885),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 886),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 885),
 					IsForward:       true,
 				},
 			},
@@ -18042,18 +17931,6 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 12181), "", 12181),
-
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
-
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
-
-					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12181),
-					IsForward:       true,
-				},
-				{
-
 					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 12173), "", 12173),
 
 					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
@@ -18062,6 +17939,18 @@ func PredefinedNodes() []*Node {
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12173),
+					IsForward:       true,
+				},
+				{
+
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 12181), "", 12181),
+
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+
+					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12181),
 					IsForward:       true,
 				},
 			},
@@ -18124,14 +18013,14 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 12089), "", 12089),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 12081), "", 12081),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12089),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12081),
 					IsForward:       true,
 				},
 				{
@@ -18148,14 +18037,14 @@ func PredefinedNodes() []*Node {
 				},
 				{
 
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 12081), "", 12081),
+					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, 12089), "", 12089),
 
-					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default XML"},
+					BrowseName: &ua.QualifiedName{NamespaceIndex: 0, Name: "Default Binary"},
 
-					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default XML"},
+					DisplayName: &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Default Binary"},
 
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
-					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12081),
+					TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12089),
 					IsForward:       true,
 				},
 			},

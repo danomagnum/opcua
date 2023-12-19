@@ -60,15 +60,17 @@ func (s *ViewService) Browse(sc *uasc.SecureChannel, r ua.Request, reqID uint32)
 
 }
 
-func (s *ViewService) suitableRef(desc *ua.BrowseDescription, ref *ua.ReferenceDescription) bool {
+func suitableRef(desc *ua.BrowseDescription, ref *ua.ReferenceDescription) bool {
 	if !suitableDirection(desc.BrowseDirection, ref.IsForward) {
 		debug.Printf("%v not suitable because of direction", ref)
 		return false
 	}
-	if !s.suitableRefType(desc.ReferenceTypeID, ref.ReferenceTypeID, desc.IncludeSubtypes) {
-		debug.Printf("%v not suitable because of ref type", ref)
-		return false
-	}
+	/*
+		if !s.suitableRefType(desc.ReferenceTypeID, ref.ReferenceTypeID, desc.IncludeSubtypes) {
+			debug.Printf("%v not suitable because of ref type", ref)
+			return false
+		}
+	*/
 	if desc.NodeClassMask > 0 && desc.NodeClassMask&uint32(ref.NodeClass) == 0 {
 		debug.Printf("%v not suitable because of node class", ref)
 		return false

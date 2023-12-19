@@ -192,6 +192,12 @@ func (ns *NodeNameSpace) Browse(bd *ua.BrowseDescription) *ua.BrowseResult {
 		if r.NodeID == nil || r.BrowseName == nil || r.DisplayName == nil || r.TypeDefinition == nil {
 			continue
 		}
+
+		// see if this is a ref the client was interested in.
+		if !suitableRef(bd, r) {
+			continue
+		}
+
 		rf := &ua.ReferenceDescription{
 			ReferenceTypeID: r.ReferenceTypeID,
 			IsForward:       r.IsForward,

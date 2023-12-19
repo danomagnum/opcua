@@ -121,18 +121,21 @@ func main() {
 			}
 			n.Refs = append(n.Refs, newref)
 
-			// if it's a reverse reference, we need to add it in the forward direction also maybe.
+			if ref.IsInverse && true {
 
-			eoid2 := ua.NewExpandedNodeID(n.NodeID.Identifier, "", 0)
-			newref2 := &ua.ReferenceDescription{
-				ReferenceTypeID: ref.ReferenceTypeID.Identifier, //o.refs[0].ReferenceTypeID,
-				IsForward:       ref.IsInverse,
-				NodeID:          eoid2,
-				BrowseName:      &ua.QualifiedName{0, n.BrowseName.Name},
-				DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: n.BrowseName.Name},
-				TypeDefinition:  eoid2,
+				// if it's a reverse reference, we need to add it in the forward direction also maybe.
+
+				eoid2 := ua.NewExpandedNodeID(n.NodeID.Identifier, "", 0)
+				newref2 := &ua.ReferenceDescription{
+					ReferenceTypeID: ref.ReferenceTypeID.Identifier, //o.refs[0].ReferenceTypeID,
+					IsForward:       ref.IsInverse,
+					NodeID:          eoid2,
+					BrowseName:      &ua.QualifiedName{0, n.BrowseName.Name},
+					DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: n.BrowseName.Name},
+					TypeDefinition:  eoid2,
+				}
+				o.Refs = append(o.Refs, newref2)
 			}
-			o.Refs = append(o.Refs, newref2)
 
 		}
 
