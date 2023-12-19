@@ -107,12 +107,16 @@ func (e *ExpandedNodeID) Encode() ([]byte, error) {
 	if e == nil {
 		return []byte{}, errors.New("e was nil")
 	}
-	buf.WriteStruct(e.NodeID)
-	if e.HasNamespaceURI() {
-		buf.WriteString(e.NamespaceURI)
-	}
-	if e.HasServerIndex() {
-		buf.WriteUint32(e.ServerIndex)
+	if e.NodeID == nil {
+		buf.WriteInt16(0)
+	} else {
+		buf.WriteStruct(e.NodeID)
+		if e.HasNamespaceURI() {
+			buf.WriteString(e.NamespaceURI)
+		}
+		if e.HasServerIndex() {
+			buf.WriteUint32(e.ServerIndex)
+		}
 	}
 	return buf.Bytes(), buf.Error()
 

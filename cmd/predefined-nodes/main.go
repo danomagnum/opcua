@@ -18,7 +18,6 @@ import (
 	"text/template"
 
 	"github.com/gopcua/opcua/id"
-	"github.com/gopcua/opcua/server/refs"
 	"github.com/gopcua/opcua/ua"
 )
 
@@ -89,8 +88,18 @@ func main() {
 		if sid == "" {
 			continue
 		}
-		ref := refs.HasSubtype(&ua.ExpandedNodeID{NodeID: n.NodeID.Identifier})
-		m[sid].Refs = append(m[sid].Refs, ref)
+
+		eoid := ua.NewExpandedNodeID(n.NodeID.Identifier, "", 0)
+		//ref := refs.HasSubtype(&ua.ExpandedNodeID{NodeID: n.NodeID.Identifier})
+		newref := &ua.ReferenceDescription{
+			ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype), //o.refs[0].ReferenceTypeID,
+			IsForward:       true,
+			NodeID:          ua.NewExpandedNodeID(n.NodeID.Identifier, "", 0),
+			BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: n.BrowseName.Name},
+			DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: n.BrowseName.Name},
+			TypeDefinition:  eoid,
+		}
+		m[sid].Refs = append(m[sid].Refs, newref)
 	}
 
 	// create other refs
@@ -115,22 +124,21 @@ func main() {
 				ReferenceTypeID: ref.ReferenceTypeID.Identifier, //o.refs[0].ReferenceTypeID,
 				IsForward:       !ref.IsInverse,
 				NodeID:          eoid,
-				BrowseName:      &ua.QualifiedName{0, o.BrowseName.Name},
+				BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: o.BrowseName.Name},
 				DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: o.BrowseName.Name},
 				TypeDefinition:  eoid,
 			}
 			n.Refs = append(n.Refs, newref)
 
-			if ref.IsInverse && true {
-
-				// if it's a reverse reference, we need to add it in the forward direction also maybe.
+			// if it's a reverse reference, we need to add it in the forward direction also maybe.
+			if ref.IsInverse {
 
 				eoid2 := ua.NewExpandedNodeID(n.NodeID.Identifier, "", 0)
 				newref2 := &ua.ReferenceDescription{
 					ReferenceTypeID: ref.ReferenceTypeID.Identifier, //o.refs[0].ReferenceTypeID,
 					IsForward:       ref.IsInverse,
 					NodeID:          eoid2,
-					BrowseName:      &ua.QualifiedName{0, n.BrowseName.Name},
+					BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: n.BrowseName.Name},
 					DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: n.BrowseName.Name},
 					TypeDefinition:  eoid2,
 				}
@@ -138,6 +146,37 @@ func main() {
 			}
 
 		}
+
+	}
+
+	//commonRefs := make(map[string]*ua.ReferenceDescription)
+	// create references for type defs
+	for _, n := range m {
+		target_id := n.TypeDefinitionID.Identifier
+		// might not have a typedef
+		if target_id == nil {
+			continue
+		}
+		o := m[target_id.String()]
+		if o == nil {
+			log.Printf("found nil reference to id %v", target_id.String())
+			continue
+		}
+		if n.NodeID.Identifier.IntID() == 86 {
+			log.Printf("Doing Types Folder")
+
+		}
+
+		newref := &ua.ReferenceDescription{
+			ReferenceTypeID: ua.NewNumericNodeID(0, id.HasTypeDefinition), //o.refs[0].ReferenceTypeID,
+			IsForward:       true,
+			NodeID:          ua.NewExpandedNodeID(target_id, "", 0),
+			BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: o.BrowseName.Name},
+			DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: o.BrowseName.Name},
+			TypeDefinition:  &ua.ExpandedNodeID{},
+			NodeClass:       ua.NodeClassObjectType,
+		}
+		n.Refs = append(n.Refs, newref)
 
 	}
 
@@ -202,8 +241,36 @@ type Reference struct {
 	} `xml:"TargetId"`
 }
 
+func NodeClassToConst(id ua.NodeClass) string {
+	switch id {
+	case ua.NodeClassAll:
+		return "ua.NodeClassAll"
+	case ua.NodeClassUnspecified:
+		return "ua.NodeClassUnspecified"
+	case ua.NodeClassObject:
+		return "ua.NodeClassObject"
+	case ua.NodeClassVariable:
+		return "ua.NodeClassVariable"
+	case ua.NodeClassMethod:
+		return "ua.NodeClassMethod"
+	case ua.NodeClassObjectType:
+		return "ua.NodeClassObjectType"
+	case ua.NodeClassVariableType:
+		return "ua.NodeClassVariableType"
+	case ua.NodeClassReferenceType:
+		return "ua.NodeClassReferenceType"
+	case ua.NodeClassDataType:
+		return "ua.NodeClassDataType"
+	case ua.NodeClassView:
+		return "ua.NodeClassView"
+	default:
+		return "ua.NodeClassUnspecified"
+	}
+}
+
 var funcs = template.FuncMap{
-	"idname": id.Name,
+	"idname":    id.Name,
+	"nodeclass": NodeClassToConst,
 }
 
 var tmpl = template.Must(template.New("").Funcs(funcs).Parse(`// Generated code. DO NOT EDIT
@@ -232,22 +299,30 @@ var tmpl = template.Must(template.New("").Funcs(funcs).Parse(`// Generated code.
  				{{- with .InverseName }}
  				ua.AttributeIDInverseName: ua.MustVariant(attrs.InverseName("{{.Text}}", "{{.Locale}}")),
  				{{- end}}
+				ua.AttributeIDIsAbstract: ua.MustVariant({{.IsAbstract}}),
+				ua.AttributeIDWriteMask: ua.MustVariant(uint32(0)),
+				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
  			},
 			[]*ua.ReferenceDescription{
 			{{- range .Refs }}
 				{
-					{{if .NodeID }}
-					NodeID: ua.NewExpandedNodeID(ua.NewNumericNodeID(0, {{.NodeID.NodeID.IntID}}), "", {{.NodeID.NodeID.IntID}}),
-					{{end}}
-					{{if .BrowseName}}
+					{{- if .NodeID }}
+					NodeID: ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, {{.NodeID.NodeID.IntID}}),"", 0),
+					{{- end}}
+					{{- if .BrowseName}}
 					BrowseName:    &ua.QualifiedName{NamespaceIndex: 0, Name: "{{.BrowseName.Name}}"},
-					{{end}}
-					{{if .DisplayName}}
+					{{- end}}
+					{{- if .DisplayName}}
 					DisplayName:   &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "{{.DisplayName.Text}}"},
-					{{end}}
+					{{- end}}
 					ReferenceTypeID: ua.NewNumericNodeID(0, id.{{idname .ReferenceTypeID.IntID}}),
+					{{- if .TypeDefinition.NodeID}}
 					TypeDefinition: ua.NewNumericExpandedNodeID(0, {{.TypeDefinition.NodeID.IntID}}),
+					{{- else}}
+					TypeDefinition: &ua.ExpandedNodeID{},
+					{{- end}}
 					IsForward: {{.IsForward}},
+					NodeClass:       {{nodeclass .NodeClass}},
 				},
  			{{- end }}
 			},
