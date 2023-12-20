@@ -123,6 +123,11 @@ func (as *NodeNameSpace) Attribute(id *ua.NodeID, attr ua.AttributeID) *ua.DataV
 	switch attr {
 	case ua.AttributeIDNodeID:
 		a = &AttrValue{Value: ua.MustVariant(id)}
+	case ua.AttributeIDEventNotifier:
+		// TODO: this is a hack to force the EventNotifier to false for everything.
+		// If at some point someone or something needs to use this, this will have to go away and be
+		// fixed properly.
+		a = &AttrValue{Value: ua.MustVariant(byte(0))}
 	case ua.AttributeIDNodeClass:
 		a, err = n.Attribute(attr)
 		// TODO: we need int32 instead of uint32 here.  this isn't the right place to fix it, but it is a bandaid

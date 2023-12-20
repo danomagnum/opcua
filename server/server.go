@@ -17,6 +17,7 @@ import (
 	"golang.org/x/exp/slices"
 
 	"github.com/gopcua/opcua/debug"
+	"github.com/gopcua/opcua/id"
 	"github.com/gopcua/opcua/ua"
 	"github.com/gopcua/opcua/uacp"
 	"github.com/gopcua/opcua/uapolicy"
@@ -135,7 +136,9 @@ func New(url string, opts ...Option) *Server {
 	}
 	s.namespaces[0].AddNode(CurrentTimeNode())
 	s.namespaces[0].AddNode(NamespacesNode(s))
-	s.namespaces[0].AddNode(ServerStatusNode(s))
+	for _, n := range ServerStatusNodes(s, s.namespaces[0].Node(ua.NewNumericNodeID(0, id.Server))) {
+		s.namespaces[0].AddNode(n)
+	}
 	for _, n := range ServerCapabilitiesNodes(s) {
 		s.namespaces[0].AddNode(n)
 	}

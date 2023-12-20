@@ -108,11 +108,11 @@ func (ns *MapNamespace) Browse(bd *ua.BrowseDescription) *ua.BrowseResult {
 	keyid := 0
 	for k := range ns.Data {
 		key := k
-		newid := ua.NewStringNodeID(ns.id, key)
+		refid := ua.NewNumericNodeID(0, id.HasComponent)
 		expnewid := ua.NewStringExpandedNodeID(ns.id, key)
 
 		refs[keyid] = &ua.ReferenceDescription{
-			ReferenceTypeID: newid,
+			ReferenceTypeID: refid,
 			IsForward:       true,
 			NodeID:          expnewid,
 			BrowseName:      &ua.QualifiedName{NamespaceIndex: ns.ID(), Name: key},

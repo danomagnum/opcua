@@ -155,8 +155,8 @@ func main() {
 	//folder_type := root_ns.Node(ua.NewNumericNodeID(0, id.FolderType))
 	//root_obj.AddRef(folder_type, id.HasTypeDefinition)
 
-	server_obj := root_ns.Node(ua.NewNumericNodeID(0, 2253))
-	root_obj.AddRef(server_obj, id.HasComponent)
+	//server_obj := root_ns.Node(ua.NewNumericNodeID(0, 2253))
+	//root_obj.AddRef(server_obj, id.HasComponent)
 
 	mrw_id := s.AddNamespace(mrw)
 	root_obj.AddRef(mrw.Objects(), id.HasComponent)

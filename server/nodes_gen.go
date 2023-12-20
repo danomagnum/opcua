@@ -207,7 +207,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasInterface),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24148),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=35_i=17602_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17602), "", 0),
@@ -216,7 +216,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17602),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=35_i=17708_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17708), "", 0),
@@ -225,7 +225,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17708),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=35_i=2041_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2041), "", 0),
@@ -234,7 +234,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2041),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=35_i=2253_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2253), "", 0),
@@ -243,7 +243,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2253),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=35_i=23470_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23470), "", 0),
@@ -252,7 +252,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23470),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=35_i=23470_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23470), "", 0),
@@ -261,7 +261,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23470),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=35_i=23479_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23479), "", 0),
@@ -270,7 +270,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23479),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=35_i=23488_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23488), "", 0),
@@ -279,7 +279,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23488),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=35_i=24226_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24226), "", 0),
@@ -288,7 +288,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24226),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=35_i=24227_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24227), "", 0),
@@ -297,7 +297,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24227),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=35_i=24227_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24227), "", 0),
@@ -306,7 +306,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24227),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=35_i=24228_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24228), "", 0),
@@ -315,7 +315,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24228),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=35_i=24229_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24229), "", 0),
@@ -324,7 +324,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24229),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=35_i=24230_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24230), "", 0),
@@ -333,7 +333,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24230),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=35_i=24230_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24230), "", 0),
@@ -342,7 +342,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24230),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=35_i=24231_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24231), "", 0),
@@ -351,7 +351,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24231),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=35_i=24232_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24232), "", 0),
@@ -360,7 +360,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24232),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=35_i=24_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24), "", 0),
@@ -369,7 +369,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=35_i=29878_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 29878), "", 0),
@@ -378,7 +378,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 29878),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=35_i=3048_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 3048), "", 0),
@@ -387,7 +387,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 3048),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=35_i=31915_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 31915), "", 0),
@@ -396,7 +396,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 31915),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=35_i=31_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 31), "", 0),
@@ -405,7 +405,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 31),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=35_i=58_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 58), "", 0),
@@ -414,7 +414,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 58),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=35_i=62_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 62), "", 0),
@@ -423,7 +423,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 62),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=35_i=84_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 84), "", 0),
@@ -432,7 +432,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 84),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=35_i=85_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 85), "", 0),
@@ -441,7 +441,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 85),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=35_i=85_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 85), "", 0),
@@ -450,7 +450,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 85),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=35_i=86_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 86), "", 0),
@@ -459,7 +459,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 86),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=35_i=86_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 86), "", 0),
@@ -468,7 +468,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 86),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=35_i=87_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 87), "", 0),
@@ -477,7 +477,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 87),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=35_i=88_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 88), "", 0),
@@ -486,7 +486,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 88),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=35_i=89_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 89), "", 0),
@@ -495,7 +495,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 89),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=35_i=90_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 90), "", 0),
@@ -504,7 +504,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 90),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=35_i=90_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 90), "", 0),
@@ -513,7 +513,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 90),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=35_i=91_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 91), "", 0),
@@ -522,7 +522,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 91),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=35_i=92_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 92), "", 0),
@@ -531,7 +531,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 92),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=35_i=93_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 93), "", 0),
@@ -540,7 +540,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.Organizes),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 93),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=100_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 100), "", 0),
@@ -549,7 +549,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 100),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=101_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 101), "", 0),
@@ -558,7 +558,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 101),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=102_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 102), "", 0),
@@ -567,7 +567,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 102),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=11943_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 11943), "", 0),
@@ -576,7 +576,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11943),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=11944_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 11944), "", 0),
@@ -585,7 +585,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11944),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=11949_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 11949), "", 0),
@@ -594,7 +594,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11949),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=11950_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 11950), "", 0),
@@ -603,7 +603,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11950),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=11957_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 11957), "", 0),
@@ -612,7 +612,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11957),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=11958_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 11958), "", 0),
@@ -621,7 +621,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11958),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=12079_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12079), "", 0),
@@ -630,7 +630,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12079),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=12080_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12080), "", 0),
@@ -639,7 +639,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12080),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=12081_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12081), "", 0),
@@ -648,7 +648,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12081),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=12082_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12082), "", 0),
@@ -657,7 +657,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12082),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=12089_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12089), "", 0),
@@ -666,7 +666,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12089),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=12090_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12090), "", 0),
@@ -675,7 +675,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12090),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=12171_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12171), "", 0),
@@ -684,7 +684,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12171),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=12172_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12172), "", 0),
@@ -693,7 +693,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12172),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=12173_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12173), "", 0),
@@ -702,7 +702,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12173),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=12174_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12174), "", 0),
@@ -711,7 +711,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12174),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=12181_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12181), "", 0),
@@ -720,7 +720,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12181),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=12182_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12182), "", 0),
@@ -729,7 +729,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12182),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=12189_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12189), "", 0),
@@ -738,7 +738,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12189),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=12195_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12195), "", 0),
@@ -747,7 +747,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12195),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=121_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 121), "", 0),
@@ -756,7 +756,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 121),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=12207_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12207), "", 0),
@@ -765,7 +765,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12207),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=122_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 122), "", 0),
@@ -774,7 +774,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 122),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=123_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 123), "", 0),
@@ -783,7 +783,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 123),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=124_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 124), "", 0),
@@ -792,7 +792,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 124),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=12554_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12554), "", 0),
@@ -801,7 +801,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12554),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=125_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 125), "", 0),
@@ -810,7 +810,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 125),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=12676_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12676), "", 0),
@@ -819,7 +819,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12676),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=12680_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12680), "", 0),
@@ -828,7 +828,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12680),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=126_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 126), "", 0),
@@ -837,7 +837,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 126),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=12755_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12755), "", 0),
@@ -846,7 +846,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12755),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=12756_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12756), "", 0),
@@ -855,7 +855,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12756),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=12757_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12757), "", 0),
@@ -864,7 +864,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12757),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=12758_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12758), "", 0),
@@ -873,7 +873,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12758),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=12765_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12765), "", 0),
@@ -882,7 +882,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12765),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=12766_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12766), "", 0),
@@ -891,7 +891,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12766),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=127_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 127), "", 0),
@@ -900,7 +900,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 127),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=12890_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12890), "", 0),
@@ -909,7 +909,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12890),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=12891_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12891), "", 0),
@@ -918,7 +918,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12891),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=12892_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12892), "", 0),
@@ -927,7 +927,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12892),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=12893_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12893), "", 0),
@@ -936,7 +936,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12893),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=128_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 128), "", 0),
@@ -945,7 +945,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 128),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=12900_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12900), "", 0),
@@ -954,7 +954,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12900),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=12901_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12901), "", 0),
@@ -963,7 +963,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12901),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=14273_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14273), "", 0),
@@ -972,7 +972,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14273),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=14319_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14319), "", 0),
@@ -981,7 +981,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14319),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=14323_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14323), "", 0),
@@ -990,7 +990,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14323),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=14523_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14523), "", 0),
@@ -999,7 +999,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14523),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=14524_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14524), "", 0),
@@ -1008,7 +1008,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14524),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=14525_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14525), "", 0),
@@ -1017,7 +1017,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14525),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=14533_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14533), "", 0),
@@ -1026,7 +1026,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14533),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=14593_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14593), "", 0),
@@ -1035,7 +1035,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14593),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=14744_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14744), "", 0),
@@ -1044,7 +1044,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14744),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=14794_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14794), "", 0),
@@ -1053,7 +1053,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14794),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=14795_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14795), "", 0),
@@ -1062,7 +1062,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14795),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=14796_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14796), "", 0),
@@ -1071,7 +1071,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14796),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=14797_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14797), "", 0),
@@ -1080,7 +1080,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14797),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=14798_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14798), "", 0),
@@ -1089,7 +1089,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14798),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=14799_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14799), "", 0),
@@ -1098,7 +1098,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14799),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=14800_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14800), "", 0),
@@ -1107,7 +1107,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14800),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=14801_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14801), "", 0),
@@ -1116,7 +1116,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14801),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=14802_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14802), "", 0),
@@ -1125,7 +1125,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14802),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=14803_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14803), "", 0),
@@ -1134,7 +1134,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14803),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=14804_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14804), "", 0),
@@ -1143,7 +1143,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14804),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=14839_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14839), "", 0),
@@ -1152,7 +1152,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14839),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=14844_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14844), "", 0),
@@ -1161,7 +1161,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14844),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=14845_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14845), "", 0),
@@ -1170,7 +1170,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14845),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=14846_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14846), "", 0),
@@ -1179,7 +1179,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14846),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=14847_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14847), "", 0),
@@ -1188,7 +1188,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14847),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=14848_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14848), "", 0),
@@ -1197,7 +1197,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14848),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15005_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15005), "", 0),
@@ -1206,7 +1206,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15005),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15006_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15006), "", 0),
@@ -1215,7 +1215,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15006),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15007_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15007), "", 0),
@@ -1224,7 +1224,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15007),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15041_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15041), "", 0),
@@ -1233,7 +1233,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15041),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15042_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15042), "", 0),
@@ -1242,7 +1242,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15042),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15044_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15044), "", 0),
@@ -1251,7 +1251,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15044),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15049_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15049), "", 0),
@@ -1260,7 +1260,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15049),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15050_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15050), "", 0),
@@ -1269,7 +1269,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15050),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15051_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15051), "", 0),
@@ -1278,7 +1278,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15051),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15057_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15057), "", 0),
@@ -1287,7 +1287,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15057),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15058_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15058), "", 0),
@@ -1296,7 +1296,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15058),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15059_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15059), "", 0),
@@ -1305,7 +1305,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15059),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15060_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15060), "", 0),
@@ -1314,7 +1314,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15060),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15061_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15061), "", 0),
@@ -1323,7 +1323,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15061),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15062_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15062), "", 0),
@@ -1332,7 +1332,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15062),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15063_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15063), "", 0),
@@ -1341,7 +1341,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15063),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15065_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15065), "", 0),
@@ -1350,7 +1350,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15065),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15066_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15066), "", 0),
@@ -1359,7 +1359,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15066),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15067_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15067), "", 0),
@@ -1368,7 +1368,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15067),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15081_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15081), "", 0),
@@ -1377,7 +1377,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15081),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15082_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15082), "", 0),
@@ -1386,7 +1386,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15082),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15083_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15083), "", 0),
@@ -1395,7 +1395,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15083),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15084_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15084), "", 0),
@@ -1404,7 +1404,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15084),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15085_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15085), "", 0),
@@ -1413,7 +1413,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15085),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15086_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15086), "", 0),
@@ -1422,7 +1422,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15086),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15087_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15087), "", 0),
@@ -1431,7 +1431,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15087),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15095_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15095), "", 0),
@@ -1440,7 +1440,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15095),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15098_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15098), "", 0),
@@ -1449,7 +1449,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15098),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15099_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15099), "", 0),
@@ -1458,7 +1458,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15099),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15102_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15102), "", 0),
@@ -1467,7 +1467,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15102),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15105_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15105), "", 0),
@@ -1476,7 +1476,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15105),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15106_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15106), "", 0),
@@ -1485,7 +1485,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15106),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15136_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15136), "", 0),
@@ -1494,7 +1494,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15136),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15140_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15140), "", 0),
@@ -1503,7 +1503,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15140),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15141_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15141), "", 0),
@@ -1512,7 +1512,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15141),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15142_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15142), "", 0),
@@ -1521,7 +1521,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15142),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15143_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15143), "", 0),
@@ -1530,7 +1530,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15143),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15144_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15144), "", 0),
@@ -1539,7 +1539,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15144),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15165_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15165), "", 0),
@@ -1548,7 +1548,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15165),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15169_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15169), "", 0),
@@ -1557,7 +1557,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15169),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15172_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15172), "", 0),
@@ -1566,7 +1566,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15172),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15175_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15175), "", 0),
@@ -1575,7 +1575,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15175),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15188_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15188), "", 0),
@@ -1584,7 +1584,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15188),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15189_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15189), "", 0),
@@ -1593,7 +1593,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15189),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15199_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15199), "", 0),
@@ -1602,7 +1602,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15199),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15204_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15204), "", 0),
@@ -1611,7 +1611,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15204),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15205_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15205), "", 0),
@@ -1620,7 +1620,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15205),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15206_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15206), "", 0),
@@ -1629,7 +1629,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15206),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15207_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15207), "", 0),
@@ -1638,7 +1638,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15207),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15208_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15208), "", 0),
@@ -1647,7 +1647,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15208),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15209_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15209), "", 0),
@@ -1656,7 +1656,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15209),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15210_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15210), "", 0),
@@ -1665,7 +1665,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15210),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15273_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15273), "", 0),
@@ -1674,7 +1674,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15273),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15293_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15293), "", 0),
@@ -1683,7 +1683,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15293),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15295_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15295), "", 0),
@@ -1692,7 +1692,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15295),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15304_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15304), "", 0),
@@ -1701,7 +1701,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15304),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15349_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15349), "", 0),
@@ -1710,7 +1710,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15349),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15361_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15361), "", 0),
@@ -1719,7 +1719,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15361),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15362_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15362), "", 0),
@@ -1728,7 +1728,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15362),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15363_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15363), "", 0),
@@ -1737,7 +1737,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15363),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15364_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15364), "", 0),
@@ -1746,7 +1746,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15364),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15365_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15365), "", 0),
@@ -1755,7 +1755,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15365),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15366_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15366), "", 0),
@@ -1764,7 +1764,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15366),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15367_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15367), "", 0),
@@ -1773,7 +1773,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15367),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15368_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15368), "", 0),
@@ -1782,7 +1782,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15368),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15369_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15369), "", 0),
@@ -1791,7 +1791,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15369),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15370_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15370), "", 0),
@@ -1800,7 +1800,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15370),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15371_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15371), "", 0),
@@ -1809,7 +1809,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15371),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15372_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15372), "", 0),
@@ -1818,7 +1818,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15372),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15373_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15373), "", 0),
@@ -1827,7 +1827,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15373),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15374_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15374), "", 0),
@@ -1836,7 +1836,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15374),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15375_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15375), "", 0),
@@ -1845,7 +1845,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15375),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15376_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15376), "", 0),
@@ -1854,7 +1854,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15376),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15377_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15377), "", 0),
@@ -1863,7 +1863,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15377),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15378_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15378), "", 0),
@@ -1872,7 +1872,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15378),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15379_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15379), "", 0),
@@ -1881,7 +1881,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15379),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15380_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15380), "", 0),
@@ -1890,7 +1890,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15380),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15381_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15381), "", 0),
@@ -1899,7 +1899,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15381),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15382_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15382), "", 0),
@@ -1908,7 +1908,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15382),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15421_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15421), "", 0),
@@ -1917,7 +1917,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15421),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15422_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15422), "", 0),
@@ -1926,7 +1926,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15422),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15479_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15479), "", 0),
@@ -1935,7 +1935,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15479),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15480_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15480), "", 0),
@@ -1944,7 +1944,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15480),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15487_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15487), "", 0),
@@ -1953,7 +1953,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15487),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15488_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15488), "", 0),
@@ -1962,7 +1962,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15488),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15502_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15502), "", 0),
@@ -1971,7 +1971,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15502),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15510_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15510), "", 0),
@@ -1980,7 +1980,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15510),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15520_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15520), "", 0),
@@ -1989,7 +1989,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15520),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15528_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15528), "", 0),
@@ -1998,7 +1998,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15528),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15529_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15529), "", 0),
@@ -2007,7 +2007,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15529),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15530_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15530), "", 0),
@@ -2016,7 +2016,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15530),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15531_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15531), "", 0),
@@ -2025,7 +2025,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15531),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15532_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15532), "", 0),
@@ -2034,7 +2034,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15532),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15534_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15534), "", 0),
@@ -2043,7 +2043,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15534),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15578_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15578), "", 0),
@@ -2052,7 +2052,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15578),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15579_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15579), "", 0),
@@ -2061,7 +2061,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15579),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15580_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15580), "", 0),
@@ -2070,7 +2070,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15580),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15581_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15581), "", 0),
@@ -2079,7 +2079,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15581),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15582_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15582), "", 0),
@@ -2088,7 +2088,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15582),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15589_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15589), "", 0),
@@ -2097,7 +2097,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15589),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15590_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15590), "", 0),
@@ -2106,7 +2106,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15590),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15597_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15597), "", 0),
@@ -2115,7 +2115,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15597),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15598_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15598), "", 0),
@@ -2124,7 +2124,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15598),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15605_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15605), "", 0),
@@ -2133,7 +2133,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15605),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15609_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15609), "", 0),
@@ -2142,7 +2142,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15609),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15611_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15611), "", 0),
@@ -2151,7 +2151,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15611),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15616_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15616), "", 0),
@@ -2160,7 +2160,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15616),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15617_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15617), "", 0),
@@ -2169,7 +2169,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15617),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15618_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15618), "", 0),
@@ -2178,7 +2178,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15618),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15621_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15621), "", 0),
@@ -2187,7 +2187,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15621),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15622_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15622), "", 0),
@@ -2196,7 +2196,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15622),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15623_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15623), "", 0),
@@ -2205,7 +2205,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15623),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15628_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15628), "", 0),
@@ -2214,7 +2214,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15628),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15629_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15629), "", 0),
@@ -2223,7 +2223,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15629),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15630_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15630), "", 0),
@@ -2232,7 +2232,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15630),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15631_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15631), "", 0),
@@ -2241,7 +2241,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15631),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15634_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15634), "", 0),
@@ -2250,7 +2250,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15634),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15635_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15635), "", 0),
@@ -2259,7 +2259,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15635),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15645_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15645), "", 0),
@@ -2268,7 +2268,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15645),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15652_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15652), "", 0),
@@ -2277,7 +2277,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15652),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15653_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15653), "", 0),
@@ -2286,7 +2286,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15653),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15657_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15657), "", 0),
@@ -2295,7 +2295,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15657),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15664_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15664), "", 0),
@@ -2304,7 +2304,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15664),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15665_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15665), "", 0),
@@ -2313,7 +2313,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15665),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15667_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15667), "", 0),
@@ -2322,7 +2322,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15667),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15669_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15669), "", 0),
@@ -2331,7 +2331,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15669),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15670_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15670), "", 0),
@@ -2340,7 +2340,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15670),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15671_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15671), "", 0),
@@ -2349,7 +2349,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15671),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15676_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15676), "", 0),
@@ -2358,7 +2358,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15676),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15677_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15677), "", 0),
@@ -2367,7 +2367,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15677),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15678_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15678), "", 0),
@@ -2376,7 +2376,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15678),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15679_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15679), "", 0),
@@ -2385,7 +2385,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15679),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15681_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15681), "", 0),
@@ -2394,7 +2394,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15681),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15682_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15682), "", 0),
@@ -2403,7 +2403,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15682),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15683_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15683), "", 0),
@@ -2412,7 +2412,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15683),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15688_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15688), "", 0),
@@ -2421,7 +2421,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15688),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15689_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15689), "", 0),
@@ -2430,7 +2430,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15689),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15691_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15691), "", 0),
@@ -2439,7 +2439,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15691),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15693_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15693), "", 0),
@@ -2448,7 +2448,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15693),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15694_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15694), "", 0),
@@ -2457,7 +2457,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15694),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15695_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15695), "", 0),
@@ -2466,7 +2466,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15695),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15700_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15700), "", 0),
@@ -2475,7 +2475,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15700),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15701_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15701), "", 0),
@@ -2484,7 +2484,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15701),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15702_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15702), "", 0),
@@ -2493,7 +2493,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15702),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15703_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15703), "", 0),
@@ -2502,7 +2502,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15703),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15705_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15705), "", 0),
@@ -2511,7 +2511,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15705),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15706_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15706), "", 0),
@@ -2520,7 +2520,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15706),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15707_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15707), "", 0),
@@ -2529,7 +2529,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15707),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15712_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15712), "", 0),
@@ -2538,7 +2538,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15712),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15713_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15713), "", 0),
@@ -2547,7 +2547,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15713),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15714_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15714), "", 0),
@@ -2556,7 +2556,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15714),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15715_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15715), "", 0),
@@ -2565,7 +2565,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15715),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15717_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15717), "", 0),
@@ -2574,7 +2574,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15717),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15718_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15718), "", 0),
@@ -2583,7 +2583,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15718),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15719_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15719), "", 0),
@@ -2592,7 +2592,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15719),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15724_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15724), "", 0),
@@ -2601,7 +2601,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15724),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15725_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15725), "", 0),
@@ -2610,7 +2610,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15725),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15726_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15726), "", 0),
@@ -2619,7 +2619,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15726),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15727_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15727), "", 0),
@@ -2628,7 +2628,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15727),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15728_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15728), "", 0),
@@ -2637,7 +2637,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15728),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15729_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15729), "", 0),
@@ -2646,7 +2646,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15729),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15733_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15733), "", 0),
@@ -2655,7 +2655,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15733),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15736_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15736), "", 0),
@@ -2664,7 +2664,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15736),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15949_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15949), "", 0),
@@ -2673,7 +2673,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15949),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15950_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15950), "", 0),
@@ -2682,7 +2682,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15950),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15951_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15951), "", 0),
@@ -2691,7 +2691,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15951),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15952_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15952), "", 0),
@@ -2700,7 +2700,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15952),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15953_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15953), "", 0),
@@ -2709,7 +2709,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15953),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15954_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15954), "", 0),
@@ -2718,7 +2718,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15954),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15955_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15955), "", 0),
@@ -2727,7 +2727,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15955),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15956_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15956), "", 0),
@@ -2736,7 +2736,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15956),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15987_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15987), "", 0),
@@ -2745,7 +2745,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15987),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15988_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15988), "", 0),
@@ -2754,7 +2754,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15988),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15990_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15990), "", 0),
@@ -2763,7 +2763,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15990),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15991_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15991), "", 0),
@@ -2772,7 +2772,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15991),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15992_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15992), "", 0),
@@ -2781,7 +2781,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15992),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15993_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15993), "", 0),
@@ -2790,7 +2790,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15993),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15995_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15995), "", 0),
@@ -2799,7 +2799,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15995),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=15996_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15996), "", 0),
@@ -2808,7 +2808,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15996),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16007_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16007), "", 0),
@@ -2817,7 +2817,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16007),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16008_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16008), "", 0),
@@ -2826,7 +2826,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16008),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16009_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16009), "", 0),
@@ -2835,7 +2835,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16009),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16010_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16010), "", 0),
@@ -2844,7 +2844,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16010),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16011_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16011), "", 0),
@@ -2853,7 +2853,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16011),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16012_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16012), "", 0),
@@ -2862,7 +2862,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16012),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16014_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16014), "", 0),
@@ -2871,7 +2871,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16014),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16015_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16015), "", 0),
@@ -2880,7 +2880,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16015),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16016_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16016), "", 0),
@@ -2889,7 +2889,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16016),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16017_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16017), "", 0),
@@ -2898,7 +2898,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16017),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16018_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16018), "", 0),
@@ -2907,7 +2907,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16018),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16019_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16019), "", 0),
@@ -2916,7 +2916,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16019),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16021_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16021), "", 0),
@@ -2925,7 +2925,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16021),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16022_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16022), "", 0),
@@ -2934,7 +2934,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16022),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16023_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16023), "", 0),
@@ -2943,7 +2943,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16023),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16126_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16126), "", 0),
@@ -2952,7 +2952,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16126),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16150_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16150), "", 0),
@@ -2961,7 +2961,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16150),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16151_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16151), "", 0),
@@ -2970,7 +2970,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16151),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16152_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16152), "", 0),
@@ -2979,7 +2979,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16152),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16153_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16153), "", 0),
@@ -2988,7 +2988,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16153),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16154_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16154), "", 0),
@@ -2997,7 +2997,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16154),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16155_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16155), "", 0),
@@ -3006,7 +3006,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16155),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16156_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16156), "", 0),
@@ -3015,7 +3015,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16156),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16157_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16157), "", 0),
@@ -3024,7 +3024,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16157),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16158_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16158), "", 0),
@@ -3033,7 +3033,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16158),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16159_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16159), "", 0),
@@ -3042,7 +3042,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16159),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16161_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16161), "", 0),
@@ -3051,7 +3051,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16161),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16280_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16280), "", 0),
@@ -3060,7 +3060,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16280),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16281_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16281), "", 0),
@@ -3069,7 +3069,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16281),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16282_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16282), "", 0),
@@ -3078,7 +3078,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16282),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16284_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16284), "", 0),
@@ -3087,7 +3087,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16284),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16285_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16285), "", 0),
@@ -3096,7 +3096,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16285),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16286_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16286), "", 0),
@@ -3105,7 +3105,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16286),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16287_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16287), "", 0),
@@ -3114,7 +3114,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16287),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16288_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16288), "", 0),
@@ -3123,7 +3123,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16288),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16308_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16308), "", 0),
@@ -3132,7 +3132,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16308),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16310_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16310), "", 0),
@@ -3141,7 +3141,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16310),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16311_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16311), "", 0),
@@ -3150,7 +3150,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16311),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16313_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16313), "", 0),
@@ -3159,7 +3159,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16313),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16323_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16323), "", 0),
@@ -3168,7 +3168,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16323),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16391_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16391), "", 0),
@@ -3177,7 +3177,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16391),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16392_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16392), "", 0),
@@ -3186,7 +3186,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16392),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16393_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16393), "", 0),
@@ -3195,7 +3195,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16393),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16394_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16394), "", 0),
@@ -3204,7 +3204,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16394),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16404_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16404), "", 0),
@@ -3213,7 +3213,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16404),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16524_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16524), "", 0),
@@ -3222,7 +3222,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16524),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16525_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16525), "", 0),
@@ -3231,7 +3231,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16525),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=16526_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16526), "", 0),
@@ -3240,7 +3240,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16526),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=17467_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17467), "", 0),
@@ -3249,7 +3249,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17467),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=17468_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17468), "", 0),
@@ -3258,7 +3258,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17468),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=17472_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17472), "", 0),
@@ -3267,7 +3267,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17472),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=17476_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17476), "", 0),
@@ -3276,7 +3276,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17476),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=17537_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17537), "", 0),
@@ -3285,7 +3285,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17537),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=17541_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17541), "", 0),
@@ -3294,7 +3294,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17541),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=17547_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17547), "", 0),
@@ -3303,7 +3303,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17547),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=17548_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17548), "", 0),
@@ -3312,7 +3312,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17548),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=17549_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17549), "", 0),
@@ -3321,7 +3321,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17549),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=17553_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17553), "", 0),
@@ -3330,7 +3330,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17553),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=17557_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17557), "", 0),
@@ -3339,7 +3339,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17557),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=18806_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18806), "", 0),
@@ -3348,7 +3348,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18806),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=18807_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18807), "", 0),
@@ -3357,7 +3357,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18807),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=18808_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18808), "", 0),
@@ -3366,7 +3366,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18808),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=18809_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18809), "", 0),
@@ -3375,7 +3375,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18809),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=18810_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18810), "", 0),
@@ -3384,7 +3384,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18810),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=18811_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18811), "", 0),
@@ -3393,7 +3393,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18811),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=18812_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18812), "", 0),
@@ -3402,7 +3402,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18812),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=18813_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18813), "", 0),
@@ -3411,7 +3411,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18813),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=18814_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18814), "", 0),
@@ -3420,7 +3420,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18814),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=18815_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18815), "", 0),
@@ -3429,7 +3429,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18815),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=18816_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18816), "", 0),
@@ -3438,7 +3438,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18816),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=18817_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18817), "", 0),
@@ -3447,7 +3447,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18817),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=18818_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18818), "", 0),
@@ -3456,7 +3456,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18818),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=18819_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18819), "", 0),
@@ -3465,7 +3465,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18819),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=18820_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18820), "", 0),
@@ -3474,7 +3474,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18820),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=18821_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18821), "", 0),
@@ -3483,7 +3483,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18821),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=18822_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18822), "", 0),
@@ -3492,7 +3492,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18822),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=18823_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18823), "", 0),
@@ -3501,7 +3501,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18823),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=18851_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18851), "", 0),
@@ -3510,7 +3510,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18851),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=18852_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18852), "", 0),
@@ -3519,7 +3519,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18852),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=18853_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18853), "", 0),
@@ -3528,7 +3528,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18853),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=18854_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18854), "", 0),
@@ -3537,7 +3537,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18854),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=18855_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18855), "", 0),
@@ -3546,7 +3546,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18855),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=18856_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18856), "", 0),
@@ -3555,7 +3555,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18856),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=18857_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18857), "", 0),
@@ -3564,7 +3564,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18857),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=18858_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18858), "", 0),
@@ -3573,7 +3573,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18858),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=18859_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18859), "", 0),
@@ -3582,7 +3582,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18859),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=19064_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 19064), "", 0),
@@ -3591,7 +3591,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19064),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=19065_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 19065), "", 0),
@@ -3600,7 +3600,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19065),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=19066_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 19066), "", 0),
@@ -3609,7 +3609,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19066),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=19067_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 19067), "", 0),
@@ -3618,7 +3618,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19067),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=19068_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 19068), "", 0),
@@ -3627,7 +3627,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19068),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=19069_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 19069), "", 0),
@@ -3636,7 +3636,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19069),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=19070_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 19070), "", 0),
@@ -3645,7 +3645,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19070),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=19071_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 19071), "", 0),
@@ -3654,7 +3654,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19071),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=19072_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 19072), "", 0),
@@ -3663,7 +3663,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19072),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=21150_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 21150), "", 0),
@@ -3672,7 +3672,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21150),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=21151_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 21151), "", 0),
@@ -3681,7 +3681,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21151),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=21152_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 21152), "", 0),
@@ -3690,7 +3690,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21152),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=21153_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 21153), "", 0),
@@ -3699,7 +3699,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21153),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=21154_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 21154), "", 0),
@@ -3708,7 +3708,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21154),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=21155_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 21155), "", 0),
@@ -3717,7 +3717,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21155),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=21174_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 21174), "", 0),
@@ -3726,7 +3726,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21174),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=21175_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 21175), "", 0),
@@ -3735,7 +3735,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21175),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=21176_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 21176), "", 0),
@@ -3744,7 +3744,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21176),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=21177_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 21177), "", 0),
@@ -3753,7 +3753,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21177),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=21178_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 21178), "", 0),
@@ -3762,7 +3762,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21178),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=21179_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 21179), "", 0),
@@ -3771,7 +3771,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21179),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=21198_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 21198), "", 0),
@@ -3780,7 +3780,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21198),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=21199_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 21199), "", 0),
@@ -3789,7 +3789,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21199),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=21200_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 21200), "", 0),
@@ -3798,7 +3798,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21200),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=21201_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 21201), "", 0),
@@ -3807,7 +3807,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21201),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=21202_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 21202), "", 0),
@@ -3816,7 +3816,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21202),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=21203_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 21203), "", 0),
@@ -3825,7 +3825,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21203),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23468_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23468), "", 0),
@@ -3834,7 +3834,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23468),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23498_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23498), "", 0),
@@ -3843,7 +3843,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23498),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23499_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23499), "", 0),
@@ -3852,7 +3852,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23499),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23505_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23505), "", 0),
@@ -3861,7 +3861,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23505),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23507_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23507), "", 0),
@@ -3870,7 +3870,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23507),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23511_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23511), "", 0),
@@ -3879,7 +3879,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23511),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23520_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23520), "", 0),
@@ -3888,7 +3888,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23520),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23528_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23528), "", 0),
@@ -3897,7 +3897,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23528),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23599_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23599), "", 0),
@@ -3906,7 +3906,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23599),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23600_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23600), "", 0),
@@ -3915,7 +3915,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23600),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23601_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23601), "", 0),
@@ -3924,7 +3924,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23601),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23602_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23602), "", 0),
@@ -3933,7 +3933,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23602),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23603_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23603), "", 0),
@@ -3942,7 +3942,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23603),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23604_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23604), "", 0),
@@ -3951,7 +3951,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23604),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23605_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23605), "", 0),
@@ -3960,7 +3960,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23605),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23608_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23608), "", 0),
@@ -3969,7 +3969,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23608),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23609_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23609), "", 0),
@@ -3978,7 +3978,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23609),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23612_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23612), "", 0),
@@ -3987,7 +3987,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23612),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23613_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23613), "", 0),
@@ -3996,7 +3996,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23613),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23614_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23614), "", 0),
@@ -4005,7 +4005,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23614),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23851_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23851), "", 0),
@@ -4014,7 +4014,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23851),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23852_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23852), "", 0),
@@ -4023,7 +4023,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23852),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23853_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23853), "", 0),
@@ -4032,7 +4032,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23853),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23854_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23854), "", 0),
@@ -4041,7 +4041,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23854),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23855_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23855), "", 0),
@@ -4050,7 +4050,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23855),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23856_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23856), "", 0),
@@ -4059,7 +4059,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23856),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23857_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23857), "", 0),
@@ -4068,7 +4068,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23857),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23860_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23860), "", 0),
@@ -4077,7 +4077,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23860),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23861_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23861), "", 0),
@@ -4086,7 +4086,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23861),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23864_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23864), "", 0),
@@ -4095,7 +4095,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23864),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23865_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23865), "", 0),
@@ -4104,7 +4104,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23865),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23866_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23866), "", 0),
@@ -4113,7 +4113,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23866),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23919_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23919), "", 0),
@@ -4122,7 +4122,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23919),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23920_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23920), "", 0),
@@ -4131,7 +4131,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23920),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23921_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23921), "", 0),
@@ -4140,7 +4140,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23921),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23922_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23922), "", 0),
@@ -4149,7 +4149,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23922),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23923_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23923), "", 0),
@@ -4158,7 +4158,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23923),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23924_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23924), "", 0),
@@ -4167,7 +4167,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23924),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23925_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23925), "", 0),
@@ -4176,7 +4176,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23925),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23928_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23928), "", 0),
@@ -4185,7 +4185,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23928),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23929_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23929), "", 0),
@@ -4194,7 +4194,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23929),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23932_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23932), "", 0),
@@ -4203,7 +4203,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23932),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23933_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23933), "", 0),
@@ -4212,7 +4212,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23933),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23934_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23934), "", 0),
@@ -4221,7 +4221,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23934),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23987_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23987), "", 0),
@@ -4230,7 +4230,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23987),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23988_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23988), "", 0),
@@ -4239,7 +4239,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23988),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23989_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23989), "", 0),
@@ -4248,7 +4248,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23989),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23990_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23990), "", 0),
@@ -4257,7 +4257,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23990),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23991_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23991), "", 0),
@@ -4266,7 +4266,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23991),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23992_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23992), "", 0),
@@ -4275,7 +4275,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23992),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23993_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23993), "", 0),
@@ -4284,7 +4284,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23993),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23996_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23996), "", 0),
@@ -4293,7 +4293,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23996),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=23997_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23997), "", 0),
@@ -4302,7 +4302,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23997),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=24000_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24000), "", 0),
@@ -4311,7 +4311,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24000),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=24001_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24001), "", 0),
@@ -4320,7 +4320,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24001),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=24002_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24002), "", 0),
@@ -4329,7 +4329,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24002),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=24033_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24033), "", 0),
@@ -4338,7 +4338,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24033),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=24034_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24034), "", 0),
@@ -4347,7 +4347,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24034),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=24038_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24038), "", 0),
@@ -4356,7 +4356,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24038),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=24042_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24042), "", 0),
@@ -4365,7 +4365,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24042),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=24105_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24105), "", 0),
@@ -4374,7 +4374,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24105),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=24106_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24106), "", 0),
@@ -4383,7 +4383,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24106),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=24107_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24107), "", 0),
@@ -4392,7 +4392,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24107),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=24108_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24108), "", 0),
@@ -4401,7 +4401,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24108),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=24109_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24109), "", 0),
@@ -4410,7 +4410,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24109),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=24110_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24110), "", 0),
@@ -4419,7 +4419,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24110),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=24120_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24120), "", 0),
@@ -4428,7 +4428,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24120),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=24121_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24121), "", 0),
@@ -4437,7 +4437,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24121),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=24122_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24122), "", 0),
@@ -4446,7 +4446,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24122),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=24132_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24132), "", 0),
@@ -4455,7 +4455,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24132),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=24133_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24133), "", 0),
@@ -4464,7 +4464,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24133),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=24134_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24134), "", 0),
@@ -4473,7 +4473,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24134),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=24281_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24281), "", 0),
@@ -4482,7 +4482,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24281),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=24292_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24292), "", 0),
@@ -4491,7 +4491,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24292),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=24296_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24296), "", 0),
@@ -4500,7 +4500,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24296),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=24300_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24300), "", 0),
@@ -4509,7 +4509,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24300),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=25220_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25220), "", 0),
@@ -4518,7 +4518,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25220),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=25239_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25239), "", 0),
@@ -4527,7 +4527,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25239),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=25243_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25243), "", 0),
@@ -4536,7 +4536,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25243),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=25247_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25247), "", 0),
@@ -4545,7 +4545,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25247),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=25269_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25269), "", 0),
@@ -4554,7 +4554,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25269),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=25270_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25270), "", 0),
@@ -4563,7 +4563,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25270),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=25519_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25519), "", 0),
@@ -4572,7 +4572,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25519),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=25520_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25520), "", 0),
@@ -4581,7 +4581,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25520),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=25529_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25529), "", 0),
@@ -4590,7 +4590,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25529),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=25530_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25530), "", 0),
@@ -4599,7 +4599,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25530),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=25531_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25531), "", 0),
@@ -4608,7 +4608,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25531),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=25532_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25532), "", 0),
@@ -4617,7 +4617,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25532),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=25545_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25545), "", 0),
@@ -4626,7 +4626,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25545),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=25546_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25546), "", 0),
@@ -4635,7 +4635,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25546),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=25547_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25547), "", 0),
@@ -4644,7 +4644,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25547),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=25548_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25548), "", 0),
@@ -4653,7 +4653,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25548),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=25561_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25561), "", 0),
@@ -4662,7 +4662,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25561),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=25562_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25562), "", 0),
@@ -4671,7 +4671,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25562),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=25563_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25563), "", 0),
@@ -4680,7 +4680,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25563),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=25564_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25564), "", 0),
@@ -4689,7 +4689,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25564),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=296_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 296), "", 0),
@@ -4698,7 +4698,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 296),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=297_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 297), "", 0),
@@ -4707,7 +4707,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 297),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=298_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 298), "", 0),
@@ -4716,7 +4716,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 298),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=299_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 299), "", 0),
@@ -4725,7 +4725,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 299),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=300_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 300), "", 0),
@@ -4734,7 +4734,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 300),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=301_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 301), "", 0),
@@ -4743,7 +4743,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 301),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=304_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 304), "", 0),
@@ -4752,7 +4752,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 304),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=305_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 305), "", 0),
@@ -4761,7 +4761,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 305),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=306_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 306), "", 0),
@@ -4770,7 +4770,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 306),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=308_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 308), "", 0),
@@ -4779,7 +4779,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 308),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=309_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 309), "", 0),
@@ -4788,7 +4788,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 309),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=310_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 310), "", 0),
@@ -4797,7 +4797,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 310),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=312_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 312), "", 0),
@@ -4806,7 +4806,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 312),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=313_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 313), "", 0),
@@ -4815,7 +4815,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 313),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=314_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 314), "", 0),
@@ -4824,7 +4824,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 314),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=316_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 316), "", 0),
@@ -4833,7 +4833,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 316),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=317_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 317), "", 0),
@@ -4842,7 +4842,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 317),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=318_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 318), "", 0),
@@ -4851,7 +4851,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 318),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=319_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 319), "", 0),
@@ -4860,7 +4860,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 319),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=320_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 320), "", 0),
@@ -4869,7 +4869,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 320),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=321_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 321), "", 0),
@@ -4878,7 +4878,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 321),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=32285_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 32285), "", 0),
@@ -4887,7 +4887,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32285),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=322_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 322), "", 0),
@@ -4896,7 +4896,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 322),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=32382_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 32382), "", 0),
@@ -4905,7 +4905,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32382),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=32386_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 32386), "", 0),
@@ -4914,7 +4914,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32386),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=32390_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 32390), "", 0),
@@ -4923,7 +4923,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32390),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=323_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 323), "", 0),
@@ -4932,7 +4932,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 323),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=324_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 324), "", 0),
@@ -4941,7 +4941,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 324),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=325_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 325), "", 0),
@@ -4950,7 +4950,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 325),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=32659_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 32659), "", 0),
@@ -4959,7 +4959,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32659),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=32660_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 32660), "", 0),
@@ -4968,7 +4968,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32660),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=32661_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 32661), "", 0),
@@ -4977,7 +4977,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32661),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=32662_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 32662), "", 0),
@@ -4986,7 +4986,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32662),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=32669_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 32669), "", 0),
@@ -4995,7 +4995,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32669),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=32670_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 32670), "", 0),
@@ -5004,7 +5004,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32670),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=32677_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 32677), "", 0),
@@ -5013,7 +5013,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32677),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=32678_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 32678), "", 0),
@@ -5022,7 +5022,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32678),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=326_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 326), "", 0),
@@ -5031,7 +5031,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 326),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=327_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 327), "", 0),
@@ -5040,7 +5040,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 327),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=331_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 331), "", 0),
@@ -5049,7 +5049,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 331),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=332_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 332), "", 0),
@@ -5058,7 +5058,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 332),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=333_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 333), "", 0),
@@ -5067,7 +5067,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 333),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=338_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 338), "", 0),
@@ -5076,7 +5076,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 338),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=339_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 339), "", 0),
@@ -5085,7 +5085,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 339),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=340_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 340), "", 0),
@@ -5094,7 +5094,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 340),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=344_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 344), "", 0),
@@ -5103,7 +5103,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 344),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=345_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 345), "", 0),
@@ -5112,7 +5112,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 345),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=346_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 346), "", 0),
@@ -5121,7 +5121,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 346),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=376_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 376), "", 0),
@@ -5130,7 +5130,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 376),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=377_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 377), "", 0),
@@ -5139,7 +5139,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 377),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=378_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 378), "", 0),
@@ -5148,7 +5148,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 378),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=379_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 379), "", 0),
@@ -5157,7 +5157,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 379),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=380_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 380), "", 0),
@@ -5166,7 +5166,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 380),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=381_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 381), "", 0),
@@ -5175,7 +5175,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 381),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=382_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 382), "", 0),
@@ -5184,7 +5184,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 382),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=383_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 383), "", 0),
@@ -5193,7 +5193,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 383),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=384_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 384), "", 0),
@@ -5202,7 +5202,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 384),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=385_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 385), "", 0),
@@ -5211,7 +5211,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 385),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=386_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 386), "", 0),
@@ -5220,7 +5220,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 386),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=387_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 387), "", 0),
@@ -5229,7 +5229,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 387),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=432_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 432), "", 0),
@@ -5238,7 +5238,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 432),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=433_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 433), "", 0),
@@ -5247,7 +5247,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 433),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=434_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 434), "", 0),
@@ -5256,7 +5256,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 434),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=537_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 537), "", 0),
@@ -5265,7 +5265,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 537),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=538_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 538), "", 0),
@@ -5274,7 +5274,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 538),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=539_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 539), "", 0),
@@ -5283,7 +5283,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 539),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=540_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 540), "", 0),
@@ -5292,7 +5292,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 540),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=541_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 541), "", 0),
@@ -5301,7 +5301,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 541),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=542_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 542), "", 0),
@@ -5310,7 +5310,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 542),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=583_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 583), "", 0),
@@ -5319,7 +5319,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 583),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=584_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 584), "", 0),
@@ -5328,7 +5328,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 584),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=585_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 585), "", 0),
@@ -5337,7 +5337,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 585),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=586_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 586), "", 0),
@@ -5346,7 +5346,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 586),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=587_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 587), "", 0),
@@ -5355,7 +5355,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 587),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=588_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 588), "", 0),
@@ -5364,7 +5364,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 588),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=589_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 589), "", 0),
@@ -5373,7 +5373,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 589),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=590_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 590), "", 0),
@@ -5382,7 +5382,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 590),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=591_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 591), "", 0),
@@ -5391,7 +5391,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 591),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=592_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 592), "", 0),
@@ -5400,7 +5400,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 592),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=593_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 593), "", 0),
@@ -5409,7 +5409,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 593),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=594_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 594), "", 0),
@@ -5418,7 +5418,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 594),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=595_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 595), "", 0),
@@ -5427,7 +5427,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 595),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=596_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 596), "", 0),
@@ -5436,7 +5436,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 596),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=597_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 597), "", 0),
@@ -5445,7 +5445,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 597),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=598_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 598), "", 0),
@@ -5454,7 +5454,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 598),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=599_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 599), "", 0),
@@ -5463,7 +5463,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 599),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=600_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 600), "", 0),
@@ -5472,7 +5472,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 600),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=601_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 601), "", 0),
@@ -5481,7 +5481,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 601),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=602_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 602), "", 0),
@@ -5490,7 +5490,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 602),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=603_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 603), "", 0),
@@ -5499,7 +5499,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 603),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=659_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 659), "", 0),
@@ -5508,7 +5508,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 659),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=660_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 660), "", 0),
@@ -5517,7 +5517,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 660),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=661_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 661), "", 0),
@@ -5526,7 +5526,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 661),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=719_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 719), "", 0),
@@ -5535,7 +5535,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 719),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=720_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 720), "", 0),
@@ -5544,7 +5544,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 720),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=721_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 721), "", 0),
@@ -5553,7 +5553,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 721),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=725_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 725), "", 0),
@@ -5562,7 +5562,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 725),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=726_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 726), "", 0),
@@ -5571,7 +5571,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 726),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=727_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 727), "", 0),
@@ -5580,7 +5580,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 727),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=7594_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 7594), "", 0),
@@ -5589,7 +5589,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 7594),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=7616_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 7616), "", 0),
@@ -5598,7 +5598,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 7616),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=8251_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 8251), "", 0),
@@ -5607,7 +5607,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 8251),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=853_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 853), "", 0),
@@ -5616,7 +5616,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 853),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=854_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 854), "", 0),
@@ -5625,7 +5625,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 854),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=855_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 855), "", 0),
@@ -5634,7 +5634,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 855),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=856_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 856), "", 0),
@@ -5643,7 +5643,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 856),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=857_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 857), "", 0),
@@ -5652,7 +5652,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 857),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=858_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 858), "", 0),
@@ -5661,7 +5661,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 858),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=859_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 859), "", 0),
@@ -5670,7 +5670,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 859),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=860_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 860), "", 0),
@@ -5679,7 +5679,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 860),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=861_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 861), "", 0),
@@ -5688,7 +5688,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 861),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=862_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 862), "", 0),
@@ -5697,7 +5697,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 862),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=863_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 863), "", 0),
@@ -5706,7 +5706,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 863),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=864_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 864), "", 0),
@@ -5715,7 +5715,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 864),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=865_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 865), "", 0),
@@ -5724,7 +5724,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 865),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=866_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 866), "", 0),
@@ -5733,7 +5733,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 866),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=867_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 867), "", 0),
@@ -5742,7 +5742,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 867),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=868_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 868), "", 0),
@@ -5751,7 +5751,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 868),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=869_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 869), "", 0),
@@ -5760,7 +5760,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 869),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=870_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 870), "", 0),
@@ -5769,7 +5769,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 870),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=871_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 871), "", 0),
@@ -5778,7 +5778,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 871),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=872_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 872), "", 0),
@@ -5787,7 +5787,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 872),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=873_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 873), "", 0),
@@ -5796,7 +5796,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 873),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=874_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 874), "", 0),
@@ -5805,7 +5805,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 874),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=875_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 875), "", 0),
@@ -5814,7 +5814,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 875),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=876_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 876), "", 0),
@@ -5823,7 +5823,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 876),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=877_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 877), "", 0),
@@ -5832,7 +5832,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 877),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=878_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 878), "", 0),
@@ -5841,7 +5841,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 878),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=879_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 879), "", 0),
@@ -5850,7 +5850,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 879),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=884_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 884), "", 0),
@@ -5859,7 +5859,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 884),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=885_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 885), "", 0),
@@ -5868,7 +5868,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 885),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=886_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 886), "", 0),
@@ -5877,7 +5877,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 886),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=887_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 887), "", 0),
@@ -5886,7 +5886,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 887),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=888_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 888), "", 0),
@@ -5895,7 +5895,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 888),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=889_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 889), "", 0),
@@ -5904,7 +5904,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 889),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=8912_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 8912), "", 0),
@@ -5913,7 +5913,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 8912),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=8913_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 8913), "", 0),
@@ -5922,7 +5922,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 8913),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=8917_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 8917), "", 0),
@@ -5931,7 +5931,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 8917),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=891_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 891), "", 0),
@@ -5940,7 +5940,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 891),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=892_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 892), "", 0),
@@ -5949,7 +5949,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 892),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=893_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 893), "", 0),
@@ -5958,7 +5958,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 893),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=894_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 894), "", 0),
@@ -5967,7 +5967,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 894),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=895_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 895), "", 0),
@@ -5976,7 +5976,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 895),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=896_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 896), "", 0),
@@ -5985,7 +5985,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 896),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=897_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 897), "", 0),
@@ -5994,7 +5994,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 897),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=898_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 898), "", 0),
@@ -6003,7 +6003,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 898),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=899_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 899), "", 0),
@@ -6012,7 +6012,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 899),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=920_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 920), "", 0),
@@ -6021,7 +6021,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 920),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=921_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 921), "", 0),
@@ -6030,7 +6030,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 921),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=922_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 922), "", 0),
@@ -6039,7 +6039,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 922),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=938_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 938), "", 0),
@@ -6048,7 +6048,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 938),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=939_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 939), "", 0),
@@ -6057,7 +6057,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 939),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=940_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 940), "", 0),
@@ -6066,7 +6066,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 940),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=948_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 948), "", 0),
@@ -6075,7 +6075,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 948),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=949_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 949), "", 0),
@@ -6084,7 +6084,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 949),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=950_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 950), "", 0),
@@ -6093,7 +6093,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 950),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=96_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 96), "", 0),
@@ -6102,7 +6102,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 96),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=97_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 97), "", 0),
@@ -6111,7 +6111,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 97),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=38_i=99_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 99), "", 0),
@@ -6120,7 +6120,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasEncoding),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 99),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=41_i=2133_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2133), "", 0),
@@ -6129,7 +6129,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.GeneratesEvent),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2133),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=47_i=12637_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12637), "", 0),
@@ -6138,7 +6138,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasComponent),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12637),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=47_i=12637_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12637), "", 0),
@@ -6147,7 +6147,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasComponent),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12637),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=47_i=14443_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14443), "", 0),
@@ -6156,7 +6156,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasComponent),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14443),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=47_i=17594_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17594), "", 0),
@@ -6165,7 +6165,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasComponent),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17594),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=47_i=17732_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17732), "", 0),
@@ -6174,7 +6174,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasComponent),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17732),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=47_i=18155_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18155), "", 0),
@@ -6183,7 +6183,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasComponent),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18155),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=47_i=2253_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2253), "", 0),
@@ -6192,7 +6192,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasComponent),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2253),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=47_i=24226_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24226), "", 0),
@@ -6201,7 +6201,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasComponent),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24226),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=47_i=24290_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24290), "", 0),
@@ -6210,7 +6210,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasComponent),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24290),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=47_i=32405_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 32405), "", 0),
@@ -6219,7 +6219,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasComponent),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32405),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=47_i=7617_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 7617), "", 0),
@@ -6228,7 +6228,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasComponent),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 7617),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=47_i=8252_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 8252), "", 0),
@@ -6237,7 +6237,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasComponent),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 8252),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=47_i=92_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 92), "", 0),
@@ -6246,7 +6246,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasComponent),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 92),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=47_i=93_false": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 93), "", 0),
@@ -6255,7 +6255,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasComponent),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 93),
 		IsForward:       false,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"i=9006_i=13225_true": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 13225), "", 0),
@@ -6264,7 +6264,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasCondition),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 13225),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObject,
 	},
 	"subtype_i=1": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 1), "", 0),
@@ -6273,7 +6273,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 1),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=10": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 10), "", 0),
@@ -6282,7 +6282,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 10),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=100": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 100), "", 0),
@@ -6291,7 +6291,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 100),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=10060": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 10060), "", 0),
@@ -6300,7 +6300,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 10060),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=101": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 101), "", 0),
@@ -6309,7 +6309,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 101),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=102": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 102), "", 0),
@@ -6318,7 +6318,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 102),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=10214": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 10214), "", 0),
@@ -6327,7 +6327,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 10214),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=10368": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 10368), "", 0),
@@ -6336,7 +6336,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 10368),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=10523": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 10523), "", 0),
@@ -6345,7 +6345,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 10523),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=10637": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 10637), "", 0),
@@ -6354,7 +6354,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 10637),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=10751": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 10751), "", 0),
@@ -6363,7 +6363,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 10751),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=11": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 11), "", 0),
@@ -6372,7 +6372,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=11093": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 11093), "", 0),
@@ -6381,7 +6381,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11093),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=11163": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 11163), "", 0),
@@ -6390,7 +6390,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11163),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=11164": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 11164), "", 0),
@@ -6399,7 +6399,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11164),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=11165": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 11165), "", 0),
@@ -6408,7 +6408,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11165),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=11166": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 11166), "", 0),
@@ -6417,7 +6417,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11166),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=11187": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 11187), "", 0),
@@ -6426,7 +6426,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11187),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=11234": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 11234), "", 0),
@@ -6435,7 +6435,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11234),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=11238": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 11238), "", 0),
@@ -6444,7 +6444,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11238),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=11293": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 11293), "", 0),
@@ -6453,7 +6453,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11293),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=11436": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 11436), "", 0),
@@ -6462,7 +6462,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11436),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=11446": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 11446), "", 0),
@@ -6471,7 +6471,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11446),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=11487": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 11487), "", 0),
@@ -6480,7 +6480,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11487),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=11564": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 11564), "", 0),
@@ -6489,7 +6489,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11564),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=11575": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 11575), "", 0),
@@ -6498,7 +6498,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11575),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=11595": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 11595), "", 0),
@@ -6507,7 +6507,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11595),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=11616": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 11616), "", 0),
@@ -6516,7 +6516,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11616),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=11645": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 11645), "", 0),
@@ -6525,7 +6525,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11645),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=117": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 117), "", 0),
@@ -6534,7 +6534,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 117),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=11737": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 11737), "", 0),
@@ -6543,7 +6543,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11737),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=11753": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 11753), "", 0),
@@ -6552,7 +6552,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11753),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=11856": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 11856), "", 0),
@@ -6561,7 +6561,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11856),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=11939": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 11939), "", 0),
@@ -6570,7 +6570,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11939),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=11943": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 11943), "", 0),
@@ -6579,7 +6579,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11943),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=11944": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 11944), "", 0),
@@ -6588,7 +6588,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11944),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=11945": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 11945), "", 0),
@@ -6597,7 +6597,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11945),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=12": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12), "", 0),
@@ -6606,7 +6606,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=120": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 120), "", 0),
@@ -6615,7 +6615,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 120),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=12021": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12021), "", 0),
@@ -6624,7 +6624,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12021),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=12029": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12029), "", 0),
@@ -6633,7 +6633,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12029),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=12038": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12038), "", 0),
@@ -6642,7 +6642,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12038),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=12047": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12047), "", 0),
@@ -6651,7 +6651,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12047),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=12057": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12057), "", 0),
@@ -6660,7 +6660,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12057),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=12068": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12068), "", 0),
@@ -6669,7 +6669,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12068),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=12077": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12077), "", 0),
@@ -6678,7 +6678,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12077),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=12079": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12079), "", 0),
@@ -6687,7 +6687,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12079),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=12080": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12080), "", 0),
@@ -6696,7 +6696,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12080),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=12171": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12171), "", 0),
@@ -6705,7 +6705,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12171),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=12172": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12172), "", 0),
@@ -6714,7 +6714,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12172),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=12189": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12189), "", 0),
@@ -6723,7 +6723,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12189),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=12522": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12522), "", 0),
@@ -6732,7 +6732,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12522),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=12552": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12552), "", 0),
@@ -6741,7 +6741,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12552),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=12554": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12554), "", 0),
@@ -6750,7 +6750,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12554),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=12555": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12555), "", 0),
@@ -6759,7 +6759,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12555),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=12556": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12556), "", 0),
@@ -6768,7 +6768,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12556),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=12557": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12557), "", 0),
@@ -6777,7 +6777,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12557),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=12558": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12558), "", 0),
@@ -6786,7 +6786,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12558),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=12559": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12559), "", 0),
@@ -6795,7 +6795,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12559),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=12560": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12560), "", 0),
@@ -6804,7 +6804,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12560),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=12561": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12561), "", 0),
@@ -6813,7 +6813,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12561),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=12581": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12581), "", 0),
@@ -6822,7 +6822,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12581),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=12620": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12620), "", 0),
@@ -6831,7 +6831,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12620),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=12755": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12755), "", 0),
@@ -6840,7 +6840,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12755),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=12756": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12756), "", 0),
@@ -6849,7 +6849,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12756),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=12877": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12877), "", 0),
@@ -6858,7 +6858,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12877),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=12878": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12878), "", 0),
@@ -6867,7 +6867,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12878),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=12879": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12879), "", 0),
@@ -6876,7 +6876,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12879),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=12880": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12880), "", 0),
@@ -6885,7 +6885,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12880),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=12881": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12881), "", 0),
@@ -6894,7 +6894,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12881),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=12890": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12890), "", 0),
@@ -6903,7 +6903,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12890),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=12891": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12891), "", 0),
@@ -6912,7 +6912,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12891),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=129": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 129), "", 0),
@@ -6921,7 +6921,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 129),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=13": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 13), "", 0),
@@ -6930,7 +6930,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 13),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=131": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 131), "", 0),
@@ -6939,7 +6939,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 131),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=13225": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 13225), "", 0),
@@ -6948,7 +6948,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 13225),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=13353": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 13353), "", 0),
@@ -6957,7 +6957,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 13353),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=13813": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 13813), "", 0),
@@ -6966,7 +6966,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 13813),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=14": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14), "", 0),
@@ -6975,7 +6975,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=14209": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14209), "", 0),
@@ -6984,7 +6984,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14209),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=14232": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14232), "", 0),
@@ -6993,7 +6993,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14232),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=14273": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14273), "", 0),
@@ -7002,7 +7002,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14273),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=14416": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14416), "", 0),
@@ -7011,7 +7011,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14416),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=14476": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14476), "", 0),
@@ -7020,7 +7020,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14476),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=14477": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14477), "", 0),
@@ -7029,7 +7029,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14477),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=14509": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14509), "", 0),
@@ -7038,7 +7038,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14509),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=14523": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14523), "", 0),
@@ -7047,7 +7047,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14523),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=14524": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14524), "", 0),
@@ -7056,7 +7056,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14524),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=14525": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14525), "", 0),
@@ -7065,7 +7065,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14525),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=14533": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14533), "", 0),
@@ -7074,7 +7074,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14533),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=14534": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14534), "", 0),
@@ -7083,7 +7083,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14534),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=14572": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14572), "", 0),
@@ -7092,7 +7092,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14572),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=14593": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14593), "", 0),
@@ -7101,7 +7101,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14593),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=14643": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14643), "", 0),
@@ -7110,7 +7110,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14643),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=14647": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14647), "", 0),
@@ -7119,7 +7119,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14647),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=14744": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14744), "", 0),
@@ -7128,7 +7128,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14744),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=14936": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14936), "", 0),
@@ -7137,7 +7137,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14936),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15), "", 0),
@@ -7146,7 +7146,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15005": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15005), "", 0),
@@ -7155,7 +7155,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15005),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15006": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15006), "", 0),
@@ -7164,7 +7164,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15006),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15007": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15007), "", 0),
@@ -7173,7 +7173,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15007),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15008": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15008), "", 0),
@@ -7182,7 +7182,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15008),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15013": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15013), "", 0),
@@ -7191,7 +7191,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15013),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15031": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15031), "", 0),
@@ -7200,7 +7200,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15031),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15033": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15033), "", 0),
@@ -7209,7 +7209,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15033),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15064": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15064), "", 0),
@@ -7218,7 +7218,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15064),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15108": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15108), "", 0),
@@ -7227,7 +7227,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15108),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15109": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15109), "", 0),
@@ -7236,7 +7236,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15109),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15111": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15111), "", 0),
@@ -7245,7 +7245,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15111),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15112": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15112), "", 0),
@@ -7254,7 +7254,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15112),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15113": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15113), "", 0),
@@ -7263,7 +7263,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15113),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15127": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15127), "", 0),
@@ -7272,7 +7272,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15127),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15128": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15128), "", 0),
@@ -7281,7 +7281,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15128),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15155": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15155), "", 0),
@@ -7290,7 +7290,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15155),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15181": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15181), "", 0),
@@ -7299,7 +7299,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15181),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15296": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15296), "", 0),
@@ -7308,7 +7308,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15296),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15297": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15297), "", 0),
@@ -7317,7 +7317,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15297),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15298": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15298), "", 0),
@@ -7326,7 +7326,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15298),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15305": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15305), "", 0),
@@ -7335,7 +7335,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15305),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15306": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15306), "", 0),
@@ -7344,7 +7344,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15306),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15317": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15317), "", 0),
@@ -7353,7 +7353,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15317),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15318": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15318), "", 0),
@@ -7362,7 +7362,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15318),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15319": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15319), "", 0),
@@ -7371,7 +7371,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15319),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15383": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15383), "", 0),
@@ -7380,7 +7380,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15383),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15406": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15406), "", 0),
@@ -7389,7 +7389,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15406),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15452": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15452), "", 0),
@@ -7398,7 +7398,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15452),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15471": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15471), "", 0),
@@ -7407,7 +7407,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15471),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15480": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15480), "", 0),
@@ -7416,7 +7416,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15480),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15487": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15487), "", 0),
@@ -7425,7 +7425,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15487),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15488": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15488), "", 0),
@@ -7434,7 +7434,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15488),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15489": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15489), "", 0),
@@ -7443,7 +7443,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15489),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15502": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15502), "", 0),
@@ -7452,7 +7452,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15502),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15510": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15510), "", 0),
@@ -7461,7 +7461,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15510),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15520": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15520), "", 0),
@@ -7470,7 +7470,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15520),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15528": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15528), "", 0),
@@ -7479,7 +7479,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15528),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15530": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15530), "", 0),
@@ -7488,7 +7488,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15530),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15532": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15532), "", 0),
@@ -7497,7 +7497,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15532),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15534": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15534), "", 0),
@@ -7506,7 +7506,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15534),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15535": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15535), "", 0),
@@ -7515,7 +7515,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15535),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15548": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15548), "", 0),
@@ -7524,7 +7524,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15548),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15563": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15563), "", 0),
@@ -7533,7 +7533,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15563),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15578": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15578), "", 0),
@@ -7542,7 +7542,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15578),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15580": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15580), "", 0),
@@ -7551,7 +7551,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15580),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15581": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15581), "", 0),
@@ -7560,7 +7560,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15581),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15582": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15582), "", 0),
@@ -7569,7 +7569,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15582),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15583": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15583), "", 0),
@@ -7578,7 +7578,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15583),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15597": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15597), "", 0),
@@ -7587,7 +7587,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15597),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15598": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15598), "", 0),
@@ -7596,7 +7596,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15598),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15605": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15605), "", 0),
@@ -7605,7 +7605,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15605),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15607": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15607), "", 0),
@@ -7614,7 +7614,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15607),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15609": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15609), "", 0),
@@ -7623,7 +7623,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15609),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15611": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15611), "", 0),
@@ -7632,7 +7632,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15611),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15616": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15616), "", 0),
@@ -7641,7 +7641,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15616),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15617": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15617), "", 0),
@@ -7650,7 +7650,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15617),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15618": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15618), "", 0),
@@ -7659,7 +7659,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15618),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15620": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15620), "", 0),
@@ -7668,7 +7668,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15620),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15621": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15621), "", 0),
@@ -7677,7 +7677,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15621),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15622": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15622), "", 0),
@@ -7686,7 +7686,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15622),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15623": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15623), "", 0),
@@ -7695,7 +7695,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15623),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15628": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15628), "", 0),
@@ -7704,7 +7704,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15628),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15629": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15629), "", 0),
@@ -7713,7 +7713,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15629),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15630": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15630), "", 0),
@@ -7722,7 +7722,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15630),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15631": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15631), "", 0),
@@ -7731,7 +7731,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15631),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15632": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15632), "", 0),
@@ -7740,7 +7740,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15632),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15634": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15634), "", 0),
@@ -7749,7 +7749,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15634),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15635": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15635), "", 0),
@@ -7758,7 +7758,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15635),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15642": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15642), "", 0),
@@ -7767,7 +7767,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15642),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15645": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15645), "", 0),
@@ -7776,7 +7776,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15645),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15646": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15646), "", 0),
@@ -7785,7 +7785,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15646),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15652": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15652), "", 0),
@@ -7794,7 +7794,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15652),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15653": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15653), "", 0),
@@ -7803,7 +7803,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15653),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15654": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15654), "", 0),
@@ -7812,7 +7812,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15654),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15657": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15657), "", 0),
@@ -7821,7 +7821,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15657),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15658": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15658), "", 0),
@@ -7830,7 +7830,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15658),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15664": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15664), "", 0),
@@ -7839,7 +7839,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15664),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15665": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15665), "", 0),
@@ -7848,7 +7848,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15665),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15667": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15667), "", 0),
@@ -7857,7 +7857,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15667),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15669": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15669), "", 0),
@@ -7866,7 +7866,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15669),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15670": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15670), "", 0),
@@ -7875,7 +7875,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15670),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15744": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15744), "", 0),
@@ -7884,7 +7884,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15744),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15803": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15803), "", 0),
@@ -7893,7 +7893,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15803),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15874": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15874), "", 0),
@@ -7902,7 +7902,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15874),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15904": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15904), "", 0),
@@ -7911,7 +7911,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15904),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=15906": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15906), "", 0),
@@ -7920,7 +7920,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15906),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=16": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16), "", 0),
@@ -7929,7 +7929,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=16307": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16307), "", 0),
@@ -7938,7 +7938,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16307),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=16309": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16309), "", 0),
@@ -7947,7 +7947,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16309),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=16313": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16313), "", 0),
@@ -7956,7 +7956,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16313),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=16361": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16361), "", 0),
@@ -7965,7 +7965,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16361),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=16362": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16362), "", 0),
@@ -7974,7 +7974,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16362),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=16405": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16405), "", 0),
@@ -7983,7 +7983,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16405),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17), "", 0),
@@ -7992,7 +7992,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17080": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17080), "", 0),
@@ -8001,7 +8001,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17080),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17218": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17218), "", 0),
@@ -8010,7 +8010,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17218),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17219": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17219), "", 0),
@@ -8019,7 +8019,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17219),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17220": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17220), "", 0),
@@ -8028,7 +8028,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17220),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17221": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17221), "", 0),
@@ -8037,7 +8037,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17221),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17225": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17225), "", 0),
@@ -8046,7 +8046,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17225),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17242": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17242), "", 0),
@@ -8055,7 +8055,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17242),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17259": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17259), "", 0),
@@ -8064,7 +8064,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17259),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17276": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17276), "", 0),
@@ -8073,7 +8073,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17276),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17277": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17277), "", 0),
@@ -8082,7 +8082,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17277),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17279": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17279), "", 0),
@@ -8091,7 +8091,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17279),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17467": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17467), "", 0),
@@ -8100,7 +8100,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17467),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17496": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17496), "", 0),
@@ -8109,7 +8109,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17496),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17497": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17497), "", 0),
@@ -8118,7 +8118,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17497),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17548": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17548), "", 0),
@@ -8127,7 +8127,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17548),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17570": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17570), "", 0),
@@ -8136,7 +8136,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17570),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17588": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17588), "", 0),
@@ -8145,7 +8145,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17588),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17589": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17589), "", 0),
@@ -8154,7 +8154,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17589),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17591": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17591), "", 0),
@@ -8163,7 +8163,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17591),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17597": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17597), "", 0),
@@ -8172,7 +8172,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17597),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17598": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17598), "", 0),
@@ -8181,7 +8181,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17598),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17600": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17600), "", 0),
@@ -8190,7 +8190,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17600),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17602": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17602), "", 0),
@@ -8199,7 +8199,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17602),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17603": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17603), "", 0),
@@ -8208,7 +8208,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17603),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17604": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17604), "", 0),
@@ -8217,7 +8217,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17604),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17641": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17641), "", 0),
@@ -8226,7 +8226,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17641),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17709": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17709), "", 0),
@@ -8235,7 +8235,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17709),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17714": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17714), "", 0),
@@ -8244,7 +8244,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17714),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17716": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17716), "", 0),
@@ -8253,7 +8253,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17716),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17721": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17721), "", 0),
@@ -8262,7 +8262,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17721),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17725": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17725), "", 0),
@@ -8271,7 +8271,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17725),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17852": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17852), "", 0),
@@ -8280,7 +8280,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17852),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17983": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17983), "", 0),
@@ -8289,7 +8289,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17983),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17984": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17984), "", 0),
@@ -8298,7 +8298,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17984),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17985": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17985), "", 0),
@@ -8307,7 +8307,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17985),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17986": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17986), "", 0),
@@ -8316,7 +8316,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17986),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17997": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17997), "", 0),
@@ -8325,7 +8325,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17997),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17998": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17998), "", 0),
@@ -8334,7 +8334,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17998),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=17999": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17999), "", 0),
@@ -8343,7 +8343,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17999),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=18": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18), "", 0),
@@ -8352,7 +8352,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=18001": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18001), "", 0),
@@ -8361,7 +8361,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18001),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=18011": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18011), "", 0),
@@ -8370,7 +8370,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18011),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=18029": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18029), "", 0),
@@ -8379,7 +8379,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18029),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=18047": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18047), "", 0),
@@ -8388,7 +8388,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18047),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=18347": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18347), "", 0),
@@ -8397,7 +8397,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18347),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=18496": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18496), "", 0),
@@ -8406,7 +8406,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18496),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=18665": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18665), "", 0),
@@ -8415,7 +8415,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18665),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=18772": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18772), "", 0),
@@ -8424,7 +8424,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18772),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=18774": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18774), "", 0),
@@ -8433,7 +8433,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18774),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=18779": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18779), "", 0),
@@ -8442,7 +8442,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18779),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=18781": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18781), "", 0),
@@ -8451,7 +8451,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18781),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=18786": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18786), "", 0),
@@ -8460,7 +8460,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18786),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=18791": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18791), "", 0),
@@ -8469,7 +8469,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18791),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=18804": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18804), "", 0),
@@ -8478,7 +8478,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18804),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=18805": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18805), "", 0),
@@ -8487,7 +8487,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18805),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=18806": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18806), "", 0),
@@ -8496,7 +8496,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18806),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=18807": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18807), "", 0),
@@ -8505,7 +8505,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18807),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=18808": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18808), "", 0),
@@ -8514,7 +8514,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18808),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=18809": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18809), "", 0),
@@ -8523,7 +8523,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18809),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=18810": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18810), "", 0),
@@ -8532,7 +8532,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18810),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=18811": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18811), "", 0),
@@ -8541,7 +8541,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18811),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=18812": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18812), "", 0),
@@ -8550,7 +8550,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18812),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=18813": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18813), "", 0),
@@ -8559,7 +8559,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18813),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=18814": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18814), "", 0),
@@ -8568,7 +8568,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18814),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=19": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 19), "", 0),
@@ -8577,7 +8577,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=19077": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 19077), "", 0),
@@ -8586,7 +8586,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19077),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=19084": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 19084), "", 0),
@@ -8595,7 +8595,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19084),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=19095": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 19095), "", 0),
@@ -8604,7 +8604,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19095),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=19297": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 19297), "", 0),
@@ -8613,7 +8613,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19297),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=19677": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 19677), "", 0),
@@ -8622,7 +8622,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19677),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=19723": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 19723), "", 0),
@@ -8631,7 +8631,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19723),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=19725": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 19725), "", 0),
@@ -8640,7 +8640,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19725),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=19730": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 19730), "", 0),
@@ -8649,7 +8649,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19730),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=19732": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 19732), "", 0),
@@ -8658,7 +8658,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19732),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=19786": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 19786), "", 0),
@@ -8667,7 +8667,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19786),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=19834": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 19834), "", 0),
@@ -8676,7 +8676,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19834),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=19903": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 19903), "", 0),
@@ -8685,7 +8685,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19903),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=19968": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 19968), "", 0),
@@ -8694,7 +8694,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19968),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2), "", 0),
@@ -8703,7 +8703,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=20": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 20), "", 0),
@@ -8712,7 +8712,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 20),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2000": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2000), "", 0),
@@ -8721,7 +8721,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2000),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2001": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2001), "", 0),
@@ -8730,7 +8730,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2001),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2002": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2002), "", 0),
@@ -8739,7 +8739,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2002),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=20027": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 20027), "", 0),
@@ -8748,7 +8748,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 20027),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2003": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2003), "", 0),
@@ -8757,7 +8757,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2003),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2004": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2004), "", 0),
@@ -8766,7 +8766,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2004),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2013": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2013), "", 0),
@@ -8775,7 +8775,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2013),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2020": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2020), "", 0),
@@ -8784,7 +8784,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2020),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2026": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2026), "", 0),
@@ -8793,7 +8793,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2026),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2029": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2029), "", 0),
@@ -8802,7 +8802,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2029),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2033": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2033), "", 0),
@@ -8811,7 +8811,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2033),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2034": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2034), "", 0),
@@ -8820,7 +8820,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2034),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2036": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2036), "", 0),
@@ -8829,7 +8829,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2036),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2039": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2039), "", 0),
@@ -8838,7 +8838,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2039),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=20408": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 20408), "", 0),
@@ -8847,7 +8847,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 20408),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2041": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2041), "", 0),
@@ -8856,7 +8856,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2041),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2052": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2052), "", 0),
@@ -8865,7 +8865,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2052),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2058": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2058), "", 0),
@@ -8874,7 +8874,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2058),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2059": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2059), "", 0),
@@ -8883,7 +8883,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2059),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2060": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2060), "", 0),
@@ -8892,7 +8892,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2060),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2069": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2069), "", 0),
@@ -8901,7 +8901,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2069),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2071": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2071), "", 0),
@@ -8910,7 +8910,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2071),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2075": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2075), "", 0),
@@ -8919,7 +8919,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2075),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2078": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2078), "", 0),
@@ -8928,7 +8928,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2078),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2080": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2080), "", 0),
@@ -8937,7 +8937,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2080),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2082": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2082), "", 0),
@@ -8946,7 +8946,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2082),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2085": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2085), "", 0),
@@ -8955,7 +8955,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2085),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2086": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2086), "", 0),
@@ -8964,7 +8964,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2086),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2087": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2087), "", 0),
@@ -8973,7 +8973,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2087),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2088": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2088), "", 0),
@@ -8982,7 +8982,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2088),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2089": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2089), "", 0),
@@ -8991,7 +8991,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2089),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2090": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2090), "", 0),
@@ -9000,7 +9000,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2090),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2091": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2091), "", 0),
@@ -9009,7 +9009,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2091),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2093": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2093), "", 0),
@@ -9018,7 +9018,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2093),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2095": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2095), "", 0),
@@ -9027,7 +9027,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2095),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2097": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2097), "", 0),
@@ -9036,7 +9036,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2097),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2099": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2099), "", 0),
@@ -9045,7 +9045,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2099),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=20998": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 20998), "", 0),
@@ -9054,7 +9054,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 20998),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=21": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 21), "", 0),
@@ -9063,7 +9063,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2100": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2100), "", 0),
@@ -9072,7 +9072,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2100),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2104": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2104), "", 0),
@@ -9081,7 +9081,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2104),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=21090": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 21090), "", 0),
@@ -9090,7 +9090,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21090),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=21091": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 21091), "", 0),
@@ -9099,7 +9099,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21091),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=21096": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 21096), "", 0),
@@ -9108,7 +9108,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21096),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=21104": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 21104), "", 0),
@@ -9117,7 +9117,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21104),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=21105": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 21105), "", 0),
@@ -9126,7 +9126,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21105),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=21111": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 21111), "", 0),
@@ -9135,7 +9135,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21111),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=21116": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 21116), "", 0),
@@ -9144,7 +9144,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21116),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=21126": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 21126), "", 0),
@@ -9153,7 +9153,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21126),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=21128": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 21128), "", 0),
@@ -9162,7 +9162,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21128),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=21130": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 21130), "", 0),
@@ -9171,7 +9171,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21130),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=21133": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 21133), "", 0),
@@ -9180,7 +9180,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21133),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=21136": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 21136), "", 0),
@@ -9189,7 +9189,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21136),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=21138": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 21138), "", 0),
@@ -9198,7 +9198,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21138),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=21142": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 21142), "", 0),
@@ -9207,7 +9207,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21142),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=21145": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 21145), "", 0),
@@ -9216,7 +9216,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21145),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=21147": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 21147), "", 0),
@@ -9225,7 +9225,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21147),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2127": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2127), "", 0),
@@ -9234,7 +9234,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2127),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2130": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2130), "", 0),
@@ -9243,7 +9243,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2130),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2131": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2131), "", 0),
@@ -9252,7 +9252,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2131),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2132": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2132), "", 0),
@@ -9261,7 +9261,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2132),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2133": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2133), "", 0),
@@ -9270,7 +9270,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2133),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2137": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2137), "", 0),
@@ -9279,7 +9279,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2137),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2138": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2138), "", 0),
@@ -9288,7 +9288,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2138),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2150": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2150), "", 0),
@@ -9297,7 +9297,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2150),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2164": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2164), "", 0),
@@ -9306,7 +9306,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2164),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2165": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2165), "", 0),
@@ -9315,7 +9315,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2165),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2171": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2171), "", 0),
@@ -9324,7 +9324,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2171),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2172": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2172), "", 0),
@@ -9333,7 +9333,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2172),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2196": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2196), "", 0),
@@ -9342,7 +9342,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2196),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2197": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2197), "", 0),
@@ -9351,7 +9351,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2197),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=22": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 22), "", 0),
@@ -9360,7 +9360,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 22),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2243": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2243), "", 0),
@@ -9369,7 +9369,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2243),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2244": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2244), "", 0),
@@ -9378,7 +9378,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2244),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2299": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2299), "", 0),
@@ -9387,7 +9387,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2299),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=23": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23), "", 0),
@@ -9396,7 +9396,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2307": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2307), "", 0),
@@ -9405,7 +9405,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2307),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2309": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2309), "", 0),
@@ -9414,7 +9414,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2309),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2310": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2310), "", 0),
@@ -9423,7 +9423,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2310),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2311": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2311), "", 0),
@@ -9432,7 +9432,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2311),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2315": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2315), "", 0),
@@ -9441,7 +9441,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2315),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2318": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2318), "", 0),
@@ -9450,7 +9450,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2318),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2330": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2330), "", 0),
@@ -9459,7 +9459,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2330),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2340": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2340), "", 0),
@@ -9468,7 +9468,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2340),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=23455": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23455), "", 0),
@@ -9477,7 +9477,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23455),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=23456": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23456), "", 0),
@@ -9486,7 +9486,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23456),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=23468": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23468), "", 0),
@@ -9495,7 +9495,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23468),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=23469": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23469), "", 0),
@@ -9504,7 +9504,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23469),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=23498": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23498), "", 0),
@@ -9513,7 +9513,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23498),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=23513": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23513), "", 0),
@@ -9522,7 +9522,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23513),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=23518": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23518), "", 0),
@@ -9531,7 +9531,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23518),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=23537": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23537), "", 0),
@@ -9540,7 +9540,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23537),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=23538": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23538), "", 0),
@@ -9549,7 +9549,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23538),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=23539": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23539), "", 0),
@@ -9558,7 +9558,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23539),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=23540": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23540), "", 0),
@@ -9567,7 +9567,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23540),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=23541": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23541), "", 0),
@@ -9576,7 +9576,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23541),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=23542": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23542), "", 0),
@@ -9585,7 +9585,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23542),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=23543": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23543), "", 0),
@@ -9594,7 +9594,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23543),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=23556": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23556), "", 0),
@@ -9603,7 +9603,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23556),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=23562": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23562), "", 0),
@@ -9612,7 +9612,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23562),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=23564": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23564), "", 0),
@@ -9621,7 +9621,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23564),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=23599": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23599), "", 0),
@@ -9630,7 +9630,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23599),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=23600": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23600), "", 0),
@@ -9639,7 +9639,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23600),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=23601": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23601), "", 0),
@@ -9648,7 +9648,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23601),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=23602": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23602), "", 0),
@@ -9657,7 +9657,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23602),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=23603": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23603), "", 0),
@@ -9666,7 +9666,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23603),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=23604": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23604), "", 0),
@@ -9675,7 +9675,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23604),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=23605": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23605), "", 0),
@@ -9684,7 +9684,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23605),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=23606": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23606), "", 0),
@@ -9693,7 +9693,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23606),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=23608": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23608), "", 0),
@@ -9702,7 +9702,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23608),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=23609": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23609), "", 0),
@@ -9711,7 +9711,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23609),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=23612": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23612), "", 0),
@@ -9720,7 +9720,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23612),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=23613": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23613), "", 0),
@@ -9729,7 +9729,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23613),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=23614": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23614), "", 0),
@@ -9738,7 +9738,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23614),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2365": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2365), "", 0),
@@ -9747,7 +9747,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2365),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2368": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2368), "", 0),
@@ -9756,7 +9756,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2368),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2372": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2372), "", 0),
@@ -9765,7 +9765,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2372),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2373": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2373), "", 0),
@@ -9774,7 +9774,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2373),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=23751": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23751), "", 0),
@@ -9783,7 +9783,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23751),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2376": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2376), "", 0),
@@ -9792,7 +9792,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2376),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2378": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2378), "", 0),
@@ -9801,7 +9801,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2378),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=23795": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23795), "", 0),
@@ -9810,7 +9810,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23795),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2380": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2380), "", 0),
@@ -9819,7 +9819,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2380),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=23828": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23828), "", 0),
@@ -9828,7 +9828,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23828),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=23832": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23832), "", 0),
@@ -9837,7 +9837,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23832),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2391": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2391), "", 0),
@@ -9846,7 +9846,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2391),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=23926": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23926), "", 0),
@@ -9855,7 +9855,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23926),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=24016": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24016), "", 0),
@@ -9864,7 +9864,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24016),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=24033": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24033), "", 0),
@@ -9873,7 +9873,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24033),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=24105": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24105), "", 0),
@@ -9882,7 +9882,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24105),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=24106": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24106), "", 0),
@@ -9891,7 +9891,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24106),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=24107": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24107), "", 0),
@@ -9900,7 +9900,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24107),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=24136": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24136), "", 0),
@@ -9909,7 +9909,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24136),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=24137": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24137), "", 0),
@@ -9918,7 +9918,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24137),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=24148": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24148), "", 0),
@@ -9927,7 +9927,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24148),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=24158": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24158), "", 0),
@@ -9936,7 +9936,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24158),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=24167": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24167), "", 0),
@@ -9945,7 +9945,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24167),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=24169": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24169), "", 0),
@@ -9954,7 +9954,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24169),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=24173": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24173), "", 0),
@@ -9963,7 +9963,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24173),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=24179": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24179), "", 0),
@@ -9972,7 +9972,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24179),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=24183": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24183), "", 0),
@@ -9981,7 +9981,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24183),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=24188": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24188), "", 0),
@@ -9990,7 +9990,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24188),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=24191": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24191), "", 0),
@@ -9999,7 +9999,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24191),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=24195": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24195), "", 0),
@@ -10008,7 +10008,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24195),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=24199": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24199), "", 0),
@@ -10017,7 +10017,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24199),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=24202": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24202), "", 0),
@@ -10026,7 +10026,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24202),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=24205": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24205), "", 0),
@@ -10035,7 +10035,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24205),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=24210": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24210), "", 0),
@@ -10044,7 +10044,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24210),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=24212": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24212), "", 0),
@@ -10053,7 +10053,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24212),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=24214": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24214), "", 0),
@@ -10062,7 +10062,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24214),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=24216": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24216), "", 0),
@@ -10071,7 +10071,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24216),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=24218": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24218), "", 0),
@@ -10080,7 +10080,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24218),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=24220": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24220), "", 0),
@@ -10089,7 +10089,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24220),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=24222": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24222), "", 0),
@@ -10098,7 +10098,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24222),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=24224": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24224), "", 0),
@@ -10107,7 +10107,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24224),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=24233": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24233), "", 0),
@@ -10116,7 +10116,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24233),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=24263": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24263), "", 0),
@@ -10125,7 +10125,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24263),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=24264": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24264), "", 0),
@@ -10134,7 +10134,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24264),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=24277": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24277), "", 0),
@@ -10143,7 +10143,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24277),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=24279": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24279), "", 0),
@@ -10152,7 +10152,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24279),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=24281": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24281), "", 0),
@@ -10161,7 +10161,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24281),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=25": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25), "", 0),
@@ -10170,7 +10170,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=25218": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25218), "", 0),
@@ -10179,7 +10179,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25218),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=25220": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25220), "", 0),
@@ -10188,7 +10188,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25220),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=25221": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25221), "", 0),
@@ -10197,7 +10197,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25221),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=25227": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25227), "", 0),
@@ -10206,7 +10206,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25227),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=25237": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25237), "", 0),
@@ -10215,7 +10215,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25237),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=25238": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25238), "", 0),
@@ -10224,7 +10224,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25238),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=25253": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25253), "", 0),
@@ -10233,7 +10233,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25253),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=25254": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25254), "", 0),
@@ -10242,7 +10242,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25254),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=25255": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25255), "", 0),
@@ -10251,7 +10251,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25255),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=25256": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25256), "", 0),
@@ -10260,7 +10260,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25256),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=25257": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25257), "", 0),
@@ -10269,7 +10269,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25257),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=25258": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25258), "", 0),
@@ -10278,7 +10278,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25258),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=25259": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25259), "", 0),
@@ -10287,7 +10287,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25259),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=25260": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25260), "", 0),
@@ -10296,7 +10296,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25260),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=25261": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25261), "", 0),
@@ -10305,7 +10305,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25261),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=25262": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25262), "", 0),
@@ -10314,7 +10314,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25262),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=25263": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25263), "", 0),
@@ -10323,7 +10323,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25263),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=25264": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25264), "", 0),
@@ -10332,7 +10332,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25264),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=25265": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25265), "", 0),
@@ -10341,7 +10341,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25265),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=25269": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25269), "", 0),
@@ -10350,7 +10350,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25269),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=25270": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25270), "", 0),
@@ -10359,7 +10359,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25270),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=25337": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25337), "", 0),
@@ -10368,7 +10368,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25337),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=25345": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25345), "", 0),
@@ -10377,7 +10377,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25345),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=25346": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25346), "", 0),
@@ -10386,7 +10386,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25346),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=25482": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25482), "", 0),
@@ -10395,7 +10395,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25482),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=25517": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25517), "", 0),
@@ -10404,7 +10404,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25517),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=25519": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25519), "", 0),
@@ -10413,7 +10413,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25519),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=25520": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25520), "", 0),
@@ -10422,7 +10422,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25520),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=256": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 256), "", 0),
@@ -10431,7 +10431,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 256),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=257": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 257), "", 0),
@@ -10440,7 +10440,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 257),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=25726": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25726), "", 0),
@@ -10449,7 +10449,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25726),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=25731": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25731), "", 0),
@@ -10458,7 +10458,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25731),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=26": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 26), "", 0),
@@ -10467,7 +10467,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 26),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=26871": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 26871), "", 0),
@@ -10476,7 +10476,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 26871),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=27": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 27), "", 0),
@@ -10485,7 +10485,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 27),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2738": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2738), "", 0),
@@ -10494,7 +10494,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2738),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2748": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2748), "", 0),
@@ -10503,7 +10503,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2748),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2755": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2755), "", 0),
@@ -10512,7 +10512,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2755),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2760": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2760), "", 0),
@@ -10521,7 +10521,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2760),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2762": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2762), "", 0),
@@ -10530,7 +10530,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2762),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2767": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2767), "", 0),
@@ -10539,7 +10539,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2767),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2771": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2771), "", 0),
@@ -10548,7 +10548,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2771),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2782": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2782), "", 0),
@@ -10557,7 +10557,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2782),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2787": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2787), "", 0),
@@ -10566,7 +10566,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2787),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2788": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2788), "", 0),
@@ -10575,7 +10575,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2788),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2789": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2789), "", 0),
@@ -10584,7 +10584,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2789),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2790": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2790), "", 0),
@@ -10593,7 +10593,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2790),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=28": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 28), "", 0),
@@ -10602,7 +10602,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 28),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2803": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2803), "", 0),
@@ -10611,7 +10611,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2803),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2829": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2829), "", 0),
@@ -10620,7 +10620,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2829),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2830": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2830), "", 0),
@@ -10629,7 +10629,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2830),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=288": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 288), "", 0),
@@ -10638,7 +10638,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 288),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2881": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2881), "", 0),
@@ -10647,7 +10647,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2881),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=289": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 289), "", 0),
@@ -10656,7 +10656,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 289),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=29": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 29), "", 0),
@@ -10665,7 +10665,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 29),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=290": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 290), "", 0),
@@ -10674,7 +10674,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 290),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=291": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 291), "", 0),
@@ -10683,7 +10683,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 291),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2915": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2915), "", 0),
@@ -10692,7 +10692,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2915),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2929": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2929), "", 0),
@@ -10701,7 +10701,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2929),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=294": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 294), "", 0),
@@ -10710,7 +10710,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 294),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=295": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 295), "", 0),
@@ -10719,7 +10719,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 295),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2955": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2955), "", 0),
@@ -10728,7 +10728,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2955),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=296": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 296), "", 0),
@@ -10737,7 +10737,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 296),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=299": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 299), "", 0),
@@ -10746,7 +10746,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 299),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=2999": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2999), "", 0),
@@ -10755,7 +10755,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2999),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=3": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 3), "", 0),
@@ -10764,7 +10764,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 3),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=30": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 30), "", 0),
@@ -10773,7 +10773,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 30),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=3006": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 3006), "", 0),
@@ -10782,7 +10782,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 3006),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=3012": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 3012), "", 0),
@@ -10791,7 +10791,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 3012),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=3014": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 3014), "", 0),
@@ -10800,7 +10800,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 3014),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=3019": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 3019), "", 0),
@@ -10809,7 +10809,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 3019),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=302": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 302), "", 0),
@@ -10818,7 +10818,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 302),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=3022": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 3022), "", 0),
@@ -10827,7 +10827,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 3022),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=303": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 303), "", 0),
@@ -10836,7 +10836,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 303),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=3035": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 3035), "", 0),
@@ -10845,7 +10845,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 3035),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=304": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 304), "", 0),
@@ -10854,7 +10854,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 304),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=3051": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 3051), "", 0),
@@ -10863,7 +10863,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 3051),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=3065": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 3065), "", 0),
@@ -10872,7 +10872,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 3065),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=307": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 307), "", 0),
@@ -10881,7 +10881,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 307),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=308": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 308), "", 0),
@@ -10890,7 +10890,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 308),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=311": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 311), "", 0),
@@ -10899,7 +10899,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 311),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=312": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 312), "", 0),
@@ -10908,7 +10908,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 312),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=315": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 315), "", 0),
@@ -10917,7 +10917,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 315),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=316": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 316), "", 0),
@@ -10926,7 +10926,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 316),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=319": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 319), "", 0),
@@ -10935,7 +10935,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 319),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=31917": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 31917), "", 0),
@@ -10944,7 +10944,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 31917),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=31918": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 31918), "", 0),
@@ -10953,7 +10953,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 31918),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=32": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 32), "", 0),
@@ -10962,7 +10962,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=32059": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 32059), "", 0),
@@ -10971,7 +10971,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32059),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=32064": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 32064), "", 0),
@@ -10980,7 +10980,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32064),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=322": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 322), "", 0),
@@ -10989,7 +10989,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 322),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=32244": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 32244), "", 0),
@@ -10998,7 +10998,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32244),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=32251": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 32251), "", 0),
@@ -11007,7 +11007,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32251),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=32260": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 32260), "", 0),
@@ -11016,7 +11016,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32260),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=32285": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 32285), "", 0),
@@ -11025,7 +11025,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32285),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=32286": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 32286), "", 0),
@@ -11034,7 +11034,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32286),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=32306": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 32306), "", 0),
@@ -11043,7 +11043,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32306),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=325": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 325), "", 0),
@@ -11052,7 +11052,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 325),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=32657": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 32657), "", 0),
@@ -11061,7 +11061,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32657),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=32659": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 32659), "", 0),
@@ -11070,7 +11070,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32659),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=32660": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 32660), "", 0),
@@ -11079,7 +11079,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32660),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=32679": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 32679), "", 0),
@@ -11088,7 +11088,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32679),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=33": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 33), "", 0),
@@ -11097,7 +11097,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 33),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=331": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 331), "", 0),
@@ -11106,7 +11106,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 331),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=338": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 338), "", 0),
@@ -11115,7 +11115,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 338),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=34": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 34), "", 0),
@@ -11124,7 +11124,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 34),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=344": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 344), "", 0),
@@ -11133,7 +11133,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 344),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=347": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 347), "", 0),
@@ -11142,7 +11142,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 347),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=348": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 348), "", 0),
@@ -11151,7 +11151,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 348),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=35": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 35), "", 0),
@@ -11160,7 +11160,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 35),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=36": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 36), "", 0),
@@ -11169,7 +11169,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 36),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=37": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 37), "", 0),
@@ -11178,7 +11178,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 37),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=376": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 376), "", 0),
@@ -11187,7 +11187,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 376),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=379": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 379), "", 0),
@@ -11196,7 +11196,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 379),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=38": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 38), "", 0),
@@ -11205,7 +11205,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 38),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=3806": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 3806), "", 0),
@@ -11214,7 +11214,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 3806),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=382": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 382), "", 0),
@@ -11223,7 +11223,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 382),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=385": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 385), "", 0),
@@ -11232,7 +11232,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 385),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=388": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 388), "", 0),
@@ -11241,7 +11241,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 388),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=39": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 39), "", 0),
@@ -11250,7 +11250,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 39),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=4": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 4), "", 0),
@@ -11259,7 +11259,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 4),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=40": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 40), "", 0),
@@ -11268,7 +11268,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 40),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=41": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 41), "", 0),
@@ -11277,7 +11277,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 41),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=432": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 432), "", 0),
@@ -11286,7 +11286,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 432),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=44": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 44), "", 0),
@@ -11295,7 +11295,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 44),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=45": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 45), "", 0),
@@ -11304,7 +11304,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 45),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=46": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 46), "", 0),
@@ -11313,7 +11313,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 46),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=47": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 47), "", 0),
@@ -11322,7 +11322,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 47),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=48": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 48), "", 0),
@@ -11331,7 +11331,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 48),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=49": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 49), "", 0),
@@ -11340,7 +11340,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 49),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=5": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 5), "", 0),
@@ -11349,7 +11349,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 5),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=50": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 50), "", 0),
@@ -11358,7 +11358,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 50),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=51": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 51), "", 0),
@@ -11367,7 +11367,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 51),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=52": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 52), "", 0),
@@ -11376,7 +11376,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 52),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=521": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 521), "", 0),
@@ -11385,7 +11385,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 521),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=53": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 53), "", 0),
@@ -11394,7 +11394,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 53),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=537": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 537), "", 0),
@@ -11403,7 +11403,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 537),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=54": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 54), "", 0),
@@ -11412,7 +11412,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 54),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=540": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 540), "", 0),
@@ -11421,7 +11421,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 540),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=56": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 56), "", 0),
@@ -11430,7 +11430,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 56),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=576": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 576), "", 0),
@@ -11439,7 +11439,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 576),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=583": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 583), "", 0),
@@ -11448,7 +11448,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 583),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=586": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 586), "", 0),
@@ -11457,7 +11457,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 586),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=589": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 589), "", 0),
@@ -11466,7 +11466,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 589),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=592": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 592), "", 0),
@@ -11475,7 +11475,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 592),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=595": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 595), "", 0),
@@ -11484,7 +11484,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 595),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=598": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 598), "", 0),
@@ -11493,7 +11493,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 598),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=6": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 6), "", 0),
@@ -11502,7 +11502,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 6),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=601": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 601), "", 0),
@@ -11511,7 +11511,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 601),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=61": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 61), "", 0),
@@ -11520,7 +11520,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 61),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=63": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 63), "", 0),
@@ -11529,7 +11529,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 63),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=659": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 659), "", 0),
@@ -11538,7 +11538,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 659),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=68": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 68), "", 0),
@@ -11547,7 +11547,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 68),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=69": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 69), "", 0),
@@ -11556,7 +11556,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 69),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=7": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 7), "", 0),
@@ -11565,7 +11565,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 7),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=719": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 719), "", 0),
@@ -11574,7 +11574,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 719),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=72": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 72), "", 0),
@@ -11583,7 +11583,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 72),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=725": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 725), "", 0),
@@ -11592,7 +11592,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 725),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=75": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 75), "", 0),
@@ -11601,7 +11601,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 75),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=7594": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 7594), "", 0),
@@ -11610,7 +11610,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 7594),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=76": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 76), "", 0),
@@ -11619,7 +11619,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 76),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=77": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 77), "", 0),
@@ -11628,7 +11628,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 77),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=8": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 8), "", 0),
@@ -11637,7 +11637,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 8),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=851": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 851), "", 0),
@@ -11646,7 +11646,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 851),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=852": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 852), "", 0),
@@ -11655,7 +11655,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 852),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=853": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 853), "", 0),
@@ -11664,7 +11664,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 853),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=856": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 856), "", 0),
@@ -11673,7 +11673,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 856),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=859": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 859), "", 0),
@@ -11682,7 +11682,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 859),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=862": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 862), "", 0),
@@ -11691,7 +11691,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 862),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=865": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 865), "", 0),
@@ -11700,7 +11700,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 865),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=868": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 868), "", 0),
@@ -11709,7 +11709,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 868),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=871": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 871), "", 0),
@@ -11718,7 +11718,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 871),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=874": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 874), "", 0),
@@ -11727,7 +11727,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 874),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=877": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 877), "", 0),
@@ -11736,7 +11736,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 877),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=884": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 884), "", 0),
@@ -11745,7 +11745,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 884),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=887": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 887), "", 0),
@@ -11754,7 +11754,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 887),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=890": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 890), "", 0),
@@ -11763,7 +11763,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 890),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=891": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 891), "", 0),
@@ -11772,7 +11772,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 891),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=8912": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 8912), "", 0),
@@ -11781,7 +11781,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 8912),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=8927": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 8927), "", 0),
@@ -11790,7 +11790,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 8927),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=894": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 894), "", 0),
@@ -11799,7 +11799,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 894),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=8944": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 8944), "", 0),
@@ -11808,7 +11808,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 8944),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=8961": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 8961), "", 0),
@@ -11817,7 +11817,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 8961),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=897": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 897), "", 0),
@@ -11826,7 +11826,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 897),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=8995": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 8995), "", 0),
@@ -11835,7 +11835,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 8995),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=9": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 9), "", 0),
@@ -11844,7 +11844,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 9),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=9002": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 9002), "", 0),
@@ -11853,7 +11853,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 9002),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=9004": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 9004), "", 0),
@@ -11862,7 +11862,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 9004),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=9005": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 9005), "", 0),
@@ -11871,7 +11871,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 9005),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=9006": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 9006), "", 0),
@@ -11880,7 +11880,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 9006),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=920": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 920), "", 0),
@@ -11889,7 +11889,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 920),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=9318": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 9318), "", 0),
@@ -11898,7 +11898,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 9318),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=9341": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 9341), "", 0),
@@ -11907,7 +11907,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 9341),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=938": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 938), "", 0),
@@ -11916,7 +11916,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 938),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=94": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 94), "", 0),
@@ -11925,7 +11925,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 94),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=948": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 948), "", 0),
@@ -11934,7 +11934,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 948),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=9482": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 9482), "", 0),
@@ -11943,7 +11943,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 9482),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=95": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 95), "", 0),
@@ -11952,7 +11952,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 95),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=96": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 96), "", 0),
@@ -11961,7 +11961,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 96),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=9623": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 9623), "", 0),
@@ -11970,7 +11970,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 9623),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=97": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 97), "", 0),
@@ -11979,7 +11979,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 97),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=9764": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 9764), "", 0),
@@ -11988,7 +11988,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 9764),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=98": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 98), "", 0),
@@ -11997,7 +11997,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 98),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=99": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 99), "", 0),
@@ -12006,7 +12006,7 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 99),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 	"subtype_i=9906": {
 		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 9906), "", 0),
@@ -12015,7 +12015,1222 @@ var commonRefs = map[string]*ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
 		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 9906),
 		IsForward:       true,
-		NodeClass:       ua.NodeClassUnspecified,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=10523": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 10523), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "DiscreteAlarmType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "DiscreteAlarmType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 10523),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=10637": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 10637), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "OffNormalAlarmType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "OffNormalAlarmType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 10637),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=11": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 11), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "Double"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Double"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=11163": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 11163), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "BaseConditionClassType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "BaseConditionClassType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11163),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=11238": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 11238), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "MultiStateValueDiscreteType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "MultiStateValueDiscreteType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11238),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=11575": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 11575), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "FileType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "FileType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11575),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=11753": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 11753), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "SystemOffNormalAlarmType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "SystemOffNormalAlarmType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 11753),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=12": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "String"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "String"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=12021": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12021), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "ArrayItemType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "ArrayItemType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12021),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=12556": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12556), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "CertificateType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "CertificateType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12556),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=12557": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12557), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "ApplicationCertificateType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "ApplicationCertificateType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12557),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=12581": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12581), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "ServerConfigurationType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "ServerConfigurationType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12581),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=12890": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 12890), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "DiscoveryConfiguration"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "DiscoveryConfiguration"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 12890),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=129": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 129), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "HasArgumentDescription"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "HasArgumentDescription"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 129),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=13": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 13), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "DateTime"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "DateTime"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 13),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=14232": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14232), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "PubSubGroupType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "PubSubGroupType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14232),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=14509": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14509), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "PublishedDataSetType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "PublishedDataSetType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14509),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=14525": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 14525), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "DataTypeDescription"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "DataTypeDescription"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 14525),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=15": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "ByteString"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "ByteString"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=15108": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15108), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "SubscribedDataSetType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "SubscribedDataSetType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15108),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=15113": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15113), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "GuardVariableType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "GuardVariableType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15113),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=15305": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15305), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "DataSetWriterTransportType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "DataSetWriterTransportType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15305),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=15318": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15318), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "BaseAnalogType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "BaseAnalogType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15318),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=15319": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15319), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "DataSetReaderTransportType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "DataSetReaderTransportType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15319),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=15502": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15502), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "NetworkAddressDataType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "NetworkAddressDataType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15502),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=15530": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15530), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "PubSubConfigurationDataType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "PubSubConfigurationDataType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15530),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=15532": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15532), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "DatagramWriterGroupTransportDataType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "DatagramWriterGroupTransportDataType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15532),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=15534": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15534), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "DataTypeSchemaHeader"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "DataTypeSchemaHeader"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15534),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=15535": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15535), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "PubSubStatusEventType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "PubSubStatusEventType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15535),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=15580": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15580), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "PublishedDataSetSourceDataType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "PublishedDataSetSourceDataType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15580),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=15598": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15598), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "DataSetWriterTransportDataType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "DataSetWriterTransportDataType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15598),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=15605": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15605), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "DataSetWriterMessageDataType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "DataSetWriterMessageDataType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15605),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=15609": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15609), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "PubSubGroupDataType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "PubSubGroupDataType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15609),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=15611": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15611), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "WriterGroupTransportDataType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "WriterGroupTransportDataType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15611),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=15616": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15616), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "WriterGroupMessageDataType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "WriterGroupMessageDataType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15616),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=15618": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15618), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "ConnectionTransportDataType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "ConnectionTransportDataType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15618),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=15628": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15628), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "DataSetReaderTransportDataType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "DataSetReaderTransportDataType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15628),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=15629": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15629), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "DataSetReaderMessageDataType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "DataSetReaderMessageDataType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15629),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=15630": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15630), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "SubscribedDataSetDataType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "SubscribedDataSetDataType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15630),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=15906": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 15906), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "PubSubKeyServiceType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "PubSubKeyServiceType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 15906),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=16362": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16362), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "AlarmGroupMember"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "AlarmGroupMember"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16362),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=16405": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 16405), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "AlarmGroupType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "AlarmGroupType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 16405),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=17": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "NodeId"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "NodeId"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=17467": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17467), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "DatagramConnectionTransportDataType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "DatagramConnectionTransportDataType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17467),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=17589": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17589), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "DictionaryEntryType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "DictionaryEntryType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17589),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=17602": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17602), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "BaseInterfaceType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "BaseInterfaceType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17602),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=17714": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17714), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "VectorType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "VectorType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17714),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=17721": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17721), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "ConnectionTransportType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "ConnectionTransportType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17721),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=17997": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17997), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "WriterGroupTransportType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "WriterGroupTransportType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17997),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=17998": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 17998), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "WriterGroupMessageType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "WriterGroupMessageType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 17998),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=18011": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18011), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "KeyCredentialAuditEventType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "KeyCredentialAuditEventType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18011),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=18772": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18772), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "CartesianCoordinatesType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "CartesianCoordinatesType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18772),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=18779": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18779), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "OrientationType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "OrientationType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18779),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=18786": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18786), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "FrameType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "FrameType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18786),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=18807": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18807), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "Vector"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Vector"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18807),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=18809": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18809), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "CartesianCoordinates"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "CartesianCoordinates"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18809),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=18811": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18811), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "Orientation"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Orientation"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18811),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=18813": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 18813), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "Frame"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Frame"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 18813),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=19077": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 19077), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "MultiStateDictionaryEntryDiscreteBaseType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "MultiStateDictionaryEntryDiscreteBaseType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19077),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=19677": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 19677), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "PubSubDiagnosticsType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "PubSubDiagnosticsType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 19677),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=2034": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2034), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "ServerRedundancyType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "ServerRedundancyType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2034),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=2039": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2039), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "NonTransparentRedundancyType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "NonTransparentRedundancyType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2039),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=2041": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2041), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "BaseEventType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "BaseEventType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2041),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=2052": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2052), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "AuditEventType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "AuditEventType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2052),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=2058": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2058), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "AuditSecurityEventType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "AuditSecurityEventType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2058),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=2059": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2059), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "AuditChannelEventType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "AuditChannelEventType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2059),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=2069": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2069), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "AuditSessionEventType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "AuditSessionEventType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2069),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=2071": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2071), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "AuditCreateSessionEventType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "AuditCreateSessionEventType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2071),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=2080": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2080), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "AuditCertificateEventType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "AuditCertificateEventType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2080),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=2090": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2090), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "AuditNodeManagementEventType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "AuditNodeManagementEventType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2090),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=2099": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2099), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "AuditUpdateEventType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "AuditUpdateEventType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2099),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=2104": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2104), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "AuditHistoryUpdateEventType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "AuditHistoryUpdateEventType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2104),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=21096": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 21096), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "DataSetWriterMessageType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "DataSetWriterMessageType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21096),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=21104": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 21104), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "DataSetReaderMessageType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "DataSetReaderMessageType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21104),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=21145": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 21145), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "NetworkAddressType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "NetworkAddressType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 21145),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=2127": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2127), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "AuditUpdateMethodEventType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "AuditUpdateMethodEventType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2127),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=2130": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2130), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "SystemEventType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "SystemEventType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2130),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=2132": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2132), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "BaseModelChangeEventType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "BaseModelChangeEventType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2132),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=22": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 22), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "Structure"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Structure"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 22),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=2299": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2299), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "StateMachineType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "StateMachineType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2299),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=2307": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2307), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "StateType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "StateType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2307),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=2311": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2311), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "TransitionEventType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "TransitionEventType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2311),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=2315": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2315), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "AuditUpdateStateEventType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "AuditUpdateStateEventType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2315),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=23537": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23537), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "EccApplicationCertificateType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "EccApplicationCertificateType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23537),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=23603": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23603), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "QosDataType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "QosDataType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23603),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=23604": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23604), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "TransmitQosDataType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "TransmitQosDataType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23604),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=23606": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23606), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "AuditClientEventType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "AuditClientEventType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23606),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=23608": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 23608), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "ReceiveQosDataType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "ReceiveQosDataType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 23608),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=2365": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2365), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "DataItemType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "DataItemType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2365),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=2368": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2368), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "AnalogItemType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "AnalogItemType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2368),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=2372": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2372), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "DiscreteItemType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "DiscreteItemType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2372),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=24": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "BaseDataType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "BaseDataType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=24188": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 24188), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "IIeeeTsnInterfaceConfigurationType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "IIeeeTsnInterfaceConfigurationType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 24188),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=25255": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25255), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "Utilizes"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Utilizes"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25255),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=25258": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25258), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "RepresentsSameEntityAs"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "RepresentsSameEntityAs"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25258),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=25262": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 25262), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "HasPhysicalComponent"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "HasPhysicalComponent"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 25262),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=26": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 26), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "Number"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Number"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 26),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=27": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 27), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "Integer"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Integer"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 27),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=2755": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2755), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "StateVariableType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "StateVariableType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2755),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=2762": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2762), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "TransitionVariableType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "TransitionVariableType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2762),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=2771": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2771), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "FiniteStateMachineType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "FiniteStateMachineType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2771),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=2782": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2782), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "ConditionType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "ConditionType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2782),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=2790": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2790), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "AuditConditionEventType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "AuditConditionEventType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2790),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=28": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 28), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "UInteger"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "UInteger"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 28),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=2881": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2881), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "AcknowledgeableConditionType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "AcknowledgeableConditionType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2881),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=29": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 29), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "Enumeration"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Enumeration"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 29),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=2915": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2915), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "AlarmConditionType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "AlarmConditionType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2915),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=2955": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 2955), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "LimitAlarmType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "LimitAlarmType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 2955),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=3": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 3), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "Byte"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Byte"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 3),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=30": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 30), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "Image"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Image"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 30),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=3012": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 3012), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "AuditHistoryDeleteEventType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "AuditHistoryDeleteEventType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 3012),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=31": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 31), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "References"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "References"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 31),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=316": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 316), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "UserIdentityToken"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "UserIdentityToken"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 316),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=32": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 32), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "NonHierarchicalReferences"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "NonHierarchicalReferences"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 32),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=33": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 33), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "HierarchicalReferences"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "HierarchicalReferences"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 33),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=34": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 34), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "HasChild"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "HasChild"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 34),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=35": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 35), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "Organizes"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Organizes"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 35),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=36": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 36), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "HasEventSource"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "HasEventSource"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 36),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=41": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 41), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "GeneratesEvent"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "GeneratesEvent"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 41),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=44": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 44), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "Aggregates"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Aggregates"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 44),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=47": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 47), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "HasComponent"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "HasComponent"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 47),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=5": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 5), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "UInt16"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "UInt16"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 5),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=54": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 54), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "HasEffect"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "HasEffect"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 54),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=58": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 58), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "BaseObjectType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "BaseObjectType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 58),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=589": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 589), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "FilterOperand"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "FilterOperand"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 589),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=61": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 61), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "FolderType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "FolderType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 61),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=62": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 62), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "BaseVariableType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "BaseVariableType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 62),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=63": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 63), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "BaseDataVariableType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "BaseDataVariableType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 63),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=7": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 7), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "UInt32"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "UInt32"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 7),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=719": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 719), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "MonitoringFilter"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "MonitoringFilter"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 719),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=7594": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 7594), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "EnumValueType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "EnumValueType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 7594),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=9": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 9), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "UInt64"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "UInt64"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 9),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=9341": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 9341), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "ExclusiveLimitAlarmType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "ExclusiveLimitAlarmType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 9341),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=97": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 97), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "DataTypeDefinition"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "DataTypeDefinition"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 97),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
+	},
+	"supertype_i=9906": {
+		NodeID:          ua.NewExpandedNodeID(ua.NewFourByteNodeID(0, 9906), "", 0),
+		BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: "NonExclusiveLimitAlarmType"},
+		DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "NonExclusiveLimitAlarmType"},
+		ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype),
+		TypeDefinition:  ua.NewNumericExpandedNodeID(0, 9906),
+		IsForward:       false,
+		NodeClass:       ua.NodeClassObjectType,
 	},
 }
 
@@ -12062,22 +13277,22 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=18"],
-				commonRefs["subtype_i=17"],
-				commonRefs["subtype_i=12"],
-				commonRefs["subtype_i=13"],
-				commonRefs["subtype_i=22"],
-				commonRefs["subtype_i=29"],
-				commonRefs["subtype_i=21"],
-				commonRefs["subtype_i=25"],
-				commonRefs["subtype_i=23"],
-				commonRefs["subtype_i=20"],
-				commonRefs["subtype_i=19"],
-				commonRefs["subtype_i=1"],
 				commonRefs["subtype_i=16"],
-				commonRefs["subtype_i=14"],
-				commonRefs["subtype_i=15"],
 				commonRefs["subtype_i=26"],
+				commonRefs["subtype_i=22"],
+				commonRefs["subtype_i=13"],
+				commonRefs["subtype_i=23"],
+				commonRefs["subtype_i=19"],
+				commonRefs["subtype_i=25"],
+				commonRefs["subtype_i=15"],
+				commonRefs["subtype_i=1"],
+				commonRefs["subtype_i=17"],
+				commonRefs["subtype_i=29"],
+				commonRefs["subtype_i=12"],
+				commonRefs["subtype_i=20"],
+				commonRefs["subtype_i=18"],
+				commonRefs["subtype_i=14"],
+				commonRefs["subtype_i=21"],
 			},
 			nil,
 		),
@@ -12092,8 +13307,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=11"],
+				commonRefs["supertype_i=24"],
 				commonRefs["subtype_i=50"],
+				commonRefs["subtype_i=11"],
 				commonRefs["subtype_i=27"],
 				commonRefs["subtype_i=10"],
 				commonRefs["subtype_i=28"],
@@ -12112,9 +13328,10 @@ func PredefinedNodes() []*Node {
 			},
 			[]*ua.ReferenceDescription{
 				commonRefs["subtype_i=2"],
+				commonRefs["supertype_i=26"],
 				commonRefs["subtype_i=4"],
-				commonRefs["subtype_i=6"],
 				commonRefs["subtype_i=8"],
+				commonRefs["subtype_i=6"],
 			},
 			nil,
 		),
@@ -12129,9 +13346,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=9"],
-				commonRefs["subtype_i=5"],
 				commonRefs["subtype_i=3"],
+				commonRefs["subtype_i=5"],
+				commonRefs["subtype_i=9"],
+				commonRefs["supertype_i=26"],
 				commonRefs["subtype_i=7"],
 			},
 			nil,
@@ -12147,39 +13365,40 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=12552"],
-				commonRefs["subtype_i=14647"],
-				commonRefs["subtype_i=890"],
-				commonRefs["subtype_i=302"],
-				commonRefs["subtype_i=257"],
-				commonRefs["subtype_i=256"],
-				commonRefs["subtype_i=24220"],
-				commonRefs["subtype_i=98"],
-				commonRefs["subtype_i=303"],
-				commonRefs["subtype_i=11234"],
-				commonRefs["subtype_i=19723"],
 				commonRefs["subtype_i=120"],
-				commonRefs["subtype_i=12077"],
-				commonRefs["subtype_i=19730"],
-				commonRefs["subtype_i=24222"],
-				commonRefs["subtype_i=348"],
+				commonRefs["subtype_i=15874"],
+				commonRefs["subtype_i=24210"],
+				commonRefs["subtype_i=15632"],
+				commonRefs["subtype_i=11293"],
+				commonRefs["subtype_i=851"],
+				commonRefs["subtype_i=257"],
+				commonRefs["subtype_i=11234"],
+				commonRefs["subtype_i=24212"],
 				commonRefs["subtype_i=20408"],
-				commonRefs["subtype_i=307"],
 				commonRefs["subtype_i=576"],
 				commonRefs["subtype_i=24214"],
-				commonRefs["subtype_i=24216"],
-				commonRefs["subtype_i=852"],
-				commonRefs["subtype_i=11939"],
-				commonRefs["subtype_i=24212"],
+				commonRefs["subtype_i=307"],
+				commonRefs["subtype_i=302"],
+				commonRefs["subtype_i=19730"],
+				commonRefs["subtype_i=19723"],
+				commonRefs["subtype_i=14647"],
 				commonRefs["subtype_i=15008"],
-				commonRefs["subtype_i=24210"],
-				commonRefs["subtype_i=851"],
-				commonRefs["subtype_i=315"],
-				commonRefs["subtype_i=11293"],
-				commonRefs["subtype_i=15632"],
+				commonRefs["subtype_i=852"],
+				commonRefs["subtype_i=98"],
 				commonRefs["subtype_i=24218"],
-				commonRefs["subtype_i=15874"],
+				commonRefs["subtype_i=315"],
+				commonRefs["subtype_i=12077"],
+				commonRefs["subtype_i=256"],
 				commonRefs["subtype_i=24224"],
+				commonRefs["supertype_i=24"],
+				commonRefs["subtype_i=12552"],
+				commonRefs["subtype_i=11939"],
+				commonRefs["subtype_i=890"],
+				commonRefs["subtype_i=303"],
+				commonRefs["subtype_i=348"],
+				commonRefs["subtype_i=24220"],
+				commonRefs["subtype_i=24216"],
+				commonRefs["subtype_i=24222"],
 			},
 			nil,
 		),
@@ -12193,7 +13412,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=24"],
+			},
 			nil,
 		),
 		NewNode(
@@ -12206,7 +13427,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=27"],
+			},
 			nil,
 		),
 		NewNode(
@@ -12221,6 +13444,7 @@ func PredefinedNodes() []*Node {
 			},
 			[]*ua.ReferenceDescription{
 				commonRefs["subtype_i=15033"],
+				commonRefs["supertype_i=28"],
 				commonRefs["subtype_i=15031"],
 			},
 			nil,
@@ -12235,7 +13459,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=27"],
+			},
 			nil,
 		),
 		NewNode(
@@ -12249,6 +13475,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=28"],
 				commonRefs["subtype_i=15904"],
 				commonRefs["subtype_i=95"],
 				commonRefs["subtype_i=32251"],
@@ -12265,7 +13492,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=27"],
+			},
 			nil,
 		),
 		NewNode(
@@ -12279,23 +13508,24 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=23564"],
-				commonRefs["subtype_i=94"],
-				commonRefs["subtype_i=17588"],
-				commonRefs["subtype_i=347"],
+				commonRefs["subtype_i=31917"],
+				commonRefs["subtype_i=15658"],
+				commonRefs["subtype_i=15646"],
 				commonRefs["subtype_i=24279"],
-				commonRefs["subtype_i=24277"],
-				commonRefs["subtype_i=15654"],
-				commonRefs["subtype_i=288"],
 				commonRefs["subtype_i=15642"],
+				commonRefs["subtype_i=347"],
+				commonRefs["subtype_i=15406"],
+				commonRefs["subtype_i=15654"],
+				commonRefs["subtype_i=289"],
 				commonRefs["subtype_i=15583"],
 				commonRefs["subtype_i=20998"],
-				commonRefs["subtype_i=15646"],
-				commonRefs["subtype_i=31917"],
-				commonRefs["subtype_i=289"],
-				commonRefs["subtype_i=15406"],
 				commonRefs["subtype_i=25517"],
-				commonRefs["subtype_i=15658"],
+				commonRefs["subtype_i=23564"],
+				commonRefs["subtype_i=17588"],
+				commonRefs["supertype_i=28"],
+				commonRefs["subtype_i=288"],
+				commonRefs["subtype_i=24277"],
+				commonRefs["subtype_i=94"],
 			},
 			nil,
 		),
@@ -12309,7 +13539,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=27"],
+			},
 			nil,
 		),
 		NewNode(
@@ -12323,6 +13555,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=28"],
 				commonRefs["subtype_i=11737"],
 			},
 			nil,
@@ -12337,7 +13570,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=26"],
+			},
 			nil,
 		),
 		NewNode(
@@ -12352,6 +13587,7 @@ func PredefinedNodes() []*Node {
 			},
 			[]*ua.ReferenceDescription{
 				commonRefs["subtype_i=290"],
+				commonRefs["supertype_i=26"],
 			},
 			nil,
 		),
@@ -12366,17 +13602,18 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=12879"],
-				commonRefs["subtype_i=25726"],
-				commonRefs["subtype_i=295"],
-				commonRefs["subtype_i=12877"],
-				commonRefs["subtype_i=31918"],
-				commonRefs["subtype_i=12878"],
-				commonRefs["subtype_i=24263"],
-				commonRefs["subtype_i=12881"],
-				commonRefs["subtype_i=23751"],
-				commonRefs["subtype_i=291"],
 				commonRefs["subtype_i=12880"],
+				commonRefs["subtype_i=12878"],
+				commonRefs["subtype_i=12881"],
+				commonRefs["subtype_i=295"],
+				commonRefs["subtype_i=24263"],
+				commonRefs["subtype_i=23751"],
+				commonRefs["subtype_i=12877"],
+				commonRefs["subtype_i=12879"],
+				commonRefs["subtype_i=291"],
+				commonRefs["subtype_i=31918"],
+				commonRefs["supertype_i=24"],
+				commonRefs["subtype_i=25726"],
 			},
 			nil,
 		),
@@ -12392,6 +13629,7 @@ func PredefinedNodes() []*Node {
 			},
 			[]*ua.ReferenceDescription{
 				commonRefs["subtype_i=294"],
+				commonRefs["supertype_i=24"],
 			},
 			nil,
 		),
@@ -12405,7 +13643,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=24"],
+			},
 			nil,
 		),
 		NewNode(
@@ -12419,9 +13659,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=30"],
-				commonRefs["subtype_i=16307"],
 				commonRefs["subtype_i=521"],
+				commonRefs["supertype_i=24"],
+				commonRefs["subtype_i=16307"],
+				commonRefs["subtype_i=30"],
 				commonRefs["subtype_i=311"],
 			},
 			nil,
@@ -12436,7 +13677,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=24"],
+			},
 			nil,
 		),
 		NewNode(
@@ -12451,6 +13694,7 @@ func PredefinedNodes() []*Node {
 			},
 			[]*ua.ReferenceDescription{
 				commonRefs["subtype_i=388"],
+				commonRefs["supertype_i=24"],
 			},
 			nil,
 		),
@@ -12464,7 +13708,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=24"],
+			},
 			nil,
 		),
 		NewNode(
@@ -12477,7 +13723,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=24"],
+			},
 			nil,
 		),
 		NewNode(
@@ -12490,7 +13738,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=24"],
+			},
 			nil,
 		),
 		NewNode(
@@ -12503,7 +13753,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=24"],
+			},
 			nil,
 		),
 		NewNode(
@@ -12517,109 +13769,110 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["subtype_i=15528"],
+				commonRefs["subtype_i=12171"],
+				commonRefs["subtype_i=894"],
+				commonRefs["subtype_i=12079"],
+				commonRefs["subtype_i=432"],
+				commonRefs["subtype_i=18806"],
+				commonRefs["subtype_i=15618"],
+				commonRefs["subtype_i=32660"],
+				commonRefs["subtype_i=871"],
+				commonRefs["subtype_i=15580"],
+				commonRefs["subtype_i=24105"],
+				commonRefs["subtype_i=920"],
+				commonRefs["subtype_i=11943"],
+				commonRefs["subtype_i=344"],
+				commonRefs["subtype_i=853"],
+				commonRefs["subtype_i=18809"],
+				commonRefs["subtype_i=15623"],
+				commonRefs["subtype_i=376"],
+				commonRefs["subtype_i=14524"],
+				commonRefs["subtype_i=15628"],
+				commonRefs["subtype_i=868"],
+				commonRefs["subtype_i=12755"],
+				commonRefs["subtype_i=586"],
+				commonRefs["subtype_i=15622"],
+				commonRefs["subtype_i=32285"],
+				commonRefs["subtype_i=14744"],
+				commonRefs["subtype_i=379"],
+				commonRefs["subtype_i=15634"],
 				commonRefs["subtype_i=12172"],
-				commonRefs["subtype_i=299"],
+				commonRefs["subtype_i=18811"],
+				commonRefs["subtype_i=316"],
+				commonRefs["supertype_i=24"],
+				commonRefs["subtype_i=15530"],
+				commonRefs["subtype_i=16313"],
+				commonRefs["subtype_i=25220"],
+				commonRefs["subtype_i=14273"],
+				commonRefs["subtype_i=101"],
+				commonRefs["subtype_i=15630"],
+				commonRefs["subtype_i=540"],
+				commonRefs["subtype_i=14525"],
+				commonRefs["subtype_i=589"],
+				commonRefs["subtype_i=537"],
+				commonRefs["subtype_i=23601"],
+				commonRefs["subtype_i=859"],
+				commonRefs["subtype_i=15598"],
+				commonRefs["subtype_i=659"],
+				commonRefs["subtype_i=12080"],
+				commonRefs["subtype_i=11944"],
+				commonRefs["subtype_i=15534"],
+				commonRefs["subtype_i=14593"],
+				commonRefs["subtype_i=338"],
+				commonRefs["subtype_i=15617"],
+				commonRefs["subtype_i=17548"],
+				commonRefs["subtype_i=877"],
+				commonRefs["subtype_i=15605"],
+				commonRefs["subtype_i=23498"],
+				commonRefs["subtype_i=15609"],
+				commonRefs["subtype_i=18813"],
+				commonRefs["subtype_i=312"],
+				commonRefs["subtype_i=15616"],
+				commonRefs["subtype_i=23468"],
+				commonRefs["subtype_i=15621"],
+				commonRefs["subtype_i=331"],
+				commonRefs["subtype_i=385"],
+				commonRefs["subtype_i=7594"],
+				commonRefs["subtype_i=12756"],
+				commonRefs["subtype_i=24281"],
+				commonRefs["subtype_i=897"],
+				commonRefs["subtype_i=296"],
 				commonRefs["subtype_i=948"],
 				commonRefs["subtype_i=14533"],
-				commonRefs["subtype_i=32285"],
-				commonRefs["subtype_i=15534"],
-				commonRefs["subtype_i=312"],
-				commonRefs["subtype_i=12755"],
-				commonRefs["subtype_i=871"],
-				commonRefs["subtype_i=32659"],
-				commonRefs["subtype_i=96"],
-				commonRefs["subtype_i=14524"],
-				commonRefs["subtype_i=15528"],
-				commonRefs["subtype_i=338"],
-				commonRefs["subtype_i=385"],
-				commonRefs["subtype_i=586"],
-				commonRefs["subtype_i=24281"],
-				commonRefs["subtype_i=18813"],
-				commonRefs["subtype_i=15616"],
-				commonRefs["subtype_i=15618"],
-				commonRefs["subtype_i=12189"],
 				commonRefs["subtype_i=308"],
-				commonRefs["subtype_i=8912"],
-				commonRefs["subtype_i=15617"],
-				commonRefs["subtype_i=25520"],
-				commonRefs["subtype_i=891"],
-				commonRefs["subtype_i=859"],
-				commonRefs["subtype_i=15502"],
-				commonRefs["subtype_i=897"],
-				commonRefs["subtype_i=23498"],
-				commonRefs["subtype_i=25519"],
-				commonRefs["subtype_i=14593"],
-				commonRefs["subtype_i=432"],
-				commonRefs["subtype_i=15629"],
 				commonRefs["subtype_i=12554"],
-				commonRefs["subtype_i=23468"],
-				commonRefs["subtype_i=853"],
-				commonRefs["subtype_i=25220"],
-				commonRefs["subtype_i=344"],
-				commonRefs["subtype_i=18809"],
-				commonRefs["subtype_i=894"],
-				commonRefs["subtype_i=15609"],
-				commonRefs["subtype_i=16313"],
-				commonRefs["subtype_i=583"],
-				commonRefs["subtype_i=24105"],
-				commonRefs["subtype_i=331"],
-				commonRefs["subtype_i=316"],
-				commonRefs["subtype_i=15634"],
-				commonRefs["subtype_i=719"],
-				commonRefs["subtype_i=12890"],
-				commonRefs["subtype_i=24107"],
-				commonRefs["subtype_i=11943"],
-				commonRefs["subtype_i=15598"],
-				commonRefs["subtype_i=877"],
-				commonRefs["subtype_i=15611"],
-				commonRefs["subtype_i=884"],
-				commonRefs["subtype_i=589"],
-				commonRefs["subtype_i=15628"],
-				commonRefs["subtype_i=97"],
-				commonRefs["subtype_i=12756"],
-				commonRefs["subtype_i=382"],
-				commonRefs["subtype_i=537"],
-				commonRefs["subtype_i=11944"],
-				commonRefs["subtype_i=18806"],
-				commonRefs["subtype_i=304"],
-				commonRefs["subtype_i=14525"],
-				commonRefs["subtype_i=24033"],
-				commonRefs["subtype_i=12079"],
-				commonRefs["subtype_i=23601"],
-				commonRefs["subtype_i=23603"],
-				commonRefs["subtype_i=15580"],
-				commonRefs["subtype_i=25270"],
-				commonRefs["subtype_i=379"],
-				commonRefs["subtype_i=868"],
-				commonRefs["subtype_i=15623"],
-				commonRefs["subtype_i=540"],
-				commonRefs["subtype_i=14273"],
-				commonRefs["subtype_i=15630"],
-				commonRefs["subtype_i=296"],
-				commonRefs["subtype_i=15622"],
-				commonRefs["subtype_i=15621"],
-				commonRefs["subtype_i=865"],
-				commonRefs["subtype_i=15605"],
-				commonRefs["subtype_i=7594"],
-				commonRefs["subtype_i=15530"],
-				commonRefs["subtype_i=376"],
-				commonRefs["subtype_i=18807"],
-				commonRefs["subtype_i=659"],
-				commonRefs["subtype_i=920"],
-				commonRefs["subtype_i=24106"],
-				commonRefs["subtype_i=32660"],
-				commonRefs["subtype_i=17548"],
 				commonRefs["subtype_i=862"],
-				commonRefs["subtype_i=15597"],
+				commonRefs["subtype_i=25519"],
+				commonRefs["subtype_i=8912"],
 				commonRefs["subtype_i=887"],
-				commonRefs["subtype_i=856"],
-				commonRefs["subtype_i=18811"],
-				commonRefs["subtype_i=101"],
-				commonRefs["subtype_i=874"],
-				commonRefs["subtype_i=12171"],
-				commonRefs["subtype_i=14744"],
-				commonRefs["subtype_i=12080"],
+				commonRefs["subtype_i=25520"],
+				commonRefs["subtype_i=865"],
+				commonRefs["subtype_i=12189"],
+				commonRefs["subtype_i=15502"],
+				commonRefs["subtype_i=23603"],
+				commonRefs["subtype_i=18807"],
+				commonRefs["subtype_i=304"],
+				commonRefs["subtype_i=24107"],
+				commonRefs["subtype_i=15629"],
+				commonRefs["subtype_i=719"],
 				commonRefs["subtype_i=15578"],
+				commonRefs["subtype_i=382"],
+				commonRefs["subtype_i=15611"],
+				commonRefs["subtype_i=874"],
+				commonRefs["subtype_i=25270"],
+				commonRefs["subtype_i=856"],
+				commonRefs["subtype_i=884"],
+				commonRefs["subtype_i=15597"],
+				commonRefs["subtype_i=12890"],
+				commonRefs["subtype_i=891"],
+				commonRefs["subtype_i=583"],
+				commonRefs["subtype_i=96"],
+				commonRefs["subtype_i=32659"],
+				commonRefs["subtype_i=97"],
+				commonRefs["subtype_i=24106"],
+				commonRefs["subtype_i=299"],
+				commonRefs["subtype_i=24033"],
 			},
 			nil,
 		),
@@ -12633,7 +13886,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=24"],
+			},
 			nil,
 		),
 		NewNode(
@@ -12646,7 +13901,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=24"],
+			},
 			nil,
 		),
 		NewNode(
@@ -12662,8 +13919,9 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				commonRefs["subtype_i=2002"],
 				commonRefs["subtype_i=2001"],
-				commonRefs["subtype_i=2003"],
 				commonRefs["subtype_i=2000"],
+				commonRefs["supertype_i=15"],
+				commonRefs["subtype_i=2003"],
 			},
 			nil,
 		),
@@ -12677,7 +13935,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=26"],
+			},
 			nil,
 		),
 		NewNode(
@@ -12707,29 +13967,30 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=24137"],
-				commonRefs["subtype_i=9004"],
-				commonRefs["subtype_i=23562"],
-				commonRefs["subtype_i=25257"],
-				commonRefs["subtype_i=17603"],
-				commonRefs["subtype_i=37"],
-				commonRefs["subtype_i=117"],
-				commonRefs["subtype_i=51"],
-				commonRefs["subtype_i=9005"],
-				commonRefs["subtype_i=52"],
-				commonRefs["subtype_i=39"],
-				commonRefs["subtype_i=23469"],
-				commonRefs["subtype_i=40"],
-				commonRefs["subtype_i=41"],
-				commonRefs["subtype_i=17597"],
-				commonRefs["subtype_i=53"],
-				commonRefs["subtype_i=9006"],
 				commonRefs["subtype_i=25253"],
-				commonRefs["subtype_i=25237"],
-				commonRefs["subtype_i=25255"],
+				commonRefs["subtype_i=40"],
+				commonRefs["subtype_i=9006"],
+				commonRefs["subtype_i=51"],
+				commonRefs["subtype_i=41"],
+				commonRefs["subtype_i=25257"],
+				commonRefs["subtype_i=24137"],
+				commonRefs["subtype_i=17603"],
+				commonRefs["subtype_i=52"],
+				commonRefs["subtype_i=117"],
+				commonRefs["subtype_i=9005"],
+				commonRefs["subtype_i=39"],
+				commonRefs["subtype_i=9004"],
 				commonRefs["subtype_i=38"],
-				commonRefs["subtype_i=25258"],
+				commonRefs["subtype_i=37"],
+				commonRefs["subtype_i=23562"],
 				commonRefs["subtype_i=54"],
+				commonRefs["subtype_i=53"],
+				commonRefs["subtype_i=17597"],
+				commonRefs["supertype_i=31"],
+				commonRefs["subtype_i=25258"],
+				commonRefs["subtype_i=25255"],
+				commonRefs["subtype_i=23469"],
+				commonRefs["subtype_i=25237"],
 			},
 			nil,
 		),
@@ -12745,14 +14006,15 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=34"],
-				commonRefs["subtype_i=25238"],
-				commonRefs["subtype_i=35"],
 				commonRefs["subtype_i=36"],
+				commonRefs["subtype_i=25238"],
+				commonRefs["subtype_i=25254"],
+				commonRefs["subtype_i=25256"],
+				commonRefs["subtype_i=34"],
+				commonRefs["supertype_i=31"],
 				commonRefs["subtype_i=14936"],
 				commonRefs["subtype_i=25345"],
-				commonRefs["subtype_i=25256"],
-				commonRefs["subtype_i=25254"],
+				commonRefs["subtype_i=35"],
 			},
 			nil,
 		),
@@ -12768,9 +14030,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=32679"],
 				commonRefs["subtype_i=45"],
+				commonRefs["supertype_i=33"],
 				commonRefs["subtype_i=44"],
+				commonRefs["subtype_i=32679"],
 			},
 			nil,
 		),
@@ -12787,6 +14050,7 @@ func PredefinedNodes() []*Node {
 			},
 			[]*ua.ReferenceDescription{
 				commonRefs["subtype_i=16362"],
+				commonRefs["supertype_i=33"],
 			},
 			nil,
 		),
@@ -12802,6 +14066,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=33"],
 				commonRefs["subtype_i=48"],
 			},
 			nil,
@@ -12817,7 +14082,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=32"],
+			},
 			nil,
 		),
 		NewNode(
@@ -12831,7 +14098,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=32"],
+			},
 			nil,
 		),
 		NewNode(
@@ -12845,7 +14114,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=32"],
+			},
 			nil,
 		),
 		NewNode(
@@ -12859,7 +14130,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=32"],
+			},
 			nil,
 		),
 		NewNode(
@@ -12874,6 +14147,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=32"],
 				commonRefs["subtype_i=3065"],
 			},
 			nil,
@@ -12889,7 +14163,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=41"],
+			},
 			nil,
 		),
 		NewNode(
@@ -12904,9 +14180,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=47"],
 				commonRefs["subtype_i=46"],
 				commonRefs["subtype_i=56"],
+				commonRefs["supertype_i=34"],
+				commonRefs["subtype_i=47"],
 			},
 			nil,
 		),
@@ -12921,7 +14198,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=34"],
+			},
 			nil,
 		),
 		NewNode(
@@ -12935,7 +14214,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=44"],
+			},
 			nil,
 		),
 		NewNode(
@@ -12950,18 +14231,19 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=16361"],
-				commonRefs["subtype_i=14476"],
 				commonRefs["subtype_i=18804"],
-				commonRefs["subtype_i=18805"],
-				commonRefs["subtype_i=129"],
-				commonRefs["subtype_i=15297"],
-				commonRefs["subtype_i=15296"],
-				commonRefs["subtype_i=25262"],
-				commonRefs["subtype_i=49"],
-				commonRefs["subtype_i=17604"],
-				commonRefs["subtype_i=15112"],
 				commonRefs["subtype_i=24136"],
+				commonRefs["subtype_i=25262"],
+				commonRefs["subtype_i=16361"],
+				commonRefs["subtype_i=49"],
+				commonRefs["subtype_i=15297"],
+				commonRefs["subtype_i=15112"],
+				commonRefs["subtype_i=17604"],
+				commonRefs["supertype_i=44"],
+				commonRefs["subtype_i=14476"],
+				commonRefs["subtype_i=129"],
+				commonRefs["subtype_i=15296"],
+				commonRefs["subtype_i=18805"],
 			},
 			nil,
 		),
@@ -12976,7 +14258,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=36"],
+			},
 			nil,
 		),
 		NewNode(
@@ -12990,7 +14274,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=47"],
+			},
 			nil,
 		),
 		NewNode(
@@ -13004,7 +14290,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=32"],
+			},
 			nil,
 		),
 		NewNode(
@@ -13018,7 +14306,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=32"],
+			},
 			nil,
 		),
 		NewNode(
@@ -13032,7 +14322,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=32"],
+			},
 			nil,
 		),
 		NewNode(
@@ -13047,10 +14339,11 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=17984"],
-				commonRefs["subtype_i=17985"],
 				commonRefs["subtype_i=17276"],
+				commonRefs["subtype_i=17984"],
+				commonRefs["supertype_i=32"],
 				commonRefs["subtype_i=17983"],
+				commonRefs["subtype_i=17985"],
 			},
 			nil,
 		),
@@ -13065,7 +14358,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=32"],
+			},
 			nil,
 		),
 		NewNode(
@@ -13079,7 +14374,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=44"],
+			},
 			nil,
 		),
 		NewNode(
@@ -13093,7 +14390,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=47"],
+			},
 			nil,
 		),
 		NewNode(
@@ -13106,7 +14405,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=32"],
+			},
 			nil,
 		),
 		NewNode(
@@ -13120,71 +14421,71 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=25337"],
-				commonRefs["subtype_i=15906"],
-				commonRefs["subtype_i=15108"],
-				commonRefs["subtype_i=19677"],
-				commonRefs["subtype_i=12556"],
-				commonRefs["subtype_i=2340"],
-				commonRefs["subtype_i=11575"],
-				commonRefs["subtype_i=11187"],
-				commonRefs["subtype_i=61"],
-				commonRefs["subtype_i=2004"],
-				commonRefs["subtype_i=2330"],
-				commonRefs["subtype_i=15298"],
-				commonRefs["subtype_i=11645"],
-				commonRefs["subtype_i=21104"],
-				commonRefs["subtype_i=14509"],
-				commonRefs["subtype_i=76"],
-				commonRefs["subtype_i=77"],
-				commonRefs["subtype_i=2041"],
-				commonRefs["subtype_i=11163"],
-				commonRefs["subtype_i=14643"],
-				commonRefs["subtype_i=15744"],
-				commonRefs["subtype_i=2318"],
-				commonRefs["subtype_i=14209"],
-				commonRefs["subtype_i=2307"],
-				commonRefs["subtype_i=2026"],
-				commonRefs["subtype_i=15489"],
-				commonRefs["subtype_i=15305"],
-				commonRefs["subtype_i=17997"],
-				commonRefs["subtype_i=2299"],
-				commonRefs["subtype_i=2033"],
-				commonRefs["subtype_i=21091"],
-				commonRefs["subtype_i=2013"],
-				commonRefs["subtype_i=23455"],
-				commonRefs["subtype_i=2029"],
-				commonRefs["subtype_i=24264"],
-				commonRefs["subtype_i=15319"],
-				commonRefs["subtype_i=15471"],
-				commonRefs["subtype_i=25227"],
-				commonRefs["subtype_i=15607"],
-				commonRefs["subtype_i=21145"],
-				commonRefs["subtype_i=12555"],
-				commonRefs["subtype_i=17589"],
-				commonRefs["subtype_i=23832"],
-				commonRefs["subtype_i=11616"],
-				commonRefs["subtype_i=14232"],
-				commonRefs["subtype_i=2020"],
-				commonRefs["subtype_i=15306"],
-				commonRefs["subtype_i=17279"],
-				commonRefs["subtype_i=17998"],
-				commonRefs["subtype_i=2034"],
-				commonRefs["subtype_i=23518"],
-				commonRefs["subtype_i=26871"],
 				commonRefs["subtype_i=17602"],
-				commonRefs["subtype_i=21096"],
-				commonRefs["subtype_i=21090"],
-				commonRefs["subtype_i=23828"],
-				commonRefs["subtype_i=15620"],
-				commonRefs["subtype_i=32286"],
-				commonRefs["subtype_i=12581"],
-				commonRefs["subtype_i=17721"],
-				commonRefs["subtype_i=75"],
 				commonRefs["subtype_i=18001"],
-				commonRefs["subtype_i=17852"],
-				commonRefs["subtype_i=2310"],
+				commonRefs["subtype_i=14509"],
+				commonRefs["subtype_i=23828"],
+				commonRefs["subtype_i=23832"],
+				commonRefs["subtype_i=61"],
+				commonRefs["subtype_i=19677"],
+				commonRefs["subtype_i=2004"],
+				commonRefs["subtype_i=17589"],
 				commonRefs["subtype_i=25221"],
+				commonRefs["subtype_i=12556"],
+				commonRefs["subtype_i=15607"],
+				commonRefs["subtype_i=2020"],
+				commonRefs["subtype_i=17721"],
+				commonRefs["subtype_i=15471"],
+				commonRefs["subtype_i=2330"],
+				commonRefs["subtype_i=32286"],
+				commonRefs["subtype_i=26871"],
+				commonRefs["subtype_i=15744"],
+				commonRefs["subtype_i=2029"],
+				commonRefs["subtype_i=14643"],
+				commonRefs["subtype_i=2034"],
+				commonRefs["subtype_i=25227"],
+				commonRefs["subtype_i=21145"],
+				commonRefs["subtype_i=11575"],
+				commonRefs["subtype_i=17279"],
+				commonRefs["subtype_i=14209"],
+				commonRefs["subtype_i=21104"],
+				commonRefs["subtype_i=21091"],
+				commonRefs["subtype_i=21096"],
+				commonRefs["subtype_i=23518"],
+				commonRefs["subtype_i=76"],
+				commonRefs["subtype_i=2318"],
+				commonRefs["subtype_i=24264"],
+				commonRefs["subtype_i=2013"],
+				commonRefs["subtype_i=2033"],
+				commonRefs["subtype_i=12581"],
+				commonRefs["subtype_i=11187"],
+				commonRefs["subtype_i=75"],
+				commonRefs["subtype_i=12555"],
+				commonRefs["subtype_i=17852"],
+				commonRefs["subtype_i=2026"],
+				commonRefs["subtype_i=25337"],
+				commonRefs["subtype_i=2310"],
+				commonRefs["subtype_i=15306"],
+				commonRefs["subtype_i=15108"],
+				commonRefs["subtype_i=2299"],
+				commonRefs["subtype_i=15298"],
+				commonRefs["subtype_i=15620"],
+				commonRefs["subtype_i=2307"],
+				commonRefs["subtype_i=21090"],
+				commonRefs["subtype_i=14232"],
+				commonRefs["subtype_i=2041"],
+				commonRefs["subtype_i=15489"],
+				commonRefs["subtype_i=17997"],
+				commonRefs["subtype_i=11163"],
+				commonRefs["subtype_i=77"],
+				commonRefs["subtype_i=15305"],
+				commonRefs["subtype_i=23455"],
+				commonRefs["subtype_i=17998"],
+				commonRefs["subtype_i=11616"],
+				commonRefs["subtype_i=11645"],
+				commonRefs["subtype_i=15319"],
+				commonRefs["subtype_i=2340"],
+				commonRefs["subtype_i=15906"],
 			},
 			nil,
 		),
@@ -13199,18 +14500,19 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["subtype_i=16405"],
+				commonRefs["supertype_i=58"],
+				commonRefs["subtype_i=17591"],
+				commonRefs["subtype_i=23795"],
+				commonRefs["subtype_i=17496"],
 				commonRefs["subtype_i=15452"],
 				commonRefs["subtype_i=23456"],
-				commonRefs["subtype_i=13353"],
-				commonRefs["subtype_i=14477"],
-				commonRefs["subtype_i=17591"],
-				commonRefs["subtype_i=16405"],
 				commonRefs["subtype_i=25346"],
+				commonRefs["subtype_i=13813"],
+				commonRefs["subtype_i=14477"],
 				commonRefs["subtype_i=11564"],
 				commonRefs["subtype_i=23556"],
-				commonRefs["subtype_i=13813"],
-				commonRefs["subtype_i=17496"],
-				commonRefs["subtype_i=23795"],
+				commonRefs["subtype_i=13353"],
 			},
 			nil,
 		),
@@ -13225,8 +14527,8 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=68"],
 				commonRefs["subtype_i=63"],
+				commonRefs["subtype_i=68"],
 			},
 			nil,
 		),
@@ -13241,39 +14543,40 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=2138"],
-				commonRefs["subtype_i=18779"],
-				commonRefs["subtype_i=2150"],
-				commonRefs["subtype_i=17709"],
-				commonRefs["subtype_i=18786"],
 				commonRefs["subtype_i=19725"],
-				commonRefs["subtype_i=2243"],
-				commonRefs["subtype_i=16309"],
-				commonRefs["subtype_i=3051"],
-				commonRefs["subtype_i=11487"],
-				commonRefs["subtype_i=17714"],
-				commonRefs["subtype_i=9002"],
-				commonRefs["subtype_i=2165"],
-				commonRefs["subtype_i=69"],
-				commonRefs["subtype_i=2244"],
-				commonRefs["subtype_i=2196"],
-				commonRefs["subtype_i=17986"],
-				commonRefs["subtype_i=2197"],
-				commonRefs["subtype_i=2755"],
-				commonRefs["subtype_i=2137"],
-				commonRefs["subtype_i=32244"],
-				commonRefs["subtype_i=15383"],
-				commonRefs["subtype_i=72"],
-				commonRefs["subtype_i=15113"],
-				commonRefs["subtype_i=2762"],
-				commonRefs["subtype_i=2172"],
-				commonRefs["subtype_i=2164"],
-				commonRefs["subtype_i=18772"],
-				commonRefs["subtype_i=32657"],
+				commonRefs["supertype_i=62"],
+				commonRefs["subtype_i=2150"],
 				commonRefs["subtype_i=17277"],
-				commonRefs["subtype_i=2171"],
+				commonRefs["subtype_i=69"],
+				commonRefs["subtype_i=9002"],
+				commonRefs["subtype_i=32657"],
+				commonRefs["subtype_i=3051"],
+				commonRefs["subtype_i=18772"],
+				commonRefs["subtype_i=2164"],
+				commonRefs["subtype_i=18786"],
 				commonRefs["subtype_i=2365"],
+				commonRefs["subtype_i=18779"],
+				commonRefs["subtype_i=11487"],
+				commonRefs["subtype_i=2762"],
 				commonRefs["subtype_i=2380"],
+				commonRefs["subtype_i=17986"],
+				commonRefs["subtype_i=15113"],
+				commonRefs["subtype_i=15383"],
+				commonRefs["subtype_i=2755"],
+				commonRefs["subtype_i=32244"],
+				commonRefs["subtype_i=16309"],
+				commonRefs["subtype_i=2171"],
+				commonRefs["subtype_i=2197"],
+				commonRefs["subtype_i=17709"],
+				commonRefs["subtype_i=2138"],
+				commonRefs["subtype_i=2244"],
+				commonRefs["subtype_i=2243"],
+				commonRefs["subtype_i=17714"],
+				commonRefs["subtype_i=2196"],
+				commonRefs["subtype_i=2165"],
+				commonRefs["subtype_i=2172"],
+				commonRefs["subtype_i=72"],
+				commonRefs["subtype_i=2137"],
 			},
 			nil,
 		),
@@ -13287,7 +14590,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=62"],
+			},
 			nil,
 		),
 		NewNode(
@@ -13300,7 +14605,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=63"],
+			},
 			nil,
 		),
 		NewNode(
@@ -13313,7 +14620,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=63"],
+			},
 			nil,
 		),
 		NewNode(
@@ -13326,7 +14635,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
+			},
 			nil,
 		),
 		NewNode(
@@ -13339,7 +14650,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
+			},
 			nil,
 		),
 		NewNode(
@@ -13352,7 +14665,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=29"],
+			},
 			nil,
 		),
 		NewNode(
@@ -13365,7 +14680,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
+			},
 			nil,
 		),
 		NewNode(
@@ -13454,8 +14771,8 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=35_i=85_true"],
 				commonRefs["i=35_i=87_true"],
+				commonRefs["i=35_i=85_true"],
 				commonRefs["i=35_i=86_true"],
 				commonRefs["hastypedef_i=61"],
 			},
@@ -13472,10 +14789,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=35_i=84_false"],
-				commonRefs["i=35_i=23470_true"],
 				commonRefs["i=35_i=31915_true"],
+				commonRefs["i=35_i=84_false"],
 				commonRefs["i=35_i=2253_true"],
+				commonRefs["i=35_i=23470_true"],
 				commonRefs["hastypedef_i=61"],
 			},
 			nil,
@@ -13491,13 +14808,13 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["i=35_i=90_true"],
+				commonRefs["i=35_i=91_true"],
+				commonRefs["i=35_i=88_true"],
+				commonRefs["i=35_i=84_false"],
+				commonRefs["i=35_i=3048_true"],
 				commonRefs["i=35_i=17708_true"],
 				commonRefs["i=35_i=89_true"],
-				commonRefs["i=35_i=3048_true"],
-				commonRefs["i=35_i=90_true"],
-				commonRefs["i=35_i=88_true"],
-				commonRefs["i=35_i=91_true"],
-				commonRefs["i=35_i=84_false"],
 				commonRefs["hastypedef_i=61"],
 			},
 			nil,
@@ -13563,10 +14880,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=35_i=93_true"],
-				commonRefs["i=35_i=92_true"],
 				commonRefs["i=35_i=86_false"],
 				commonRefs["i=35_i=24_true"],
+				commonRefs["i=35_i=93_true"],
+				commonRefs["i=35_i=92_true"],
 				commonRefs["hastypedef_i=61"],
 			},
 			nil,
@@ -13599,8 +14916,8 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=35_i=90_false"],
 				commonRefs["i=47_i=8252_true"],
+				commonRefs["i=35_i=90_false"],
 				commonRefs["hastypedef_i=75"],
 			},
 			nil,
@@ -13635,6 +14952,7 @@ func PredefinedNodes() []*Node {
 			},
 			[]*ua.ReferenceDescription{
 				commonRefs["subtype_i=131"],
+				commonRefs["supertype_i=47"],
 			},
 			nil,
 		),
@@ -13649,7 +14967,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=129"],
+			},
 			nil,
 		),
 		NewNode(
@@ -13947,7 +15267,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=30"],
+			},
 			nil,
 		),
 		NewNode(
@@ -13960,7 +15282,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=30"],
+			},
 			nil,
 		),
 		NewNode(
@@ -13973,7 +15297,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=30"],
+			},
 			nil,
 		),
 		NewNode(
@@ -13986,7 +15312,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=30"],
+			},
 			nil,
 		),
 		NewNode(
@@ -13999,7 +15327,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=15"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14013,9 +15343,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
+				commonRefs["i=38_i=12758_true"],
 				commonRefs["i=38_i=12766_true"],
 				commonRefs["i=38_i=15085_true"],
-				commonRefs["i=38_i=12758_true"],
 			},
 			nil,
 		),
@@ -14029,7 +15360,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=12"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14042,7 +15375,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14055,7 +15390,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14068,7 +15405,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14081,7 +15420,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14094,7 +15435,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14107,7 +15450,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14121,8 +15466,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=2036"],
 				commonRefs["subtype_i=2039"],
+				commonRefs["supertype_i=58"],
+				commonRefs["subtype_i=2036"],
 			},
 			nil,
 		),
@@ -14136,7 +15482,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2034"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14150,6 +15498,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2034"],
 				commonRefs["subtype_i=11945"],
 			},
 			nil,
@@ -14164,7 +15513,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2039"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14177,7 +15528,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=61"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14191,9 +15544,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=25482"],
-				commonRefs["subtype_i=11595"],
+				commonRefs["supertype_i=58"],
 				commonRefs["subtype_i=12522"],
+				commonRefs["subtype_i=11595"],
+				commonRefs["subtype_i=25482"],
 			},
 			nil,
 		),
@@ -14207,7 +15561,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=11575"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14220,7 +15576,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14233,7 +15591,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14247,14 +15607,15 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=2738"],
-				commonRefs["subtype_i=3035"],
-				commonRefs["subtype_i=2311"],
+				commonRefs["subtype_i=2782"],
+				commonRefs["subtype_i=2132"],
 				commonRefs["subtype_i=2052"],
+				commonRefs["subtype_i=2738"],
+				commonRefs["subtype_i=2311"],
 				commonRefs["subtype_i=2130"],
 				commonRefs["subtype_i=11436"],
-				commonRefs["subtype_i=2132"],
-				commonRefs["subtype_i=2782"],
+				commonRefs["supertype_i=58"],
+				commonRefs["subtype_i=3035"],
 			},
 			nil,
 		),
@@ -14269,13 +15630,14 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=12561"],
-				commonRefs["subtype_i=12620"],
 				commonRefs["subtype_i=2058"],
-				commonRefs["subtype_i=2127"],
+				commonRefs["subtype_i=2099"],
+				commonRefs["supertype_i=2041"],
 				commonRefs["subtype_i=2090"],
 				commonRefs["subtype_i=23606"],
-				commonRefs["subtype_i=2099"],
+				commonRefs["subtype_i=12561"],
+				commonRefs["subtype_i=12620"],
+				commonRefs["subtype_i=2127"],
 			},
 			nil,
 		),
@@ -14290,9 +15652,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2052"],
+				commonRefs["subtype_i=2069"],
 				commonRefs["subtype_i=2080"],
 				commonRefs["subtype_i=2059"],
-				commonRefs["subtype_i=2069"],
 			},
 			nil,
 		),
@@ -14308,6 +15671,7 @@ func PredefinedNodes() []*Node {
 			},
 			[]*ua.ReferenceDescription{
 				commonRefs["subtype_i=2060"],
+				commonRefs["supertype_i=2058"],
 			},
 			nil,
 		),
@@ -14321,7 +15685,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2059"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14335,8 +15701,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=2078"],
 				commonRefs["subtype_i=2071"],
+				commonRefs["supertype_i=2058"],
+				commonRefs["subtype_i=2078"],
 				commonRefs["subtype_i=2075"],
 			},
 			nil,
@@ -14352,6 +15719,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2069"],
 				commonRefs["subtype_i=2748"],
 			},
 			nil,
@@ -14366,7 +15734,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2071"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14379,7 +15749,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2069"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14392,7 +15764,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2069"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14406,12 +15780,13 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=2088"],
-				commonRefs["subtype_i=2082"],
-				commonRefs["subtype_i=2089"],
 				commonRefs["subtype_i=2086"],
-				commonRefs["subtype_i=2087"],
+				commonRefs["subtype_i=2082"],
+				commonRefs["subtype_i=2088"],
+				commonRefs["supertype_i=2058"],
 				commonRefs["subtype_i=2085"],
+				commonRefs["subtype_i=2087"],
+				commonRefs["subtype_i=2089"],
 			},
 			nil,
 		),
@@ -14425,7 +15800,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2080"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14438,7 +15815,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2080"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14451,7 +15830,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2080"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14464,7 +15845,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2080"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14477,7 +15860,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2080"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14490,7 +15875,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2080"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14504,9 +15891,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["subtype_i=2093"],
 				commonRefs["subtype_i=2095"],
 				commonRefs["subtype_i=2091"],
-				commonRefs["subtype_i=2093"],
+				commonRefs["supertype_i=2052"],
 				commonRefs["subtype_i=2097"],
 			},
 			nil,
@@ -14521,7 +15909,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2090"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14534,7 +15924,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2090"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14547,7 +15939,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2090"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14560,7 +15954,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2090"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14574,6 +15970,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2052"],
 				commonRefs["subtype_i=2100"],
 				commonRefs["subtype_i=2104"],
 			},
@@ -14589,7 +15986,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2099"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14603,9 +16002,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["subtype_i=19095"],
 				commonRefs["subtype_i=2999"],
 				commonRefs["subtype_i=3006"],
-				commonRefs["subtype_i=19095"],
+				commonRefs["supertype_i=2099"],
 				commonRefs["subtype_i=3012"],
 			},
 			nil,
@@ -14621,12 +16021,13 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=2790"],
 				commonRefs["subtype_i=32306"],
-				commonRefs["subtype_i=2315"],
-				commonRefs["subtype_i=32260"],
 				commonRefs["subtype_i=18011"],
 				commonRefs["subtype_i=17641"],
+				commonRefs["subtype_i=2790"],
+				commonRefs["subtype_i=32260"],
+				commonRefs["subtype_i=2315"],
+				commonRefs["supertype_i=2052"],
 			},
 			nil,
 		),
@@ -14641,12 +16042,13 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=2789"],
-				commonRefs["subtype_i=15535"],
+				commonRefs["supertype_i=2041"],
 				commonRefs["subtype_i=11446"],
 				commonRefs["subtype_i=2788"],
 				commonRefs["subtype_i=2787"],
+				commonRefs["subtype_i=2789"],
 				commonRefs["subtype_i=2131"],
+				commonRefs["subtype_i=15535"],
 			},
 			nil,
 		),
@@ -14660,7 +16062,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2130"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14673,7 +16077,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2130"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14687,6 +16093,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2041"],
 				commonRefs["subtype_i=2133"],
 			},
 			nil,
@@ -14701,7 +16108,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2132"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14714,7 +16123,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2041"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14727,7 +16138,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2041"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14740,7 +16153,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2041"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14755,6 +16170,7 @@ func PredefinedNodes() []*Node {
 			},
 			[]*ua.ReferenceDescription{
 				commonRefs["subtype_i=23926"],
+				commonRefs["supertype_i=2052"],
 			},
 			nil,
 		),
@@ -14768,7 +16184,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=23606"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14781,7 +16199,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14794,7 +16214,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=63"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14807,7 +16229,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=63"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14820,7 +16244,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=63"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14833,7 +16259,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=63"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14846,7 +16274,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=63"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14859,7 +16289,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=63"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14872,7 +16304,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=63"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14885,7 +16319,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=63"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14898,7 +16334,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=63"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14911,7 +16349,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=63"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14924,7 +16364,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=63"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14937,7 +16379,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=63"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14950,7 +16394,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=63"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14963,7 +16409,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=63"],
+			},
 			nil,
 		),
 		NewNode(
@@ -14976,7 +16424,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=63"],
+			},
 			nil,
 		),
 		NewNode(
@@ -15023,12 +16473,12 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["i=47_i=14443_true"],
+				commonRefs["i=35_i=85_false"],
 				commonRefs["i=47_i=17594_true"],
 				commonRefs["i=47_i=24226_true"],
 				commonRefs["i=47_i=32405_true"],
-				commonRefs["i=47_i=14443_true"],
 				commonRefs["i=47_i=12637_true"],
-				commonRefs["i=35_i=85_false"],
 				commonRefs["hastypedef_i=2004"],
 			},
 			nil,
@@ -15119,7 +16569,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=32"],
+			},
 			nil,
 		),
 		NewNode(
@@ -15132,7 +16584,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=9"],
+			},
 			nil,
 		),
 		NewNode(
@@ -15145,7 +16599,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=12"],
+			},
 			nil,
 		),
 		NewNode(
@@ -15159,8 +16615,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=14802_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=14846_true"],
+				commonRefs["i=38_i=14802_true"],
 				commonRefs["i=38_i=15041_true"],
 			},
 			nil,
@@ -15176,9 +16633,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
+				commonRefs["i=38_i=17541_true"],
 				commonRefs["i=38_i=17537_true"],
 				commonRefs["i=38_i=17547_true"],
-				commonRefs["i=38_i=17541_true"],
 			},
 			nil,
 		),
@@ -15193,6 +16651,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=17553_true"],
 				commonRefs["i=38_i=17557_true"],
 				commonRefs["i=38_i=17549_true"],
@@ -15210,9 +16669,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
+				commonRefs["i=38_i=15671_true"],
 				commonRefs["i=38_i=15949_true"],
 				commonRefs["i=38_i=16150_true"],
-				commonRefs["i=38_i=15671_true"],
 			},
 			nil,
 		),
@@ -15226,7 +16686,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=7"],
+			},
 			nil,
 		),
 		NewNode(
@@ -15239,7 +16701,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=12"],
+			},
 			nil,
 		),
 		NewNode(
@@ -15254,6 +16718,7 @@ func PredefinedNodes() []*Node {
 			},
 			[]*ua.ReferenceDescription{
 				commonRefs["subtype_i=2771"],
+				commonRefs["supertype_i=58"],
 			},
 			nil,
 		),
@@ -15269,6 +16734,7 @@ func PredefinedNodes() []*Node {
 			},
 			[]*ua.ReferenceDescription{
 				commonRefs["subtype_i=2760"],
+				commonRefs["supertype_i=63"],
 				commonRefs["subtype_i=8995"],
 			},
 			nil,
@@ -15284,6 +16750,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=63"],
 				commonRefs["subtype_i=2767"],
 			},
 			nil,
@@ -15300,6 +16767,7 @@ func PredefinedNodes() []*Node {
 			},
 			[]*ua.ReferenceDescription{
 				commonRefs["subtype_i=15803"],
+				commonRefs["supertype_i=2299"],
 				commonRefs["subtype_i=2391"],
 				commonRefs["subtype_i=9318"],
 				commonRefs["subtype_i=2929"],
@@ -15316,7 +16784,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2755"],
+			},
 			nil,
 		),
 		NewNode(
@@ -15329,7 +16799,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2762"],
+			},
 			nil,
 		),
 		NewNode(
@@ -15344,6 +16816,7 @@ func PredefinedNodes() []*Node {
 			},
 			[]*ua.ReferenceDescription{
 				commonRefs["subtype_i=15109"],
+				commonRefs["supertype_i=58"],
 				commonRefs["subtype_i=2309"],
 			},
 			nil,
@@ -15358,7 +16831,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2307"],
+			},
 			nil,
 		),
 		NewNode(
@@ -15371,7 +16846,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
+			},
 			nil,
 		),
 		NewNode(
@@ -15384,7 +16861,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2307"],
+			},
 			nil,
 		),
 		NewNode(
@@ -15398,7 +16877,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=47"],
+			},
 			nil,
 		),
 		NewNode(
@@ -15412,8 +16893,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=15317"],
 				commonRefs["subtype_i=15128"],
+				commonRefs["subtype_i=15317"],
+				commonRefs["supertype_i=63"],
 			},
 			nil,
 		),
@@ -15427,7 +16909,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=15113"],
+			},
 			nil,
 		),
 		NewNode(
@@ -15440,7 +16924,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=15113"],
+			},
 			nil,
 		),
 		NewNode(
@@ -15453,7 +16939,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=63"],
+			},
 			nil,
 		),
 		NewNode(
@@ -15468,6 +16956,7 @@ func PredefinedNodes() []*Node {
 			},
 			[]*ua.ReferenceDescription{
 				commonRefs["subtype_i=17716"],
+				commonRefs["supertype_i=63"],
 			},
 			nil,
 		),
@@ -15481,7 +16970,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=17714"],
+			},
 			nil,
 		),
 		NewNode(
@@ -15495,6 +16986,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=63"],
 				commonRefs["subtype_i=18774"],
 			},
 			nil,
@@ -15509,7 +17001,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=18772"],
+			},
 			nil,
 		),
 		NewNode(
@@ -15523,6 +17017,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=63"],
 				commonRefs["subtype_i=18781"],
 			},
 			nil,
@@ -15537,7 +17032,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=18779"],
+			},
 			nil,
 		),
 		NewNode(
@@ -15551,6 +17048,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=63"],
 				commonRefs["subtype_i=18791"],
 			},
 			nil,
@@ -15565,7 +17063,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=18786"],
+			},
 			nil,
 		),
 		NewNode(
@@ -15579,9 +17079,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=18851_true"],
-				commonRefs["i=38_i=18815_true"],
 				commonRefs["i=38_i=19064_true"],
+				commonRefs["i=38_i=18815_true"],
 			},
 			nil,
 		),
@@ -15596,10 +17097,11 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
 				commonRefs["subtype_i=18808"],
+				commonRefs["i=38_i=18816_true"],
 				commonRefs["i=38_i=19065_true"],
 				commonRefs["i=38_i=18852_true"],
-				commonRefs["i=38_i=18816_true"],
 			},
 			nil,
 		),
@@ -15614,8 +17116,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=19066_true"],
+				commonRefs["supertype_i=18807"],
 				commonRefs["i=38_i=18817_true"],
+				commonRefs["i=38_i=19066_true"],
 				commonRefs["i=38_i=18853_true"],
 			},
 			nil,
@@ -15631,9 +17134,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
 				commonRefs["subtype_i=18810"],
-				commonRefs["i=38_i=18854_true"],
 				commonRefs["i=38_i=18818_true"],
+				commonRefs["i=38_i=18854_true"],
 				commonRefs["i=38_i=19067_true"],
 			},
 			nil,
@@ -15649,9 +17153,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=18809"],
+				commonRefs["i=38_i=18819_true"],
 				commonRefs["i=38_i=18855_true"],
 				commonRefs["i=38_i=19068_true"],
-				commonRefs["i=38_i=18819_true"],
 			},
 			nil,
 		),
@@ -15666,10 +17171,11 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
 				commonRefs["subtype_i=18812"],
-				commonRefs["i=38_i=18820_true"],
 				commonRefs["i=38_i=18856_true"],
 				commonRefs["i=38_i=19069_true"],
+				commonRefs["i=38_i=18820_true"],
 			},
 			nil,
 		),
@@ -15684,9 +17190,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=18821_true"],
+				commonRefs["supertype_i=18811"],
 				commonRefs["i=38_i=18857_true"],
 				commonRefs["i=38_i=19070_true"],
+				commonRefs["i=38_i=18821_true"],
 			},
 			nil,
 		),
@@ -15701,10 +17208,11 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
 				commonRefs["subtype_i=18814"],
 				commonRefs["i=38_i=19071_true"],
-				commonRefs["i=38_i=18822_true"],
 				commonRefs["i=38_i=18858_true"],
+				commonRefs["i=38_i=18822_true"],
 			},
 			nil,
 		),
@@ -15719,9 +17227,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=18813"],
+				commonRefs["i=38_i=18859_true"],
 				commonRefs["i=38_i=19072_true"],
 				commonRefs["i=38_i=18823_true"],
-				commonRefs["i=38_i=18859_true"],
 			},
 			nil,
 		),
@@ -15737,6 +17246,7 @@ func PredefinedNodes() []*Node {
 			},
 			[]*ua.ReferenceDescription{
 				commonRefs["subtype_i=2378"],
+				commonRefs["supertype_i=2041"],
 			},
 			nil,
 		),
@@ -15753,6 +17263,7 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				commonRefs["subtype_i=3806"],
 				commonRefs["subtype_i=11856"],
+				commonRefs["supertype_i=2127"],
 			},
 			nil,
 		),
@@ -15766,7 +17277,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=29"],
+			},
 			nil,
 		),
 		NewNode(
@@ -15779,7 +17292,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=61"],
+			},
 			nil,
 		),
 		NewNode(
@@ -15807,7 +17322,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
+			},
 			nil,
 		),
 		NewNode(
@@ -15820,7 +17337,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2771"],
+			},
 			nil,
 		),
 		NewNode(
@@ -15833,7 +17352,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
+			},
 			nil,
 		),
 		NewNode(
@@ -15846,7 +17367,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
+			},
 			nil,
 		),
 		NewNode(
@@ -15859,7 +17382,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=29"],
+			},
 			nil,
 		),
 		NewNode(
@@ -15873,9 +17398,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=15728_true"],
-				commonRefs["i=38_i=15736_true"],
 				commonRefs["i=38_i=15042_true"],
+				commonRefs["i=38_i=15736_true"],
 			},
 			nil,
 		),
@@ -15889,7 +17415,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2127"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16068,8 +17596,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=17600"],
+				commonRefs["supertype_i=58"],
 				commonRefs["subtype_i=17598"],
+				commonRefs["subtype_i=17600"],
 			},
 			nil,
 		),
@@ -16083,7 +17612,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=61"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16113,7 +17644,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=32"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16126,7 +17659,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=17589"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16139,7 +17674,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=17589"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16153,20 +17690,21 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=24205"],
+				commonRefs["supertype_i=58"],
 				commonRefs["subtype_i=24183"],
-				commonRefs["subtype_i=24202"],
-				commonRefs["subtype_i=25218"],
-				commonRefs["subtype_i=23513"],
-				commonRefs["subtype_i=24199"],
-				commonRefs["subtype_i=24169"],
-				commonRefs["subtype_i=24233"],
-				commonRefs["subtype_i=24179"],
-				commonRefs["subtype_i=24148"],
 				commonRefs["subtype_i=24167"],
 				commonRefs["subtype_i=24188"],
+				commonRefs["subtype_i=25218"],
+				commonRefs["subtype_i=24205"],
+				commonRefs["subtype_i=24199"],
+				commonRefs["subtype_i=24233"],
+				commonRefs["subtype_i=24202"],
+				commonRefs["subtype_i=23513"],
 				commonRefs["subtype_i=24173"],
 				commonRefs["subtype_i=24158"],
+				commonRefs["subtype_i=24179"],
+				commonRefs["subtype_i=24169"],
+				commonRefs["subtype_i=24148"],
 			},
 			nil,
 		),
@@ -16198,7 +17736,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=32"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16212,7 +17752,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=47"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16226,9 +17768,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=23507_true"],
-				commonRefs["i=38_i=23520_true"],
 				commonRefs["i=38_i=23528_true"],
+				commonRefs["i=38_i=23520_true"],
 			},
 			nil,
 		),
@@ -16257,7 +17800,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=17602"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16271,6 +17816,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
 				commonRefs["i=41_i=2133_true"],
 			},
 			nil,
@@ -16286,9 +17832,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=63"],
+				commonRefs["subtype_i=15318"],
 				commonRefs["subtype_i=2372"],
 				commonRefs["subtype_i=12021"],
-				commonRefs["subtype_i=15318"],
 			},
 			nil,
 		),
@@ -16303,8 +17850,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=17497"],
 				commonRefs["subtype_i=2368"],
+				commonRefs["subtype_i=17497"],
+				commonRefs["supertype_i=2365"],
 			},
 			nil,
 		),
@@ -16319,6 +17867,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=15318"],
 				commonRefs["subtype_i=17570"],
 			},
 			nil,
@@ -16333,7 +17882,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=15318"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16346,7 +17897,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2368"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16360,9 +17913,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=2376"],
-				commonRefs["subtype_i=2373"],
 				commonRefs["subtype_i=11238"],
+				commonRefs["supertype_i=2365"],
+				commonRefs["subtype_i=2373"],
+				commonRefs["subtype_i=2376"],
 			},
 			nil,
 		),
@@ -16376,7 +17930,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2372"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16389,7 +17945,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2372"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16404,6 +17962,7 @@ func PredefinedNodes() []*Node {
 			},
 			[]*ua.ReferenceDescription{
 				commonRefs["subtype_i=19077"],
+				commonRefs["supertype_i=2372"],
 			},
 			nil,
 		),
@@ -16418,11 +17977,12 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=12057"],
 				commonRefs["subtype_i=12047"],
-				commonRefs["subtype_i=12038"],
 				commonRefs["subtype_i=12068"],
 				commonRefs["subtype_i=12029"],
+				commonRefs["subtype_i=12038"],
+				commonRefs["subtype_i=12057"],
+				commonRefs["supertype_i=2365"],
 			},
 			nil,
 		),
@@ -16436,7 +17996,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=12021"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16449,7 +18011,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=12021"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16462,7 +18026,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=12021"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16475,7 +18041,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=12021"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16488,7 +18056,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=12021"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16501,7 +18071,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2755"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16514,7 +18086,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=63"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16528,7 +18102,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=32"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16542,7 +18118,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=32"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16556,7 +18134,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=47"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16571,6 +18151,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=35"],
 				commonRefs["subtype_i=32059"],
 			},
 			nil,
@@ -16586,7 +18167,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=16362"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16600,6 +18183,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2041"],
 				commonRefs["subtype_i=2881"],
 				commonRefs["subtype_i=2830"],
 			},
@@ -16615,7 +18199,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2782"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16629,6 +18215,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2782"],
 				commonRefs["subtype_i=2915"],
 			},
 			nil,
@@ -16644,9 +18231,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=17080"],
-				commonRefs["subtype_i=10523"],
 				commonRefs["subtype_i=2955"],
+				commonRefs["subtype_i=10523"],
+				commonRefs["subtype_i=17080"],
+				commonRefs["supertype_i=2881"],
 			},
 			nil,
 		),
@@ -16661,6 +18249,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=61"],
 				commonRefs["subtype_i=32064"],
 			},
 			nil,
@@ -16675,7 +18264,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=16405"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16688,7 +18279,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2771"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16702,6 +18295,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2915"],
 				commonRefs["subtype_i=9341"],
 				commonRefs["subtype_i=9906"],
 			},
@@ -16717,7 +18311,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2771"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16731,9 +18327,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=9623"],
-				commonRefs["subtype_i=9482"],
 				commonRefs["subtype_i=9764"],
+				commonRefs["subtype_i=9623"],
+				commonRefs["supertype_i=2955"],
+				commonRefs["subtype_i=9482"],
 			},
 			nil,
 		),
@@ -16748,9 +18345,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=10060"],
 				commonRefs["subtype_i=10368"],
+				commonRefs["subtype_i=10060"],
 				commonRefs["subtype_i=10214"],
+				commonRefs["supertype_i=2955"],
 			},
 			nil,
 		),
@@ -16764,7 +18362,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=9906"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16777,7 +18377,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=9341"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16790,7 +18392,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=9906"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16803,7 +18407,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=9906"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16816,7 +18422,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=9341"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16829,7 +18437,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=9341"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16844,6 +18454,7 @@ func PredefinedNodes() []*Node {
 			},
 			[]*ua.ReferenceDescription{
 				commonRefs["subtype_i=10637"],
+				commonRefs["supertype_i=2915"],
 			},
 			nil,
 		),
@@ -16858,10 +18469,11 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=10751"],
 				commonRefs["subtype_i=11753"],
-				commonRefs["subtype_i=18347"],
 				commonRefs["subtype_i=18496"],
+				commonRefs["supertype_i=10523"],
+				commonRefs["subtype_i=18347"],
+				commonRefs["subtype_i=10751"],
 			},
 			nil,
 		),
@@ -16876,6 +18488,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=10637"],
 				commonRefs["subtype_i=19297"],
 				commonRefs["subtype_i=13225"],
 			},
@@ -16891,7 +18504,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=10637"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16904,7 +18519,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=10637"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16917,7 +18534,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=10637"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16930,7 +18549,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=11753"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16943,7 +18564,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2915"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16957,14 +18580,15 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=11166"],
-				commonRefs["subtype_i=18665"],
-				commonRefs["subtype_i=11165"],
-				commonRefs["subtype_i=17221"],
-				commonRefs["subtype_i=17220"],
-				commonRefs["subtype_i=17218"],
 				commonRefs["subtype_i=17219"],
+				commonRefs["subtype_i=17220"],
 				commonRefs["subtype_i=11164"],
+				commonRefs["subtype_i=11165"],
+				commonRefs["subtype_i=18665"],
+				commonRefs["subtype_i=11166"],
+				commonRefs["subtype_i=17221"],
+				commonRefs["supertype_i=58"],
+				commonRefs["subtype_i=17218"],
 			},
 			nil,
 		),
@@ -16978,7 +18602,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=11163"],
+			},
 			nil,
 		),
 		NewNode(
@@ -16991,7 +18617,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=11163"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17004,7 +18632,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=11163"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17017,7 +18647,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=11163"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17030,7 +18662,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=11163"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17043,7 +18677,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=11163"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17056,7 +18692,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=11163"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17069,7 +18707,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=11163"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17083,16 +18723,17 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=8944"],
 				commonRefs["subtype_i=15013"],
-				commonRefs["subtype_i=2803"],
-				commonRefs["subtype_i=17259"],
-				commonRefs["subtype_i=17242"],
-				commonRefs["subtype_i=8961"],
-				commonRefs["subtype_i=11093"],
-				commonRefs["subtype_i=17225"],
+				commonRefs["supertype_i=2127"],
 				commonRefs["subtype_i=8927"],
 				commonRefs["subtype_i=2829"],
+				commonRefs["subtype_i=2803"],
+				commonRefs["subtype_i=8961"],
+				commonRefs["subtype_i=17225"],
+				commonRefs["subtype_i=11093"],
+				commonRefs["subtype_i=8944"],
+				commonRefs["subtype_i=17242"],
+				commonRefs["subtype_i=17259"],
 			},
 			nil,
 		),
@@ -17106,7 +18747,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2790"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17119,7 +18762,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2790"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17132,7 +18777,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2790"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17145,7 +18792,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2790"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17158,7 +18807,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2790"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17171,7 +18822,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2790"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17184,7 +18837,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2790"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17197,7 +18852,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2790"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17210,7 +18867,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2790"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17223,7 +18882,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2790"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17236,7 +18897,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2130"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17249,7 +18912,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2130"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17262,7 +18927,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2130"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17276,7 +18943,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=32"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17290,7 +18959,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=54"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17304,7 +18975,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=54"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17318,7 +18991,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=54"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17332,7 +19007,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=54"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17345,7 +19022,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17358,7 +19037,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=63"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17371,7 +19052,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=63"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17384,7 +19067,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=5"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17397,7 +19082,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2771"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17410,7 +19097,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2311"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17423,7 +19112,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2315"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17436,7 +19127,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2315"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17449,7 +19142,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=63"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17462,7 +19157,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=63"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17490,7 +19187,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17533,7 +19232,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17546,7 +19247,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2104"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17559,7 +19262,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2104"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17572,7 +19277,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2104"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17586,9 +19293,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=3019"],
-				commonRefs["subtype_i=3014"],
 				commonRefs["subtype_i=3022"],
+				commonRefs["subtype_i=3014"],
+				commonRefs["subtype_i=3019"],
+				commonRefs["supertype_i=2104"],
 			},
 			nil,
 		),
@@ -17602,7 +19310,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=3012"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17615,7 +19325,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=3012"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17628,7 +19340,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=3012"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17641,7 +19355,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=11575"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17654,7 +19370,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=7"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17667,7 +19385,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=29"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17681,6 +19401,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=15044_true"],
 				commonRefs["i=38_i=12680_true"],
 				commonRefs["i=38_i=12676_true"],
@@ -17697,7 +19418,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=11753"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17711,6 +19434,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
 				commonRefs["i=9006_i=13225_true"],
 			},
 			nil,
@@ -17725,7 +19449,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=61"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17739,6 +19465,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
 				commonRefs["subtype_i=15181"],
 				commonRefs["subtype_i=12558"],
 				commonRefs["subtype_i=12557"],
@@ -17759,6 +19486,7 @@ func PredefinedNodes() []*Node {
 				commonRefs["subtype_i=23537"],
 				commonRefs["subtype_i=12559"],
 				commonRefs["subtype_i=12560"],
+				commonRefs["supertype_i=12556"],
 			},
 			nil,
 		),
@@ -17772,7 +19500,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=12556"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17785,7 +19515,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=12556"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17798,7 +19530,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=12557"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17811,7 +19545,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=12557"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17825,12 +19561,13 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=23543"],
-				commonRefs["subtype_i=23538"],
-				commonRefs["subtype_i=23541"],
 				commonRefs["subtype_i=23542"],
+				commonRefs["supertype_i=12557"],
 				commonRefs["subtype_i=23539"],
 				commonRefs["subtype_i=23540"],
+				commonRefs["subtype_i=23538"],
+				commonRefs["subtype_i=23543"],
+				commonRefs["subtype_i=23541"],
 			},
 			nil,
 		),
@@ -17844,7 +19581,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=23537"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17857,7 +19596,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=23537"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17870,7 +19611,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=23537"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17883,7 +19626,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=23537"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17896,7 +19641,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=23537"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17909,7 +19656,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=23537"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17922,7 +19671,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2127"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17935,7 +19686,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2052"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17949,6 +19702,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=32382_true"],
 				commonRefs["i=38_i=32386_true"],
 				commonRefs["i=38_i=32390_true"],
@@ -17965,7 +19719,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
+			},
 			nil,
 		),
 		NewNode(
@@ -17979,6 +19735,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
 				commonRefs["subtype_i=25731"],
 			},
 			nil,
@@ -17993,7 +19750,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2127"],
+			},
 			nil,
 		),
 		NewNode(
@@ -18006,7 +19765,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=2052"],
+			},
 			nil,
 		),
 		NewNode(
@@ -18020,10 +19781,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=47_i=18155_true"],
 				commonRefs["i=47_i=24290_true"],
 				commonRefs["i=47_i=17732_true"],
 				commonRefs["i=47_i=2253_false"],
+				commonRefs["i=47_i=18155_true"],
 				commonRefs["hastypedef_i=12581"],
 			},
 			nil,
@@ -18038,7 +19799,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=61"],
+			},
 			nil,
 		),
 		NewNode(
@@ -18067,7 +19830,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
+			},
 			nil,
 		),
 		NewNode(
@@ -18081,8 +19846,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=18029"],
 				commonRefs["subtype_i=18047"],
+				commonRefs["supertype_i=2127"],
+				commonRefs["subtype_i=18029"],
 			},
 			nil,
 		),
@@ -18096,7 +19862,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=18011"],
+			},
 			nil,
 		),
 		NewNode(
@@ -18109,7 +19877,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=18011"],
+			},
 			nil,
 		),
 		NewNode(
@@ -18122,7 +19892,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=61"],
+			},
 			nil,
 		),
 		NewNode(
@@ -18151,7 +19923,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
+			},
 			nil,
 		),
 		NewNode(
@@ -18164,7 +19938,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
+			},
 			nil,
 		),
 		NewNode(
@@ -18733,10 +20509,11 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=14523"],
+				commonRefs["supertype_i=22"],
 				commonRefs["subtype_i=15006"],
-				commonRefs["i=38_i=15676_true"],
+				commonRefs["subtype_i=14523"],
 				commonRefs["i=38_i=15950_true"],
+				commonRefs["i=38_i=15676_true"],
 				commonRefs["i=38_i=16151_true"],
 			},
 			nil,
@@ -18752,12 +20529,13 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=15488"],
 				commonRefs["subtype_i=15005"],
+				commonRefs["supertype_i=22"],
 				commonRefs["subtype_i=15487"],
-				commonRefs["i=38_i=14796_true"],
-				commonRefs["i=38_i=125_true"],
+				commonRefs["subtype_i=15488"],
 				commonRefs["i=38_i=15057_true"],
+				commonRefs["i=38_i=125_true"],
+				commonRefs["i=38_i=14796_true"],
 			},
 			nil,
 		),
@@ -18772,6 +20550,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=14525"],
 				commonRefs["i=38_i=126_true"],
 				commonRefs["i=38_i=15058_true"],
 				commonRefs["i=38_i=15589_true"],
@@ -18789,9 +20568,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=15059_true"],
-				commonRefs["i=38_i=15590_true"],
+				commonRefs["supertype_i=14525"],
 				commonRefs["i=38_i=127_true"],
+				commonRefs["i=38_i=15590_true"],
+				commonRefs["i=38_i=15059_true"],
 			},
 			nil,
 		),
@@ -18806,8 +20586,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=15700_true"],
+				commonRefs["supertype_i=14525"],
 				commonRefs["i=38_i=15529_true"],
+				commonRefs["i=38_i=15700_true"],
 				commonRefs["i=38_i=15421_true"],
 			},
 			nil,
@@ -18823,9 +20604,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=15534"],
 				commonRefs["i=38_i=15422_true"],
-				commonRefs["i=38_i=15531_true"],
 				commonRefs["i=38_i=15714_true"],
+				commonRefs["i=38_i=15531_true"],
 			},
 			nil,
 		),
@@ -18840,6 +20622,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=24108_true"],
 				commonRefs["i=38_i=24120_true"],
 				commonRefs["i=38_i=24132_true"],
@@ -18857,9 +20640,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=24109_true"],
-				commonRefs["i=38_i=24133_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=24121_true"],
+				commonRefs["i=38_i=24133_true"],
+				commonRefs["i=38_i=24109_true"],
 			},
 			nil,
 		),
@@ -18874,9 +20658,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=24134_true"],
-				commonRefs["i=38_i=24122_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=24110_true"],
+				commonRefs["i=38_i=24122_true"],
+				commonRefs["i=38_i=24134_true"],
 			},
 			nil,
 		),
@@ -18890,7 +20675,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=29"],
+			},
 			nil,
 		),
 		NewNode(
@@ -18904,9 +20691,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=14794_true"],
-				commonRefs["i=38_i=15050_true"],
+				commonRefs["supertype_i=15534"],
 				commonRefs["i=38_i=124_true"],
+				commonRefs["i=38_i=15050_true"],
+				commonRefs["i=38_i=14794_true"],
 			},
 			nil,
 		),
@@ -18921,9 +20709,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=14839_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=15051_true"],
 				commonRefs["i=38_i=14795_true"],
+				commonRefs["i=38_i=14839_true"],
 			},
 			nil,
 		),
@@ -18937,7 +20726,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=5"],
+			},
 			nil,
 		),
 		NewNode(
@@ -18951,8 +20742,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=14847_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=15049_true"],
+				commonRefs["i=38_i=14847_true"],
 				commonRefs["i=38_i=14803_true"],
 			},
 			nil,
@@ -18968,9 +20760,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=16152_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=15677_true"],
 				commonRefs["i=38_i=15951_true"],
+				commonRefs["i=38_i=16152_true"],
 			},
 			nil,
 		),
@@ -18985,12 +20778,13 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
+				commonRefs["subtype_i=15582"],
 				commonRefs["subtype_i=15581"],
 				commonRefs["subtype_i=25269"],
-				commonRefs["subtype_i=15582"],
 				commonRefs["i=38_i=15678_true"],
-				commonRefs["i=38_i=15952_true"],
 				commonRefs["i=38_i=16153_true"],
+				commonRefs["i=38_i=15952_true"],
 			},
 			nil,
 		),
@@ -19005,8 +20799,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=14323_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=14319_true"],
+				commonRefs["i=38_i=14323_true"],
 				commonRefs["i=38_i=15060_true"],
 			},
 			nil,
@@ -19022,9 +20817,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=15953_true"],
+				commonRefs["supertype_i=15580"],
 				commonRefs["i=38_i=15679_true"],
 				commonRefs["i=38_i=16154_true"],
+				commonRefs["i=38_i=15953_true"],
 			},
 			nil,
 		),
@@ -19039,8 +20835,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=15681_true"],
+				commonRefs["supertype_i=15580"],
 				commonRefs["i=38_i=15954_true"],
+				commonRefs["i=38_i=15681_true"],
 				commonRefs["i=38_i=16155_true"],
 			},
 			nil,
@@ -19056,9 +20853,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=25545_true"],
+				commonRefs["supertype_i=15580"],
 				commonRefs["i=38_i=25529_true"],
 				commonRefs["i=38_i=25561_true"],
+				commonRefs["i=38_i=25545_true"],
 			},
 			nil,
 		),
@@ -19072,7 +20870,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=7"],
+			},
 			nil,
 		),
 		NewNode(
@@ -19086,9 +20886,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=15955_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=16156_true"],
 				commonRefs["i=38_i=15682_true"],
+				commonRefs["i=38_i=15955_true"],
 			},
 			nil,
 		),
@@ -19104,9 +20905,10 @@ func PredefinedNodes() []*Node {
 			},
 			[]*ua.ReferenceDescription{
 				commonRefs["subtype_i=15669"],
-				commonRefs["i=38_i=15683_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=16157_true"],
 				commonRefs["i=38_i=15956_true"],
+				commonRefs["i=38_i=15683_true"],
 			},
 			nil,
 		),
@@ -19121,11 +20923,12 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
 				commonRefs["subtype_i=15664"],
 				commonRefs["subtype_i=15652"],
 				commonRefs["i=38_i=15987_true"],
-				commonRefs["i=38_i=15688_true"],
 				commonRefs["i=38_i=16158_true"],
+				commonRefs["i=38_i=15688_true"],
 			},
 			nil,
 		),
@@ -19140,10 +20943,11 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
 				commonRefs["subtype_i=15520"],
 				commonRefs["subtype_i=15480"],
-				commonRefs["i=38_i=15689_true"],
 				commonRefs["i=38_i=16159_true"],
+				commonRefs["i=38_i=15689_true"],
 				commonRefs["i=38_i=15988_true"],
 			},
 			nil,
@@ -19159,9 +20963,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=21150_true"],
-				commonRefs["i=38_i=21198_true"],
+				commonRefs["supertype_i=15609"],
 				commonRefs["i=38_i=21174_true"],
+				commonRefs["i=38_i=21198_true"],
+				commonRefs["i=38_i=21150_true"],
 			},
 			nil,
 		),
@@ -19177,10 +20982,11 @@ func PredefinedNodes() []*Node {
 			},
 			[]*ua.ReferenceDescription{
 				commonRefs["subtype_i=15667"],
+				commonRefs["supertype_i=22"],
 				commonRefs["subtype_i=15532"],
-				commonRefs["i=38_i=16161_true"],
-				commonRefs["i=38_i=15990_true"],
 				commonRefs["i=38_i=15691_true"],
+				commonRefs["i=38_i=15990_true"],
+				commonRefs["i=38_i=16161_true"],
 			},
 			nil,
 		),
@@ -19196,9 +21002,10 @@ func PredefinedNodes() []*Node {
 			},
 			[]*ua.ReferenceDescription{
 				commonRefs["subtype_i=15645"],
+				commonRefs["supertype_i=22"],
 				commonRefs["subtype_i=15657"],
-				commonRefs["i=38_i=16280_true"],
 				commonRefs["i=38_i=15991_true"],
+				commonRefs["i=38_i=16280_true"],
 				commonRefs["i=38_i=15693_true"],
 			},
 			nil,
@@ -19214,9 +21021,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=16281_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=15694_true"],
 				commonRefs["i=38_i=15992_true"],
+				commonRefs["i=38_i=16281_true"],
 			},
 			nil,
 		),
@@ -19231,6 +21039,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
 				commonRefs["subtype_i=15007"],
 				commonRefs["subtype_i=17467"],
 				commonRefs["i=38_i=15695_true"],
@@ -19250,9 +21059,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
 				commonRefs["subtype_i=15510"],
-				commonRefs["i=38_i=21199_true"],
 				commonRefs["i=38_i=21151_true"],
+				commonRefs["i=38_i=21199_true"],
 				commonRefs["i=38_i=21175_true"],
 			},
 			nil,
@@ -19268,9 +21078,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=15502"],
 				commonRefs["i=38_i=21176_true"],
-				commonRefs["i=38_i=21200_true"],
 				commonRefs["i=38_i=21152_true"],
+				commonRefs["i=38_i=21200_true"],
 			},
 			nil,
 		),
@@ -19285,9 +21096,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=15609"],
 				commonRefs["i=38_i=21201_true"],
-				commonRefs["i=38_i=21177_true"],
 				commonRefs["i=38_i=21153_true"],
+				commonRefs["i=38_i=21177_true"],
 			},
 			nil,
 		),
@@ -19302,8 +21114,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=16284_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=15995_true"],
+				commonRefs["i=38_i=16284_true"],
 				commonRefs["i=38_i=15701_true"],
 			},
 			nil,
@@ -19319,9 +21132,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=16285_true"],
-				commonRefs["i=38_i=15996_true"],
 				commonRefs["i=38_i=15702_true"],
+				commonRefs["i=38_i=15996_true"],
 			},
 			nil,
 		),
@@ -19336,8 +21150,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=15703_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=16286_true"],
+				commonRefs["i=38_i=15703_true"],
 				commonRefs["i=38_i=16007_true"],
 			},
 			nil,
@@ -19354,10 +21169,11 @@ func PredefinedNodes() []*Node {
 			},
 			[]*ua.ReferenceDescription{
 				commonRefs["subtype_i=23614"],
+				commonRefs["supertype_i=22"],
 				commonRefs["subtype_i=15670"],
+				commonRefs["i=38_i=16287_true"],
 				commonRefs["i=38_i=15705_true"],
 				commonRefs["i=38_i=16008_true"],
-				commonRefs["i=38_i=16287_true"],
 			},
 			nil,
 		),
@@ -19372,11 +21188,12 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=15665"],
 				commonRefs["subtype_i=15653"],
-				commonRefs["i=38_i=15706_true"],
-				commonRefs["i=38_i=16009_true"],
+				commonRefs["subtype_i=15665"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=16288_true"],
+				commonRefs["i=38_i=16009_true"],
+				commonRefs["i=38_i=15706_true"],
 			},
 			nil,
 		),
@@ -19391,10 +21208,11 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=15631"],
-				commonRefs["subtype_i=23600"],
 				commonRefs["subtype_i=23599"],
+				commonRefs["supertype_i=22"],
+				commonRefs["subtype_i=23600"],
 				commonRefs["subtype_i=15635"],
+				commonRefs["subtype_i=15631"],
 				commonRefs["i=38_i=15707_true"],
 				commonRefs["i=38_i=16010_true"],
 				commonRefs["i=38_i=16308_true"],
@@ -19412,6 +21230,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=15630"],
 				commonRefs["i=38_i=16310_true"],
 				commonRefs["i=38_i=15712_true"],
 				commonRefs["i=38_i=16011_true"],
@@ -19429,6 +21248,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=14848_true"],
 				commonRefs["i=38_i=14804_true"],
 				commonRefs["i=38_i=15061_true"],
@@ -19445,7 +21265,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=29"],
+			},
 			nil,
 		),
 		NewNode(
@@ -19459,9 +21281,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=15630"],
 				commonRefs["i=38_i=15713_true"],
-				commonRefs["i=38_i=16012_true"],
 				commonRefs["i=38_i=16311_true"],
+				commonRefs["i=38_i=16012_true"],
 			},
 			nil,
 		),
@@ -19476,9 +21299,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
 				commonRefs["subtype_i=23602"],
-				commonRefs["i=38_i=21154_true"],
 				commonRefs["i=38_i=21202_true"],
+				commonRefs["i=38_i=21154_true"],
 				commonRefs["i=38_i=21178_true"],
 			},
 			nil,
@@ -19494,9 +21318,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=15630"],
 				commonRefs["i=38_i=23851_true"],
-				commonRefs["i=38_i=23987_true"],
 				commonRefs["i=38_i=23919_true"],
+				commonRefs["i=38_i=23987_true"],
 			},
 			nil,
 		),
@@ -19511,6 +21336,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=15630"],
 				commonRefs["i=38_i=23988_true"],
 				commonRefs["i=38_i=23920_true"],
 				commonRefs["i=38_i=23852_true"],
@@ -19528,6 +21354,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=23921_true"],
 				commonRefs["i=38_i=23853_true"],
 				commonRefs["i=38_i=23989_true"],
@@ -19545,6 +21372,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=25562_true"],
 				commonRefs["i=38_i=25530_true"],
 				commonRefs["i=38_i=25546_true"],
@@ -19562,9 +21390,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=15530"],
 				commonRefs["i=38_i=23854_true"],
-				commonRefs["i=38_i=23990_true"],
 				commonRefs["i=38_i=23922_true"],
+				commonRefs["i=38_i=23990_true"],
 			},
 			nil,
 		),
@@ -19578,7 +21407,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=29"],
+			},
 			nil,
 		),
 		NewNode(
@@ -19591,7 +21422,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=7"],
+			},
 			nil,
 		),
 		NewNode(
@@ -19605,9 +21438,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=16014_true"],
-				commonRefs["i=38_i=15715_true"],
+				commonRefs["supertype_i=15616"],
 				commonRefs["i=38_i=16323_true"],
+				commonRefs["i=38_i=15715_true"],
+				commonRefs["i=38_i=16014_true"],
 			},
 			nil,
 		),
@@ -19621,7 +21455,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=7"],
+			},
 			nil,
 		),
 		NewNode(
@@ -19635,9 +21471,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=15605"],
+				commonRefs["i=38_i=16015_true"],
 				commonRefs["i=38_i=15717_true"],
 				commonRefs["i=38_i=16391_true"],
-				commonRefs["i=38_i=16015_true"],
 			},
 			nil,
 		),
@@ -19652,9 +21489,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=16392_true"],
-				commonRefs["i=38_i=16016_true"],
+				commonRefs["supertype_i=15629"],
 				commonRefs["i=38_i=15718_true"],
+				commonRefs["i=38_i=16016_true"],
+				commonRefs["i=38_i=16392_true"],
 			},
 			nil,
 		),
@@ -19668,7 +21506,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=7"],
+			},
 			nil,
 		),
 		NewNode(
@@ -19682,9 +21522,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=15616"],
 				commonRefs["i=38_i=16393_true"],
-				commonRefs["i=38_i=15719_true"],
 				commonRefs["i=38_i=16017_true"],
+				commonRefs["i=38_i=15719_true"],
 			},
 			nil,
 		),
@@ -19698,7 +21539,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=7"],
+			},
 			nil,
 		),
 		NewNode(
@@ -19712,9 +21555,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=15605"],
+				commonRefs["i=38_i=16394_true"],
 				commonRefs["i=38_i=15724_true"],
 				commonRefs["i=38_i=16018_true"],
-				commonRefs["i=38_i=16394_true"],
 			},
 			nil,
 		),
@@ -19729,9 +21573,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=15629"],
+				commonRefs["i=38_i=16019_true"],
 				commonRefs["i=38_i=16404_true"],
 				commonRefs["i=38_i=15725_true"],
-				commonRefs["i=38_i=16019_true"],
 			},
 			nil,
 		),
@@ -19748,9 +21593,10 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				commonRefs["subtype_i=23608"],
 				commonRefs["subtype_i=23604"],
-				commonRefs["i=38_i=23855_true"],
-				commonRefs["i=38_i=23923_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=23991_true"],
+				commonRefs["i=38_i=23923_true"],
+				commonRefs["i=38_i=23855_true"],
 			},
 			nil,
 		),
@@ -19766,8 +21612,9 @@ func PredefinedNodes() []*Node {
 			},
 			[]*ua.ReferenceDescription{
 				commonRefs["subtype_i=23605"],
-				commonRefs["i=38_i=23992_true"],
+				commonRefs["supertype_i=23603"],
 				commonRefs["i=38_i=23856_true"],
+				commonRefs["i=38_i=23992_true"],
 				commonRefs["i=38_i=23924_true"],
 			},
 			nil,
@@ -19783,9 +21630,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=23993_true"],
+				commonRefs["supertype_i=23604"],
 				commonRefs["i=38_i=23925_true"],
 				commonRefs["i=38_i=23857_true"],
+				commonRefs["i=38_i=23993_true"],
 			},
 			nil,
 		),
@@ -19800,9 +21648,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=23603"],
 				commonRefs["subtype_i=23609"],
-				commonRefs["i=38_i=23928_true"],
 				commonRefs["i=38_i=23996_true"],
+				commonRefs["i=38_i=23928_true"],
 				commonRefs["i=38_i=23860_true"],
 			},
 			nil,
@@ -19818,9 +21667,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=23929_true"],
-				commonRefs["i=38_i=23997_true"],
+				commonRefs["supertype_i=23608"],
 				commonRefs["i=38_i=23861_true"],
+				commonRefs["i=38_i=23997_true"],
+				commonRefs["i=38_i=23929_true"],
 			},
 			nil,
 		),
@@ -19836,9 +21686,10 @@ func PredefinedNodes() []*Node {
 			},
 			[]*ua.ReferenceDescription{
 				commonRefs["subtype_i=23612"],
-				commonRefs["i=38_i=17472_true"],
-				commonRefs["i=38_i=17476_true"],
+				commonRefs["supertype_i=15618"],
 				commonRefs["i=38_i=17468_true"],
+				commonRefs["i=38_i=17476_true"],
+				commonRefs["i=38_i=17472_true"],
 			},
 			nil,
 		),
@@ -19853,8 +21704,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=23864_true"],
+				commonRefs["supertype_i=17467"],
 				commonRefs["i=38_i=24000_true"],
+				commonRefs["i=38_i=23864_true"],
 				commonRefs["i=38_i=23932_true"],
 			},
 			nil,
@@ -19871,9 +21723,10 @@ func PredefinedNodes() []*Node {
 			},
 			[]*ua.ReferenceDescription{
 				commonRefs["subtype_i=23613"],
-				commonRefs["i=38_i=21203_true"],
-				commonRefs["i=38_i=21155_true"],
+				commonRefs["supertype_i=15611"],
 				commonRefs["i=38_i=21179_true"],
+				commonRefs["i=38_i=21155_true"],
+				commonRefs["i=38_i=21203_true"],
 			},
 			nil,
 		),
@@ -19888,9 +21741,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=23933_true"],
-				commonRefs["i=38_i=24001_true"],
+				commonRefs["supertype_i=15532"],
 				commonRefs["i=38_i=23865_true"],
+				commonRefs["i=38_i=24001_true"],
+				commonRefs["i=38_i=23933_true"],
 			},
 			nil,
 		),
@@ -19905,9 +21759,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=23866_true"],
+				commonRefs["supertype_i=15628"],
 				commonRefs["i=38_i=24002_true"],
 				commonRefs["i=38_i=23934_true"],
+				commonRefs["i=38_i=23866_true"],
 			},
 			nil,
 		),
@@ -19922,9 +21777,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=15618"],
+				commonRefs["i=38_i=15726_true"],
 				commonRefs["i=38_i=15579_true"],
 				commonRefs["i=38_i=15479_true"],
-				commonRefs["i=38_i=15726_true"],
 			},
 			nil,
 		),
@@ -19938,7 +21794,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=29"],
+			},
 			nil,
 		),
 		NewNode(
@@ -19952,6 +21810,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=15611"],
 				commonRefs["i=38_i=16524_true"],
 				commonRefs["i=38_i=15727_true"],
 				commonRefs["i=38_i=16021_true"],
@@ -19969,9 +21828,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=16525_true"],
-				commonRefs["i=38_i=16022_true"],
+				commonRefs["supertype_i=15598"],
 				commonRefs["i=38_i=15729_true"],
+				commonRefs["i=38_i=16022_true"],
+				commonRefs["i=38_i=16525_true"],
 			},
 			nil,
 		),
@@ -19986,9 +21846,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=15733_true"],
+				commonRefs["supertype_i=15628"],
 				commonRefs["i=38_i=16526_true"],
 				commonRefs["i=38_i=16023_true"],
+				commonRefs["i=38_i=15733_true"],
 			},
 			nil,
 		),
@@ -20004,6 +21865,7 @@ func PredefinedNodes() []*Node {
 			},
 			[]*ua.ReferenceDescription{
 				commonRefs["subtype_i=14416"],
+				commonRefs["supertype_i=58"],
 			},
 			nil,
 		),
@@ -20017,7 +21879,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=61"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20030,7 +21894,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20044,7 +21910,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=33"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20057,7 +21925,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20070,7 +21940,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=61"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20083,7 +21955,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=15906"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20129,7 +22003,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=47"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20142,7 +22018,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=11575"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20155,7 +22033,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=7"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20169,9 +22049,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=25531_true"],
-				commonRefs["i=38_i=25563_true"],
 				commonRefs["i=38_i=25547_true"],
+				commonRefs["i=38_i=25563_true"],
 			},
 			nil,
 		),
@@ -20186,6 +22067,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=25532_true"],
 				commonRefs["i=38_i=25564_true"],
 				commonRefs["i=38_i=25548_true"],
@@ -20203,8 +22085,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=14534"],
+				commonRefs["supertype_i=58"],
 				commonRefs["subtype_i=14572"],
+				commonRefs["subtype_i=14534"],
 			},
 			nil,
 		),
@@ -20218,7 +22101,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20232,7 +22117,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=33"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20245,7 +22132,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=14509"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20258,7 +22147,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=14509"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20271,7 +22162,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=61"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20284,7 +22177,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20298,6 +22193,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
 				commonRefs["subtype_i=15064"],
 				commonRefs["subtype_i=15155"],
 			},
@@ -20314,8 +22210,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=17999"],
 				commonRefs["subtype_i=17725"],
+				commonRefs["subtype_i=17999"],
+				commonRefs["supertype_i=58"],
 			},
 			nil,
 		),
@@ -20329,7 +22226,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=14232"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20343,7 +22242,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=47"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20357,7 +22258,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=47"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20373,6 +22276,7 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				commonRefs["subtype_i=21136"],
 				commonRefs["subtype_i=21133"],
+				commonRefs["supertype_i=58"],
 			},
 			nil,
 		),
@@ -20387,8 +22291,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=21126"],
 				commonRefs["subtype_i=21105"],
+				commonRefs["subtype_i=21126"],
+				commonRefs["supertype_i=58"],
 			},
 			nil,
 		),
@@ -20402,7 +22307,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=14232"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20416,7 +22323,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=47"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20430,7 +22339,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=47"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20443,7 +22354,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20456,7 +22369,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20469,7 +22384,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20484,6 +22401,7 @@ func PredefinedNodes() []*Node {
 			},
 			[]*ua.ReferenceDescription{
 				commonRefs["subtype_i=21138"],
+				commonRefs["supertype_i=58"],
 			},
 			nil,
 		),
@@ -20498,8 +22416,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=21128"],
+				commonRefs["supertype_i=58"],
 				commonRefs["subtype_i=21111"],
+				commonRefs["subtype_i=21128"],
 			},
 			nil,
 		),
@@ -20513,7 +22432,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20529,6 +22450,7 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				commonRefs["subtype_i=24016"],
 				commonRefs["subtype_i=21142"],
+				commonRefs["supertype_i=58"],
 			},
 			nil,
 		),
@@ -20544,6 +22466,7 @@ func PredefinedNodes() []*Node {
 			},
 			[]*ua.ReferenceDescription{
 				commonRefs["subtype_i=21116"],
+				commonRefs["supertype_i=58"],
 				commonRefs["subtype_i=21130"],
 			},
 			nil,
@@ -20559,8 +22482,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=15127"],
 				commonRefs["subtype_i=15111"],
+				commonRefs["subtype_i=15127"],
+				commonRefs["supertype_i=58"],
 			},
 			nil,
 		),
@@ -20574,7 +22498,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=15108"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20587,7 +22513,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=15108"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20600,7 +22528,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=61"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20613,7 +22543,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20626,7 +22558,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20640,12 +22574,13 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=19968"],
+				commonRefs["supertype_i=58"],
 				commonRefs["subtype_i=19903"],
-				commonRefs["subtype_i=19834"],
-				commonRefs["subtype_i=19786"],
 				commonRefs["subtype_i=20027"],
 				commonRefs["subtype_i=19732"],
+				commonRefs["subtype_i=19834"],
+				commonRefs["subtype_i=19968"],
+				commonRefs["subtype_i=19786"],
 			},
 			nil,
 		),
@@ -20659,7 +22594,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=29"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20672,7 +22609,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=63"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20685,7 +22624,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=29"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20698,7 +22639,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=19677"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20711,7 +22654,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=19677"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20724,7 +22669,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=19677"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20737,7 +22684,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=19677"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20750,7 +22699,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=19677"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20763,7 +22714,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=19677"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20776,7 +22729,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20790,8 +22745,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=15563"],
 				commonRefs["subtype_i=15548"],
+				commonRefs["subtype_i=15563"],
+				commonRefs["supertype_i=2130"],
 			},
 			nil,
 		),
@@ -20805,7 +22761,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=15535"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20818,7 +22776,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=15535"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20831,7 +22791,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=17998"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20844,7 +22806,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=21096"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20857,7 +22821,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=21104"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20870,7 +22836,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=17998"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20883,7 +22851,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=21096"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20896,7 +22866,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=21104"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20909,7 +22881,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=17721"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20922,7 +22896,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=17997"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20935,7 +22911,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=15319"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20948,7 +22926,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=17721"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20961,7 +22941,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=17997"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20974,7 +22956,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=15305"],
+			},
 			nil,
 		),
 		NewNode(
@@ -20987,7 +22971,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=15319"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21001,6 +22987,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
 				commonRefs["subtype_i=21147"],
 			},
 			nil,
@@ -21015,7 +23002,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=21145"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21028,7 +23017,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21041,7 +23032,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=61"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21055,9 +23048,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
+				commonRefs["i=38_i=23511_true"],
 				commonRefs["i=38_i=23499_true"],
 				commonRefs["i=38_i=23505_true"],
-				commonRefs["i=38_i=23511_true"],
 			},
 			nil,
 		),
@@ -21072,7 +23066,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=32"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21086,9 +23082,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=35_i=85_false"],
 				commonRefs["i=35_i=23479_true"],
 				commonRefs["i=35_i=23488_true"],
+				commonRefs["i=35_i=85_false"],
 				commonRefs["hastypedef_i=23456"],
 			},
 			nil,
@@ -21135,7 +23131,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21148,7 +23146,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=7"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21161,7 +23161,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=7"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21175,6 +23177,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=24300_true"],
 				commonRefs["i=38_i=24292_true"],
 				commonRefs["i=38_i=24296_true"],
@@ -21209,6 +23212,7 @@ func PredefinedNodes() []*Node {
 			},
 			[]*ua.ReferenceDescription{
 				commonRefs["subtype_i=19084"],
+				commonRefs["supertype_i=11238"],
 			},
 			nil,
 		),
@@ -21222,7 +23226,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=19077"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21235,7 +23241,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=12"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21248,7 +23256,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=12581"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21261,7 +23271,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21290,7 +23302,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=17602"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21303,7 +23317,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=17602"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21316,7 +23332,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=17602"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21329,7 +23347,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=17602"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21342,7 +23362,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=17602"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21355,7 +23377,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=17602"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21368,7 +23392,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=17602"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21381,7 +23407,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=17602"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21394,7 +23422,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=17602"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21408,8 +23438,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=24191"],
+				commonRefs["supertype_i=17602"],
 				commonRefs["subtype_i=24195"],
+				commonRefs["subtype_i=24191"],
 			},
 			nil,
 		),
@@ -21423,7 +23454,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=24188"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21436,7 +23469,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=24188"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21449,7 +23484,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=17602"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21462,7 +23499,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=17602"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21475,7 +23514,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=17602"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21488,7 +23529,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=29"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21501,7 +23544,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=29"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21514,7 +23559,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=29"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21527,7 +23574,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=29"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21540,7 +23589,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=29"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21553,7 +23604,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=29"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21566,7 +23619,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=29"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21579,7 +23634,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=29"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21593,9 +23650,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=25247_true"],
-				commonRefs["i=38_i=25239_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=25243_true"],
+				commonRefs["i=38_i=25239_true"],
+				commonRefs["i=38_i=25247_true"],
 			},
 			nil,
 		),
@@ -21610,9 +23668,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["i=35_i=29878_true"],
 				commonRefs["i=47_i=2253_false"],
 				commonRefs["i=35_i=24227_true"],
-				commonRefs["i=35_i=29878_true"],
 				commonRefs["hastypedef_i=61"],
 			},
 			nil,
@@ -21628,10 +23686,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=35_i=24230_true"],
-				commonRefs["i=35_i=24228_true"],
-				commonRefs["i=35_i=24226_false"],
 				commonRefs["i=35_i=24229_true"],
+				commonRefs["i=35_i=24230_true"],
+				commonRefs["i=35_i=24226_false"],
+				commonRefs["i=35_i=24228_true"],
 				commonRefs["hastypedef_i=61"],
 			},
 			nil,
@@ -21679,9 +23737,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["i=35_i=24232_true"],
 				commonRefs["i=35_i=24231_true"],
 				commonRefs["i=35_i=24227_false"],
-				commonRefs["i=35_i=24232_true"],
 				commonRefs["hastypedef_i=61"],
 			},
 			nil,
@@ -21729,6 +23787,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
 				commonRefs["i=17603_i=24148_true"],
 			},
 			nil,
@@ -21743,7 +23802,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=58"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21757,7 +23818,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=32"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21771,7 +23834,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=33"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21785,7 +23850,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=32"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21799,7 +23866,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=33"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21814,8 +23883,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=25265"],
 				commonRefs["subtype_i=25261"],
+				commonRefs["subtype_i=25265"],
+				commonRefs["supertype_i=32"],
 			},
 			nil,
 		),
@@ -21830,7 +23900,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=25255"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21844,7 +23916,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=33"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21857,7 +23931,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=32"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21871,8 +23947,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=25259"],
 				commonRefs["subtype_i=25260"],
+				commonRefs["subtype_i=25259"],
+				commonRefs["supertype_i=32"],
 			},
 			nil,
 		),
@@ -21886,7 +23963,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=25258"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21899,7 +23978,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=25258"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21913,7 +23994,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=25255"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21928,8 +24011,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=25263"],
+				commonRefs["supertype_i=47"],
 				commonRefs["subtype_i=25264"],
+				commonRefs["subtype_i=25263"],
 			},
 			nil,
 		),
@@ -21944,7 +24028,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=25262"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21958,7 +24044,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=25262"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21972,7 +24060,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=34"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21985,7 +24075,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=63"],
+			},
 			nil,
 		),
 		NewNode(
@@ -21999,9 +24091,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=32669_true"],
-				commonRefs["i=38_i=32677_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=32661_true"],
+				commonRefs["i=38_i=32677_true"],
+				commonRefs["i=38_i=32669_true"],
 			},
 			nil,
 		),
@@ -22016,9 +24109,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
+				commonRefs["i=38_i=32662_true"],
 				commonRefs["i=38_i=32670_true"],
 				commonRefs["i=38_i=32678_true"],
-				commonRefs["i=38_i=32662_true"],
 			},
 			nil,
 		),
@@ -22032,7 +24126,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=29"],
+			},
 			nil,
 		),
 		NewNode(
@@ -22045,7 +24141,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=29"],
+			},
 			nil,
 		),
 		NewNode(
@@ -22058,7 +24156,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=7"],
+			},
 			nil,
 		),
 		NewNode(
@@ -22071,7 +24171,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=3"],
+			},
 			nil,
 		),
 		NewNode(
@@ -22084,7 +24186,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=7"],
+			},
 			nil,
 		),
 		NewNode(
@@ -22097,7 +24201,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=3"],
+			},
 			nil,
 		),
 		NewNode(
@@ -22110,7 +24216,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=5"],
+			},
 			nil,
 		),
 		NewNode(
@@ -22124,8 +24232,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=16126_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=15062_true"],
+				commonRefs["i=38_i=16126_true"],
 				commonRefs["i=38_i=128_true"],
 			},
 			nil,
@@ -22143,9 +24252,10 @@ func PredefinedNodes() []*Node {
 			[]*ua.ReferenceDescription{
 				commonRefs["subtype_i=99"],
 				commonRefs["subtype_i=100"],
-				commonRefs["i=38_i=121_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=15063_true"],
 				commonRefs["i=38_i=14797_true"],
+				commonRefs["i=38_i=121_true"],
 			},
 			nil,
 		),
@@ -22159,7 +24269,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=29"],
+			},
 			nil,
 		),
 		NewNode(
@@ -22173,9 +24285,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=15065_true"],
-				commonRefs["i=38_i=14844_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=14800_true"],
+				commonRefs["i=38_i=14844_true"],
+				commonRefs["i=38_i=15065_true"],
 			},
 			nil,
 		),
@@ -22190,8 +24303,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=122_true"],
+				commonRefs["supertype_i=97"],
 				commonRefs["i=38_i=14798_true"],
+				commonRefs["i=38_i=122_true"],
 				commonRefs["i=38_i=15066_true"],
 			},
 			nil,
@@ -22207,9 +24321,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=14799_true"],
+				commonRefs["supertype_i=97"],
 				commonRefs["i=38_i=123_true"],
 				commonRefs["i=38_i=15067_true"],
+				commonRefs["i=38_i=14799_true"],
 			},
 			nil,
 		),
@@ -22224,9 +24339,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=297_true"],
-				commonRefs["i=38_i=298_true"],
 				commonRefs["i=38_i=15081_true"],
+				commonRefs["i=38_i=298_true"],
 			},
 			nil,
 		),
@@ -22242,8 +24358,9 @@ func PredefinedNodes() []*Node {
 			},
 			[]*ua.ReferenceDescription{
 				commonRefs["subtype_i=102"],
-				commonRefs["i=38_i=15082_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=8251_true"],
+				commonRefs["i=38_i=15082_true"],
 				commonRefs["i=38_i=7616_true"],
 			},
 			nil,
@@ -22259,8 +24376,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=14845_true"],
+				commonRefs["supertype_i=7594"],
 				commonRefs["i=38_i=14801_true"],
+				commonRefs["i=38_i=14845_true"],
 				commonRefs["i=38_i=15083_true"],
 			},
 			nil,
@@ -22276,9 +24394,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=15084_true"],
-				commonRefs["i=38_i=12765_true"],
 				commonRefs["i=38_i=12757_true"],
+				commonRefs["i=38_i=12765_true"],
 			},
 			nil,
 		),
@@ -22292,7 +24411,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=12"],
+			},
 			nil,
 		),
 		NewNode(
@@ -22305,7 +24426,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=12"],
+			},
 			nil,
 		),
 		NewNode(
@@ -22318,7 +24441,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=12"],
+			},
 			nil,
 		),
 		NewNode(
@@ -22331,7 +24456,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=12"],
+			},
 			nil,
 		),
 		NewNode(
@@ -22344,7 +24471,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=12"],
+			},
 			nil,
 		),
 		NewNode(
@@ -22357,7 +24486,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=11"],
+			},
 			nil,
 		),
 		NewNode(
@@ -22370,7 +24501,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=13"],
+			},
 			nil,
 		),
 		NewNode(
@@ -22383,7 +24516,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=12"],
+			},
 			nil,
 		),
 		NewNode(
@@ -22397,6 +24532,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=8917_true"],
 				commonRefs["i=38_i=15086_true"],
 				commonRefs["i=38_i=8913_true"],
@@ -22413,7 +24549,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=7"],
+			},
 			nil,
 		),
 		NewNode(
@@ -22426,7 +24564,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=7"],
+			},
 			nil,
 		),
 		NewNode(
@@ -22439,7 +24579,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=29"],
+			},
 			nil,
 		),
 		NewNode(
@@ -22453,9 +24595,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=15087_true"],
-				commonRefs["i=38_i=310_true"],
 				commonRefs["i=38_i=309_true"],
+				commonRefs["i=38_i=310_true"],
 			},
 			nil,
 		),
@@ -22469,7 +24612,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=7"],
+			},
 			nil,
 		),
 		NewNode(
@@ -22483,9 +24628,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=12195_true"],
-				commonRefs["i=38_i=15095_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=12207_true"],
+				commonRefs["i=38_i=15095_true"],
+				commonRefs["i=38_i=12195_true"],
 			},
 			nil,
 		),
@@ -22499,7 +24645,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=15"],
+			},
 			nil,
 		),
 		NewNode(
@@ -22512,7 +24660,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=29"],
+			},
 			nil,
 		),
 		NewNode(
@@ -22525,7 +24675,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=29"],
+			},
 			nil,
 		),
 		NewNode(
@@ -22539,9 +24691,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=306_true"],
-				commonRefs["i=38_i=305_true"],
 				commonRefs["i=38_i=15098_true"],
+				commonRefs["i=38_i=305_true"],
 			},
 			nil,
 		),
@@ -22556,9 +24709,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=15099_true"],
-				commonRefs["i=38_i=314_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=313_true"],
+				commonRefs["i=38_i=314_true"],
+				commonRefs["i=38_i=15099_true"],
 			},
 			nil,
 		),
@@ -22573,9 +24727,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
+				commonRefs["i=38_i=434_true"],
 				commonRefs["i=38_i=433_true"],
 				commonRefs["i=38_i=15102_true"],
-				commonRefs["i=38_i=434_true"],
 			},
 			nil,
 		),
@@ -22591,8 +24746,9 @@ func PredefinedNodes() []*Node {
 			},
 			[]*ua.ReferenceDescription{
 				commonRefs["subtype_i=12891"],
-				commonRefs["i=38_i=12892_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=15105_true"],
+				commonRefs["i=38_i=12892_true"],
 				commonRefs["i=38_i=12900_true"],
 			},
 			nil,
@@ -22608,9 +24764,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=15106_true"],
+				commonRefs["supertype_i=12890"],
 				commonRefs["i=38_i=12901_true"],
 				commonRefs["i=38_i=12893_true"],
+				commonRefs["i=38_i=15106_true"],
 			},
 			nil,
 		),
@@ -22624,7 +24781,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=29"],
+			},
 			nil,
 		),
 		NewNode(
@@ -22638,9 +24797,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
+				commonRefs["i=38_i=15136_true"],
 				commonRefs["i=38_i=345_true"],
 				commonRefs["i=38_i=346_true"],
-				commonRefs["i=38_i=15136_true"],
 			},
 			nil,
 		),
@@ -22654,7 +24814,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=17"],
+			},
 			nil,
 		),
 		NewNode(
@@ -22668,12 +24830,13 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["subtype_i=938"],
-				commonRefs["subtype_i=325"],
 				commonRefs["subtype_i=319"],
+				commonRefs["supertype_i=22"],
+				commonRefs["subtype_i=325"],
+				commonRefs["subtype_i=938"],
 				commonRefs["subtype_i=322"],
-				commonRefs["i=38_i=318_true"],
 				commonRefs["i=38_i=317_true"],
+				commonRefs["i=38_i=318_true"],
 				commonRefs["i=38_i=15140_true"],
 			},
 			nil,
@@ -22689,9 +24852,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=15141_true"],
+				commonRefs["supertype_i=316"],
 				commonRefs["i=38_i=320_true"],
 				commonRefs["i=38_i=321_true"],
+				commonRefs["i=38_i=15141_true"],
 			},
 			nil,
 		),
@@ -22706,9 +24870,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=324_true"],
+				commonRefs["supertype_i=316"],
 				commonRefs["i=38_i=15142_true"],
 				commonRefs["i=38_i=323_true"],
+				commonRefs["i=38_i=324_true"],
 			},
 			nil,
 		),
@@ -22723,8 +24888,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=15143_true"],
+				commonRefs["supertype_i=316"],
 				commonRefs["i=38_i=326_true"],
+				commonRefs["i=38_i=15143_true"],
 				commonRefs["i=38_i=327_true"],
 			},
 			nil,
@@ -22740,8 +24906,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=939_true"],
+				commonRefs["supertype_i=316"],
 				commonRefs["i=38_i=15144_true"],
+				commonRefs["i=38_i=939_true"],
 				commonRefs["i=38_i=940_true"],
 			},
 			nil,
@@ -22756,7 +24923,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=29"],
+			},
 			nil,
 		),
 		NewNode(
@@ -22770,9 +24939,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=15165_true"],
-				commonRefs["i=38_i=377_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=378_true"],
+				commonRefs["i=38_i=377_true"],
+				commonRefs["i=38_i=15165_true"],
 			},
 			nil,
 		),
@@ -22787,9 +24957,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
+				commonRefs["i=38_i=381_true"],
 				commonRefs["i=38_i=15169_true"],
 				commonRefs["i=38_i=380_true"],
-				commonRefs["i=38_i=381_true"],
 			},
 			nil,
 		),
@@ -22804,9 +24975,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=15172_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=384_true"],
 				commonRefs["i=38_i=383_true"],
+				commonRefs["i=38_i=15172_true"],
 			},
 			nil,
 		),
@@ -22821,9 +24993,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=15175_true"],
-				commonRefs["i=38_i=387_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=386_true"],
+				commonRefs["i=38_i=387_true"],
+				commonRefs["i=38_i=15175_true"],
 			},
 			nil,
 		),
@@ -22837,7 +25010,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=7"],
+			},
 			nil,
 		),
 		NewNode(
@@ -22850,7 +25025,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=15"],
+			},
 			nil,
 		),
 		NewNode(
@@ -22864,6 +25041,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=538_true"],
 				commonRefs["i=38_i=15188_true"],
 				commonRefs["i=38_i=539_true"],
@@ -22881,8 +25059,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=541_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=542_true"],
+				commonRefs["i=38_i=541_true"],
 				commonRefs["i=38_i=15189_true"],
 			},
 			nil,
@@ -22897,7 +25076,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=7"],
+			},
 			nil,
 		),
 		NewNode(
@@ -22910,7 +25091,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=12"],
+			},
 			nil,
 		),
 		NewNode(
@@ -22924,9 +25107,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
+				commonRefs["i=38_i=15199_true"],
 				commonRefs["i=38_i=332_true"],
 				commonRefs["i=38_i=333_true"],
-				commonRefs["i=38_i=15199_true"],
 			},
 			nil,
 		),
@@ -22940,7 +25124,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=29"],
+			},
 			nil,
 		),
 		NewNode(
@@ -22954,8 +25140,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=585_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=584_true"],
+				commonRefs["i=38_i=585_true"],
 				commonRefs["i=38_i=15204_true"],
 			},
 			nil,
@@ -22971,9 +25158,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=587_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=588_true"],
 				commonRefs["i=38_i=15205_true"],
+				commonRefs["i=38_i=587_true"],
 			},
 			nil,
 		),
@@ -22989,9 +25177,10 @@ func PredefinedNodes() []*Node {
 			},
 			[]*ua.ReferenceDescription{
 				commonRefs["subtype_i=595"],
+				commonRefs["subtype_i=592"],
+				commonRefs["supertype_i=22"],
 				commonRefs["subtype_i=601"],
 				commonRefs["subtype_i=598"],
-				commonRefs["subtype_i=592"],
 				commonRefs["i=38_i=591_true"],
 				commonRefs["i=38_i=590_true"],
 				commonRefs["i=38_i=15206_true"],
@@ -23009,9 +25198,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=15207_true"],
-				commonRefs["i=38_i=593_true"],
+				commonRefs["supertype_i=589"],
 				commonRefs["i=38_i=594_true"],
+				commonRefs["i=38_i=593_true"],
+				commonRefs["i=38_i=15207_true"],
 			},
 			nil,
 		),
@@ -23026,9 +25216,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=15208_true"],
-				commonRefs["i=38_i=596_true"],
+				commonRefs["supertype_i=589"],
 				commonRefs["i=38_i=597_true"],
+				commonRefs["i=38_i=596_true"],
+				commonRefs["i=38_i=15208_true"],
 			},
 			nil,
 		),
@@ -23043,6 +25234,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=589"],
 				commonRefs["i=38_i=600_true"],
 				commonRefs["i=38_i=15209_true"],
 				commonRefs["i=38_i=599_true"],
@@ -23060,8 +25252,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=602_true"],
+				commonRefs["supertype_i=589"],
 				commonRefs["i=38_i=603_true"],
+				commonRefs["i=38_i=602_true"],
 				commonRefs["i=38_i=15210_true"],
 			},
 			nil,
@@ -23077,6 +25270,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=660_true"],
 				commonRefs["i=38_i=661_true"],
 				commonRefs["i=38_i=15273_true"],
@@ -23093,7 +25287,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=29"],
+			},
 			nil,
 		),
 		NewNode(
@@ -23106,7 +25302,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=29"],
+			},
 			nil,
 		),
 		NewNode(
@@ -23121,9 +25319,10 @@ func PredefinedNodes() []*Node {
 			},
 			[]*ua.ReferenceDescription{
 				commonRefs["subtype_i=725"],
-				commonRefs["i=38_i=15293_true"],
-				commonRefs["i=38_i=720_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=721_true"],
+				commonRefs["i=38_i=720_true"],
+				commonRefs["i=38_i=15293_true"],
 			},
 			nil,
 		),
@@ -23138,9 +25337,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=719"],
 				commonRefs["i=38_i=15295_true"],
-				commonRefs["i=38_i=726_true"],
 				commonRefs["i=38_i=727_true"],
+				commonRefs["i=38_i=726_true"],
 			},
 			nil,
 		),
@@ -23155,8 +25355,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=15304_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=949_true"],
+				commonRefs["i=38_i=15304_true"],
 				commonRefs["i=38_i=950_true"],
 			},
 			nil,
@@ -23172,9 +25373,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
+				commonRefs["i=38_i=921_true"],
 				commonRefs["i=38_i=15349_true"],
 				commonRefs["i=38_i=922_true"],
-				commonRefs["i=38_i=921_true"],
 			},
 			nil,
 		),
@@ -23189,9 +25391,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=340_true"],
-				commonRefs["i=38_i=15361_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=339_true"],
+				commonRefs["i=38_i=15361_true"],
+				commonRefs["i=38_i=340_true"],
 			},
 			nil,
 		),
@@ -23205,7 +25408,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=29"],
+			},
 			nil,
 		),
 		NewNode(
@@ -23218,7 +25423,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=29"],
+			},
 			nil,
 		),
 		NewNode(
@@ -23232,9 +25439,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=15362_true"],
-				commonRefs["i=38_i=854_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=855_true"],
+				commonRefs["i=38_i=854_true"],
+				commonRefs["i=38_i=15362_true"],
 			},
 			nil,
 		),
@@ -23249,8 +25457,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=11949_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=15363_true"],
+				commonRefs["i=38_i=11949_true"],
 				commonRefs["i=38_i=11957_true"],
 			},
 			nil,
@@ -23266,6 +25475,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=15364_true"],
 				commonRefs["i=38_i=11958_true"],
 				commonRefs["i=38_i=11950_true"],
@@ -23283,8 +25493,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=15365_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=857_true"],
+				commonRefs["i=38_i=15365_true"],
 				commonRefs["i=38_i=858_true"],
 			},
 			nil,
@@ -23300,9 +25511,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=861_true"],
-				commonRefs["i=38_i=15366_true"],
 				commonRefs["i=38_i=860_true"],
+				commonRefs["i=38_i=15366_true"],
 			},
 			nil,
 		),
@@ -23317,9 +25529,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
+				commonRefs["i=38_i=863_true"],
 				commonRefs["i=38_i=864_true"],
 				commonRefs["i=38_i=15367_true"],
-				commonRefs["i=38_i=863_true"],
 			},
 			nil,
 		),
@@ -23334,9 +25547,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=866_true"],
-				commonRefs["i=38_i=15368_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=867_true"],
+				commonRefs["i=38_i=15368_true"],
+				commonRefs["i=38_i=866_true"],
 			},
 			nil,
 		),
@@ -23351,9 +25565,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=870_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=15369_true"],
 				commonRefs["i=38_i=869_true"],
+				commonRefs["i=38_i=870_true"],
 			},
 			nil,
 		),
@@ -23368,9 +25583,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=872_true"],
-				commonRefs["i=38_i=873_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=15370_true"],
+				commonRefs["i=38_i=873_true"],
+				commonRefs["i=38_i=872_true"],
 			},
 			nil,
 		),
@@ -23385,9 +25601,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=15371_true"],
-				commonRefs["i=38_i=300_true"],
 				commonRefs["i=38_i=301_true"],
+				commonRefs["i=38_i=300_true"],
 			},
 			nil,
 		),
@@ -23402,9 +25619,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=875_true"],
-				commonRefs["i=38_i=876_true"],
 				commonRefs["i=38_i=15372_true"],
+				commonRefs["i=38_i=876_true"],
 			},
 			nil,
 		),
@@ -23419,9 +25637,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=878_true"],
-				commonRefs["i=38_i=879_true"],
 				commonRefs["i=38_i=15373_true"],
+				commonRefs["i=38_i=879_true"],
 			},
 			nil,
 		),
@@ -23436,9 +25655,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
+				commonRefs["i=38_i=15374_true"],
 				commonRefs["i=38_i=898_true"],
 				commonRefs["i=38_i=899_true"],
-				commonRefs["i=38_i=15374_true"],
 			},
 			nil,
 		),
@@ -23453,9 +25673,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=886_true"],
-				commonRefs["i=38_i=885_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=15375_true"],
+				commonRefs["i=38_i=885_true"],
+				commonRefs["i=38_i=886_true"],
 			},
 			nil,
 		),
@@ -23470,8 +25691,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=15376_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=889_true"],
+				commonRefs["i=38_i=15376_true"],
 				commonRefs["i=38_i=888_true"],
 			},
 			nil,
@@ -23486,7 +25708,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=29"],
+			},
 			nil,
 		),
 		NewNode(
@@ -23500,9 +25724,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=12181_true"],
-				commonRefs["i=38_i=15377_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=12173_true"],
+				commonRefs["i=38_i=15377_true"],
+				commonRefs["i=38_i=12181_true"],
 			},
 			nil,
 		),
@@ -23517,9 +25742,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=12182_true"],
-				commonRefs["i=38_i=12174_true"],
 				commonRefs["i=38_i=15378_true"],
+				commonRefs["i=38_i=12174_true"],
 			},
 			nil,
 		),
@@ -23534,6 +25760,7 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=15379_true"],
 				commonRefs["i=38_i=12081_true"],
 				commonRefs["i=38_i=12089_true"],
@@ -23551,9 +25778,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
+				commonRefs["i=38_i=15380_true"],
 				commonRefs["i=38_i=12082_true"],
 				commonRefs["i=38_i=12090_true"],
-				commonRefs["i=38_i=15380_true"],
 			},
 			nil,
 		),
@@ -23568,9 +25796,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=15381_true"],
-				commonRefs["i=38_i=896_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=895_true"],
+				commonRefs["i=38_i=896_true"],
+				commonRefs["i=38_i=15381_true"],
 			},
 			nil,
 		),
@@ -23585,9 +25814,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
-				commonRefs["i=38_i=24038_true"],
-				commonRefs["i=38_i=24034_true"],
+				commonRefs["supertype_i=22"],
 				commonRefs["i=38_i=24042_true"],
+				commonRefs["i=38_i=24034_true"],
+				commonRefs["i=38_i=24038_true"],
 			},
 			nil,
 		),
@@ -23602,9 +25832,10 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
 			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=22"],
+				commonRefs["i=38_i=15382_true"],
 				commonRefs["i=38_i=893_true"],
 				commonRefs["i=38_i=892_true"],
-				commonRefs["i=38_i=15382_true"],
 			},
 			nil,
 		),
@@ -23618,7 +25849,9 @@ func PredefinedNodes() []*Node {
 				ua.AttributeIDWriteMask:     ua.MustVariant(uint32(0)),
 				ua.AttributeIDUserWriteMask: ua.MustVariant(uint32(0)),
 			},
-			[]*ua.ReferenceDescription{},
+			[]*ua.ReferenceDescription{
+				commonRefs["supertype_i=29"],
+			},
 			nil,
 		),
 		NewNode(

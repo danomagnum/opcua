@@ -100,11 +100,30 @@ func main() {
 			BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: n.BrowseName.Name},
 			DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: n.BrowseName.Name},
 			TypeDefinition:  eoid,
+			NodeClass:       ua.NodeClassObjectType,
 		}
 
 		refname := fmt.Sprintf("%s_%s", "subtype", n.NodeID.Identifier.String())
 		commonRefs[refname] = newref
 		m[sid].Refs = append(m[sid].Refs, refname)
+
+		target := m[sid]
+		eoid = ua.NewExpandedNodeID(target.NodeID.Identifier, "", 0)
+		//ref := refs.HasSubtype(&ua.ExpandedNodeID{NodeID: n.NodeID.Identifier})
+		newref = &ua.ReferenceDescription{
+			ReferenceTypeID: ua.NewNumericNodeID(0, id.HasSubtype), //o.refs[0].ReferenceTypeID,
+			IsForward:       false,
+			NodeID:          ua.NewExpandedNodeID(target.NodeID.Identifier, "", 0),
+			BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: target.BrowseName.Name},
+			DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: target.BrowseName.Name},
+			TypeDefinition:  eoid,
+			NodeClass:       ua.NodeClassObjectType,
+		}
+
+		refname = fmt.Sprintf("%s_%s", "supertype", m[sid].NodeID.Identifier.String())
+		commonRefs[refname] = newref
+		n.Refs = append(n.Refs, refname)
+
 	}
 
 	// create other refs
@@ -132,6 +151,7 @@ func main() {
 				BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: o.BrowseName.Name},
 				DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: o.BrowseName.Name},
 				TypeDefinition:  eoid,
+				NodeClass:       ua.NodeClassObject,
 			}
 			refname := fmt.Sprintf("%s_%s_%v", ref.ReferenceTypeID.Identifier.String(), target_id.Identifier.String(), !ref.IsInverse)
 			commonRefs[refname] = newref
@@ -148,6 +168,7 @@ func main() {
 					BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: n.BrowseName.Name},
 					DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: n.BrowseName.Name},
 					TypeDefinition:  eoid2,
+					NodeClass:       ua.NodeClassObject,
 				}
 
 				refname := fmt.Sprintf("%s_%s_%v", ref.ReferenceTypeID.Identifier.String(), n.NodeID.Identifier.String(), ref.IsInverse)

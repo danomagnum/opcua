@@ -206,13 +206,13 @@ func (n *Node) SetNodeClass(nc ua.NodeClass) {
 func (n *Node) NodeClass() ua.NodeClass {
 	v := n.attr[ua.AttributeIDDescription]
 	if v == nil || v.Value() == nil {
-		return ua.NodeClassUnspecified
+		return ua.NodeClassObject
 	}
 	vi32, ok := v.Value().(int32)
 	if !ok {
 		vui32, ok := v.Value().(uint32)
 		if !ok {
-			return ua.NodeClassUnspecified
+			return ua.NodeClassObject
 		}
 		return ua.NodeClass(int32(vui32))
 	}
