@@ -130,6 +130,13 @@ func (as *NodeNameSpace) Attribute(id *ua.NodeID, attr ua.AttributeID) *ua.DataV
 		a = &AttrValue{Value: ua.MustVariant(byte(0))}
 	case ua.AttributeIDNodeClass:
 		a, err = n.Attribute(attr)
+		if err != nil {
+			return &ua.DataValue{
+				EncodingMask:    ua.DataValueServerTimestamp | ua.DataValueStatusCode,
+				ServerTimestamp: time.Now(),
+				Status:          ua.StatusBadAttributeIDInvalid,
+			}
+		}
 		// TODO: we need int32 instead of uint32 here.  this isn't the right place to fix it, but it is a bandaid
 		x, ok := a.Value.Value().(uint32)
 		if ok {
