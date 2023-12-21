@@ -212,6 +212,20 @@ func main() {
 		commonRefs[refname] = newref
 		n.Refs = append(n.Refs, refname)
 
+		newref = &ua.ReferenceDescription{
+			ReferenceTypeID: ua.NewNumericNodeID(0, id.HasTypeDefinition), //o.refs[0].ReferenceTypeID,
+			IsForward:       false,
+			NodeID:          ua.NewExpandedNodeID(n.NodeID.Identifier, "", 0),
+			BrowseName:      &ua.QualifiedName{NamespaceIndex: 0, Name: n.BrowseName.Name},
+			DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: n.BrowseName.Name},
+			TypeDefinition:  &ua.ExpandedNodeID{},
+			NodeClass:       ua.NodeClassObjectType,
+		}
+		//n.Refs = append(n.Refs, newref)
+		refname = fmt.Sprintf("%s_%s", "typedefof", n.NodeID.Identifier.String())
+		commonRefs[refname] = newref
+		o.Refs = append(o.Refs, refname)
+
 	}
 
 	data := map[string]interface{}{
