@@ -91,8 +91,8 @@ func (ns *MapNamespace) Browse(bd *ua.BrowseDescription) *ua.BrowseResult {
 		refs[0] = &ua.ReferenceDescription{
 			ReferenceTypeID: newid,
 			NodeID:          expnewid,
-			BrowseName:      &ua.QualifiedName{NamespaceIndex: ns.id, Name: "objects"},
-			DisplayName:     &ua.LocalizedText{Text: "objects"},
+			BrowseName:      &ua.QualifiedName{NamespaceIndex: ns.id, Name: "Objects"},
+			DisplayName:     &ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: "Objects"},
 			TypeDefinition:  expnewid,
 		}
 

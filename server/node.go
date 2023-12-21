@@ -176,7 +176,9 @@ func (n *Node) DisplayName() *ua.LocalizedText {
 }
 
 func (n *Node) SetDisplayName(text, locale string) {
-	n.attr[ua.AttributeIDDisplayName] = ua.MustVariant(&ua.LocalizedText{Text: text, Locale: locale})
+	lt := &ua.LocalizedText{Text: text, Locale: locale}
+	lt.UpdateMask()
+	n.attr[ua.AttributeIDDisplayName] = ua.MustVariant(lt)
 }
 
 func (n *Node) Description() *ua.LocalizedText {

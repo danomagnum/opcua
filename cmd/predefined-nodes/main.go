@@ -357,6 +357,7 @@ var tmpl = template.Must(template.New("").Funcs(funcs).Parse(`// Generated code.
  				ua.AttributeIDDisplayName: ua.MustVariant(attrs.DisplayName("{{.BrowseName.Name}}", "")),
  				{{- with .InverseName }}
  				ua.AttributeIDInverseName: ua.MustVariant(attrs.InverseName("{{.Text}}", "{{.Locale}}")),
+ 				ua.AttributeIDSymmetric: ua.MustVariant(false),
  				{{- end}}
 				ua.AttributeIDIsAbstract: ua.MustVariant({{.IsAbstract}}),
 				ua.AttributeIDWriteMask: ua.MustVariant(uint32(0)),
