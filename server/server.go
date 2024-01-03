@@ -7,9 +7,12 @@ package server
 import (
 	"context"
 	"crypto/rsa"
+	"encoding/xml"
 	"fmt"
+	"io"
 	"log"
 	"net"
+	"os"
 	"strings"
 	"sync"
 	"time"
@@ -18,6 +21,7 @@ import (
 
 	"github.com/gopcua/opcua/debug"
 	"github.com/gopcua/opcua/id"
+	"github.com/gopcua/opcua/schema"
 	"github.com/gopcua/opcua/ua"
 	"github.com/gopcua/opcua/uacp"
 	"github.com/gopcua/opcua/uapolicy"
@@ -131,9 +135,28 @@ func New(url string, opts ...Option) *Server {
 	}
 
 	// init server address space
-	for _, n := range PredefinedNodes() {
-		s.namespaces[0].AddNode(n)
+	//for _, n := range PredefinedNodes() {
+	//s.namespaces[0].AddNode(n)
+	//}
+	file, err := os.Open("../../schema/Opc.Ua.NodeSet2.xml")
+	if err != nil {
+		log.Fatalf("couldn't open file: %v", err)
 	}
+
+	b, err := io.ReadAll(file)
+	if err != nil {
+		log.Fatalf("could not read data from file: %v", err)
+	}
+
+	var nodes schema.UANodeSet
+	xml.Unmarshal(b, &nodes)
+
+	n0, ok := s.namespaces[0].(*NodeNameSpace)
+	if !ok {
+		log.Fatalf("not a node namespace!")
+	}
+	n0.ImportNodeSet(&nodes)
+
 	s.namespaces[0].AddNode(CurrentTimeNode())
 	s.namespaces[0].AddNode(NamespacesNode(s))
 	for _, n := range ServerStatusNodes(s, s.namespaces[0].Node(ua.NewNumericNodeID(0, id.Server))) {
@@ -350,7 +373,7 @@ func (s *Server) initEndpoints() {
 				ApplicationType:     ua.ApplicationTypeServer,
 				GatewayServerURI:    "",
 				DiscoveryProfileURI: "",
-				DiscoveryURLs:       []string{s.l.Addr().String()},
+				DiscoveryURLs:       []string{fmt.Sprintf("opc.tcp://%s", s.l.Addr().String())},
 			},
 			ServerCertificate:   s.cfg.certificate,
 			SecurityMode:        sec.secMode,

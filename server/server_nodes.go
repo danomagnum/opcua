@@ -216,9 +216,9 @@ func ServerStatusNodes(s *Server, ServerNode *Node) []*Node {
 
 	nodes := []*Node{sState, mName, pName, pURI, sVersion, bNumber, bDate, timeStart, timeCurrent, bInfo, sTillShutdown, sReason}
 	for i := range nodes {
-		sStatus.AddRef(nodes[i], id.HasComponent)
+		sStatus.AddRef(nodes[i], id.HasComponent, true)
 	}
-	ServerNode.AddRef(sStatus, id.HasComponent)
+	ServerNode.AddRef(sStatus, id.HasComponent, true)
 
 	nodes = append(nodes, sStatus)
 

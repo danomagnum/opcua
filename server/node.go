@@ -258,13 +258,13 @@ const (
 	RefTypeIDOrganizes    = id.Organizes
 )
 
-func (n *Node) AddRef(o *Node, rt RefType) {
+func (n *Node) AddRef(o *Node, rt RefType, forward bool) {
 	//eoid := ua.NewNumericExpandedNodeID(o.ns.ID(), o.)
 	eoid := ua.NewExpandedNodeID(o.ID(), "", 0)
 
 	ref := ua.ReferenceDescription{
 		ReferenceTypeID: ua.NewNumericNodeID(0, uint32(rt)), //o.refs[0].ReferenceTypeID,
-		IsForward:       true,
+		IsForward:       forward,
 		NodeID:          eoid,
 		BrowseName:      o.BrowseName(),
 		DisplayName:     o.DisplayName(),

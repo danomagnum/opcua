@@ -1,6 +1,8 @@
 package server
 
 import (
+	"fmt"
+	"log"
 	"slices"
 	"sync"
 	"sync/atomic"
@@ -8,6 +10,7 @@ import (
 
 	"github.com/gopcua/opcua/debug"
 	"github.com/gopcua/opcua/id"
+	"github.com/gopcua/opcua/schema"
 	"github.com/gopcua/opcua/server/attrs"
 	"github.com/gopcua/opcua/ua"
 	"golang.org/x/exp/maps"
@@ -220,7 +223,12 @@ func (ns *NodeNameSpace) Browse(bd *ua.BrowseDescription) *ua.BrowseResult {
 			TypeDefinition:  r.TypeDefinition,
 		}
 
-		refs = append(refs, rf)
+		if rf.ReferenceTypeID.IntID() == id.HasTypeDefinition && rf.IsForward {
+			// this one has to be first!
+			refs = append([]*ua.ReferenceDescription{rf}, refs...)
+		} else {
+			refs = append(refs, rf)
+		}
 	}
 
 	return &ua.BrowseResult{
@@ -254,4 +262,440 @@ func (as *NodeNameSpace) SetAttribute(id *ua.NodeID, attr ua.AttributeID, val *u
 	}
 
 	return ua.StatusOK
+}
+
+func (ns *NodeNameSpace) ImportNodeSet(nodes *schema.UANodeSet) error {
+	err := ns.nodesImportNodeSet(nodes)
+	if err != nil {
+		return fmt.Errorf("problem creating nodes: %w", err)
+	}
+	ns.refsImportNodeSet(nodes)
+	if err != nil {
+		return fmt.Errorf("problem creating references: %w", err)
+	}
+	return nil
+}
+
+func (ns *NodeNameSpace) nodesImportNodeSet(nodes *schema.UANodeSet) error {
+
+	log.Printf("New Node Set: %s", nodes.LastModifiedAttr)
+
+	reftypes := make(map[string]*schema.UAReferenceType)
+
+	// the first thing we have to do is go thorugh and define all the nodes.
+	// set up the reference types.
+	for i := range nodes.UAReferenceType {
+		rt := nodes.UAReferenceType[i]
+		reftypes[rt.BrowseNameAttr] = rt // sometimes they use browse name
+		reftypes[rt.NodeIdAttr] = rt     // sometimes they use node id
+
+		var attrs Attributes = make(map[ua.AttributeID]*ua.Variant)
+		attrs[ua.AttributeIDAccessRestrictions] = ua.MustVariant(rt.AccessRestrictionsAttr)
+		attrs[ua.AttributeIDBrowseName] = ua.MustVariant(&ua.QualifiedName{NamespaceIndex: ns.id, Name: rt.BrowseNameAttr})
+		attrs[ua.AttributeIDIsAbstract] = ua.MustVariant(rt.IsAbstractAttr)
+		attrs[ua.AttributeIDUserWriteMask] = ua.MustVariant(rt.UserWriteMaskAttr)
+		attrs[ua.AttributeIDSymmetric] = ua.MustVariant(rt.SymmetricAttr)
+		attrs[ua.AttributeIDWriteMask] = ua.MustVariant(rt.WriteMaskAttr)
+		if len(rt.DisplayName) > 0 {
+			attrs[ua.AttributeIDDisplayName] = ua.MustVariant(ua.NewLocalizedText(rt.DisplayName[0].Value))
+		}
+		if len(rt.InverseName) > 0 {
+			attrs[ua.AttributeIDInverseName] = ua.MustVariant(ua.NewLocalizedText(rt.InverseName[0].Value))
+		} else {
+			attrs[ua.AttributeIDInverseName] = ua.MustVariant(ua.NewLocalizedText(""))
+		}
+		if len(rt.Description) > 0 {
+			attrs[ua.AttributeIDDescription] = ua.MustVariant(ua.NewLocalizedText(rt.Description[0].Value))
+		}
+		attrs[ua.AttributeIDNodeClass] = ua.MustVariant(uint32(ua.NodeClassReferenceType))
+
+		var refs References = make([]*ua.ReferenceDescription, 0)
+		nid := ua.MustParseNodeID(rt.NodeIdAttr)
+
+		n := NewNode(nid, attrs, refs, nil)
+		ns.AddNode(n)
+	}
+
+	// set up the data types.
+	for i := range nodes.UADataType {
+		dt := nodes.UADataType[i]
+		nid := ua.MustParseNodeID(dt.NodeIdAttr)
+
+		var attrs Attributes = make(map[ua.AttributeID]*ua.Variant)
+		attrs[ua.AttributeIDAccessRestrictions] = ua.MustVariant(dt.AccessRestrictionsAttr)
+		attrs[ua.AttributeIDBrowseName] = ua.MustVariant(&ua.QualifiedName{NamespaceIndex: ns.id, Name: dt.BrowseNameAttr})
+		attrs[ua.AttributeIDIsAbstract] = ua.MustVariant(dt.IsAbstractAttr)
+		attrs[ua.AttributeIDUserWriteMask] = ua.MustVariant(dt.UserWriteMaskAttr)
+		attrs[ua.AttributeIDWriteMask] = ua.MustVariant(dt.WriteMaskAttr)
+		if len(dt.DisplayName) > 0 {
+			attrs[ua.AttributeIDDisplayName] = ua.MustVariant(ua.NewLocalizedText(dt.DisplayName[0].Value))
+		}
+		if len(dt.Description) > 0 {
+			attrs[ua.AttributeIDDescription] = ua.MustVariant(ua.NewLocalizedText(dt.Description[0].Value))
+		}
+		attrs[ua.AttributeIDNodeClass] = ua.MustVariant(uint32(ua.NodeClassDataType))
+
+		var refs References = make([]*ua.ReferenceDescription, 0)
+
+		n := NewNode(nid, attrs, refs, nil)
+		ns.AddNode(n)
+	}
+
+	// set up the object types
+	for i := range nodes.UAObjectType {
+		ot := nodes.UAObjectType[i]
+		nid := ua.MustParseNodeID(ot.NodeIdAttr)
+		var attrs Attributes = make(map[ua.AttributeID]*ua.Variant)
+		attrs[ua.AttributeIDAccessRestrictions] = ua.MustVariant(ot.AccessRestrictionsAttr)
+		attrs[ua.AttributeIDBrowseName] = ua.MustVariant(&ua.QualifiedName{NamespaceIndex: ns.id, Name: ot.BrowseNameAttr})
+		attrs[ua.AttributeIDIsAbstract] = ua.MustVariant(ot.IsAbstractAttr)
+		attrs[ua.AttributeIDUserWriteMask] = ua.MustVariant(ot.UserWriteMaskAttr)
+		attrs[ua.AttributeIDWriteMask] = ua.MustVariant(ot.WriteMaskAttr)
+		if len(ot.DisplayName) > 0 {
+			attrs[ua.AttributeIDDisplayName] = ua.MustVariant(ua.NewLocalizedText(ot.DisplayName[0].Value))
+		}
+		if len(ot.Description) > 0 {
+			attrs[ua.AttributeIDDescription] = ua.MustVariant(ua.NewLocalizedText(ot.Description[0].Value))
+		}
+		attrs[ua.AttributeIDNodeClass] = ua.MustVariant(uint32(ua.NodeClassObjectType))
+
+		var refs References = make([]*ua.ReferenceDescription, 0)
+
+		n := NewNode(nid, attrs, refs, nil)
+		ns.AddNode(n)
+	}
+
+	// set up the variable Types
+	for i := range nodes.UAVariableType {
+		ot := nodes.UAVariableType[i]
+		nid := ua.MustParseNodeID(ot.NodeIdAttr)
+		var attrs Attributes = make(map[ua.AttributeID]*ua.Variant)
+		attrs[ua.AttributeIDAccessRestrictions] = ua.MustVariant(ot.AccessRestrictionsAttr)
+		attrs[ua.AttributeIDBrowseName] = ua.MustVariant(&ua.QualifiedName{NamespaceIndex: ns.id, Name: ot.BrowseNameAttr})
+		attrs[ua.AttributeIDUserWriteMask] = ua.MustVariant(ot.UserWriteMaskAttr)
+		attrs[ua.AttributeIDWriteMask] = ua.MustVariant(ot.WriteMaskAttr)
+		if len(ot.DisplayName) > 0 {
+			attrs[ua.AttributeIDDisplayName] = ua.MustVariant(ua.NewLocalizedText(ot.DisplayName[0].Value))
+		}
+		if len(ot.Description) > 0 {
+			attrs[ua.AttributeIDDescription] = ua.MustVariant(ua.NewLocalizedText(ot.Description[0].Value))
+		}
+		attrs[ua.AttributeIDNodeClass] = ua.MustVariant(uint32(ua.NodeClassVariableType))
+
+		var refs References = make([]*ua.ReferenceDescription, 0)
+
+		n := NewNode(nid, attrs, refs, nil)
+		ns.AddNode(n)
+	}
+
+	// set up the variables
+	for i := range nodes.UAVariable {
+		ot := nodes.UAVariable[i]
+		nid := ua.MustParseNodeID(ot.NodeIdAttr)
+		var attrs Attributes = make(map[ua.AttributeID]*ua.Variant)
+		attrs[ua.AttributeIDAccessRestrictions] = ua.MustVariant(ot.AccessRestrictionsAttr)
+		attrs[ua.AttributeIDBrowseName] = ua.MustVariant(&ua.QualifiedName{NamespaceIndex: ns.id, Name: ot.BrowseNameAttr})
+		attrs[ua.AttributeIDUserWriteMask] = ua.MustVariant(ot.UserWriteMaskAttr)
+		attrs[ua.AttributeIDWriteMask] = ua.MustVariant(ot.WriteMaskAttr)
+		if len(ot.DisplayName) > 0 {
+			attrs[ua.AttributeIDDisplayName] = ua.MustVariant(ua.NewLocalizedText(ot.DisplayName[0].Value))
+		}
+		if len(ot.Description) > 0 {
+			attrs[ua.AttributeIDDescription] = ua.MustVariant(ua.NewLocalizedText(ot.Description[0].Value))
+		}
+		attrs[ua.AttributeIDNodeClass] = ua.MustVariant(uint32(ua.NodeClassVariable))
+
+		var refs References = make([]*ua.ReferenceDescription, 0)
+
+		n := NewNode(nid, attrs, refs, nil)
+		ns.AddNode(n)
+	}
+
+	// set up the methods
+	for i := range nodes.UAMethod {
+		ot := nodes.UAMethod[i]
+		nid := ua.MustParseNodeID(ot.NodeIdAttr)
+		var attrs Attributes = make(map[ua.AttributeID]*ua.Variant)
+		attrs[ua.AttributeIDAccessRestrictions] = ua.MustVariant(ot.AccessRestrictionsAttr)
+		attrs[ua.AttributeIDBrowseName] = ua.MustVariant(&ua.QualifiedName{NamespaceIndex: ns.id, Name: ot.BrowseNameAttr})
+		attrs[ua.AttributeIDUserWriteMask] = ua.MustVariant(ot.UserWriteMaskAttr)
+		attrs[ua.AttributeIDWriteMask] = ua.MustVariant(ot.WriteMaskAttr)
+		if len(ot.DisplayName) > 0 {
+			attrs[ua.AttributeIDDisplayName] = ua.MustVariant(ua.NewLocalizedText(ot.DisplayName[0].Value))
+		}
+		if len(ot.Description) > 0 {
+			attrs[ua.AttributeIDDescription] = ua.MustVariant(ua.NewLocalizedText(ot.Description[0].Value))
+		}
+		attrs[ua.AttributeIDNodeClass] = ua.MustVariant(uint32(ua.NodeClassMethod))
+
+		var refs References = make([]*ua.ReferenceDescription, 0)
+
+		n := NewNode(nid, attrs, refs, nil)
+		ns.AddNode(n)
+	}
+
+	// set up the objects
+	for i := range nodes.UAObject {
+		ot := nodes.UAObject[i]
+		nid := ua.MustParseNodeID(ot.NodeIdAttr)
+		if ot.NodeIdAttr == "i=85" {
+			log.Printf("doing objects.")
+		}
+		var attrs Attributes = make(map[ua.AttributeID]*ua.Variant)
+		attrs[ua.AttributeIDAccessRestrictions] = ua.MustVariant(ot.AccessRestrictionsAttr)
+		attrs[ua.AttributeIDBrowseName] = ua.MustVariant(&ua.QualifiedName{NamespaceIndex: ns.id, Name: ot.BrowseNameAttr})
+		attrs[ua.AttributeIDUserWriteMask] = ua.MustVariant(ot.UserWriteMaskAttr)
+		attrs[ua.AttributeIDWriteMask] = ua.MustVariant(ot.WriteMaskAttr)
+		if len(ot.DisplayName) > 0 {
+			attrs[ua.AttributeIDDisplayName] = ua.MustVariant(ua.NewLocalizedText(ot.DisplayName[0].Value))
+		}
+		if len(ot.Description) > 0 {
+			attrs[ua.AttributeIDDescription] = ua.MustVariant(ua.NewLocalizedText(ot.Description[0].Value))
+		}
+
+		attrs[ua.AttributeIDNodeClass] = ua.MustVariant(uint32(ua.NodeClassObject))
+
+		var refs References = make([]*ua.ReferenceDescription, 0)
+
+		n := NewNode(nid, attrs, refs, nil)
+		ns.AddNode(n)
+	}
+
+	return nil
+}
+func (ns *NodeNameSpace) refsImportNodeSet(nodes *schema.UANodeSet) error {
+
+	log.Printf("New Node Set: %s", nodes.LastModifiedAttr)
+
+	failures := 0
+	reftypes := make(map[string]*schema.UAReferenceType)
+	for i := range nodes.UAReferenceType {
+		rt := nodes.UAReferenceType[i]
+		reftypes[rt.BrowseNameAttr] = rt // sometimes they use browse name
+		reftypes[rt.NodeIdAttr] = rt     // sometimes they use node id
+	}
+
+	// the first thing we have to do is go thorugh and define all the nodes.
+	// set up the reference types.
+	for i := range nodes.UAReferenceType {
+		rt := nodes.UAReferenceType[i]
+
+		nodeid := ua.MustParseNodeID(rt.NodeIdAttr)
+		node := ns.Node(nodeid)
+		if node == nil {
+			log.Printf("Error loading node %s", rt.NodeIdAttr)
+		}
+
+		for rid := range rt.References.Reference {
+			ref := rt.References.Reference[rid]
+			refnodeid := ua.MustParseNodeID(ref.Value)
+			n := ns.Node(refnodeid)
+			if n == nil {
+				log.Printf("can't find node %s as %s reference to %s", ref.Value, ref.ReferenceTypeAttr, rt.BrowseNameAttr)
+				failures++
+				continue
+			}
+
+			if ref.IsForwardAttr == nil {
+				v := true
+				ref.IsForwardAttr = &v
+			}
+			reftypeid := ua.MustParseNodeID(reftypes[ref.ReferenceTypeAttr].NodeIdAttr)
+			node.AddRef(n, RefType(reftypeid.IntID()), *ref.IsForwardAttr)
+			if !reftypes[ref.ReferenceTypeAttr].SymmetricAttr {
+				n.AddRef(node, RefType(reftypeid.IntID()), !*ref.IsForwardAttr)
+			}
+		}
+
+	}
+
+	// set up the data types.
+	for i := range nodes.UADataType {
+		dt := nodes.UADataType[i]
+		nid := ua.MustParseNodeID(dt.NodeIdAttr)
+		node := ns.Node(nid)
+
+		for rid := range dt.References.Reference {
+			ref := dt.References.Reference[rid]
+			refnodeid := ua.MustParseNodeID(ref.Value)
+			n := ns.Node(refnodeid)
+			if n == nil {
+				log.Printf("can't find node %s as %s reference to %s", ref.Value, ref.ReferenceTypeAttr, dt.BrowseNameAttr)
+				failures++
+				continue
+			}
+
+			if ref.IsForwardAttr == nil {
+				v := true
+				ref.IsForwardAttr = &v
+			}
+			reftypeid := ua.MustParseNodeID(reftypes[ref.ReferenceTypeAttr].NodeIdAttr)
+			node.AddRef(n, RefType(reftypeid.IntID()), *ref.IsForwardAttr)
+			if !reftypes[ref.ReferenceTypeAttr].SymmetricAttr {
+				n.AddRef(node, RefType(reftypeid.IntID()), !*ref.IsForwardAttr)
+			}
+
+		}
+
+	}
+
+	// set up the object types
+	for i := range nodes.UAObjectType {
+		ot := nodes.UAObjectType[i]
+		nid := ua.MustParseNodeID(ot.NodeIdAttr)
+		node := ns.Node(nid)
+
+		for rid := range ot.References.Reference {
+			ref := ot.References.Reference[rid]
+			refnodeid := ua.MustParseNodeID(ref.Value)
+			n := ns.Node(refnodeid)
+			if n == nil {
+				log.Printf("can't find node %s as %s reference to %s", ref.Value, ref.ReferenceTypeAttr, ot.BrowseNameAttr)
+				failures++
+				continue
+			}
+			if ref.IsForwardAttr == nil {
+				v := true
+				ref.IsForwardAttr = &v
+			}
+			reftypeid := ua.MustParseNodeID(reftypes[ref.ReferenceTypeAttr].NodeIdAttr)
+			node.AddRef(n, RefType(reftypeid.IntID()), *ref.IsForwardAttr)
+			if !reftypes[ref.ReferenceTypeAttr].SymmetricAttr {
+				n.AddRef(node, RefType(reftypeid.IntID()), !*ref.IsForwardAttr)
+			}
+		}
+	}
+
+	// set up the variable Types
+	for i := range nodes.UAVariableType {
+		ot := nodes.UAVariableType[i]
+		nid := ua.MustParseNodeID(ot.NodeIdAttr)
+		node := ns.Node(nid)
+
+		for rid := range ot.References.Reference {
+			ref := ot.References.Reference[rid]
+			refnodeid := ua.MustParseNodeID(ref.Value)
+			n := ns.Node(refnodeid)
+			if n == nil {
+				log.Printf("can't find node %s as %s reference to %s", ref.Value, ref.ReferenceTypeAttr, ot.BrowseNameAttr)
+				failures++
+				continue
+			}
+			if ref.IsForwardAttr == nil {
+				v := true
+				ref.IsForwardAttr = &v
+			}
+			reftypeid := ua.MustParseNodeID(reftypes[ref.ReferenceTypeAttr].NodeIdAttr)
+			node.AddRef(n, RefType(reftypeid.IntID()), *ref.IsForwardAttr)
+			if !reftypes[ref.ReferenceTypeAttr].SymmetricAttr {
+				n.AddRef(node, RefType(reftypeid.IntID()), !*ref.IsForwardAttr)
+			}
+
+		}
+
+	}
+
+	// set up the variables
+	for i := range nodes.UAVariable {
+		ot := nodes.UAVariable[i]
+		nid := ua.MustParseNodeID(ot.NodeIdAttr)
+		node := ns.Node(nid)
+
+		for rid := range ot.References.Reference {
+			ref := ot.References.Reference[rid]
+			refnodeid := ua.MustParseNodeID(ref.Value)
+			n := ns.Node(refnodeid)
+			if n == nil {
+				log.Printf("can't find node %s as %s reference to %s", ref.Value, ref.ReferenceTypeAttr, ot.BrowseNameAttr)
+				failures++
+				continue
+			}
+			if ref.IsForwardAttr == nil {
+				v := true
+				ref.IsForwardAttr = &v
+			}
+			reftypeid := ua.MustParseNodeID(reftypes[ref.ReferenceTypeAttr].NodeIdAttr)
+			node.AddRef(n, RefType(reftypeid.IntID()), *ref.IsForwardAttr)
+			if !reftypes[ref.ReferenceTypeAttr].SymmetricAttr {
+				n.AddRef(node, RefType(reftypeid.IntID()), !*ref.IsForwardAttr)
+			}
+
+		}
+
+	}
+
+	// set up the methods
+	for i := range nodes.UAMethod {
+		ot := nodes.UAMethod[i]
+		nid := ua.MustParseNodeID(ot.NodeIdAttr)
+		node := ns.Node(nid)
+
+		for rid := range ot.References.Reference {
+			ref := ot.References.Reference[rid]
+			refnodeid := ua.MustParseNodeID(ref.Value)
+			n := ns.Node(refnodeid)
+			if n == nil {
+				log.Printf("can't find node %s as %s reference to %s", ref.Value, ref.ReferenceTypeAttr, ot.BrowseNameAttr)
+				failures++
+				continue
+			}
+			if ref.IsForwardAttr == nil {
+				v := true
+				ref.IsForwardAttr = &v
+			}
+			reftypeid := ua.MustParseNodeID(reftypes[ref.ReferenceTypeAttr].NodeIdAttr)
+			node.AddRef(n, RefType(reftypeid.IntID()), *ref.IsForwardAttr)
+			if !reftypes[ref.ReferenceTypeAttr].SymmetricAttr {
+				n.AddRef(node, RefType(reftypeid.IntID()), !*ref.IsForwardAttr)
+			}
+		}
+
+	}
+
+	// set up the objects
+	for i := range nodes.UAObject {
+		ot := nodes.UAObject[i]
+		nid := ua.MustParseNodeID(ot.NodeIdAttr)
+		node := ns.Node(nid)
+		if ot.NodeIdAttr == "i=85" {
+			log.Printf("doing objects.")
+		}
+
+		for rid := range ot.References.Reference {
+			ref := ot.References.Reference[rid]
+			refnodeid := ua.MustParseNodeID(ref.Value)
+			n := ns.Node(refnodeid)
+			if n == nil {
+				log.Printf("can't find node %s as %s reference to %s", ref.Value, ref.ReferenceTypeAttr, ot.BrowseNameAttr)
+				failures++
+				continue
+			}
+			if ref.IsForwardAttr == nil {
+				v := true
+				ref.IsForwardAttr = &v
+			}
+			reftypeid := ua.MustParseNodeID(reftypes[ref.ReferenceTypeAttr].NodeIdAttr)
+			node.AddRef(n, RefType(reftypeid.IntID()), *ref.IsForwardAttr)
+			if !reftypes[ref.ReferenceTypeAttr].SymmetricAttr {
+				n.AddRef(node, RefType(reftypeid.IntID()), !*ref.IsForwardAttr)
+			}
+
+		}
+
+	}
+
+	return nil
+}
+
+func getReferenceDescription(rt *schema.UAReferenceType, node *Node, forward bool) *ua.ReferenceDescription {
+	var x = &ua.ReferenceDescription{}
+	x.ReferenceTypeID = ua.MustParseNodeID(rt.NodeIdAttr)
+	x.IsForward = forward
+	x.NodeID = ua.NewExpandedNodeID(node.id, "", 0)
+	x.BrowseName = node.BrowseName()
+	x.DisplayName = node.DisplayName()
+	x.NodeClass = node.NodeClass()
+	x.TypeDefinition = &ua.ExpandedNodeID{}
+
+	return x
 }

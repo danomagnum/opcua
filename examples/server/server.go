@@ -159,10 +159,10 @@ func main() {
 	//root_obj.AddRef(server_obj, id.HasComponent)
 
 	mrw_id := s.AddNamespace(mrw)
-	root_obj.AddRef(mrw.Objects(), id.HasComponent)
+	root_obj.AddRef(mrw.Objects(), id.HasComponent, true)
 	log.Printf("map namespace added at index %d", mrw_id)
 	mrw_id2 := s.AddNamespace(mrw2)
-	root_obj.AddRef(mrw2.Objects(), id.HasComponent)
+	root_obj.AddRef(mrw2.Objects(), id.HasComponent, true)
 	log.Printf("map namespace added at index %d", mrw_id2)
 
 	// Start the server
@@ -183,10 +183,10 @@ func main() {
 	var1 := nodeNS.AddNewVariableNode("TestVar1", float32(123.45))
 	// Make sure there is a reference to the variable from the root object folder
 	nns_obj := nodeNS.Objects()
-	nns_obj.AddRef(var1, id.HasComponent)
+	nns_obj.AddRef(var1, id.HasComponent, true)
 
 	// add the reference for this namespace's root object folder to the server's root object folder
-	root_obj.AddRef(nns_obj, id.HasComponent)
+	root_obj.AddRef(nns_obj, id.HasComponent, true)
 
 	log.Printf("Press CTRL-C to exit")
 	<-sigch
