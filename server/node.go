@@ -1,6 +1,7 @@
 package server
 
 import (
+	"log"
 	"time"
 
 	"golang.org/x/exp/maps"
@@ -106,9 +107,9 @@ func (n *Node) sanitize() {
 	if n.attr[ua.AttributeIDDescription] == nil {
 		n.SetDescription("", "")
 	}
-	if n.attr[ua.AttributeIDDataType] == nil {
-		n.attr[ua.AttributeIDDataType] = ua.MustVariant(ua.NewTwoByteExpandedNodeID(0))
-	}
+	//if n.attr[ua.AttributeIDDataType] == nil {
+	//n.attr[ua.AttributeIDDataType] = ua.MustVariant(ua.NewTwoByteExpandedNodeID(0))
+	//}
 }
 
 func (n *Node) ID() *ua.NodeID {
@@ -194,8 +195,22 @@ func (n *Node) SetDescription(text, locale string) {
 }
 
 func (n *Node) DataType() *ua.ExpandedNodeID {
+	if n == nil {
+		log.Printf("n was nil!")
+		return ua.NewTwoByteExpandedNodeID(0)
+	}
 	v := n.attr[ua.AttributeIDDataType]
 	if v == nil || v.Value() == nil {
+		// if we have a type definition, return that?
+		for i := range n.refs {
+			r := n.refs[i]
+			if r.ReferenceTypeID == nil {
+				log.Printf("reftypeid was nil!")
+			}
+			if r.ReferenceTypeID.IntID() == id.HasTypeDefinition && r.IsForward {
+				return r.NodeID
+			}
+		}
 		return ua.NewTwoByteExpandedNodeID(0)
 	}
 	return v.Value().(*ua.ExpandedNodeID)
@@ -206,7 +221,7 @@ func (n *Node) SetNodeClass(nc ua.NodeClass) {
 }
 
 func (n *Node) NodeClass() ua.NodeClass {
-	v := n.attr[ua.AttributeIDDescription]
+	v := n.attr[ua.AttributeIDNodeClass]
 	if v == nil || v.Value() == nil {
 		return ua.NodeClassObject
 	}

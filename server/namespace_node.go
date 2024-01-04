@@ -213,6 +213,8 @@ func (ns *NodeNameSpace) Browse(bd *ua.BrowseDescription) *ua.BrowseResult {
 			continue
 		}
 
+		td := ns.srv.Node(r.NodeID.NodeID)
+
 		rf := &ua.ReferenceDescription{
 			ReferenceTypeID: r.ReferenceTypeID,
 			IsForward:       r.IsForward,
@@ -220,7 +222,7 @@ func (ns *NodeNameSpace) Browse(bd *ua.BrowseDescription) *ua.BrowseResult {
 			BrowseName:      r.BrowseName,
 			DisplayName:     r.DisplayName,
 			NodeClass:       r.NodeClass,
-			TypeDefinition:  r.TypeDefinition,
+			TypeDefinition:  td.DataType(),
 		}
 
 		if rf.ReferenceTypeID.IntID() == id.HasTypeDefinition && rf.IsForward {
@@ -515,6 +517,10 @@ func (ns *NodeNameSpace) refsImportNodeSet(nodes *schema.UANodeSet) error {
 		nid := ua.MustParseNodeID(dt.NodeIdAttr)
 		node := ns.Node(nid)
 
+		if nid.IntID() == 24 {
+			log.Printf("doing BaseDataType")
+		}
+
 		for rid := range dt.References.Reference {
 			ref := dt.References.Reference[rid]
 			refnodeid := ua.MustParseNodeID(ref.Value)
@@ -657,8 +663,8 @@ func (ns *NodeNameSpace) refsImportNodeSet(nodes *schema.UANodeSet) error {
 		ot := nodes.UAObject[i]
 		nid := ua.MustParseNodeID(ot.NodeIdAttr)
 		node := ns.Node(nid)
-		if ot.NodeIdAttr == "i=85" {
-			log.Printf("doing objects.")
+		if ot.NodeIdAttr == "i=84" {
+			log.Printf("doing root.")
 		}
 
 		for rid := range ot.References.Reference {

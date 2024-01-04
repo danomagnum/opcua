@@ -141,6 +141,7 @@ func New(url string, opts ...Option) *Server {
 	xml.Unmarshal(schema.OpcUaNodeSet2, &nodes)
 
 	n0, ok := s.namespaces[0].(*NodeNameSpace)
+	n0.srv = s
 	if !ok {
 		log.Fatalf("not a node namespace!")
 	}
@@ -223,7 +224,8 @@ func (s *Server) Status() *ua.ServerStatusDataType {
 // URL returns opc endpoint that the server is listening on.
 func (s *Server) URL() string {
 	if s.l != nil {
-		return fmt.Sprintf("opc.tcp://%s", s.l.Addr())
+		//return fmt.Sprintf("opc.tcp://%s", s.l.Addr())
+		return fmt.Sprintf("opc.tcp://localhost:4840")
 	}
 	return ""
 }
@@ -362,7 +364,7 @@ func (s *Server) initEndpoints() {
 				ApplicationType:     ua.ApplicationTypeServer,
 				GatewayServerURI:    "",
 				DiscoveryProfileURI: "",
-				DiscoveryURLs:       []string{fmt.Sprintf("opc.tcp://%s", s.l.Addr().String())},
+				DiscoveryURLs:       []string{s.URL()},
 			},
 			ServerCertificate:   s.cfg.certificate,
 			SecurityMode:        sec.secMode,
@@ -414,4 +416,12 @@ func (s *Server) initEndpoints() {
 	s.mu.Lock()
 	s.endpoints = endpoints
 	s.mu.Unlock()
+}
+
+func (s *Server) Node(nid *ua.NodeID) *Node {
+	ns := int(nid.Namespace())
+	if ns < len(s.namespaces) {
+		return s.namespaces[ns].Node(nid)
+	}
+	return nil
 }
