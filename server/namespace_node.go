@@ -686,16 +686,3 @@ func (ns *NodeNameSpace) refsImportNodeSet(nodes *schema.UANodeSet) error {
 
 	return nil
 }
-
-func getReferenceDescription(rt *schema.UAReferenceType, node *Node, forward bool) *ua.ReferenceDescription {
-	var x = &ua.ReferenceDescription{}
-	x.ReferenceTypeID = ua.MustParseNodeID(rt.NodeIdAttr)
-	x.IsForward = forward
-	x.NodeID = ua.NewExpandedNodeID(node.id, "", 0)
-	x.BrowseName = node.BrowseName()
-	x.DisplayName = node.DisplayName()
-	x.NodeClass = node.NodeClass()
-	x.TypeDefinition = &ua.ExpandedNodeID{}
-
-	return x
-}

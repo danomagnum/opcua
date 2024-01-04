@@ -24,7 +24,7 @@ var (
 	endpoint = flag.String("endpoint", "opc.tcp://0.0.0.0:4840", "OPC UA Endpoint URL")
 	certfile = flag.String("cert", "cert.pem", "Path to certificate file")
 	keyfile  = flag.String("key", "key.pem", "Path to PEM Private Key file")
-	gencert  = flag.Bool("gen-cert", false, "Generate a new certificate")
+	gencert  = flag.Bool("gen-cert", true, "Generate a new certificate")
 )
 
 func main() {

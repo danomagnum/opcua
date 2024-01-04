@@ -2,6 +2,11 @@
 
 package schema
 
+import _ "embed"
+
+//go:embed Opc.Ua.NodeSet2.xml
+var OpcUaNodeSet2 []byte
+
 // UANodeSet ...
 type UANodeSet struct {
 	LastModifiedAttr string             `xml:"LastModified,attr,omitempty"`

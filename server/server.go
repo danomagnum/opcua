@@ -9,10 +9,8 @@ import (
 	"crypto/rsa"
 	"encoding/xml"
 	"fmt"
-	"io"
 	"log"
 	"net"
-	"os"
 	"strings"
 	"sync"
 	"time"
@@ -138,18 +136,9 @@ func New(url string, opts ...Option) *Server {
 	//for _, n := range PredefinedNodes() {
 	//s.namespaces[0].AddNode(n)
 	//}
-	file, err := os.Open("../../schema/Opc.Ua.NodeSet2.xml")
-	if err != nil {
-		log.Fatalf("couldn't open file: %v", err)
-	}
-
-	b, err := io.ReadAll(file)
-	if err != nil {
-		log.Fatalf("could not read data from file: %v", err)
-	}
 
 	var nodes schema.UANodeSet
-	xml.Unmarshal(b, &nodes)
+	xml.Unmarshal(schema.OpcUaNodeSet2, &nodes)
 
 	n0, ok := s.namespaces[0].(*NodeNameSpace)
 	if !ok {
