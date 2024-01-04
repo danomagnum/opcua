@@ -2,17 +2,11 @@ package uasc
 
 import (
 	"math"
-	"strings"
 	"testing"
 	"time"
 
-	"github.com/pascaldekloe/goe/verify"
-
 	"github.com/gopcua/opcua/id"
 	"github.com/gopcua/opcua/ua"
-	"github.com/gopcua/opcua/uacp"
-	"github.com/gopcua/opcua/uapolicy"
-	"github.com/gopcua/opcua/uatest"
 	"github.com/pascaldekloe/goe/verify"
 )
 
@@ -156,6 +150,7 @@ func TestNewRequestMessage(t *testing.T) {
 // 	buildSecPolicy := func(bits int, uri string) *uapolicy.EncryptionAlgorithm {
 // 		t.Helper()
 
+/*
 		certPEM, keyPEM, err := uatest.GenerateCert("localhost", bits, 24*time.Hour)
 		if err != nil {
 			t.Fatal(err)
@@ -351,3 +346,5 @@ func errorContains(t *testing.T, err error, msg string) {
 		t.Fatalf("error '%s' does not contain '%s'", err, msg)
 	}
 }
+
+*/

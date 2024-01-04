@@ -942,8 +942,8 @@ func (s *SecureChannel) Renew(ctx context.Context) error {
 	return s.renew(instance)
 }
 
-// SendRequest sends the service request and calls h with the response.
 func (s *SecureChannel) SendRequest(ctx context.Context, req ua.Request, authToken *ua.NodeID, h ResponseHandler) error {
+	// SendRequest sends the service request and calls h with the response.
 	return s.SendRequestWithTimeout(ctx, req, authToken, s.cfg.RequestTimeout, h)
 }
 

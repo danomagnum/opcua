@@ -35,7 +35,7 @@ func (c *Client) Subscribe(ctx context.Context, params *SubscriptionParameters, 
 	}
 
 	var res *ua.CreateSubscriptionResponse
-	err := c.Send(ctx, req, func(v interface{}) error {
+	err := c.Send(ctx, req, func(v ua.Response) error {
 		return safeAssign(v, &res)
 	})
 	if err != nil {
@@ -110,7 +110,7 @@ func (c *Client) transferSubscriptions(ctx context.Context, ids []uint32) (*ua.T
 	}
 
 	var res *ua.TransferSubscriptionsResponse
-	err := c.Send(ctx, req, func(v interface{}) error {
+	err := c.Send(ctx, req, func(v ua.Response) error {
 		return safeAssign(v, &res)
 	})
 	return res, err
@@ -178,7 +178,7 @@ func (c *Client) sendRepublishRequests(ctx context.Context, sub *Subscription, a
 
 		debug.Printf("RepublishRequest: req=%s", debug.ToJSON(req))
 		var res *ua.RepublishResponse
-		err := c.SecureChannel().SendRequest(ctx, req, c.Session().resp.AuthenticationToken, func(v interface{}) error {
+		err := c.SecureChannel().SendRequest(ctx, req, c.Session().resp.AuthenticationToken, func(v ua.Response) error {
 			return safeAssign(v, &res)
 		})
 		debug.Printf("RepublishResponse: res=%s err=%v", debug.ToJSON(res), err)
