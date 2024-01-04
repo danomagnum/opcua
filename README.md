@@ -171,47 +171,49 @@ The current focus is on the OPC UA Binary protocol over TCP. No other protocols 
 
 Here is the current set of supported services. For low-level access use the client `Send` function directly.
 
-| Service Set                 | Service                       | Client | Notes        |
-|-----------------------------|-------------------------------|--------|--------------|
-| Discovery Service Set       | FindServers                   | Yes    |              |
-|                             | FindServersOnNetwork          | Yes    |              |
-|                             | GetEndpoints                  | Yes    |              |
-|                             | RegisterServer                |        |              |
-|                             | RegisterServer2               |        |              |
-| Secure Channel Service Set  | OpenSecureChannel             | Yes    |              |
-|                             | CloseSecureChannel            | Yes    |              |
-| Session Service Set         | CreateSession                 | Yes    |              |
-|                             | CloseSession                  | Yes    |              |
-|                             | ActivateSession               | Yes    |              |
-|                             | Cancel                        |        |              |
-| Node Management Service Set | AddNodes                      |        |              |
-|                             | AddReferences                 |        |              |
-|                             | DeleteNodes                   |        |              |
-|                             | DeleteReferences              |        |              |
-| View Service Set            | Browse                        | Yes    |              |
-|                             | BrowseNext                    | Yes    |              |
-|                             | TranslateBrowsePathsToNodeIds |        |              |
-|                             | RegisterNodes                 | Yes    |              |
-|                             | UnregisterNodes               | Yes    |              |
-| Query Service Set           | QueryFirst                    |        |              |
-|                             | QueryNext                     |        |              |
-| Attribute Service Set       | Read                          | Yes    |              |
-|                             | Write                         | Yes    |              |
-|                             | HistoryRead                   | Yes    |              |
-|                             | HistoryUpdate                 |        |              |
-| Method Service Set          | Call                          | Yes    |              |
-| MonitoredItems Service Set  | CreateMonitoredItems          | Yes    |              |
-|                             | DeleteMonitoredItems          | Yes    |              |
-|                             | ModifyMonitoredItems          | Yes    |              |
-|                             | SetMonitoringMode             |        |              |
-|                             | SetTriggering                 |        |              |
-| Subscription Service Set    | CreateSubscription            | Yes    |              |
-|                             | ModifySubscription            |        |              |
-|                             | SetPublishingMode             |        |              |
-|                             | Publish                       | Yes    |              |
-|                             | Republish                     |        |              |
-|                             | DeleteSubscriptions           | Yes    |              |
-|                             | TransferSubscriptions         |        |              |
+| Service Set                 | Service                       | Client | Server | Notes        |
+|-----------------------------|-------------------------------|--------|--------|--------------|
+| Discovery Service Set       | FindServers                   | Yes    |        |              |
+|                             | FindServersOnNetwork          | Yes    |        |              |
+|                             | GetEndpoints                  | Yes    |        |              |
+|                             | RegisterServer                |        |        |              |
+|                             | RegisterServer2               |        |        |              |
+| Secure Channel Service Set  | OpenSecureChannel             | Yes    | Yes*   |              |
+|                             | CloseSecureChannel            | Yes    | Yes*   |              |
+| Session Service Set         | CreateSession                 | Yes    | Yes    |              |
+|                             | CloseSession                  | Yes    | Yes    |              |
+|                             | ActivateSession               | Yes    | Yes    |              |
+|                             | Cancel                        |        |        |              |
+| Node Management Service Set | AddNodes                      |        |        |              |
+|                             | AddReferences                 |        |        |              |
+|                             | DeleteNodes                   |        |        |              |
+|                             | DeleteReferences              |        |        |              |
+| View Service Set            | Browse                        | Yes    | Yes    |              |
+|                             | BrowseNext                    | Yes    |        |              |
+|                             | TranslateBrowsePathsToNodeIds |        |        |              |
+|                             | RegisterNodes                 | Yes    |        |              |
+|                             | UnregisterNodes               | Yes    |        |              |
+| Query Service Set           | QueryFirst                    |        |        |              |
+|                             | QueryNext                     |        |        |              |
+| Attribute Service Set       | Read                          | Yes    | Yes    |              |
+|                             | Write                         | Yes    | Yes    |              |
+|                             | HistoryRead                   | Yes    |        |              |
+|                             | HistoryUpdate                 |        |        |              |
+| Method Service Set          | Call                          | Yes    |        |              |
+| MonitoredItems Service Set  | CreateMonitoredItems          | Yes    | Yes    |              |
+|                             | DeleteMonitoredItems          | Yes    | Yes    |              |
+|                             | ModifyMonitoredItems          | Yes    | Yes    |              |
+|                             | SetMonitoringMode             |        | Yes    |              |
+|                             | SetTriggering                 |        |        |              |
+| Subscription Service Set    | CreateSubscription            | Yes    | Yes    |              |
+|                             | ModifySubscription            |        |        |              |
+|                             | SetPublishingMode             |        |        |              |
+|                             | Publish                       | Yes    | Yes    |              |
+|                             | Republish                     |        |        |              |
+|                             | DeleteSubscriptions           | Yes    | Yes    |              |
+|                             | TransferSubscriptions         |        |        |              |
+
+* not all encryption schemes are fully functional at this time
 
 ## Authors
 
