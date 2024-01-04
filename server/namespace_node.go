@@ -209,7 +209,7 @@ func (ns *NodeNameSpace) Browse(bd *ua.BrowseDescription) *ua.BrowseResult {
 		}
 
 		// see if this is a ref the client was interested in.
-		if !suitableRef(bd, r) {
+		if !suitableRef(ns.srv, bd, r) {
 			continue
 		}
 

@@ -60,17 +60,15 @@ func (s *ViewService) Browse(sc *uasc.SecureChannel, r ua.Request, reqID uint32)
 
 }
 
-func suitableRef(desc *ua.BrowseDescription, ref *ua.ReferenceDescription) bool {
+func suitableRef(srv *Server, desc *ua.BrowseDescription, ref *ua.ReferenceDescription) bool {
 	if !suitableDirection(desc.BrowseDirection, ref.IsForward) {
 		debug.Printf("%v not suitable because of direction", ref)
 		return false
 	}
-	/*
-		if !s.suitableRefType(desc.ReferenceTypeID, ref.ReferenceTypeID, desc.IncludeSubtypes) {
-			debug.Printf("%v not suitable because of ref type", ref)
-			return false
-		}
-	*/
+	if !suitableRefType(srv, desc.ReferenceTypeID, ref.ReferenceTypeID, desc.IncludeSubtypes) {
+		debug.Printf("%v not suitable because of ref type", ref)
+		return false
+	}
 	if desc.NodeClassMask > 0 && desc.NodeClassMask&uint32(ref.NodeClass) == 0 {
 		debug.Printf("%v not suitable because of node class", ref)
 		return false
@@ -91,7 +89,7 @@ func suitableDirection(bd ua.BrowseDirection, isForward bool) bool {
 	}
 }
 
-func (s *ViewService) suitableRefType(ref1, ref2 *ua.NodeID, subtypes bool) bool {
+func suitableRefType(srv *Server, ref1, ref2 *ua.NodeID, subtypes bool) bool {
 	if ref1.Equal(ua.NewNumericNodeID(0, 0)) {
 		// refType is not specified in browse description. Return all types
 		return true
@@ -101,7 +99,7 @@ func (s *ViewService) suitableRefType(ref1, ref2 *ua.NodeID, subtypes bool) bool
 	}
 	hasRef2Fn := func(nid *ua.NodeID) bool { return nid.Equal(ref2) }
 	hasSubtypeFn := func(nid *ua.NodeID) bool { return nid.Equal(hasSubtype) }
-	oktypes := s.getSubRefs(ref1)
+	oktypes := getSubRefs(srv, ref1)
 	if !subtypes && slices.ContainsFunc(oktypes, hasSubtypeFn) {
 		for n := slices.IndexFunc(oktypes, hasSubtypeFn); n > 0; {
 			slices.Delete(oktypes, n, n+1)
@@ -110,9 +108,9 @@ func (s *ViewService) suitableRefType(ref1, ref2 *ua.NodeID, subtypes bool) bool
 	return slices.ContainsFunc(oktypes, hasRef2Fn)
 }
 
-func (s *ViewService) getSubRefs(nid *ua.NodeID) []*ua.NodeID {
+func getSubRefs(srv *Server, nid *ua.NodeID) []*ua.NodeID {
 	var refs []*ua.NodeID
-	ns, err := s.srv.Namespace(int(nid.Namespace()))
+	ns, err := srv.Namespace(int(nid.Namespace()))
 	if err != nil {
 		// TODO: return error
 		return nil
@@ -124,7 +122,7 @@ func (s *ViewService) getSubRefs(nid *ua.NodeID) []*ua.NodeID {
 	for _, ref := range node.refs {
 		if ref.ReferenceTypeID.Equal(hasSubtype) && ref.IsForward && ref.NodeID != nil {
 			refs = append(refs, ref.NodeID.NodeID)
-			refs = append(refs, s.getSubRefs(ref.NodeID.NodeID)...)
+			refs = append(refs, getSubRefs(srv, ref.NodeID.NodeID)...)
 		}
 	}
 	return refs
