@@ -55,6 +55,22 @@ func main() {
 		//		server.EnableAuthWithoutEncryption(), // Dangerous and not recommended, shown for illustration only
 	)
 
+	if *gencert {
+		c, k, err := GenerateCert(*endpoint, 4096, time.Minute*60*24*365*10)
+		if err != nil {
+			log.Fatalf("problem creating cert: %v", err)
+		}
+		err = os.WriteFile(*certfile, c, 0)
+		if err != nil {
+			log.Fatalf("problem writing cert: %v", err)
+		}
+		err = os.WriteFile(*keyfile, k, 0)
+		if err != nil {
+			log.Fatalf("problem writing key: %v", err)
+		}
+
+	}
+
 	var cert []byte
 	if *gencert || (*certfile != "" && *keyfile != "") {
 		log.Printf("Loading cert/key from %s/%s", *certfile, *keyfile)
