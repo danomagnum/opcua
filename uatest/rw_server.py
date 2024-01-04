@@ -4,7 +4,7 @@ from opcua import ua, Server
 
 if __name__ == "__main__":
     server = Server()
-    server.set_endpoint("opc.tcp://0.0.0.0:4841/")
+    server.set_endpoint("opc.tcp://0.0.0.0:4840/")
 
     ns = server.register_namespace("http://gopcua.com/")
     main = server.nodes.objects.add_object(ua.NodeId("main", ns), "main")
