@@ -477,6 +477,23 @@ func (s *SecureChannel) readChunk() (*MessageChunk, error) {
 		}
 
 		s.cfg.SecurityPolicyURI = m.SecurityPolicyURI
+		if m.SecurityPolicyURI == "http://opcfoundation.org/UA/SecurityPolicy#Basic256Sha256" {
+			s.cfg.SecurityMode = ua.MessageSecurityModeSignAndEncrypt
+			remoteCert, err := x509.ParseCertificate(s.cfg.RemoteCertificate)
+			if err != nil {
+				return nil, err
+			}
+			remoteKey, ok := remoteCert.PublicKey.(*rsa.PublicKey)
+			if !ok {
+				return nil, ua.StatusBadCertificateInvalid
+			}
+			algo, err := uapolicy.Asymmetric(s.cfg.SecurityPolicyURI, s.openingInstance.sc.cfg.LocalKey, remoteKey)
+			if err != nil {
+				return nil, err
+			}
+
+			s.openingInstance.algo = algo
+		}
 
 		decryptWith = s.openingInstance
 	case "CLO":
@@ -718,13 +735,16 @@ func (s *SecureChannel) handleOpenSecureChannelRequest(reqID uint32, svc ua.Requ
 	}
 
 	// Part 6.7.4: The AuthenticationToken should be nil. ???
-	// if req.RequestHeader.AuthenticationToken != nil {
-	// 	return ua.StatusBadSecureChannelTokenUnknown
-	// }
+	if req.RequestHeader.AuthenticationToken.IntID() != 0 {
+		return ua.StatusBadSecureChannelTokenUnknown
+	}
 
 	s.cfg.Lifetime = req.RequestedLifetime
 	s.cfg.SecurityMode = req.SecurityMode
 
+	// I had to do the encryption setup in the chunk decoding logic because you have to
+	// decrypt the thing before you even know you have an open message.
+	// so this is redundant.
 	var (
 		localKey  *rsa.PrivateKey
 		remoteKey *rsa.PublicKey

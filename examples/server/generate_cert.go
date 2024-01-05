@@ -50,7 +50,7 @@ func GenerateCert(host []string, rsaBits int, validFor time.Duration) (certPEM, 
 	template := x509.Certificate{
 		SerialNumber: serialNumber,
 		Subject: pkix.Name{
-			Organization: []string{"Gopcua Test Client"},
+			CommonName: "Gopcua Server",
 		},
 		NotBefore: notBefore,
 		NotAfter:  notAfter,
