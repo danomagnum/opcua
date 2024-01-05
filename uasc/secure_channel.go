@@ -471,13 +471,15 @@ func (s *SecureChannel) readChunk() (*MessageChunk, error) {
 			return nil, errors.Errorf("sechan: invalid state. openingInstance is nil.")
 		}
 
+		s.cfg.SecurityPolicyURI = m.SecurityPolicyURI
 		if m.SecurityPolicyURI != ua.SecurityPolicyURINone {
 			s.cfg.RemoteCertificate = m.AsymmetricSecurityHeader.SenderCertificate
 			debug.Printf("uasc %d: setting securityPolicy to %s", s.c.ID(), m.SecurityPolicyURI)
-		}
 
-		s.cfg.SecurityPolicyURI = m.SecurityPolicyURI
-		if m.SecurityPolicyURI == "http://opcfoundation.org/UA/SecurityPolicy#Basic256Sha256" {
+			// TODO: where does this need to actually be set?  It should be independent of the securitypolicy
+			// but here I'm just assuming it is sign and encrypt when we have anything other than None
+			// The problem is we need to know whether the message has to be decrypted before we can look at the
+			// security mode field in the open request to see if it is encrypted!
 			s.cfg.SecurityMode = ua.MessageSecurityModeSignAndEncrypt
 			remoteCert, err := x509.ParseCertificate(s.cfg.RemoteCertificate)
 			if err != nil {
@@ -809,6 +811,7 @@ func (s *SecureChannel) handleOpenSecureChannelRequest(reqID uint32, svc ua.Requ
 	if err != nil {
 		return err
 	}
+
 	instance.state = channelActive // todo(fs): is this correct?
 	// s.setState(secureChannelOpen)
 

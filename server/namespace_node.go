@@ -3,7 +3,6 @@ package server
 import (
 	"fmt"
 	"log"
-	"slices"
 	"sync"
 	"sync/atomic"
 	"time"
@@ -13,7 +12,6 @@ import (
 	"github.com/gopcua/opcua/schema"
 	"github.com/gopcua/opcua/server/attrs"
 	"github.com/gopcua/opcua/ua"
-	"golang.org/x/exp/maps"
 )
 
 // the base "node-centric" namespace
@@ -89,24 +87,31 @@ func (as *NodeNameSpace) AddNode(n *Node) *Node {
 	as.mu.Lock()
 	defer as.mu.Unlock()
 
-	nn := &Node{
-		id:   n.id,
-		attr: maps.Clone(n.attr),
-		refs: slices.Clone(n.refs),
-		val:  n.val,
-		ns:   as,
-	}
+	/*
+		nn := &Node{
+			id:   n.id,
+			attr: maps.Clone(n.attr),
+			refs: slices.Clone(n.refs),
+			val:  n.val,
+			ns:   as,
+		}
+	*/
 
 	// todo(fs): this is wrong since this leaves the old node in the list.
-	as.nodes = append(as.nodes, nn)
-	k := nn.ID().String()
+	as.nodes = append(as.nodes, n)
+	k := n.ID().String()
 
-	as.m[k] = nn
-	return nn
+	as.m[k] = n
+	return n
 }
 
 func (as *NodeNameSpace) AddNewVariableNode(name string, value any) *Node {
 	n := NewVariableNode(ua.NewNumericNodeID(as.id, as.GetNextNodeID()), name, value)
+	as.AddNode(n)
+	return n
+}
+func (as *NodeNameSpace) AddNewVariableStringNode(name string, value any) *Node {
+	n := NewVariableNode(ua.NewStringNodeID(as.id, name), name, value)
 	as.AddNode(n)
 	return n
 }
@@ -253,7 +258,14 @@ func (as *NodeNameSpace) SetAttribute(id *ua.NodeID, attr ua.AttributeID, val *u
 		return ua.StatusBadNodeIDUnknown
 	}
 
-	err := n.SetAttribute(attr, *val)
+	access, err := n.Attribute(ua.AttributeIDUserAccessLevel)
+	if err == nil {
+		x := access.Value.Value()
+		_ = x
+		return ua.StatusBadUserAccessDenied
+	}
+
+	err = n.SetAttribute(attr, *val)
 	if err != nil {
 		return ua.StatusBadAttributeIDInvalid
 	}

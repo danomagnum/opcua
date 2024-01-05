@@ -4,7 +4,6 @@ import (
 	"context"
 	"crypto/rsa"
 	"io"
-	"log"
 	mrand "math/rand"
 	"sync"
 	"time"
@@ -75,13 +74,13 @@ func (c *channelBroker) RegisterConn(ctx context.Context, conn *uacp.Conn, local
 		secureTokenID,
 	)
 	if err != nil {
-		log.Printf("Error creating secure channel for new connection: %s", err)
+		debug.Printf("Error creating secure channel for new connection: %s", err)
 		return err
 	}
 
 	c.mu.Lock()
 	c.s[secureChannelID] = sc
-	log.Printf("Registered new channel (id %d) now at %d channels", secureChannelID, len(c.s))
+	debug.Printf("Registered new channel (id %d) now at %d channels", secureChannelID, len(c.s))
 	c.mu.Unlock()
 	c.wg.Add(1)
 outer:
@@ -94,12 +93,11 @@ outer:
 		default:
 			msg := sc.Receive(ctx)
 			if msg.Err == io.EOF {
-				log.Printf("Secure Channel %d closed", secureChannelID)
+				debug.Printf("Secure Channel %d closed", secureChannelID)
 				break outer
 			}
 			// todo(fs): honor ctx
 			c.msgChan <- msg
-			log.Printf("Got new message")
 		}
 	}
 

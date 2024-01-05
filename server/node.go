@@ -150,6 +150,8 @@ func (n *Node) SetAttribute(id ua.AttributeID, val ua.DataValue) error {
 		}
 
 		return nil
+	default:
+		n.attr[id] = val.Value
 	}
 	return ua.StatusBadNodeAttributesInvalid
 }
