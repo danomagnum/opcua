@@ -7,6 +7,7 @@ package server
 import (
 	"crypto/rsa"
 	"crypto/x509"
+	"fmt"
 	"log"
 	"strings"
 	"time"
@@ -24,6 +25,17 @@ type Option func(*serverConfig)
 func PrivateKey(key *rsa.PrivateKey) Option {
 	return func(s *serverConfig) {
 		s.privateKey = key
+	}
+}
+
+// EndPointHostName adds an additional endpoint to the server based on the host name
+func EndPoint(host string, port int) Option {
+	return func(s *serverConfig) {
+		if s.endpoints == nil {
+			s.endpoints = make([]string, 0)
+		}
+		ep := fmt.Sprintf("opc.tcp://%s:%d", host, port)
+		s.endpoints = append(s.endpoints, ep)
 	}
 }
 

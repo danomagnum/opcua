@@ -57,6 +57,14 @@ func (s *SessionService) CreateSession(sc *uasc.SecureChannel, r ua.Request, req
 		return nil, ua.StatusBadInternalError
 	}
 
+	matching_endpoints := make([]*ua.EndpointDescription, 0)
+	for i := range s.srv.endpoints {
+		ep := s.srv.endpoints[i]
+		if ep.EndpointURL == req.EndpointURL {
+			matching_endpoints = append(matching_endpoints, ep)
+		}
+	}
+
 	response := &ua.CreateSessionResponse{
 		ResponseHeader:        responseHeader(req.RequestHeader.RequestHandle, ua.StatusOK),
 		SessionID:             sess.ID,
@@ -69,7 +77,7 @@ func (s *SessionService) CreateSession(sc *uasc.SecureChannel, r ua.Request, req
 		},
 		ServerCertificate: s.srv.cfg.certificate,
 		ServerNonce:       nonce,
-		ServerEndpoints:   s.srv.endpoints,
+		ServerEndpoints:   matching_endpoints,
 	}
 
 	return response, nil

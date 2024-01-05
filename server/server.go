@@ -59,6 +59,8 @@ type serverConfig struct {
 	certificate    []byte
 	applicationURI string
 
+	endpoints []string
+
 	applicationName  string
 	manufacturerName string
 	productName      string
@@ -95,7 +97,7 @@ type security struct {
 
 // New returns an initialized OPC-UA server.
 // Call Start() afterwards to begin listening and serving connections
-func New(url string, opts ...Option) *Server {
+func New(opts ...Option) *Server {
 	cfg := &serverConfig{
 		cap:              capabilities,
 		applicationName:  "GOPCUA",               // override with the ServerName option
@@ -106,8 +108,11 @@ func New(url string, opts ...Option) *Server {
 	for _, opt := range opts {
 		opt(cfg)
 	}
+	if len(cfg.endpoints) == 0 {
+		log.Fatalf("No endpoints defined!")
+	}
 	s := &Server{
-		url:      url,
+		url:      cfg.endpoints[0],
 		cfg:      cfg,
 		cb:       newChannelBroker(),
 		sb:       newSessionBroker(),
@@ -349,68 +354,70 @@ func (s *Server) monitorConnections(ctx context.Context) {
 func (s *Server) initEndpoints() {
 	var endpoints []*ua.EndpointDescription
 	for _, sec := range s.cfg.enabledSec {
-		secLevel := uapolicy.SecurityLevel(sec.secPolicy, sec.secMode)
+		for _, url := range s.cfg.endpoints {
+			secLevel := uapolicy.SecurityLevel(sec.secPolicy, sec.secMode)
 
-		ep := &ua.EndpointDescription{
-			EndpointURL:   s.URL(), // todo: be able to listen on multiple adapters
-			SecurityLevel: secLevel,
-			Server: &ua.ApplicationDescription{
-				ApplicationURI: s.cfg.applicationURI,
-				ProductURI:     "urn:github.com:gopcua:server",
-				ApplicationName: &ua.LocalizedText{
-					EncodingMask: ua.LocalizedTextText,
-					Text:         s.cfg.applicationName,
+			ep := &ua.EndpointDescription{
+				EndpointURL:   url, // todo: be able to listen on multiple adapters
+				SecurityLevel: secLevel,
+				Server: &ua.ApplicationDescription{
+					ApplicationURI: s.cfg.applicationURI,
+					ProductURI:     "urn:github.com:gopcua:server",
+					ApplicationName: &ua.LocalizedText{
+						EncodingMask: ua.LocalizedTextText,
+						Text:         s.cfg.applicationName,
+					},
+					ApplicationType:     ua.ApplicationTypeServer,
+					GatewayServerURI:    "",
+					DiscoveryProfileURI: "",
+					DiscoveryURLs:       []string{s.URL()},
 				},
-				ApplicationType:     ua.ApplicationTypeServer,
-				GatewayServerURI:    "",
-				DiscoveryProfileURI: "",
-				DiscoveryURLs:       []string{s.URL()},
-			},
-			ServerCertificate:   s.cfg.certificate,
-			SecurityMode:        sec.secMode,
-			SecurityPolicyURI:   sec.secPolicy,
-			TransportProfileURI: "http://opcfoundation.org/UA-Profile/Transport/uatcp-uasc-uabinary",
-		}
-
-		for _, auth := range s.cfg.enabledAuth {
-			for _, authSec := range s.cfg.enabledSec {
-				if auth.tokenType == ua.UserTokenTypeAnonymous {
-					authSec.secPolicy = "http://opcfoundation.org/UA/SecurityPolicy#None"
-				}
-
-				if auth.tokenType != ua.UserTokenTypeAnonymous && authSec.secPolicy == "http://opcfoundation.org/UA/SecurityPolicy#None" {
-					continue
-				}
-
-				policyID := strings.ToLower(
-					strings.TrimPrefix(auth.tokenType.String(), "UserTokenType") +
-						"_" +
-						strings.TrimPrefix(authSec.secPolicy, "http://opcfoundation.org/UA/SecurityPolicy#"),
-				)
-
-				var dup bool
-				for _, uit := range ep.UserIdentityTokens {
-					if uit.PolicyID == policyID {
-						dup = true
-						break
-					}
-				}
-
-				if dup {
-					continue
-				}
-				tok := &ua.UserTokenPolicy{
-					PolicyID:          policyID,
-					TokenType:         auth.tokenType,
-					IssuedTokenType:   "",
-					IssuerEndpointURL: "",
-					SecurityPolicyURI: authSec.secPolicy,
-				}
-
-				ep.UserIdentityTokens = append(ep.UserIdentityTokens, tok)
+				ServerCertificate:   s.cfg.certificate,
+				SecurityMode:        sec.secMode,
+				SecurityPolicyURI:   sec.secPolicy,
+				TransportProfileURI: "http://opcfoundation.org/UA-Profile/Transport/uatcp-uasc-uabinary",
 			}
+
+			for _, auth := range s.cfg.enabledAuth {
+				for _, authSec := range s.cfg.enabledSec {
+					if auth.tokenType == ua.UserTokenTypeAnonymous {
+						authSec.secPolicy = "http://opcfoundation.org/UA/SecurityPolicy#None"
+					}
+
+					if auth.tokenType != ua.UserTokenTypeAnonymous && authSec.secPolicy == "http://opcfoundation.org/UA/SecurityPolicy#None" {
+						continue
+					}
+
+					policyID := strings.ToLower(
+						strings.TrimPrefix(auth.tokenType.String(), "UserTokenType") +
+							"_" +
+							strings.TrimPrefix(authSec.secPolicy, "http://opcfoundation.org/UA/SecurityPolicy#"),
+					)
+
+					var dup bool
+					for _, uit := range ep.UserIdentityTokens {
+						if uit.PolicyID == policyID {
+							dup = true
+							break
+						}
+					}
+
+					if dup {
+						continue
+					}
+					tok := &ua.UserTokenPolicy{
+						PolicyID:          policyID,
+						TokenType:         auth.tokenType,
+						IssuedTokenType:   "",
+						IssuerEndpointURL: "",
+						SecurityPolicyURI: authSec.secPolicy,
+					}
+
+					ep.UserIdentityTokens = append(ep.UserIdentityTokens, tok)
+				}
+			}
+			endpoints = append(endpoints, ep)
 		}
-		endpoints = append(endpoints, ep)
 	}
 
 	s.mu.Lock()

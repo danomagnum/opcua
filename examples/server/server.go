@@ -21,7 +21,8 @@ import (
 )
 
 var (
-	endpoint = flag.String("endpoint", "opc.tcp://0.0.0.0:4840", "OPC UA Endpoint URL")
+	endpoint = flag.String("endpoint", "0.0.0.0", "OPC UA Endpoint URL")
+	port     = flag.Int("port", 4840, "OPC UA Endpoint port")
 	certfile = flag.String("cert", "cert.pem", "Path to certificate file")
 	keyfile  = flag.String("key", "key.pem", "Path to PEM Private Key file")
 	gencert  = flag.Bool("gen-cert", true, "Generate a new certificate")
@@ -55,8 +56,26 @@ func main() {
 		//		server.EnableAuthWithoutEncryption(), // Dangerous and not recommended, shown for illustration only
 	)
 
+	hostname, err := os.Hostname()
+	if err != nil {
+		log.Fatalf("Error getting host name %v", err)
+	}
+
+	// not sure if a list of hostnames is better or adding endpoints to the options
+	endpoints := []string{
+		"localhost",
+		hostname,
+		*endpoint,
+	}
+
+	opts = append(opts,
+		server.EndPoint(*endpoint, *port),
+		server.EndPoint("localhost", *port),
+		server.EndPoint(hostname, *port),
+	)
+
 	if *gencert {
-		c, k, err := GenerateCert(*endpoint, 4096, time.Minute*60*24*365*10)
+		c, k, err := GenerateCert(endpoints, 4096, time.Minute*60*24*365*10)
 		if err != nil {
 			log.Fatalf("problem creating cert: %v", err)
 		}
@@ -87,7 +106,7 @@ func main() {
 		}
 	}
 
-	s := server.New(*endpoint, opts...)
+	s := server.New(opts...)
 
 	// Create some namespaces backed by go map[string]any
 	mrw := server.NewMapNamespace(s, "MyTestNamespace")
@@ -141,44 +160,13 @@ func main() {
 
 	// add the namespaces to the server, and add a reference to them
 	root_ns, _ := s.Namespace(0)
-	root_obj := root_ns.Root()
-	/*
-
-		// add the "Types" folder
-		tf := root_ns.Node(ua.NewNumericNodeID(0, 86))
-		root_obj.AddRef(tf, id.HasComponent)
-		dtf := root_ns.Node(ua.NewNumericNodeID(0, 90))
-		tf.AddRef(dtf, id.HasComponent)
-		base_type := root_ns.Node(ua.NewNumericNodeID(0, 24))
-		dtf.AddRef(base_type, id.HasComponent)
-		bool_type := root_ns.Node(ua.NewNumericNodeID(0, 1))
-		ByteString_type := root_ns.Node(ua.NewNumericNodeID(0, 15))
-		DataValue_type := root_ns.Node(ua.NewNumericNodeID(0, 23))
-		DateTime_type := root_ns.Node(ua.NewNumericNodeID(0, 13))
-		DiagnosticInfo_type := root_ns.Node(ua.NewNumericNodeID(0, 25))
-		Enumeration_type := root_ns.Node(ua.NewNumericNodeID(0, 29))
-		Uint32_type := root_ns.Node(ua.NewNumericNodeID(0, 7))
-		dtf.AddRef(bool_type, id.HasComponent)
-		dtf.AddRef(DataValue_type, id.HasComponent)
-		dtf.AddRef(ByteString_type, id.HasComponent)
-		dtf.AddRef(DateTime_type, id.HasComponent)
-		dtf.AddRef(DiagnosticInfo_type, id.HasComponent)
-		dtf.AddRef(Enumeration_type, id.HasComponent)
-		dtf.AddRef(Uint32_type, id.HasComponent)
-	*/
-
-	root_obj = root_ns.Objects()
-	//folder_type := root_ns.Node(ua.NewNumericNodeID(0, id.FolderType))
-	//root_obj.AddRef(folder_type, id.HasTypeDefinition)
-
-	//server_obj := root_ns.Node(ua.NewNumericNodeID(0, 2253))
-	//root_obj.AddRef(server_obj, id.HasComponent)
+	obj_node := root_ns.Objects()
 
 	mrw_id := s.AddNamespace(mrw)
-	root_obj.AddRef(mrw.Objects(), id.HasComponent, true)
+	obj_node.AddRef(mrw.Objects(), id.HasComponent, true)
 	log.Printf("map namespace added at index %d", mrw_id)
 	mrw_id2 := s.AddNamespace(mrw2)
-	root_obj.AddRef(mrw2.Objects(), id.HasComponent, true)
+	obj_node.AddRef(mrw2.Objects(), id.HasComponent, true)
 	log.Printf("map namespace added at index %d", mrw_id2)
 
 	// Start the server
@@ -202,7 +190,7 @@ func main() {
 	nns_obj.AddRef(var1, id.HasComponent, true)
 
 	// add the reference for this namespace's root object folder to the server's root object folder
-	root_obj.AddRef(nns_obj, id.HasComponent, true)
+	obj_node.AddRef(nns_obj, id.HasComponent, true)
 
 	log.Printf("Press CTRL-C to exit")
 	<-sigch
