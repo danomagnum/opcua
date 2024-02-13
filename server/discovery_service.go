@@ -1,6 +1,8 @@
 package server
 
 import (
+	"strings"
+
 	"github.com/gopcua/opcua/debug"
 	"github.com/gopcua/opcua/ua"
 	"github.com/gopcua/opcua/uasc"
@@ -52,10 +54,11 @@ func (s *DiscoveryService) GetEndpoints(sc *uasc.SecureChannel, r ua.Request, re
 		return nil, err
 	}
 
+	requrl := strings.ToLower(req.EndpointURL)
 	matching_endpoints := make([]*ua.EndpointDescription, 0)
 	for i := range s.srv.endpoints {
 		ep := s.srv.endpoints[i]
-		if ep.EndpointURL == req.EndpointURL {
+		if strings.ToLower(ep.EndpointURL) == requrl {
 			matching_endpoints = append(matching_endpoints, ep)
 		}
 	}
