@@ -226,13 +226,9 @@ func (s *Server) Status() *ua.ServerStatusDataType {
 	return status
 }
 
-// URL returns opc endpoint that the server is listening on.
-func (s *Server) URL() string {
-	if s.l != nil {
-		//return fmt.Sprintf("opc.tcp://%s", s.l.Addr())
-		return fmt.Sprintf("opc.tcp://localhost:4840")
-	}
-	return ""
+// URLs returns opc endpoint that the server is listening on.
+func (s *Server) URLs() []string {
+	return s.cfg.endpoints
 }
 
 // Start initializes and starts a Server listening on addr
@@ -251,7 +247,7 @@ func (s *Server) Start(ctx context.Context) error {
 	if err != nil {
 		return err
 	}
-	log.Printf("Started listening on %s", s.URL())
+	log.Printf("Started listening on %v", s.URLs())
 
 	s.initEndpoints()
 	s.setServerState(ua.ServerStateRunning)
@@ -370,7 +366,7 @@ func (s *Server) initEndpoints() {
 					ApplicationType:     ua.ApplicationTypeServer,
 					GatewayServerURI:    "",
 					DiscoveryProfileURI: "",
-					DiscoveryURLs:       []string{s.URL()},
+					DiscoveryURLs:       s.URLs(),
 				},
 				ServerCertificate:   s.cfg.certificate,
 				SecurityMode:        sec.secMode,
