@@ -13,6 +13,7 @@ import (
 	"io"
 	"log"
 	"math"
+	"net"
 	"strings"
 	"sync"
 	"sync/atomic"
@@ -237,6 +238,10 @@ func newSecureChannel(endpoint string, c *uacp.Conn, cfg *Config, kind channelKi
 	}
 
 	return s, nil
+}
+
+func (s *SecureChannel) RemoteAddr() net.Addr {
+	return s.c.TCPConn.RemoteAddr()
 }
 
 func (s *SecureChannel) getActiveChannelInstance() (*channelInstance, error) {
