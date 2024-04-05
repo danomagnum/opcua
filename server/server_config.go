@@ -158,6 +158,9 @@ type Logger interface {
 	Warn(msg string, args ...any)
 }
 
+// the server.SetLogger takes a server.Logger interface.  This interface is met by
+// slog.Logger{}.  A simple wrapper could be made for other loggers if they don't already
+// meet the interface.
 func SetLogger(logger Logger) Option {
 	return func(s *serverConfig) {
 		s.logger = logger

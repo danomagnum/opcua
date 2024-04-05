@@ -75,8 +75,12 @@ func main() {
 		server.EndPoint(hostname, *port),
 	)
 
+	// the server.SetLogger takes a server.Logger interface.  This interface is met by
+	// the slog.Logger{}.  A simple wrapper could be made for other loggers if they don't already
+	// meet the interface.
+	logger := slog.New(slog.NewTextHandler(os.Stdout, nil))
 	opts = append(opts,
-		server.SetLogger(&slog.Logger{}),
+		server.SetLogger(logger),
 	)
 
 	if *gencert {
