@@ -281,6 +281,7 @@ func (s *Subscription) Start() {
 
 func (s *Subscription) keepalive(pubreq PubReq) error {
 	eo := make([]*ua.ExtensionObject, 0)
+	s.SequenceID++
 
 	msg := ua.NotificationMessage{
 		SequenceNumber:   s.SequenceID,
