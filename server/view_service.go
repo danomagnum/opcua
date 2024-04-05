@@ -5,7 +5,6 @@ import (
 
 	"golang.org/x/exp/slices"
 
-	"github.com/gopcua/opcua/debug"
 	"github.com/gopcua/opcua/id"
 	"github.com/gopcua/opcua/ua"
 	"github.com/gopcua/opcua/uasc"
@@ -29,7 +28,9 @@ func (s *ViewService) Browse(sc *uasc.SecureChannel, r ua.Request, reqID uint32)
 	if err != nil {
 		return nil, err
 	}
-	debug.Printf("=== Browse incoming")
+	if s.srv.cfg.logger != nil {
+		s.srv.cfg.logger.Debug("=== Browse incoming")
+	}
 
 	resp := &ua.BrowseResponse{
 		ResponseHeader: &ua.ResponseHeader{
@@ -47,7 +48,9 @@ func (s *ViewService) Browse(sc *uasc.SecureChannel, r ua.Request, reqID uint32)
 
 	for i := range req.NodesToBrowse {
 		br := req.NodesToBrowse[i]
-		debug.Printf("    Browse of %s", br.NodeID.String())
+		if s.srv.cfg.logger != nil {
+			s.srv.cfg.logger.Debug("    Browse of %s", br.NodeID.String())
+		}
 		ns, err := s.srv.Namespace(int(br.NodeID.Namespace()))
 		if err != nil {
 			resp.Results[i] = &ua.BrowseResult{StatusCode: ua.StatusBad}
@@ -62,15 +65,21 @@ func (s *ViewService) Browse(sc *uasc.SecureChannel, r ua.Request, reqID uint32)
 
 func suitableRef(srv *Server, desc *ua.BrowseDescription, ref *ua.ReferenceDescription) bool {
 	if !suitableDirection(desc.BrowseDirection, ref.IsForward) {
-		debug.Printf("%v not suitable because of direction", ref)
+		if srv.cfg.logger != nil {
+			srv.cfg.logger.Debug("%v not suitable because of direction", ref)
+		}
 		return false
 	}
 	if !suitableRefType(srv, desc.ReferenceTypeID, ref.ReferenceTypeID, desc.IncludeSubtypes) {
-		debug.Printf("%v not suitable because of ref type", ref)
+		if srv.cfg.logger != nil {
+			srv.cfg.logger.Debug("%v not suitable because of ref type", ref)
+		}
 		return false
 	}
 	if desc.NodeClassMask > 0 && desc.NodeClassMask&uint32(ref.NodeClass) == 0 {
-		debug.Printf("%v not suitable because of node class", ref)
+		if srv.cfg.logger != nil {
+			srv.cfg.logger.Debug("%v not suitable because of node class", ref)
+		}
 		return false
 	}
 	return true
@@ -130,7 +139,9 @@ func getSubRefs(srv *Server, nid *ua.NodeID) []*ua.NodeID {
 
 // https://reference.opcfoundation.org/Core/Part4/v105/docs/5.8.3
 func (s *ViewService) BrowseNext(sc *uasc.SecureChannel, r ua.Request, reqID uint32) (ua.Response, error) {
-	debug.Printf("Handling %T", r)
+	if s.srv.cfg.logger != nil {
+		s.srv.cfg.logger.Debug("Handling %T", r)
+	}
 
 	req, err := safeReq[*ua.BrowseNextRequest](r)
 	if err != nil {
@@ -141,7 +152,9 @@ func (s *ViewService) BrowseNext(sc *uasc.SecureChannel, r ua.Request, reqID uin
 
 // https://reference.opcfoundation.org/Core/Part4/v105/docs/5.8.4
 func (s *ViewService) TranslateBrowsePathsToNodeIDs(sc *uasc.SecureChannel, r ua.Request, reqID uint32) (ua.Response, error) {
-	debug.Printf("Handling %T", r)
+	if s.srv.cfg.logger != nil {
+		s.srv.cfg.logger.Debug("Handling %T", r)
+	}
 
 	req, err := safeReq[*ua.TranslateBrowsePathsToNodeIDsRequest](r)
 	if err != nil {
@@ -152,7 +165,9 @@ func (s *ViewService) TranslateBrowsePathsToNodeIDs(sc *uasc.SecureChannel, r ua
 
 // https://reference.opcfoundation.org/Core/Part4/v105/docs/5.8.5
 func (s *ViewService) RegisterNodes(sc *uasc.SecureChannel, r ua.Request, reqID uint32) (ua.Response, error) {
-	debug.Printf("Handling %T", r)
+	if s.srv.cfg.logger != nil {
+		s.srv.cfg.logger.Debug("Handling %T", r)
+	}
 
 	req, err := safeReq[*ua.RegisterNodesRequest](r)
 	if err != nil {
@@ -163,7 +178,9 @@ func (s *ViewService) RegisterNodes(sc *uasc.SecureChannel, r ua.Request, reqID 
 
 // https://reference.opcfoundation.org/Core/Part4/v105/docs/5.8.6
 func (s *ViewService) UnregisterNodes(sc *uasc.SecureChannel, r ua.Request, reqID uint32) (ua.Response, error) {
-	debug.Printf("Handling %T", r)
+	if s.srv.cfg.logger != nil {
+		s.srv.cfg.logger.Debug("Handling %T", r)
+	}
 
 	req, err := safeReq[*ua.UnregisterNodesRequest](r)
 	if err != nil {

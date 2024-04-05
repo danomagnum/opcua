@@ -7,7 +7,6 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/gopcua/opcua/debug"
 	"github.com/gopcua/opcua/ua"
 	"github.com/gopcua/opcua/uasc"
 )
@@ -83,7 +82,9 @@ func (s *MonitoredItemService) ChangeNotification(n *ua.NodeID) {
 		val := new(ua.MonitoredItemNotification)
 		val.ClientHandle = item.Req.RequestedParameters.ClientHandle
 		if err != nil {
-			debug.Printf("error getting namespace %d: %v", n.Namespace(), err)
+			if s.SubService.srv.cfg.logger != nil {
+				s.SubService.srv.cfg.logger.Warn("error getting namespace %d: %v", n.Namespace(), err)
+			}
 			val.Value = &ua.DataValue{}
 			val.Value.Status = ua.StatusBad
 			val.Value.EncodingMask |= ua.DataValueStatusCode
@@ -116,7 +117,9 @@ type MonitoredItem struct {
 
 // https://reference.opcfoundation.org/Core/Part4/v105/docs/5.12.2
 func (s *MonitoredItemService) CreateMonitoredItems(sc *uasc.SecureChannel, r ua.Request, reqID uint32) (ua.Response, error) {
-	debug.Printf("Handling %T", r)
+	if s.SubService.srv.cfg.logger != nil {
+		s.SubService.srv.cfg.logger.Debug("Handling %T", r)
+	}
 
 	req, err := safeReq[*ua.CreateMonitoredItemsRequest](r)
 	if err != nil {
@@ -130,7 +133,9 @@ func (s *MonitoredItemService) CreateMonitoredItems(sc *uasc.SecureChannel, r ua
 	res := make([]*ua.MonitoredItemCreateResult, count)
 
 	subID := req.SubscriptionID
-	debug.Printf("Creating monitored items for sub #%d", subID)
+	if s.SubService.srv.cfg.logger != nil {
+		s.SubService.srv.cfg.logger.Debug("Creating monitored items for sub #%d", subID)
+	}
 	s.SubService.Mu.Lock()
 	sub, ok := s.SubService.Subs[subID]
 	s.SubService.Mu.Unlock()
@@ -166,11 +171,13 @@ func (s *MonitoredItemService) CreateMonitoredItems(sc *uasc.SecureChannel, r ua
 		}
 		s.Subs[item.Sub.ID] = append(list, &item)
 
-		debug.Printf("Adding monitored item '%s' to sub #%d as %d->%d",
-			nodeid.String(),
-			subID,
-			item.ID,
-			itemreq.RequestedParameters.ClientHandle)
+		if s.SubService.srv.cfg.logger != nil {
+			s.SubService.srv.cfg.logger.Debug("Adding monitored item '%s' to sub #%d as %d->%d",
+				nodeid.String(),
+				subID,
+				item.ID,
+				itemreq.RequestedParameters.ClientHandle)
+		}
 		res[i] = &ua.MonitoredItemCreateResult{
 			StatusCode:              ua.StatusOK,
 			MonitoredItemID:         item.ID,
@@ -204,7 +211,9 @@ func (s *MonitoredItemService) CreateMonitoredItems(sc *uasc.SecureChannel, r ua
 
 // https://reference.opcfoundation.org/Core/Part4/v105/docs/5.12.3
 func (s *MonitoredItemService) ModifyMonitoredItems(sc *uasc.SecureChannel, r ua.Request, reqID uint32) (ua.Response, error) {
-	debug.Printf("Handling %T", r)
+	if s.SubService.srv.cfg.logger != nil {
+		s.SubService.srv.cfg.logger.Debug("Handling %T", r)
+	}
 
 	req, err := safeReq[*ua.ModifyMonitoredItemsRequest](r)
 	if err != nil {
@@ -215,7 +224,9 @@ func (s *MonitoredItemService) ModifyMonitoredItems(sc *uasc.SecureChannel, r ua
 
 // https://reference.opcfoundation.org/Core/Part4/v105/docs/5.12.4
 func (s *MonitoredItemService) SetMonitoringMode(sc *uasc.SecureChannel, r ua.Request, reqID uint32) (ua.Response, error) {
-	debug.Printf("Handling %T", r)
+	if s.SubService.srv.cfg.logger != nil {
+		s.SubService.srv.cfg.logger.Debug("Handling %T", r)
+	}
 
 	req, err := safeReq[*ua.SetMonitoringModeRequest](r)
 	if err != nil {
@@ -261,7 +272,9 @@ func (s *MonitoredItemService) SetMonitoringMode(sc *uasc.SecureChannel, r ua.Re
 
 // https://reference.opcfoundation.org/Core/Part4/v105/docs/5.12.5
 func (s *MonitoredItemService) SetTriggering(sc *uasc.SecureChannel, r ua.Request, reqID uint32) (ua.Response, error) {
-	debug.Printf("Handling %T", r)
+	if s.SubService.srv.cfg.logger != nil {
+		s.SubService.srv.cfg.logger.Debug("Handling %T", r)
+	}
 
 	req, err := safeReq[*ua.SetTriggeringRequest](r)
 	if err != nil {
@@ -272,7 +285,9 @@ func (s *MonitoredItemService) SetTriggering(sc *uasc.SecureChannel, r ua.Reques
 
 // https://reference.opcfoundation.org/Core/Part4/v105/docs/5.12.6
 func (s *MonitoredItemService) DeleteMonitoredItems(sc *uasc.SecureChannel, r ua.Request, reqID uint32) (ua.Response, error) {
-	debug.Printf("Handling %T", r)
+	if s.SubService.srv.cfg.logger != nil {
+		s.SubService.srv.cfg.logger.Debug("Handling %T", r)
+	}
 
 	req, err := safeReq[*ua.DeleteMonitoredItemsRequest](r)
 	if err != nil {

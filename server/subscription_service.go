@@ -34,7 +34,9 @@ func (s *SubscriptionService) DeleteSubscription(id uint32) {
 
 // https://reference.opcfoundation.org/Core/Part4/v105/docs/5.13.2
 func (s *SubscriptionService) CreateSubscription(sc *uasc.SecureChannel, r ua.Request, reqID uint32) (ua.Response, error) {
-	debug.Printf("Handling %T", r)
+	if s.srv.cfg.logger != nil {
+		s.srv.cfg.logger.Debug("Handling %T", r)
+	}
 
 	req, err := safeReq[*ua.CreateSubscriptionRequest](r)
 	if err != nil {
@@ -79,7 +81,9 @@ func (s *SubscriptionService) CreateSubscription(sc *uasc.SecureChannel, r ua.Re
 
 // https://reference.opcfoundation.org/Core/Part4/v105/docs/5.13.3
 func (s *SubscriptionService) ModifySubscription(sc *uasc.SecureChannel, r ua.Request, reqID uint32) (ua.Response, error) {
-	debug.Printf("Handling %T", r)
+	if s.srv.cfg.logger != nil {
+		s.srv.cfg.logger.Debug("Handling %T", r)
+	}
 
 	req, err := safeReq[*ua.ModifySubscriptionRequest](r)
 	if err != nil {
@@ -93,7 +97,9 @@ func (s *SubscriptionService) ModifySubscription(sc *uasc.SecureChannel, r ua.Re
 
 // https://reference.opcfoundation.org/Core/Part4/v105/docs/5.13.4
 func (s *SubscriptionService) SetPublishingMode(sc *uasc.SecureChannel, r ua.Request, reqID uint32) (ua.Response, error) {
-	debug.Printf("Handling %T", r)
+	if s.srv.cfg.logger != nil {
+		s.srv.cfg.logger.Debug("Handling %T", r)
+	}
 
 	req, err := safeReq[*ua.SetPublishingModeRequest](r)
 	if err != nil {
@@ -105,11 +111,15 @@ func (s *SubscriptionService) SetPublishingMode(sc *uasc.SecureChannel, r ua.Req
 
 // https://reference.opcfoundation.org/Core/Part4/v105/docs/5.13.5
 func (s *SubscriptionService) Publish(sc *uasc.SecureChannel, r ua.Request, reqID uint32) (ua.Response, error) {
-	debug.Printf("Raw Publish req")
+	if s.srv.cfg.logger != nil {
+		s.srv.cfg.logger.Debug("Raw Publish req")
+	}
 
 	req, err := safeReq[*ua.PublishRequest](r)
 	if err != nil {
-		debug.Printf("ERROR: bad PublishRequest Struct")
+		if s.srv.cfg.logger != nil {
+			s.srv.cfg.logger.Error("ERROR: bad PublishRequest Struct")
+		}
 		return nil, err
 	}
 
@@ -139,7 +149,9 @@ func (s *SubscriptionService) Publish(sc *uasc.SecureChannel, r ua.Request, reqI
 	select {
 	case session.PublishRequests <- PubReq{Req: req, ID: reqID}:
 	default:
-		debug.Printf("Too many publish reqs.")
+		if s.srv.cfg.logger != nil {
+			s.srv.cfg.logger.Warn("Too many publish reqs.")
+		}
 	}
 
 	// per opcua spec, we don't respond now.  When data is available on the subscription,
@@ -149,7 +161,9 @@ func (s *SubscriptionService) Publish(sc *uasc.SecureChannel, r ua.Request, reqI
 
 // https://reference.opcfoundation.org/Core/Part4/v105/docs/5.13.6
 func (s *SubscriptionService) Republish(sc *uasc.SecureChannel, r ua.Request, reqID uint32) (ua.Response, error) {
-	debug.Printf("Handling %T", r)
+	if s.srv.cfg.logger != nil {
+		s.srv.cfg.logger.Debug("Handling %T", r)
+	}
 
 	req, err := safeReq[*ua.RepublishRequest](r)
 	if err != nil {
@@ -160,7 +174,9 @@ func (s *SubscriptionService) Republish(sc *uasc.SecureChannel, r ua.Request, re
 
 // https://reference.opcfoundation.org/Core/Part4/v105/docs/5.13.7
 func (s *SubscriptionService) TransferSubscriptions(sc *uasc.SecureChannel, r ua.Request, reqID uint32) (ua.Response, error) {
-	debug.Printf("Handling %T", r)
+	if s.srv.cfg.logger != nil {
+		s.srv.cfg.logger.Debug("Handling %T", r)
+	}
 
 	req, err := safeReq[*ua.TransferSubscriptionsRequest](r)
 	if err != nil {
@@ -172,7 +188,9 @@ func (s *SubscriptionService) TransferSubscriptions(sc *uasc.SecureChannel, r ua
 
 // https://reference.opcfoundation.org/Core/Part4/v105/docs/5.13.8
 func (s *SubscriptionService) DeleteSubscriptions(sc *uasc.SecureChannel, r ua.Request, reqID uint32) (ua.Response, error) {
-	debug.Printf("Handling %T", r)
+	if s.srv.cfg.logger != nil {
+		s.srv.cfg.logger.Debug("Handling %T", r)
+	}
 
 	req, err := safeReq[*ua.DeleteSubscriptionsRequest](r)
 	if err != nil {
@@ -325,13 +343,17 @@ func (s *Subscription) run() {
 						case pubreq := <-s.Session.PublishRequests:
 							err := s.keepalive(pubreq)
 							if err != nil {
-								debug.Printf("problem sending keepalive: %v", err)
+								if s.srv.srv.cfg.logger != nil {
+									s.srv.srv.cfg.logger.Warn("problem sending keepalive: %v", err)
+								}
 								return
 							}
 						default:
 							lifetime_counter++
 							if lifetime_counter > int(s.RevisedLifetimeCount) {
-								debug.Printf("Subscription %d timed out.", s.ID)
+								if s.srv.srv.cfg.logger != nil {
+									s.srv.srv.cfg.logger.Warn("Subscription %d timed out.", s.ID)
+								}
 								return
 							}
 						}
@@ -360,7 +382,9 @@ func (s *Subscription) run() {
 				// we had another tick without a publish request.
 				lifetime_counter++
 				if lifetime_counter > int(s.RevisedLifetimeCount) {
-					debug.Printf("Subscription %d timed out.", s.ID)
+					if s.srv.srv.cfg.logger != nil {
+						s.srv.srv.cfg.logger.Warn("Subscription %d timed out.", s.ID)
+					}
 					return
 				}
 			}
@@ -373,7 +397,9 @@ func (s *Subscription) run() {
 			// per the spec, the sequence ID cannot be 0
 			s.SequenceID = 1
 		}
-		debug.Printf("Got publish req on sub #%d.  Sequence %d", s.ID, s.SequenceID)
+		if s.srv.srv.cfg.logger != nil {
+			s.srv.srv.cfg.logger.Debug("Got publish req on sub #%d.  Sequence %d", s.ID, s.SequenceID)
+		}
 		// then get all the tags and send them back to the client
 
 		//for x := range pubreq.Req.SubscriptionAcknowledgements {
@@ -421,11 +447,15 @@ func (s *Subscription) run() {
 		}
 		err := s.Channel.SendResponseWithContext(context.Background(), pubreq.ID, response)
 		if err != nil {
-			debug.Printf("problem sending channel response: %v", err)
-			debug.Printf("Killing subscription %d", s.ID)
+			if s.srv.srv.cfg.logger != nil {
+				s.srv.srv.cfg.logger.Error("problem sending channel response: %v", err)
+				s.srv.srv.cfg.logger.Error("Killing subscription %d", s.ID)
+			}
 			return
 		}
-		debug.Printf("Published %d items OK for %d", len(publishQueue), s.ID)
+		if s.srv.srv.cfg.logger != nil {
+			s.srv.srv.cfg.logger.Debug("Published %d items OK for %d", len(publishQueue), s.ID)
+		}
 		// wait till we've got a publish request.
 	}
 }

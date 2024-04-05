@@ -17,7 +17,6 @@ import (
 
 	"golang.org/x/exp/slices"
 
-	"github.com/gopcua/opcua/debug"
 	"github.com/gopcua/opcua/id"
 	"github.com/gopcua/opcua/schema"
 	"github.com/gopcua/opcua/ua"
@@ -70,6 +69,8 @@ type serverConfig struct {
 	enabledAuth []authMode
 
 	cap ServerCapabilities
+
+	logger Logger
 }
 
 var capabilities = ServerCapabilities{
@@ -114,8 +115,8 @@ func New(opts ...Option) *Server {
 	s := &Server{
 		url:      cfg.endpoints[0],
 		cfg:      cfg,
-		cb:       newChannelBroker(),
-		sb:       newSessionBroker(),
+		cb:       newChannelBroker(cfg.logger),
+		sb:       newSessionBroker(cfg.logger),
 		handlers: make(map[uint16]Handler),
 		namespaces: []NameSpace{
 			NewNameSpace("http://opcfoundation.org/UA/"), // ns:0
@@ -253,7 +254,7 @@ func (s *Server) Start(ctx context.Context) error {
 	s.setServerState(ua.ServerStateRunning)
 
 	if s.cb == nil {
-		s.cb = newChannelBroker()
+		s.cb = newChannelBroker(s.cfg.logger)
 	}
 
 	go s.acceptAndRegister(ctx, s.l)
@@ -303,13 +304,17 @@ func (s *Server) acceptAndRegister(ctx context.Context, l *uacp.Listener) {
 						continue
 					}
 				default:
-					debug.Printf("error accepting connection: %s", err)
+					if s.cfg.logger != nil {
+						s.cfg.logger.Error("error accepting connection: %s", err)
+					}
 					return
 				}
 			}
 
 			go s.cb.RegisterConn(ctx, c, s.cfg.certificate, s.cfg.privateKey)
-			debug.Printf("registered connection: %s", c.LocalAddr())
+			if s.cfg.logger != nil {
+				s.cfg.logger.Info("registered connection: %s", c.LocalAddr())
+			}
 		}
 	}
 }
@@ -324,19 +329,27 @@ func (s *Server) monitorConnections(ctx context.Context) {
 		default:
 			msg := s.cb.ReadMessage(ctx)
 			if msg.Err != nil {
-				debug.Printf("monitorConnections: Error received: %s\n", msg.Err)
+				if s.cfg.logger != nil {
+					s.cfg.logger.Error("monitorConnections: Error received: %s\n", msg.Err)
+				}
 				continue // todo(fs): close SC???
 			}
 			if resp := msg.Response(); resp != nil {
-				debug.Printf("monitorConnections: Server received response %T ???", resp)
+				if s.cfg.logger != nil {
+					s.cfg.logger.Error("monitorConnections: Server received response %T ???", resp)
+				}
 				continue // todo(fs): close SC???
 			}
-			debug.Printf("monitorConnections: Received Message: %T", msg.Request())
+			if s.cfg.logger != nil {
+				s.cfg.logger.Debug("monitorConnections: Received Message: %T", msg.Request())
+			}
 			s.cb.mu.RLock()
 			sc, ok := s.cb.s[msg.SecureChannelID]
 			s.cb.mu.RUnlock()
 			if !ok {
-				debug.Printf("monitorConnections: Unknown SecureChannel: %d", msg.SecureChannelID)
+				if s.cfg.logger != nil {
+					s.cfg.logger.Error("monitorConnections: Unknown SecureChannel: %d", msg.SecureChannelID)
+				}
 				continue
 			}
 

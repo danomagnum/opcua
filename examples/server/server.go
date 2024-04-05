@@ -10,6 +10,7 @@ import (
 	"crypto/tls"
 	"flag"
 	"log"
+	"log/slog"
 	"os"
 	"os/signal"
 	"time"
@@ -72,6 +73,10 @@ func main() {
 		server.EndPoint(*endpoint, *port),
 		server.EndPoint("localhost", *port),
 		server.EndPoint(hostname, *port),
+	)
+
+	opts = append(opts,
+		server.SetLogger(&slog.Logger{}),
 	)
 
 	if *gencert {

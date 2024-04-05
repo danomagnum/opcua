@@ -5,7 +5,6 @@ import (
 	"log"
 	"time"
 
-	"github.com/gopcua/opcua/debug"
 	"github.com/gopcua/opcua/ua"
 	"github.com/gopcua/opcua/uasc"
 )
@@ -27,7 +26,9 @@ type SessionService struct {
 
 // https://reference.opcfoundation.org/Core/Part4/v105/docs/5.6.2
 func (s *SessionService) CreateSession(sc *uasc.SecureChannel, r ua.Request, reqID uint32) (ua.Response, error) {
-	debug.Printf("Handling %T", r)
+	if s.srv.cfg.logger != nil {
+		s.srv.cfg.logger.Debug("Handling %T", r)
+	}
 
 	req, err := safeReq[*ua.CreateSessionRequest](r)
 	if err != nil {
@@ -85,7 +86,9 @@ func (s *SessionService) CreateSession(sc *uasc.SecureChannel, r ua.Request, req
 
 // https://reference.opcfoundation.org/Core/Part4/v105/docs/5.6.3
 func (s *SessionService) ActivateSession(sc *uasc.SecureChannel, r ua.Request, reqID uint32) (ua.Response, error) {
-	debug.Printf("Handling %T", r)
+	if s.srv.cfg.logger != nil {
+		s.srv.cfg.logger.Debug("Handling %T", r)
+	}
 
 	req, err := safeReq[*ua.ActivateSessionRequest](r)
 	if err != nil {
@@ -99,7 +102,9 @@ func (s *SessionService) ActivateSession(sc *uasc.SecureChannel, r ua.Request, r
 
 	err = sc.VerifySessionSignature(sess.remoteCertificate, sess.serverNonce, req.ClientSignature.Signature)
 	if err != nil {
-		debug.Printf("error verifying session signature with nonce: %s", err)
+		if s.srv.cfg.logger != nil {
+			s.srv.cfg.logger.Warn("error verifying session signature with nonce: %s", err)
+		}
 		return nil, ua.StatusBadSecurityChecksFailed
 	}
 
@@ -122,7 +127,9 @@ func (s *SessionService) ActivateSession(sc *uasc.SecureChannel, r ua.Request, r
 
 // https://reference.opcfoundation.org/Core/Part4/v105/docs/5.6.4
 func (s *SessionService) CloseSession(sc *uasc.SecureChannel, r ua.Request, reqID uint32) (ua.Response, error) {
-	debug.Printf("Handling %T", r)
+	if s.srv.cfg.logger != nil {
+		s.srv.cfg.logger.Debug("Handling %T", r)
+	}
 
 	req, err := safeReq[*ua.CloseSessionRequest](r)
 	if err != nil {
@@ -144,7 +151,9 @@ func (s *SessionService) CloseSession(sc *uasc.SecureChannel, r ua.Request, reqI
 
 // https://reference.opcfoundation.org/Core/Part4/v105/docs/5.6.5
 func (s *SessionService) Cancel(sc *uasc.SecureChannel, r ua.Request, reqID uint32) (ua.Response, error) {
-	debug.Printf("Handling %T", r)
+	if s.srv.cfg.logger != nil {
+		s.srv.cfg.logger.Debug("Handling %T", r)
+	}
 
 	req, err := safeReq[*ua.CancelRequest](r)
 	if err != nil {

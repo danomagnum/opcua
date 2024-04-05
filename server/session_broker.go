@@ -7,7 +7,6 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/gopcua/opcua/debug"
 	"github.com/gopcua/opcua/ua"
 )
 
@@ -31,12 +30,14 @@ type sessionBroker struct {
 	mu sync.Mutex
 
 	// s contains all sessions watched by the session broker
-	s map[string]*session
+	s      map[string]*session
+	logger Logger
 }
 
-func newSessionBroker() *sessionBroker {
+func newSessionBroker(logger Logger) *sessionBroker {
 	return &sessionBroker{
-		s: make(map[string]*session),
+		s:      make(map[string]*session),
+		logger: logger,
 	}
 }
 
@@ -59,7 +60,9 @@ func (sb *sessionBroker) Close(authToken *ua.NodeID) error {
 	defer sb.mu.Unlock()
 
 	if sb.s[authToken.String()] == nil {
-		debug.Printf("sessionBroker.Close: error looking up session %v", authToken)
+		if sb.logger != nil {
+			sb.logger.Warn("sessionBroker.Close: error looking up session %v", authToken)
+		}
 	}
 	delete(sb.s, authToken.String())
 
@@ -72,7 +75,9 @@ func (sb *sessionBroker) Session(authToken *ua.NodeID) *session {
 
 	s := sb.s[authToken.String()]
 	if s == nil {
-		debug.Printf("sessionBroker.Session: error looking up session %v", authToken)
+		if sb.logger != nil {
+			sb.logger.Warn("sessionBroker.Session: error looking up session %v", authToken)
+		}
 	}
 
 	return s

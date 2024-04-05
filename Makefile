@@ -1,6 +1,6 @@
 # go test -count=1 disables the test cache so that all tests are run every time.
 
-all: test integration examples
+all: test integration selfintegration examples
 
 test:
 	go test -count=1 -race ./...
@@ -10,6 +10,9 @@ lint:
 
 integration:
 	go test -count=1 -race -v -tags=integration ./uatest/...
+
+selfintegration:
+	go test -count=1 -race -v -tags=integration ./uatest2/...
 
 examples:
 	go build -o build/ ./examples/...

@@ -8,7 +8,6 @@ import (
 	"context"
 	"time"
 
-	"github.com/gopcua/opcua/debug"
 	"github.com/gopcua/opcua/id"
 	"github.com/gopcua/opcua/ua"
 	"github.com/gopcua/opcua/uasc"
@@ -102,7 +101,9 @@ func (s *Server) RegisterHandler(typeID uint16, h Handler) {
 }
 
 func (s *Server) handleService(ctx context.Context, sc *uasc.SecureChannel, reqID uint32, req ua.Request) {
-	debug.Printf("handleService: Got: %T\n", req)
+	if s.cfg.logger != nil {
+		s.cfg.logger.Debug("handleService: Got: %T\n", req)
+	}
 
 	var resp ua.Response
 	var err error
@@ -113,7 +114,9 @@ func (s *Server) handleService(ctx context.Context, sc *uasc.SecureChannel, reqI
 		resp, err = h(sc, req, reqID)
 	} else {
 		if typeID == 0 {
-			debug.Printf("unknown service %T. Did you call register?", req)
+			if s.cfg.logger != nil {
+				s.cfg.logger.Warn("unknown service %T. Did you call register?", req)
+			}
 		}
 		err = ua.StatusBadServiceUnsupported
 	}
@@ -132,7 +135,9 @@ func (s *Server) handleService(ctx context.Context, sc *uasc.SecureChannel, reqI
 
 	err = sc.SendResponseWithContext(ctx, reqID, resp)
 	if err != nil {
-		debug.Printf("Error sending response: %s\n", err)
+		if s.cfg.logger != nil {
+			s.cfg.logger.Warn("Error sending response: %s\n", err)
+		}
 	}
 }
 
@@ -157,7 +162,7 @@ func safeReq[T ua.Request](r ua.Request) (T, error) {
 	var t T
 	req, ok := r.(T)
 	if !ok {
-		debug.Printf("expected %T, got %T", t, r)
+		//debug.Printf("expected %T, got %T", t, r)
 		return t, ua.StatusBadRequestTypeInvalid
 	}
 	return req, nil

@@ -8,7 +8,6 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gopcua/opcua/debug"
 	"github.com/gopcua/opcua/ua"
 	"github.com/gopcua/opcua/uacp"
 	"github.com/gopcua/opcua/uasc"
@@ -33,9 +32,10 @@ type channelBroker struct {
 	// msgChan is the common channel that all messages from all channels
 	// get funneled into for handling
 	msgChan chan *uasc.MessageBody
+	logger  Logger
 }
 
-func newChannelBroker() *channelBroker {
+func newChannelBroker(logger Logger) *channelBroker {
 	rng := mrand.New(mrand.NewSource(time.Now().UnixNano()))
 	return &channelBroker{
 		endpoints:       make(map[string]*ua.EndpointDescription),
@@ -43,6 +43,7 @@ func newChannelBroker() *channelBroker {
 		msgChan:         make(chan *uasc.MessageBody),
 		secureChannelID: uint32(rng.Int31()),
 		secureTokenID:   uint32(rng.Int31()),
+		logger:          logger,
 	}
 }
 
@@ -74,13 +75,17 @@ func (c *channelBroker) RegisterConn(ctx context.Context, conn *uacp.Conn, local
 		secureTokenID,
 	)
 	if err != nil {
-		debug.Printf("Error creating secure channel for new connection: %s", err)
+		if c.logger != nil {
+			c.logger.Error("Error creating secure channel for new connection: %s", err)
+		}
 		return err
 	}
 
 	c.mu.Lock()
 	c.s[secureChannelID] = sc
-	debug.Printf("Registered new channel (id %d) now at %d channels", secureChannelID, len(c.s))
+	if c.logger != nil {
+		c.logger.Info("Registered new channel (id %d) now at %d channels", secureChannelID, len(c.s))
+	}
 	c.mu.Unlock()
 	c.wg.Add(1)
 outer:
@@ -93,7 +98,9 @@ outer:
 		default:
 			msg := sc.Receive(ctx)
 			if msg.Err == io.EOF {
-				debug.Printf("Secure Channel %d closed", secureChannelID)
+				if c.logger != nil {
+					c.logger.Warn("Secure Channel %d closed", secureChannelID)
+				}
 				break outer
 			}
 			// todo(fs): honor ctx
@@ -128,7 +135,9 @@ func (c *channelBroker) Close() error {
 	select {
 	case <-done:
 	case <-time.After(10 * time.Second): // todo(fs): magic number
-		debug.Printf("CloseAll: timed out waiting for channels to exit")
+		if c.logger != nil {
+			c.logger.Error("CloseAll: timed out waiting for channels to exit")
+		}
 	}
 
 	return err

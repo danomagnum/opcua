@@ -12,7 +12,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gopcua/opcua/debug"
 	"github.com/gopcua/opcua/ua"
 	"github.com/gopcua/opcua/uapolicy"
 	"github.com/gopcua/opcua/uasc"
@@ -79,7 +78,9 @@ func EnableSecurity(secPolicy string, secMode ua.MessageSecurityMode) Option {
 
 		for _, sec := range s.enabledSec {
 			if sec.secPolicy == secPolicy && sec.secMode == secMode {
-				debug.Printf("security policy already exists, skipping")
+				if s.logger != nil {
+					s.logger.Warn("security policy already exists, skipping")
+				}
 				return
 			}
 		}
@@ -101,7 +102,9 @@ func EnableAuthMode(tokenType ua.UserTokenType) Option {
 
 		for _, a := range s.enabledAuth {
 			if a.tokenType == tokenType {
-				debug.Printf("auth mode already registered, skipping")
+				if s.logger != nil {
+					s.logger.Warn("auth mode already registered, skipping")
+				}
 				return
 			}
 		}
@@ -143,5 +146,20 @@ func ProductName(name string) Option {
 func SoftwareVersion(name string) Option {
 	return func(s *serverConfig) {
 		s.softwareVersion = name
+	}
+}
+
+// this logger interface is used to allow the user to provide their own logger
+// it is compatible with slog.Logger
+type Logger interface {
+	Debug(msg string, args ...any)
+	Error(msg string, args ...any)
+	Info(msg string, args ...any)
+	Warn(msg string, args ...any)
+}
+
+func SetLogger(logger Logger) Option {
+	return func(s *serverConfig) {
+		s.logger = logger
 	}
 }
