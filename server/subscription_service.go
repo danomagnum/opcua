@@ -5,7 +5,6 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gopcua/opcua/debug"
 	"github.com/gopcua/opcua/ua"
 	"github.com/gopcua/opcua/uasc"
 )
@@ -48,7 +47,9 @@ func (s *SubscriptionService) CreateSubscription(sc *uasc.SecureChannel, r ua.Re
 
 	newsubid := uint32(len(s.Subs))
 
-	debug.Printf("Create Sub %d", newsubid)
+	if s.srv.cfg.logger != nil {
+		s.srv.cfg.logger.Info("New Sub %d for %v", newsubid, sc.RemoteAddr())
+	}
 
 	sub := NewSubscription()
 	sub.srv = s
@@ -203,7 +204,11 @@ func (s *SubscriptionService) DeleteSubscriptions(sc *uasc.SecureChannel, r ua.R
 
 	results := make([]ua.StatusCode, len(req.SubscriptionIDs))
 	for i := range req.SubscriptionIDs {
+
 		subid := req.SubscriptionIDs[i]
+		if s.srv.cfg.logger != nil {
+			s.srv.cfg.logger.Info("Subscription %d deleted", subid)
+		}
 		sub, ok := s.Subs[subid]
 		if !ok {
 			results[i] = ua.StatusBadSubscriptionIDInvalid
