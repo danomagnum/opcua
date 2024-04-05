@@ -281,10 +281,9 @@ func (s *Subscription) Start() {
 
 func (s *Subscription) keepalive(pubreq PubReq) error {
 	eo := make([]*ua.ExtensionObject, 0)
-	s.SequenceID++
 
 	msg := ua.NotificationMessage{
-		SequenceNumber:   s.SequenceID,
+		SequenceNumber:   s.SequenceID + 1, // not sure why but ua expert wants the next sequence number on keepalives.
 		PublishTime:      time.Now(),
 		NotificationData: eo,
 	}
