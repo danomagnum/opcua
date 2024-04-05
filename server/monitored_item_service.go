@@ -79,6 +79,9 @@ func (s *MonitoredItemService) ChangeNotification(n *ua.NodeID) {
 
 	for i := range items {
 		item := items[i]
+		if item == nil {
+			continue
+		}
 		val := new(ua.MonitoredItemNotification)
 		val.ClientHandle = item.Req.RequestedParameters.ClientHandle
 		if err != nil {
