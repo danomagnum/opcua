@@ -298,7 +298,10 @@ func (s *Server) acceptAndRegister(ctx context.Context, l *uacp.Listener) {
 				switch x := err.(type) {
 				case *net.OpError:
 					// socket closed
-					return
+					if s.cfg.logger != nil {
+						s.cfg.logger.Error("socket closed: %s", err)
+					}
+					continue
 				case temporary:
 					if x.Temporary() {
 						continue
@@ -307,7 +310,7 @@ func (s *Server) acceptAndRegister(ctx context.Context, l *uacp.Listener) {
 					if s.cfg.logger != nil {
 						s.cfg.logger.Error("error accepting connection: %s", err)
 					}
-					return
+					continue
 				}
 			}
 
