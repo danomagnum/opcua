@@ -350,7 +350,8 @@ func (s *Server) monitorConnections(ctx context.Context) {
 			sc, ok := s.cb.s[msg.SecureChannelID]
 			s.cb.mu.RUnlock()
 			if !ok {
-				if s.cfg.logger != nil {
+				// if the secure channel ID is 0, this is probably a open secure channel request.
+				if s.cfg.logger != nil && msg.SecureChannelID != 0 {
 					s.cfg.logger.Error("monitorConnections: Unknown SecureChannel: %d", msg.SecureChannelID)
 				}
 				continue

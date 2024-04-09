@@ -24,6 +24,16 @@ func (s *SubscriptionService) DeleteSubscription(id uint32) {
 	s.Mu.Lock()
 	defer s.Mu.Unlock()
 
+	sub, ok := s.Subs[id]
+	if ok {
+		sub.Mu.Lock()
+		if sub.running {
+			sub.running = false
+			close(sub.shutdown)
+		}
+		sub.Mu.Unlock()
+	}
+
 	delete(s.Subs, id)
 
 	// ask the monitored item service to purge out any items that use this subscription
@@ -61,6 +71,7 @@ func (s *SubscriptionService) CreateSubscription(sc *uasc.SecureChannel, r ua.Re
 	sub.RevisedMaxKeepAliveCount = req.RequestedMaxKeepAliveCount
 
 	s.Subs[newsubid] = sub
+	sub.running = true
 	sub.Start()
 
 	resp := &ua.CreateSubscriptionResponse{
@@ -207,7 +218,7 @@ func (s *SubscriptionService) DeleteSubscriptions(sc *uasc.SecureChannel, r ua.R
 
 		subid := req.SubscriptionIDs[i]
 		if s.srv.cfg.logger != nil {
-			s.srv.cfg.logger.Info("Subscription %d deleted", subid)
+			s.srv.cfg.logger.Info("Subscription %d deleted by client", subid)
 		}
 		sub, ok := s.Subs[subid]
 		if !ok {
@@ -264,6 +275,13 @@ type Subscription struct {
 
 	NotifyChannel chan *ua.MonitoredItemNotification
 	ModifyChannel chan *ua.ModifySubscriptionRequest
+
+	// the running flag and shutdown channel are used to signal the background task that it should stop.
+	// multiple places can kill the subscription so make sure you check the running flag using the mutex
+	// before closing the shutdown channel.
+	Mu       sync.Mutex
+	running  bool
+	shutdown chan struct{}
 }
 
 func NewSubscription() *Subscription {
@@ -271,8 +289,10 @@ func NewSubscription() *Subscription {
 		//SeqNums:       map[uint32]struct{}{},
 		NotifyChannel: make(chan *ua.MonitoredItemNotification, 100),
 		ModifyChannel: make(chan *ua.ModifySubscriptionRequest, 2),
+		shutdown:      make(chan struct{}),
 	}
 }
+
 func (s *Subscription) Update(req *ua.ModifySubscriptionRequest) {
 	s.RevisedPublishingInterval = req.RequestedPublishingInterval
 	s.RevisedLifetimeCount = req.RequestedLifetimeCount
@@ -321,12 +341,31 @@ func (s *Subscription) keepalive(pubreq PubReq) error {
 // if the function returns it deletes the subscription
 func (s *Subscription) run() {
 	// if this go routine dies, we need to delete ourselves.
-	defer s.srv.DeleteSubscription(s.ID)
+	defer func() {
+		if s.srv.srv.cfg.logger != nil {
+			s.srv.srv.cfg.logger.Info("Subscription %d shutting down.", s.ID)
+		}
+		s.srv.DeleteSubscription(s.ID)
+	}()
 
 	keepalive_counter := 0
 	lifetime_counter := 0
 	//TODO: if a sub is modified, this ticker time may need to change.
 	s.T = time.NewTicker(time.Millisecond * time.Duration(s.RevisedPublishingInterval))
+	defer s.T.Stop()
+
+	// This is the master run event loop.  It has effectively 3 states that it can be in.  The first two are designated with
+	// the labels L0, and L2.  Everything after the L2 loop is the third state where we send any pending notifications.
+	// The states always go L0 -> L2 -> Sending -> L0.  L0 and L2 are both places where we wait so they are done as for loops with
+	// breaks to go to the next state.
+	// The sending state always runs to completion.
+	//
+	// L0 waits for our notification interval to expire.  Any notifications that come in
+	// while waiting will be stored in the publishQueue.  Once the interval expires, we'll move on to L2 if we've got notifications.
+	// In L2 we wait for a publish request.  If we get one, we'll publish the notifications in the publishQueue.  If we don't
+	// get a publish request, we'll continue to count intervals without a publish request.
+	//
+	// In L0 and L2, If we get to the lifetime count without a publish request, we'll kill the subscription.
 	for {
 		// we don't need to do anything if we don't have at least one thing to publish so lets get that first
 		publishQueue := make(map[uint32]*ua.MonitoredItemNotification)
@@ -335,6 +374,8 @@ func (s *Subscription) run() {
 	L0:
 		for {
 			select {
+			case <-s.shutdown:
+				return
 			case newNotification := <-s.NotifyChannel:
 				publishQueue[newNotification.ClientHandle] = newNotification
 			case <-s.T.C:
@@ -349,7 +390,7 @@ func (s *Subscription) run() {
 							err := s.keepalive(pubreq)
 							if err != nil {
 								if s.srv.srv.cfg.logger != nil {
-									s.srv.srv.cfg.logger.Warn("problem sending keepalive: %v", err)
+									s.srv.srv.cfg.logger.Warn("problem sending keepalive to subscription #%d: %v", s.ID, err)
 								}
 								return
 							}
@@ -357,7 +398,7 @@ func (s *Subscription) run() {
 							lifetime_counter++
 							if lifetime_counter > int(s.RevisedLifetimeCount) {
 								if s.srv.srv.cfg.logger != nil {
-									s.srv.srv.cfg.logger.Warn("Subscription %d timed out.", s.ID)
+									s.srv.srv.cfg.logger.Warn("Subscription #%d timed out.", s.ID)
 								}
 								return
 							}
@@ -377,6 +418,8 @@ func (s *Subscription) run() {
 	L2:
 		for {
 			select {
+			case <-s.shutdown:
+				return
 			case pubreq = <-s.Session.PublishRequests:
 				// once we get a publish request, we should move on to publish them back
 				break L2
