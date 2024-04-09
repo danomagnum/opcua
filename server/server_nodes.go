@@ -13,6 +13,7 @@ func CurrentTimeNode() *Node {
 		ua.NewNumericNodeID(0, id.Server_ServerStatus_CurrentTime),
 		map[ua.AttributeID]*ua.Variant{
 			ua.AttributeIDBrowseName: ua.MustVariant(attrs.BrowseName("CurrentTime")),
+			ua.AttributeIDNodeClass:  ua.MustVariant(uint32(ua.NodeClassVariable)),
 		},
 		nil,
 		func() *ua.Variant { return ua.MustVariant(time.Now()) },
@@ -24,6 +25,7 @@ func NamespacesNode(s *Server) *Node {
 		ua.NewNumericNodeID(0, id.Server_NamespaceArray),
 		map[ua.AttributeID]*ua.Variant{
 			ua.AttributeIDBrowseName: ua.MustVariant(attrs.BrowseName("Namespaces")),
+			ua.AttributeIDNodeClass:  ua.MustVariant(uint32(ua.NodeClassObject)),
 		},
 		nil,
 		func() *ua.Variant {
@@ -43,6 +45,7 @@ func ServerCapabilitiesNodes(s *Server) []*Node {
 		ua.NewNumericNodeID(0, id.Server_ServerCapabilities_OperationLimits_MaxNodesPerRead),
 		map[ua.AttributeID]*ua.Variant{
 			ua.AttributeIDBrowseName: ua.MustVariant(attrs.BrowseName("MaxNodesPerRead")),
+			ua.AttributeIDNodeClass:  ua.MustVariant(uint32(ua.NodeClassVariable)),
 		},
 		nil,
 		func() *ua.Variant { return ua.MustVariant(s.cfg.cap.OperationalLimits.MaxNodesPerRead) },
@@ -104,6 +107,7 @@ func ServerStatusNodes(s *Server, ServerNode *Node) []*Node {
 		ua.NewNumericNodeID(0, id.Server_ServerStatus),
 		map[ua.AttributeID]*ua.Variant{
 			ua.AttributeIDBrowseName: ua.MustVariant(attrs.BrowseName("Status")),
+			ua.AttributeIDNodeClass:  ua.MustVariant(uint32(ua.NodeClassVariable)),
 		},
 		nil,
 		func() *ua.Variant { return ua.MustVariant(ua.NewExtensionObject(s.Status())) },
@@ -113,14 +117,16 @@ func ServerStatusNodes(s *Server, ServerNode *Node) []*Node {
 		ua.NewNumericNodeID(0, id.Server_ServerStatus_State),
 		map[ua.AttributeID]*ua.Variant{
 			ua.AttributeIDBrowseName: ua.MustVariant(attrs.BrowseName("ServerStatus")),
+			ua.AttributeIDNodeClass:  ua.MustVariant(uint32(ua.NodeClassVariable)),
 		},
 		nil,
-		func() *ua.Variant { return ua.MustVariant(ua.NewExtensionObject(s.Status())) },
+		func() *ua.Variant { return ua.MustVariant(int32(s.Status().State)) },
 	)
 	mName := NewNode(
 		ua.NewNumericNodeID(0, id.Server_ServerStatus_BuildInfo_ManufacturerName),
 		map[ua.AttributeID]*ua.Variant{
 			ua.AttributeIDBrowseName: ua.MustVariant(attrs.BrowseName("ProductName")),
+			ua.AttributeIDNodeClass:  ua.MustVariant(uint32(ua.NodeClassVariable)),
 		},
 		nil,
 		func() *ua.Variant { return ua.MustVariant(s.cfg.manufacturerName) },
@@ -129,6 +135,7 @@ func ServerStatusNodes(s *Server, ServerNode *Node) []*Node {
 		ua.NewNumericNodeID(0, id.Server_ServerStatus_BuildInfo_ProductName),
 		map[ua.AttributeID]*ua.Variant{
 			ua.AttributeIDBrowseName: ua.MustVariant(attrs.BrowseName("ProductName")),
+			ua.AttributeIDNodeClass:  ua.MustVariant(uint32(ua.NodeClassVariable)),
 		},
 		nil,
 		func() *ua.Variant { return ua.MustVariant(s.cfg.productName) },
@@ -138,6 +145,7 @@ func ServerStatusNodes(s *Server, ServerNode *Node) []*Node {
 		ua.NewNumericNodeID(0, id.Server_ServerStatus_BuildInfo_ProductURI),
 		map[ua.AttributeID]*ua.Variant{
 			ua.AttributeIDBrowseName: ua.MustVariant(attrs.BrowseName("ProductURI")),
+			ua.AttributeIDNodeClass:  ua.MustVariant(uint32(ua.NodeClassVariable)),
 		},
 		nil,
 		func() *ua.Variant { return ua.MustVariant(s.cfg.applicationURI) },
@@ -147,6 +155,7 @@ func ServerStatusNodes(s *Server, ServerNode *Node) []*Node {
 		ua.NewNumericNodeID(0, id.Server_ServerStatus_BuildInfo),
 		map[ua.AttributeID]*ua.Variant{
 			ua.AttributeIDBrowseName: ua.MustVariant(attrs.BrowseName("BuildInfo")),
+			ua.AttributeIDNodeClass:  ua.MustVariant(uint32(ua.NodeClassVariable)),
 		},
 		nil,
 		func() *ua.Variant { return ua.MustVariant("") },
@@ -155,6 +164,7 @@ func ServerStatusNodes(s *Server, ServerNode *Node) []*Node {
 		ua.NewNumericNodeID(0, id.Server_ServerStatus_BuildInfo_SoftwareVersion),
 		map[ua.AttributeID]*ua.Variant{
 			ua.AttributeIDBrowseName: ua.MustVariant(attrs.BrowseName("SoftwareVersion")),
+			ua.AttributeIDNodeClass:  ua.MustVariant(uint32(ua.NodeClassVariable)),
 		},
 		nil,
 		func() *ua.Variant { return ua.MustVariant(s.cfg.softwareVersion) },
@@ -164,6 +174,7 @@ func ServerStatusNodes(s *Server, ServerNode *Node) []*Node {
 		ua.NewNumericNodeID(0, id.Server_ServerStatus_BuildInfo_BuildNumber),
 		map[ua.AttributeID]*ua.Variant{
 			ua.AttributeIDBrowseName: ua.MustVariant(attrs.BrowseName("BuildNumber")),
+			ua.AttributeIDNodeClass:  ua.MustVariant(uint32(ua.NodeClassVariable)),
 		},
 		nil,
 		func() *ua.Variant { return ua.MustVariant(s.cfg.softwareVersion) },
@@ -174,6 +185,7 @@ func ServerStatusNodes(s *Server, ServerNode *Node) []*Node {
 		ua.NewNumericNodeID(0, id.Server_ServerStatus_BuildInfo_BuildDate),
 		map[ua.AttributeID]*ua.Variant{
 			ua.AttributeIDBrowseName: ua.MustVariant(attrs.BrowseName("BuildDate")),
+			ua.AttributeIDNodeClass:  ua.MustVariant(uint32(ua.NodeClassVariable)),
 		},
 		nil,
 		func() *ua.Variant { return ua.MustVariant(ts) },
@@ -182,6 +194,7 @@ func ServerStatusNodes(s *Server, ServerNode *Node) []*Node {
 		ua.NewNumericNodeID(0, id.Server_ServerStatus_StartTime),
 		map[ua.AttributeID]*ua.Variant{
 			ua.AttributeIDBrowseName: ua.MustVariant(attrs.BrowseName("StartTime")),
+			ua.AttributeIDNodeClass:  ua.MustVariant(uint32(ua.NodeClassVariable)),
 		},
 		nil,
 		func() *ua.Variant { return ua.MustVariant(ts) },
@@ -190,6 +203,7 @@ func ServerStatusNodes(s *Server, ServerNode *Node) []*Node {
 		ua.NewNumericNodeID(0, id.Server_ServerStatus_CurrentTime),
 		map[ua.AttributeID]*ua.Variant{
 			ua.AttributeIDBrowseName: ua.MustVariant(attrs.BrowseName("CurrentTime")),
+			ua.AttributeIDNodeClass:  ua.MustVariant(uint32(ua.NodeClassVariable)),
 		},
 		nil,
 		func() *ua.Variant { return ua.MustVariant(time.Now()) },
@@ -201,6 +215,7 @@ func ServerStatusNodes(s *Server, ServerNode *Node) []*Node {
 		ua.NewNumericNodeID(0, id.Server_ServerStatus_SecondsTillShutdown),
 		map[ua.AttributeID]*ua.Variant{
 			ua.AttributeIDBrowseName: ua.MustVariant(attrs.BrowseName("SecondsTillShutdown")),
+			ua.AttributeIDNodeClass:  ua.MustVariant(uint32(ua.NodeClassVariable)),
 		},
 		nil,
 		func() *ua.Variant { return ua.MustVariant(int32(0)) },
@@ -209,6 +224,7 @@ func ServerStatusNodes(s *Server, ServerNode *Node) []*Node {
 		ua.NewNumericNodeID(0, id.Server_ServerStatus_ShutdownReason),
 		map[ua.AttributeID]*ua.Variant{
 			ua.AttributeIDBrowseName: ua.MustVariant(attrs.BrowseName("ShutdownReason")),
+			ua.AttributeIDNodeClass:  ua.MustVariant(uint32(ua.NodeClassVariable)),
 		},
 		nil,
 		func() *ua.Variant { return ua.MustVariant(int32(0)) },
