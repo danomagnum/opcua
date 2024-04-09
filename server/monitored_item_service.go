@@ -60,7 +60,9 @@ func (s *MonitoredItemService) DeleteSub(id uint32) {
 		return
 	}
 	for i := range items {
-		s.DeleteMonitoredItem(items[i].ID)
+		if items[i] != nil {
+			s.DeleteMonitoredItem(items[i].ID)
+		}
 	}
 }
 
