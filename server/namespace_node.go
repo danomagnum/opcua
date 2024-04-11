@@ -279,19 +279,33 @@ func (as *NodeNameSpace) SetAttribute(id *ua.NodeID, attr ua.AttributeID, val *u
 	return ua.StatusOK
 }
 
-func (ns *NodeNameSpace) ImportNodeSet(nodes *schema.UANodeSet) error {
-	err := ns.nodesImportNodeSet(nodes)
+func (srv *Server) ImportNodeSet(nodes *schema.UANodeSet) error {
+	err := srv.namespacesImportNodeSet(nodes)
+	if err != nil {
+		return fmt.Errorf("problem creating namespaces: %w", err)
+	}
+	err = srv.nodesImportNodeSet(nodes)
 	if err != nil {
 		return fmt.Errorf("problem creating nodes: %w", err)
 	}
-	ns.refsImportNodeSet(nodes)
+	srv.refsImportNodeSet(nodes)
 	if err != nil {
 		return fmt.Errorf("problem creating references: %w", err)
 	}
 	return nil
 }
 
-func (ns *NodeNameSpace) nodesImportNodeSet(nodes *schema.UANodeSet) error {
+func (srv *Server) namespacesImportNodeSet(nodes *schema.UANodeSet) error {
+	if nodes.NamespaceUris == nil {
+		return nil
+	}
+	for i := range nodes.NamespaceUris.Uri {
+		_ = NewNodeNameSpace(srv, nodes.NamespaceUris.Uri[i])
+	}
+	return nil
+}
+
+func (srv *Server) nodesImportNodeSet(nodes *schema.UANodeSet) error {
 
 	log.Printf("New Node Set: %s", nodes.LastModifiedAttr)
 
@@ -304,9 +318,11 @@ func (ns *NodeNameSpace) nodesImportNodeSet(nodes *schema.UANodeSet) error {
 		reftypes[rt.BrowseNameAttr] = rt // sometimes they use browse name
 		reftypes[rt.NodeIdAttr] = rt     // sometimes they use node id
 
+		nid := ua.MustParseNodeID(rt.NodeIdAttr)
+
 		var attrs Attributes = make(map[ua.AttributeID]*ua.Variant)
 		attrs[ua.AttributeIDAccessRestrictions] = ua.MustVariant(rt.AccessRestrictionsAttr)
-		attrs[ua.AttributeIDBrowseName] = ua.MustVariant(&ua.QualifiedName{NamespaceIndex: ns.id, Name: rt.BrowseNameAttr})
+		attrs[ua.AttributeIDBrowseName] = ua.MustVariant(&ua.QualifiedName{NamespaceIndex: nid.Namespace(), Name: rt.BrowseNameAttr})
 		attrs[ua.AttributeIDIsAbstract] = ua.MustVariant(rt.IsAbstractAttr)
 		attrs[ua.AttributeIDUserWriteMask] = ua.MustVariant(rt.UserWriteMaskAttr)
 		attrs[ua.AttributeIDSymmetric] = ua.MustVariant(rt.SymmetricAttr)
@@ -325,9 +341,16 @@ func (ns *NodeNameSpace) nodesImportNodeSet(nodes *schema.UANodeSet) error {
 		attrs[ua.AttributeIDNodeClass] = ua.MustVariant(uint32(ua.NodeClassReferenceType))
 
 		var refs References = make([]*ua.ReferenceDescription, 0)
-		nid := ua.MustParseNodeID(rt.NodeIdAttr)
 
 		n := NewNode(nid, attrs, refs, nil)
+		ns, err := srv.Namespace(int(nid.Namespace()))
+		if err != nil {
+			// This namespace doesn't exist.
+			if srv.cfg.logger != nil {
+				srv.cfg.logger.Warn("Could Not Find Namespace %d", nid.Namespace())
+			}
+			return err
+		}
 		ns.AddNode(n)
 	}
 
@@ -338,7 +361,7 @@ func (ns *NodeNameSpace) nodesImportNodeSet(nodes *schema.UANodeSet) error {
 
 		var attrs Attributes = make(map[ua.AttributeID]*ua.Variant)
 		attrs[ua.AttributeIDAccessRestrictions] = ua.MustVariant(dt.AccessRestrictionsAttr)
-		attrs[ua.AttributeIDBrowseName] = ua.MustVariant(&ua.QualifiedName{NamespaceIndex: ns.id, Name: dt.BrowseNameAttr})
+		attrs[ua.AttributeIDBrowseName] = ua.MustVariant(&ua.QualifiedName{NamespaceIndex: nid.Namespace(), Name: dt.BrowseNameAttr})
 		attrs[ua.AttributeIDIsAbstract] = ua.MustVariant(dt.IsAbstractAttr)
 		attrs[ua.AttributeIDUserWriteMask] = ua.MustVariant(dt.UserWriteMaskAttr)
 		attrs[ua.AttributeIDWriteMask] = ua.MustVariant(dt.WriteMaskAttr)
@@ -353,6 +376,15 @@ func (ns *NodeNameSpace) nodesImportNodeSet(nodes *schema.UANodeSet) error {
 		var refs References = make([]*ua.ReferenceDescription, 0)
 
 		n := NewNode(nid, attrs, refs, nil)
+
+		ns, err := srv.Namespace(int(nid.Namespace()))
+		if err != nil {
+			// This namespace doesn't exist.
+			if srv.cfg.logger != nil {
+				srv.cfg.logger.Warn("Could Not Find Namespace %d", nid.Namespace())
+			}
+			return err
+		}
 		ns.AddNode(n)
 	}
 
@@ -362,7 +394,7 @@ func (ns *NodeNameSpace) nodesImportNodeSet(nodes *schema.UANodeSet) error {
 		nid := ua.MustParseNodeID(ot.NodeIdAttr)
 		var attrs Attributes = make(map[ua.AttributeID]*ua.Variant)
 		attrs[ua.AttributeIDAccessRestrictions] = ua.MustVariant(ot.AccessRestrictionsAttr)
-		attrs[ua.AttributeIDBrowseName] = ua.MustVariant(&ua.QualifiedName{NamespaceIndex: ns.id, Name: ot.BrowseNameAttr})
+		attrs[ua.AttributeIDBrowseName] = ua.MustVariant(&ua.QualifiedName{NamespaceIndex: nid.Namespace(), Name: ot.BrowseNameAttr})
 		attrs[ua.AttributeIDIsAbstract] = ua.MustVariant(ot.IsAbstractAttr)
 		attrs[ua.AttributeIDUserWriteMask] = ua.MustVariant(ot.UserWriteMaskAttr)
 		attrs[ua.AttributeIDWriteMask] = ua.MustVariant(ot.WriteMaskAttr)
@@ -377,6 +409,14 @@ func (ns *NodeNameSpace) nodesImportNodeSet(nodes *schema.UANodeSet) error {
 		var refs References = make([]*ua.ReferenceDescription, 0)
 
 		n := NewNode(nid, attrs, refs, nil)
+		ns, err := srv.Namespace(int(nid.Namespace()))
+		if err != nil {
+			// This namespace doesn't exist.
+			if srv.cfg.logger != nil {
+				srv.cfg.logger.Warn("Could Not Find Namespace %d", nid.Namespace())
+			}
+			return err
+		}
 		ns.AddNode(n)
 	}
 
@@ -386,7 +426,7 @@ func (ns *NodeNameSpace) nodesImportNodeSet(nodes *schema.UANodeSet) error {
 		nid := ua.MustParseNodeID(ot.NodeIdAttr)
 		var attrs Attributes = make(map[ua.AttributeID]*ua.Variant)
 		attrs[ua.AttributeIDAccessRestrictions] = ua.MustVariant(ot.AccessRestrictionsAttr)
-		attrs[ua.AttributeIDBrowseName] = ua.MustVariant(&ua.QualifiedName{NamespaceIndex: ns.id, Name: ot.BrowseNameAttr})
+		attrs[ua.AttributeIDBrowseName] = ua.MustVariant(&ua.QualifiedName{NamespaceIndex: nid.Namespace(), Name: ot.BrowseNameAttr})
 		attrs[ua.AttributeIDUserWriteMask] = ua.MustVariant(ot.UserWriteMaskAttr)
 		attrs[ua.AttributeIDWriteMask] = ua.MustVariant(ot.WriteMaskAttr)
 		if len(ot.DisplayName) > 0 {
@@ -400,6 +440,14 @@ func (ns *NodeNameSpace) nodesImportNodeSet(nodes *schema.UANodeSet) error {
 		var refs References = make([]*ua.ReferenceDescription, 0)
 
 		n := NewNode(nid, attrs, refs, nil)
+		ns, err := srv.Namespace(int(nid.Namespace()))
+		if err != nil {
+			// This namespace doesn't exist.
+			if srv.cfg.logger != nil {
+				srv.cfg.logger.Warn("Could Not Find Namespace %d", nid.Namespace())
+			}
+			return err
+		}
 		ns.AddNode(n)
 	}
 
@@ -409,7 +457,7 @@ func (ns *NodeNameSpace) nodesImportNodeSet(nodes *schema.UANodeSet) error {
 		nid := ua.MustParseNodeID(ot.NodeIdAttr)
 		var attrs Attributes = make(map[ua.AttributeID]*ua.Variant)
 		attrs[ua.AttributeIDAccessRestrictions] = ua.MustVariant(ot.AccessRestrictionsAttr)
-		attrs[ua.AttributeIDBrowseName] = ua.MustVariant(&ua.QualifiedName{NamespaceIndex: ns.id, Name: ot.BrowseNameAttr})
+		attrs[ua.AttributeIDBrowseName] = ua.MustVariant(&ua.QualifiedName{NamespaceIndex: nid.Namespace(), Name: ot.BrowseNameAttr})
 		attrs[ua.AttributeIDUserWriteMask] = ua.MustVariant(ot.UserWriteMaskAttr)
 		attrs[ua.AttributeIDWriteMask] = ua.MustVariant(ot.WriteMaskAttr)
 		if len(ot.DisplayName) > 0 {
@@ -423,6 +471,14 @@ func (ns *NodeNameSpace) nodesImportNodeSet(nodes *schema.UANodeSet) error {
 		var refs References = make([]*ua.ReferenceDescription, 0)
 
 		n := NewNode(nid, attrs, refs, nil)
+		ns, err := srv.Namespace(int(nid.Namespace()))
+		if err != nil {
+			// This namespace doesn't exist.
+			if srv.cfg.logger != nil {
+				srv.cfg.logger.Warn("Could Not Find Namespace %d", nid.Namespace())
+			}
+			return err
+		}
 		ns.AddNode(n)
 	}
 
@@ -432,7 +488,7 @@ func (ns *NodeNameSpace) nodesImportNodeSet(nodes *schema.UANodeSet) error {
 		nid := ua.MustParseNodeID(ot.NodeIdAttr)
 		var attrs Attributes = make(map[ua.AttributeID]*ua.Variant)
 		attrs[ua.AttributeIDAccessRestrictions] = ua.MustVariant(ot.AccessRestrictionsAttr)
-		attrs[ua.AttributeIDBrowseName] = ua.MustVariant(&ua.QualifiedName{NamespaceIndex: ns.id, Name: ot.BrowseNameAttr})
+		attrs[ua.AttributeIDBrowseName] = ua.MustVariant(&ua.QualifiedName{NamespaceIndex: nid.Namespace(), Name: ot.BrowseNameAttr})
 		attrs[ua.AttributeIDUserWriteMask] = ua.MustVariant(ot.UserWriteMaskAttr)
 		attrs[ua.AttributeIDWriteMask] = ua.MustVariant(ot.WriteMaskAttr)
 		if len(ot.DisplayName) > 0 {
@@ -446,6 +502,14 @@ func (ns *NodeNameSpace) nodesImportNodeSet(nodes *schema.UANodeSet) error {
 		var refs References = make([]*ua.ReferenceDescription, 0)
 
 		n := NewNode(nid, attrs, refs, nil)
+		ns, err := srv.Namespace(int(nid.Namespace()))
+		if err != nil {
+			// This namespace doesn't exist.
+			if srv.cfg.logger != nil {
+				srv.cfg.logger.Warn("Could Not Find Namespace %d", nid.Namespace())
+			}
+			return err
+		}
 		ns.AddNode(n)
 	}
 
@@ -458,7 +522,7 @@ func (ns *NodeNameSpace) nodesImportNodeSet(nodes *schema.UANodeSet) error {
 		}
 		var attrs Attributes = make(map[ua.AttributeID]*ua.Variant)
 		attrs[ua.AttributeIDAccessRestrictions] = ua.MustVariant(ot.AccessRestrictionsAttr)
-		attrs[ua.AttributeIDBrowseName] = ua.MustVariant(&ua.QualifiedName{NamespaceIndex: ns.id, Name: ot.BrowseNameAttr})
+		attrs[ua.AttributeIDBrowseName] = ua.MustVariant(&ua.QualifiedName{NamespaceIndex: nid.Namespace(), Name: ot.BrowseNameAttr})
 		attrs[ua.AttributeIDUserWriteMask] = ua.MustVariant(ot.UserWriteMaskAttr)
 		attrs[ua.AttributeIDWriteMask] = ua.MustVariant(ot.WriteMaskAttr)
 		if len(ot.DisplayName) > 0 {
@@ -473,12 +537,20 @@ func (ns *NodeNameSpace) nodesImportNodeSet(nodes *schema.UANodeSet) error {
 		var refs References = make([]*ua.ReferenceDescription, 0)
 
 		n := NewNode(nid, attrs, refs, nil)
+		ns, err := srv.Namespace(int(nid.Namespace()))
+		if err != nil {
+			// This namespace doesn't exist.
+			if srv.cfg.logger != nil {
+				srv.cfg.logger.Warn("Could Not Find Namespace %d", nid.Namespace())
+			}
+			return err
+		}
 		ns.AddNode(n)
 	}
 
 	return nil
 }
-func (ns *NodeNameSpace) refsImportNodeSet(nodes *schema.UANodeSet) error {
+func (srv *Server) refsImportNodeSet(nodes *schema.UANodeSet) error {
 
 	log.Printf("New Node Set: %s", nodes.LastModifiedAttr)
 
@@ -490,13 +562,62 @@ func (ns *NodeNameSpace) refsImportNodeSet(nodes *schema.UANodeSet) error {
 		reftypes[rt.NodeIdAttr] = rt     // sometimes they use node id
 	}
 
+	aliases := make(map[string]string)
+	for i := range nodes.Aliases.Alias {
+		alias := nodes.Aliases.Alias[i]
+		aliases[alias.AliasAttr] = alias.Value
+	}
+
+	// any of the aliases could be reference types, so we have to check them all and add them to the reftypes map
+	// if they are.
+	for alias := range aliases {
+		aliasID := ua.MustParseNodeID(aliases[alias])
+		refnode := srv.Node(aliasID)
+		if refnode == nil {
+			if srv.cfg.logger != nil {
+				srv.cfg.logger.Warn("error loading alias %s", alias)
+			}
+			continue
+		}
+		rt := new(schema.UAReferenceType)
+		rt.UAType = new(schema.UAType)
+		rt.UAType.UANode = new(schema.UANode)
+		rt.BrowseNameAttr = alias
+		rt.NodeIdAttr = aliases[alias]
+		isSymmetricValue, err := refnode.Attribute(ua.AttributeIDSymmetric)
+		if err == nil {
+			rt.SymmetricAttr = isSymmetricValue.Value.Value().(bool)
+		}
+
+		_, ok := reftypes[alias]
+		if !ok {
+			reftypes[alias] = rt // sometimes they use browse name
+		} else {
+			if srv.cfg.logger != nil {
+				srv.cfg.logger.Error("Duplicate reference type %s", alias)
+			}
+			continue
+		}
+
+		_, ok = reftypes[aliases[alias]]
+		if !ok {
+			reftypes[aliases[alias]] = rt // sometimes they use node id
+		} else {
+			if srv.cfg.logger != nil {
+				srv.cfg.logger.Error("Duplicate reference type %s", aliases[alias])
+			}
+			continue
+		}
+
+	}
+
 	// the first thing we have to do is go thorugh and define all the nodes.
 	// set up the reference types.
 	for i := range nodes.UAReferenceType {
 		rt := nodes.UAReferenceType[i]
 
 		nodeid := ua.MustParseNodeID(rt.NodeIdAttr)
-		node := ns.Node(nodeid)
+		node := srv.Node(nodeid)
 		if node == nil {
 			log.Printf("Error loading node %s", rt.NodeIdAttr)
 		}
@@ -504,7 +625,7 @@ func (ns *NodeNameSpace) refsImportNodeSet(nodes *schema.UANodeSet) error {
 		for rid := range rt.References.Reference {
 			ref := rt.References.Reference[rid]
 			refnodeid := ua.MustParseNodeID(ref.Value)
-			n := ns.Node(refnodeid)
+			n := srv.Node(refnodeid)
 			if n == nil {
 				log.Printf("can't find node %s as %s reference to %s", ref.Value, ref.ReferenceTypeAttr, rt.BrowseNameAttr)
 				failures++
@@ -528,7 +649,7 @@ func (ns *NodeNameSpace) refsImportNodeSet(nodes *schema.UANodeSet) error {
 	for i := range nodes.UADataType {
 		dt := nodes.UADataType[i]
 		nid := ua.MustParseNodeID(dt.NodeIdAttr)
-		node := ns.Node(nid)
+		node := srv.Node(nid)
 
 		if nid.IntID() == 24 {
 			log.Printf("doing BaseDataType")
@@ -537,7 +658,7 @@ func (ns *NodeNameSpace) refsImportNodeSet(nodes *schema.UANodeSet) error {
 		for rid := range dt.References.Reference {
 			ref := dt.References.Reference[rid]
 			refnodeid := ua.MustParseNodeID(ref.Value)
-			n := ns.Node(refnodeid)
+			n := srv.Node(refnodeid)
 			if n == nil {
 				log.Printf("can't find node %s as %s reference to %s", ref.Value, ref.ReferenceTypeAttr, dt.BrowseNameAttr)
 				failures++
@@ -548,6 +669,7 @@ func (ns *NodeNameSpace) refsImportNodeSet(nodes *schema.UANodeSet) error {
 				v := true
 				ref.IsForwardAttr = &v
 			}
+
 			reftypeid := ua.MustParseNodeID(reftypes[ref.ReferenceTypeAttr].NodeIdAttr)
 			node.AddRef(n, RefType(reftypeid.IntID()), *ref.IsForwardAttr)
 			if !reftypes[ref.ReferenceTypeAttr].SymmetricAttr {
@@ -562,12 +684,12 @@ func (ns *NodeNameSpace) refsImportNodeSet(nodes *schema.UANodeSet) error {
 	for i := range nodes.UAObjectType {
 		ot := nodes.UAObjectType[i]
 		nid := ua.MustParseNodeID(ot.NodeIdAttr)
-		node := ns.Node(nid)
+		node := srv.Node(nid)
 
 		for rid := range ot.References.Reference {
 			ref := ot.References.Reference[rid]
 			refnodeid := ua.MustParseNodeID(ref.Value)
-			n := ns.Node(refnodeid)
+			n := srv.Node(refnodeid)
 			if n == nil {
 				log.Printf("can't find node %s as %s reference to %s", ref.Value, ref.ReferenceTypeAttr, ot.BrowseNameAttr)
 				failures++
@@ -589,12 +711,12 @@ func (ns *NodeNameSpace) refsImportNodeSet(nodes *schema.UANodeSet) error {
 	for i := range nodes.UAVariableType {
 		ot := nodes.UAVariableType[i]
 		nid := ua.MustParseNodeID(ot.NodeIdAttr)
-		node := ns.Node(nid)
+		node := srv.Node(nid)
 
 		for rid := range ot.References.Reference {
 			ref := ot.References.Reference[rid]
 			refnodeid := ua.MustParseNodeID(ref.Value)
-			n := ns.Node(refnodeid)
+			n := srv.Node(refnodeid)
 			if n == nil {
 				log.Printf("can't find node %s as %s reference to %s", ref.Value, ref.ReferenceTypeAttr, ot.BrowseNameAttr)
 				failures++
@@ -618,12 +740,12 @@ func (ns *NodeNameSpace) refsImportNodeSet(nodes *schema.UANodeSet) error {
 	for i := range nodes.UAVariable {
 		ot := nodes.UAVariable[i]
 		nid := ua.MustParseNodeID(ot.NodeIdAttr)
-		node := ns.Node(nid)
+		node := srv.Node(nid)
 
 		for rid := range ot.References.Reference {
 			ref := ot.References.Reference[rid]
 			refnodeid := ua.MustParseNodeID(ref.Value)
-			n := ns.Node(refnodeid)
+			n := srv.Node(refnodeid)
 			if n == nil {
 				log.Printf("can't find node %s as %s reference to %s", ref.Value, ref.ReferenceTypeAttr, ot.BrowseNameAttr)
 				failures++
@@ -647,12 +769,12 @@ func (ns *NodeNameSpace) refsImportNodeSet(nodes *schema.UANodeSet) error {
 	for i := range nodes.UAMethod {
 		ot := nodes.UAMethod[i]
 		nid := ua.MustParseNodeID(ot.NodeIdAttr)
-		node := ns.Node(nid)
+		node := srv.Node(nid)
 
 		for rid := range ot.References.Reference {
 			ref := ot.References.Reference[rid]
 			refnodeid := ua.MustParseNodeID(ref.Value)
-			n := ns.Node(refnodeid)
+			n := srv.Node(refnodeid)
 			if n == nil {
 				log.Printf("can't find node %s as %s reference to %s", ref.Value, ref.ReferenceTypeAttr, ot.BrowseNameAttr)
 				failures++
@@ -675,7 +797,7 @@ func (ns *NodeNameSpace) refsImportNodeSet(nodes *schema.UANodeSet) error {
 	for i := range nodes.UAObject {
 		ot := nodes.UAObject[i]
 		nid := ua.MustParseNodeID(ot.NodeIdAttr)
-		node := ns.Node(nid)
+		node := srv.Node(nid)
 		if ot.NodeIdAttr == "i=84" {
 			log.Printf("doing root.")
 		}
@@ -683,7 +805,7 @@ func (ns *NodeNameSpace) refsImportNodeSet(nodes *schema.UANodeSet) error {
 		for rid := range ot.References.Reference {
 			ref := ot.References.Reference[rid]
 			refnodeid := ua.MustParseNodeID(ref.Value)
-			n := ns.Node(refnodeid)
+			n := srv.Node(refnodeid)
 			if n == nil {
 				log.Printf("can't find node %s as %s reference to %s", ref.Value, ref.ReferenceTypeAttr, ot.BrowseNameAttr)
 				failures++

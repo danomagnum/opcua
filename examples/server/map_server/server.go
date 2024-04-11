@@ -26,7 +26,7 @@ var (
 	port     = flag.Int("port", 4840, "OPC UA Endpoint port")
 	certfile = flag.String("cert", "cert.pem", "Path to certificate file")
 	keyfile  = flag.String("key", "key.pem", "Path to PEM Private Key file")
-	gencert  = flag.Bool("gen-cert", true, "Generate a new certificate")
+	gencert  = flag.Bool("gen-cert", false, "Generate a new certificate")
 )
 
 func main() {
@@ -36,6 +36,7 @@ func main() {
 
 	var opts []server.Option
 
+	// Set your security options.
 	opts = append(opts,
 		server.EnableSecurity("None", ua.MessageSecurityModeNone),
 		server.EnableSecurity("Basic128Rsa15", ua.MessageSecurityModeSign),
@@ -50,6 +51,7 @@ func main() {
 		server.EnableSecurity("Aes256_Sha256_RsaPss", ua.MessageSecurityModeSignAndEncrypt),
 	)
 
+	// Set your user authentication options.
 	opts = append(opts,
 		server.EnableAuthMode(ua.UserTokenTypeAnonymous),
 		server.EnableAuthMode(ua.UserTokenTypeUserName),
@@ -57,16 +59,12 @@ func main() {
 		//		server.EnableAuthWithoutEncryption(), // Dangerous and not recommended, shown for illustration only
 	)
 
+	// here we're automatically adding the hostname and localhost to the endpoint list.
+	// you'll want to add any other hostnames or IP addresses that clients will use to connect to the server.
+	// be the hostname(s) match the certificate the server is going to use.
 	hostname, err := os.Hostname()
 	if err != nil {
 		log.Fatalf("Error getting host name %v", err)
-	}
-
-	// not sure if a list of hostnames is better or adding endpoints to the options
-	endpoints := []string{
-		"localhost",
-		hostname,
-		*endpoint,
 	}
 
 	opts = append(opts,
@@ -83,7 +81,16 @@ func main() {
 		server.SetLogger(logger),
 	)
 
+	// Here is an example of certificate generation.  This is not necessary if you already have a certificate.
 	if *gencert {
+		// it is important that the certificate is generated with the correct hostname/IP address URIs
+		// or the clients may not accept the certificate.
+		endpoints := []string{
+			"localhost",
+			hostname,
+			*endpoint,
+		}
+
 		c, k, err := GenerateCert(endpoints, 4096, time.Minute*60*24*365*10)
 		if err != nil {
 			log.Fatalf("problem creating cert: %v", err)
@@ -115,26 +122,29 @@ func main() {
 		}
 	}
 
+	// Now that all the options are set, create the server.
 	s := server.New(opts...)
 
-	// Create some namespaces backed by go map[string]any
-	mrw := server.NewMapNamespace(s, "MyTestNamespace")
-	mrw2 := server.NewMapNamespace(s, "SomeOtherNamespace")
+	// Create some map namespaces.  These are backed by go map[string]any
+	// which may be more convenient for some use cases than the NodeNamespace which requires
+	// your application's data structure to match the opcua node model.
+	myMapNamespace1 := server.NewMapNamespace(s, "MyTestNamespace")
+	myMapNamespace2 := server.NewMapNamespace(s, "SomeOtherNamespace")
 
 	// fill them with data.
-	mrw.Data["Tag1"] = 123.4
-	mrw.Data["Tag2"] = 42
-	mrw.Data["Tag3.Tag4"] = "some string"
-	mrw.Data["Tag5"] = true
-	mrw.Data["Tag6"] = time.Now()
+	myMapNamespace1.Data["Tag1"] = 123.4
+	myMapNamespace1.Data["Tag2"] = 42
+	myMapNamespace1.Data["Tag3.Tag4"] = "some string"
+	myMapNamespace1.Data["Tag5"] = true
+	myMapNamespace1.Data["Tag6"] = time.Now()
 
-	mrw2.Data["Tag7"] = 56.78
-	mrw2.Data["Tag8"] = 92
-	mrw2.Data["Tag9"] = "different string"
-	mrw2.Data["Tag10"] = false
-	mrw2.Data["Tag11"] = time.Now().Add(time.Hour)
+	myMapNamespace2.Data["Tag7"] = 56.78
+	myMapNamespace2.Data["Tag8"] = 92
+	myMapNamespace2.Data["Tag9"] = "different string"
+	myMapNamespace2.Data["Tag10"] = false
+	myMapNamespace2.Data["Tag11"] = time.Now().Add(time.Hour)
 
-	// simulate a background process updating the map
+	// simulate a background process updating the data in the map namespace.
 	go func() {
 		updates := 0
 		num := 42
@@ -144,15 +154,15 @@ func main() {
 			updates++
 			num++
 			// you can manually lock and change the value, then manually trigger the change notification
-			mrw.Mu.Lock()
-			mrw.Data["Tag2"] = num
-			mrw.ChangeNotification("Tag2")
-			mrw.Mu.Unlock()
+			myMapNamespace1.Mu.Lock()
+			myMapNamespace1.Data["Tag2"] = num
+			myMapNamespace1.ChangeNotification("Tag2")
+			myMapNamespace1.Mu.Unlock()
 			if updates == 10 {
 				// or you can do it with the built-in functions.
 				// which handles the locking and triggering
 				tag5 = !tag5
-				mrw.SetValue("Tag5", tag5)
+				myMapNamespace1.SetValue("Tag5", tag5)
 				updates = 0
 			}
 			time.Sleep(time.Second)
@@ -160,22 +170,30 @@ func main() {
 	}()
 
 	// simulate monitoring one of the namespaces for change events.
+	// this is how you would be notified when a write to the map
+	// occurs through the opc ua server
 	go func() {
 		for {
-			changed_key := <-mrw2.ExternalNotification
-			log.Printf("%s changed to %v", changed_key, mrw2.GetValue(changed_key))
+			changed_key := <-myMapNamespace2.ExternalNotification
+			log.Printf("%s changed to %v", changed_key, myMapNamespace2.GetValue(changed_key))
 		}
 	}()
 
-	// add the namespaces to the server, and add a reference to them
+	// add the namespaces to the server, and add a reference to them if desired.
+	// here we are choosing to add the namespaces to the root/object folder
+	// to do this we first need to get the root namespace object folder so we
+	// get the object node
 	root_ns, _ := s.Namespace(0)
-	obj_node := root_ns.Objects()
+	root_obj_node := root_ns.Objects()
 
-	mrw_id := s.AddNamespace(mrw)
-	obj_node.AddRef(mrw.Objects(), id.HasComponent, true)
+	// then we add the namespace to the server and add a reference to it from the object node.
+	mrw_id := s.AddNamespace(myMapNamespace1)
+	root_obj_node.AddRef(myMapNamespace1.Objects(), id.HasComponent, true)
 	log.Printf("map namespace added at index %d", mrw_id)
-	mrw_id2 := s.AddNamespace(mrw2)
-	obj_node.AddRef(mrw2.Objects(), id.HasComponent, true)
+
+	// same thing for the other namespace
+	mrw_id2 := s.AddNamespace(myMapNamespace2)
+	root_obj_node.AddRef(myMapNamespace2.Objects(), id.HasComponent, true)
 	log.Printf("map namespace added at index %d", mrw_id2)
 
 	// Start the server
@@ -184,24 +202,12 @@ func main() {
 	}
 	defer s.Close()
 
+	// catch ctrl-c and gracefully shutdown the server.
 	sigch := make(chan os.Signal, 1)
 	signal.Notify(sigch, os.Interrupt)
 	defer signal.Stop(sigch)
-
-	// Create a new node namespace.  You can add namespaces before or after starting the server.
-	nodeNS := server.NewNodeNameSpace(s, "NodeNamespace")
-	// add it to the server.
-	s.AddNamespace(nodeNS)
-	// Create some nodes for it.
-	var1 := nodeNS.AddNewVariableNode("TestVar1", float32(123.45))
-	// Make sure there is a reference to the variable from the root object folder
-	nns_obj := nodeNS.Objects()
-	nns_obj.AddRef(var1, id.HasComponent, true)
-
-	// add the reference for this namespace's root object folder to the server's root object folder
-	obj_node.AddRef(nns_obj, id.HasComponent, true)
-
 	log.Printf("Press CTRL-C to exit")
+
 	<-sigch
 	log.Printf("Shutting down the server...")
 }

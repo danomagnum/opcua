@@ -79,8 +79,12 @@ func (ns *MapNamespace) Browse(bd *ua.BrowseDescription) *ua.BrowseResult {
 		ns.srv.cfg.logger.Debug("Browse req for %s", bd.NodeID.String())
 	}
 	if bd.NodeID.IntID() != id.RootFolder && bd.NodeID.IntID() != id.ObjectsFolder {
-
-		return &ua.BrowseResult{StatusCode: ua.StatusBadNodeIDUnknown}
+		refs := make([]*ua.ReferenceDescription, 0)
+		return &ua.BrowseResult{
+			StatusCode: ua.StatusGood,
+			References: refs,
+		}
+		//return &ua.BrowseResult{StatusCode: ua.StatusBadNodeIDUnknown}
 	}
 
 	if bd.NodeID.IntID() == id.RootFolder {
@@ -175,6 +179,12 @@ func (ns *MapNamespace) Attribute(n *ua.NodeID, a ua.AttributeID) *ua.DataValue 
 	if ns.srv.cfg.logger != nil {
 		ns.srv.cfg.logger.Debug("Read req for %s", key)
 		ns.srv.cfg.logger.Debug("'%s' Data at read: %v", ns.name, ns.Data)
+	}
+
+	if a == ua.AttributeIDNodeID {
+		dv.Status = ua.StatusOK
+		dv.EncodingMask |= ua.DataValueValue
+		dv.Value = ua.MustVariant(n)
 	}
 
 	// we are going to use the node id directly to look it up from our data map.

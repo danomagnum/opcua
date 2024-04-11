@@ -1,0 +1,180 @@
+// Copyright 2018-2020 opcua authors. All rights reserved.
+// Use of this source code is governed by a MIT-style license that can be
+// found in the LICENSE file.
+
+package main
+
+import (
+	"context"
+	"crypto/rsa"
+	"crypto/tls"
+	"flag"
+	"log"
+	"log/slog"
+	"os"
+	"os/signal"
+	"time"
+
+	"github.com/gopcua/opcua/debug"
+	"github.com/gopcua/opcua/id"
+	"github.com/gopcua/opcua/server"
+	"github.com/gopcua/opcua/server/attrs"
+	"github.com/gopcua/opcua/ua"
+)
+
+var (
+	endpoint = flag.String("endpoint", "0.0.0.0", "OPC UA Endpoint URL")
+	port     = flag.Int("port", 4840, "OPC UA Endpoint port")
+	certfile = flag.String("cert", "cert.pem", "Path to certificate file")
+	keyfile  = flag.String("key", "key.pem", "Path to PEM Private Key file")
+	gencert  = flag.Bool("gen-cert", false, "Generate a new certificate")
+)
+
+func main() {
+	flag.BoolVar(&debug.Enable, "debug", false, "enable debug logging")
+	flag.Parse()
+	log.SetFlags(0)
+
+	var opts []server.Option
+
+	// Set your security options.
+	opts = append(opts,
+		server.EnableSecurity("None", ua.MessageSecurityModeNone),
+		server.EnableSecurity("Basic128Rsa15", ua.MessageSecurityModeSign),
+		server.EnableSecurity("Basic128Rsa15", ua.MessageSecurityModeSignAndEncrypt),
+		server.EnableSecurity("Basic256", ua.MessageSecurityModeSign),
+		server.EnableSecurity("Basic256", ua.MessageSecurityModeSignAndEncrypt),
+		server.EnableSecurity("Basic256Sha256", ua.MessageSecurityModeSignAndEncrypt),
+		server.EnableSecurity("Basic256Sha256", ua.MessageSecurityModeSign),
+		server.EnableSecurity("Aes128_Sha256_RsaOaep", ua.MessageSecurityModeSign),
+		server.EnableSecurity("Aes128_Sha256_RsaOaep", ua.MessageSecurityModeSignAndEncrypt),
+		server.EnableSecurity("Aes256_Sha256_RsaPss", ua.MessageSecurityModeSign),
+		server.EnableSecurity("Aes256_Sha256_RsaPss", ua.MessageSecurityModeSignAndEncrypt),
+	)
+
+	// Set your user authentication options.
+	opts = append(opts,
+		server.EnableAuthMode(ua.UserTokenTypeAnonymous),
+		server.EnableAuthMode(ua.UserTokenTypeUserName),
+		server.EnableAuthMode(ua.UserTokenTypeCertificate),
+		//		server.EnableAuthWithoutEncryption(), // Dangerous and not recommended, shown for illustration only
+	)
+
+	// here we're automatically adding the hostname and localhost to the endpoint list.
+	// you'll want to add any other hostnames or IP addresses that clients will use to connect to the server.
+	// be the hostname(s) match the certificate the server is going to use.
+	hostname, err := os.Hostname()
+	if err != nil {
+		log.Fatalf("Error getting host name %v", err)
+	}
+
+	opts = append(opts,
+		server.EndPoint(*endpoint, *port),
+		server.EndPoint("localhost", *port),
+		server.EndPoint(hostname, *port),
+	)
+
+	// the server.SetLogger takes a server.Logger interface.  This interface is met by
+	// the slog.Logger{}.  A simple wrapper could be made for other loggers if they don't already
+	// meet the interface.
+	logger := slog.New(slog.NewTextHandler(os.Stdout, nil))
+	opts = append(opts,
+		server.SetLogger(logger),
+	)
+
+	// Here is an example of certificate generation.  This is not necessary if you already have a certificate.
+	if *gencert {
+		// it is important that the certificate is generated with the correct hostname/IP address URIs
+		// or the clients may not accept the certificate.
+		endpoints := []string{
+			"localhost",
+			hostname,
+			*endpoint,
+		}
+
+		c, k, err := GenerateCert(endpoints, 4096, time.Minute*60*24*365*10)
+		if err != nil {
+			log.Fatalf("problem creating cert: %v", err)
+		}
+		err = os.WriteFile(*certfile, c, 0)
+		if err != nil {
+			log.Fatalf("problem writing cert: %v", err)
+		}
+		err = os.WriteFile(*keyfile, k, 0)
+		if err != nil {
+			log.Fatalf("problem writing key: %v", err)
+		}
+
+	}
+
+	var cert []byte
+	if *gencert || (*certfile != "" && *keyfile != "") {
+		log.Printf("Loading cert/key from %s/%s", *certfile, *keyfile)
+		c, err := tls.LoadX509KeyPair(*certfile, *keyfile)
+		if err != nil {
+			log.Printf("Failed to load certificate: %s", err)
+		} else {
+			pk, ok := c.PrivateKey.(*rsa.PrivateKey)
+			if !ok {
+				log.Fatalf("Invalid private key")
+			}
+			cert = c.Certificate[0]
+			opts = append(opts, server.PrivateKey(pk), server.Certificate(cert))
+		}
+	}
+
+	// Now that all the options are set, create the server.
+	s := server.New(opts...)
+
+	// add the namespaces to the server, and add a reference to them if desired.
+	// here we are choosing to add the namespaces to the root/object folder
+	// to do this we first need to get the root namespace object folder so we
+	// get the object node
+	root_ns, _ := s.Namespace(0)
+	root_obj_node := root_ns.Objects()
+
+	// Start the server
+	if err := s.Start(context.Background()); err != nil {
+		log.Fatalf("Error starting server, exiting: %s", err)
+	}
+	defer s.Close()
+
+	// Now we'll add a node namespace.  This is a more traditional way to add nodes to the server
+	// and is more in line with the opc ua node model, but may be more cumbersome for some use cases.
+	// You can add namespaces before or after starting the server.
+	nodeNS := server.NewNodeNameSpace(s, "NodeNamespace")
+	// just like before, we will add it to the server.
+	//s.AddNamespace(nodeNS)
+	// add the reference for this namespace's root object folder to the server's root object folder
+	nns_obj := nodeNS.Objects()
+	root_obj_node.AddRef(nns_obj, id.HasComponent, true)
+
+	// Create some nodes for it.  Here we are usin gthe AddNewVariableNode utility function to create a new variable node
+	// be sure to add the reference to the node somewhere if desired, or clients won't be able to browse it.
+	var1 := nodeNS.AddNewVariableNode("TestVar1", float32(123.45))
+	nns_obj.AddRef(var1, id.HasComponent, true)
+
+	// Now we'll add a node from scratch.  This is a more manual way to add nodes to the server and gives you full
+	// control, but you'll have to build the node up with the correct attributes and references and then reference it from
+	// the parent node in the namespace if applicable.
+	var2 := server.NewNode(
+		ua.NewNumericNodeID(nodeNS.ID(), 12345), // you can use whatever node id you want here, whether it's numeric, string, guid, etc...
+		map[ua.AttributeID]*ua.Variant{
+			ua.AttributeIDBrowseName: ua.MustVariant(attrs.BrowseName("MyBrowseName")),
+			ua.AttributeIDNodeClass:  ua.MustVariant(uint32(ua.NodeClassVariable)),
+		},
+		nil,
+		func() *ua.Variant { return ua.MustVariant(12.34) },
+	)
+	nodeNS.AddNode(var2)
+	nns_obj.AddRef(var2, id.HasComponent, true)
+
+	// catch ctrl-c and gracefully shutdown the server.
+	sigch := make(chan os.Signal, 1)
+	signal.Notify(sigch, os.Interrupt)
+	defer signal.Stop(sigch)
+	log.Printf("Press CTRL-C to exit")
+
+	<-sigch
+	log.Printf("Shutting down the server...")
+}

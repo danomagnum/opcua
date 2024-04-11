@@ -151,7 +151,7 @@ func New(opts ...Option) *Server {
 	if !ok {
 		log.Fatalf("not a node namespace!")
 	}
-	n0.ImportNodeSet(&nodes)
+	s.ImportNodeSet(&nodes)
 
 	s.namespaces[0].AddNode(CurrentTimeNode())
 	s.namespaces[0].AddNode(NamespacesNode(s))
