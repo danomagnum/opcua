@@ -2,13 +2,13 @@ package server
 
 import (
 	"errors"
-	"slices"
 	"sync"
 	"sync/atomic"
 	"time"
 
 	"github.com/gopcua/opcua/ua"
 	"github.com/gopcua/opcua/uasc"
+	"golang.org/x/exp/slices"
 )
 
 // MonitoredItemService implements the MonitoredItem Service Set.
@@ -48,12 +48,28 @@ func (s *MonitoredItemService) DeleteMonitoredItem(id uint32) {
 	}
 
 	// delete the monitored item from all nodes
+	// was using slices.DeleteFunc but that is from a newer go version so we'll do it manually with /exp/slices
+	// we've got to go backwards because we're deleting from the slice as we go.
+	// I'm guessing this loop is less efficient than slices.DeleteFunc but it's what we've got.
 	delete(s.Items, id)
-	slices.DeleteFunc(s.Nodes[nodeid], func(i *MonitoredItem) bool { return i.ID == item.ID })
+	for i := len(s.Nodes[nodeid]) - 1; i >= 0; i-- {
+		n := s.Nodes[nodeid][i]
+		if n.ID == id {
+			slices.Delete(s.Nodes[nodeid], i, i+1)
+		}
+	}
+	//slices.DeleteFunc(s.Nodes[nodeid], func(i *MonitoredItem) bool { return i.ID == item.ID })
 	if len(s.Nodes[nodeid]) == 0 {
 		delete(s.Nodes, nodeid)
 	}
-	slices.DeleteFunc(s.Subs[item.Sub.ID], func(i *MonitoredItem) bool { return i.ID == item.ID })
+
+	for i := len(s.Subs[item.Sub.ID]) - 1; i >= 0; i-- {
+		n := s.Subs[item.Sub.ID][i]
+		if n.ID == id {
+			slices.Delete(s.Subs[item.Sub.ID], i, i+1)
+		}
+	}
+	//slices.DeleteFunc(s.Subs[item.Sub.ID], func(i *MonitoredItem) bool { return i.ID == item.ID })
 	if len(s.Subs[item.Sub.ID]) == 0 {
 		delete(s.Subs, item.Sub.ID)
 	}
