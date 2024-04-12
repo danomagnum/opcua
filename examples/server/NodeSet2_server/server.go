@@ -61,9 +61,11 @@ func main() {
 		//		server.EnableAuthWithoutEncryption(), // Dangerous and not recommended, shown for illustration only
 	)
 
-	// here we're automatically adding the hostname and localhost to the endpoint list.
-	// you'll want to add any other hostnames or IP addresses that clients will use to connect to the server.
-	// be the hostname(s) match the certificate the server is going to use.
+	// Here we're automatically adding the hostname and localhost to the endpoint list.
+	// Some clients are picky about the endpoint matching the connection url, so be sure to add any addresses/hostnames that
+	// clients will use to connect to the server.
+	//
+	// be sure the hostname(s) also match the certificate the server is going to use.
 	hostname, err := os.Hostname()
 	if err != nil {
 		log.Fatalf("Error getting host name %v", err)
@@ -125,22 +127,16 @@ func main() {
 	}
 
 	// Now that all the options are set, create the server.
+	// When the server is created, it will automatically create namespace 0 and populate it with
+	// the core opc ua nodes.
 	s := server.New(opts...)
 
-	// add the namespaces to the server, and add a reference to them if desired.
-	// here we are choosing to add the namespaces to the root/object folder
-	// to do this we first need to get the root namespace object folder so we
-	// get the object node
-	//root_ns, _ := s.Namespace(0)
-	//root_obj_node := root_ns.Objects()
+	// Now we'll import our NodeSet2.xml file.
+	// These files often create additional namespaces and reference them assuming they
+	// stat at namespace 1.  So you'll want to import the nodeset first, then add any custom namespaces
+	// after that.
 
-	// Start the server
-	if err := s.Start(context.Background()); err != nil {
-		log.Fatalf("Error starting server, exiting: %s", err)
-	}
-	defer s.Close()
-
-	// Finally, we'll add nodes from a nodeset xml file.
+	// first, we read the file and unmarshal it into a schema.UANodeSet struct.  Then it can be imported
 	file, err := os.Open("Opc.Ua.Di.NodeSet2.xml")
 	if err != nil {
 		log.Fatalf("error opening nodeset file: %v", err)
@@ -152,7 +148,19 @@ func main() {
 	var nodes schema.UANodeSet
 	xml.Unmarshal(node_data, &nodes)
 	s.ImportNodeSet(&nodes)
-	//nodeNS.ImportNodeSet(&nodes)
+
+	// At this point you can lookup any specific node by its nodeid to add references or modify it or whatever
+	// your heart desires
+	node := s.Node(ua.NewNumericNodeID(1, 15044))
+	if node != nil {
+		log.Printf("Found node %v", node)
+	}
+
+	// Start the server
+	if err := s.Start(context.Background()); err != nil {
+		log.Fatalf("Error starting server, exiting: %s", err)
+	}
+	defer s.Close()
 
 	// catch ctrl-c and gracefully shutdown the server.
 	sigch := make(chan os.Signal, 1)

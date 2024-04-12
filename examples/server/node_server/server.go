@@ -60,9 +60,11 @@ func main() {
 		//		server.EnableAuthWithoutEncryption(), // Dangerous and not recommended, shown for illustration only
 	)
 
-	// here we're automatically adding the hostname and localhost to the endpoint list.
-	// you'll want to add any other hostnames or IP addresses that clients will use to connect to the server.
-	// be the hostname(s) match the certificate the server is going to use.
+	// Here we're automatically adding the hostname and localhost to the endpoint list.
+	// Some clients are picky about the endpoint matching the connection url, so be sure to add any addresses/hostnames that
+	// clients will use to connect to the server.
+	//
+	// be sure the hostname(s) also match the certificate the server is going to use.
 	hostname, err := os.Hostname()
 	if err != nil {
 		log.Fatalf("Error getting host name %v", err)
@@ -124,6 +126,8 @@ func main() {
 	}
 
 	// Now that all the options are set, create the server.
+	// When the server is created, it will automatically create namespace 0 and populate it with
+	// the core opc ua nodes.
 	s := server.New(opts...)
 
 	// add the namespaces to the server, and add a reference to them if desired.
@@ -134,6 +138,7 @@ func main() {
 	root_obj_node := root_ns.Objects()
 
 	// Start the server
+	// Note that you can add namespaces before or after starting the server.
 	if err := s.Start(context.Background()); err != nil {
 		log.Fatalf("Error starting server, exiting: %s", err)
 	}
@@ -141,23 +146,31 @@ func main() {
 
 	// Now we'll add a node namespace.  This is a more traditional way to add nodes to the server
 	// and is more in line with the opc ua node model, but may be more cumbersome for some use cases.
-	// You can add namespaces before or after starting the server.
 	nodeNS := server.NewNodeNameSpace(s, "NodeNamespace")
-	// just like before, we will add it to the server.
-	//s.AddNamespace(nodeNS)
+	log.Printf("Node Namespace added at index %d", nodeNS.ID())
+
 	// add the reference for this namespace's root object folder to the server's root object folder
+	// but you can add a reference to whatever node(s) you need
 	nns_obj := nodeNS.Objects()
 	root_obj_node.AddRef(nns_obj, id.HasComponent, true)
 
 	// Create some nodes for it.  Here we are usin gthe AddNewVariableNode utility function to create a new variable node
+	// with an integer node ID that is automatically assigned. (ns=<namespace id>,s=<auto assigned>)
 	// be sure to add the reference to the node somewhere if desired, or clients won't be able to browse it.
 	var1 := nodeNS.AddNewVariableNode("TestVar1", float32(123.45))
 	nns_obj.AddRef(var1, id.HasComponent, true)
 
+	// This node will have a string node id (ns=<namespace id>,s=TestVar2)
+	// your variable node's value can also return a ua.Variant from a function if you want to update the value dynamically
+	// here we are just incrementing a counter every time the value is read.
+	var2Value := int32(0)
+	var2 := nodeNS.AddNewVariableStringNode("TestVar2", func() *ua.Variant { var2Value++; return ua.MustVariant(var2Value) })
+	nns_obj.AddRef(var2, id.HasComponent, true)
+
 	// Now we'll add a node from scratch.  This is a more manual way to add nodes to the server and gives you full
 	// control, but you'll have to build the node up with the correct attributes and references and then reference it from
 	// the parent node in the namespace if applicable.
-	var2 := server.NewNode(
+	var3 := server.NewNode(
 		ua.NewNumericNodeID(nodeNS.ID(), 12345), // you can use whatever node id you want here, whether it's numeric, string, guid, etc...
 		map[ua.AttributeID]*ua.Variant{
 			ua.AttributeIDBrowseName: ua.MustVariant(attrs.BrowseName("MyBrowseName")),
@@ -166,8 +179,50 @@ func main() {
 		nil,
 		func() *ua.Variant { return ua.MustVariant(12.34) },
 	)
-	nodeNS.AddNode(var2)
-	nns_obj.AddRef(var2, id.HasComponent, true)
+	nodeNS.AddNode(var3)
+	nns_obj.AddRef(var3, id.HasComponent, true)
+
+	// simulate a background process updating the data in the namespace.
+	go func() {
+		updates := 0
+		num := 42
+		time.Sleep(time.Second * 10)
+		for {
+			updates++
+			num++
+
+			// get the current value of the variable
+			last_value := var1.Value().Value().(float32)
+			// and change it
+			last_value += 1
+
+			// wrap the new value in a DataValue and use that to update the Value attribute of the node
+			val := ua.DataValue{
+				Value:           ua.MustVariant(last_value),
+				SourceTimestamp: time.Now(),
+				EncodingMask:    ua.DataValueValue | ua.DataValueSourceTimestamp,
+			}
+			var1.SetAttribute(ua.AttributeIDValue, val)
+
+			// we also need to let the node namespace know that the value has changed so it can trigger the change notification
+			// and send the updated value to any subscribed clients.
+			nodeNS.ChangeNotification(var1.ID())
+
+			time.Sleep(time.Second)
+		}
+	}()
+
+	// simulate monitoring one of the namespaces for change events.
+	// this is how you would be notified when a write to a node
+	// occurs through the opc ua server
+	go func() {
+		for {
+			changed_id := <-nodeNS.ExternalNotification
+			node := nodeNS.Node(changed_id)
+			value := node.Value().Value()
+			log.Printf("%s changed to %v", changed_id.String(), value)
+		}
+	}()
 
 	// catch ctrl-c and gracefully shutdown the server.
 	sigch := make(chan os.Signal, 1)

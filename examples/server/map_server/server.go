@@ -1,6 +1,11 @@
 // Copyright 2018-2020 opcua authors. All rights reserved.
 // Use of this source code is governed by a MIT-style license that can be
 // found in the LICENSE file.
+//
+// This example program shows how to create a simple OPC UA server with data backed by a map.
+// This allows you to easily create a server with a simple data model that can be updated from
+// other parts of your application.  This example also shows how to monitor the data for changes
+// and how to trigger change notifications to clients when the data changes.
 
 package main
 
@@ -15,7 +20,6 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/gopcua/opcua/debug"
 	"github.com/gopcua/opcua/id"
 	"github.com/gopcua/opcua/server"
 	"github.com/gopcua/opcua/ua"
@@ -30,7 +34,6 @@ var (
 )
 
 func main() {
-	flag.BoolVar(&debug.Enable, "debug", false, "enable debug logging")
 	flag.Parse()
 	log.SetFlags(0)
 
@@ -59,9 +62,11 @@ func main() {
 		//		server.EnableAuthWithoutEncryption(), // Dangerous and not recommended, shown for illustration only
 	)
 
-	// here we're automatically adding the hostname and localhost to the endpoint list.
-	// you'll want to add any other hostnames or IP addresses that clients will use to connect to the server.
-	// be the hostname(s) match the certificate the server is going to use.
+	// Here we're automatically adding the hostname and localhost to the endpoint list.
+	// Some clients are picky about the endpoint matching the connection url, so be sure to add any addresses/hostnames that
+	// clients will use to connect to the server.
+	//
+	// be sure the hostname(s) also match the certificate the server is going to use.
 	hostname, err := os.Hostname()
 	if err != nil {
 		log.Fatalf("Error getting host name %v", err)
@@ -123,13 +128,17 @@ func main() {
 	}
 
 	// Now that all the options are set, create the server.
+	// When the server is created, it will automatically create namespace 0 and populate it with
+	// the core opc ua nodes.
 	s := server.New(opts...)
 
 	// Create some map namespaces.  These are backed by go map[string]any
 	// which may be more convenient for some use cases than the NodeNamespace which requires
 	// your application's data structure to match the opcua node model.
 	myMapNamespace1 := server.NewMapNamespace(s, "MyTestNamespace")
+	log.Printf("map namespace 1 added at index %d", myMapNamespace1.ID())
 	myMapNamespace2 := server.NewMapNamespace(s, "SomeOtherNamespace")
+	log.Printf("map namespace 2 added at index %d", myMapNamespace2.ID())
 
 	// fill them with data.
 	myMapNamespace1.Data["Tag1"] = 123.4
@@ -179,24 +188,19 @@ func main() {
 		}
 	}()
 
-	// add the namespaces to the server, and add a reference to them if desired.
-	// here we are choosing to add the namespaces to the root/object folder
-	// to do this we first need to get the root namespace object folder so we
-	// get the object node
+	// add the namespaces to the server. If you want them to show up in a browse, you'll
+	// also have to add a reference to them (probably from the object node).
 	root_ns, _ := s.Namespace(0)
 	root_obj_node := root_ns.Objects()
 
 	// then we add the namespace to the server and add a reference to it from the object node.
-	mrw_id := s.AddNamespace(myMapNamespace1)
+	// the object node of the map namespace is a virtual node that contains all the "nodes" for each
+	// map key
 	root_obj_node.AddRef(myMapNamespace1.Objects(), id.HasComponent, true)
-	log.Printf("map namespace added at index %d", mrw_id)
-
-	// same thing for the other namespace
-	mrw_id2 := s.AddNamespace(myMapNamespace2)
 	root_obj_node.AddRef(myMapNamespace2.Objects(), id.HasComponent, true)
-	log.Printf("map namespace added at index %d", mrw_id2)
 
 	// Start the server
+	// Note that you can add namespaces before or after starting the server.
 	if err := s.Start(context.Background()); err != nil {
 		log.Fatalf("Error starting server, exiting: %s", err)
 	}
