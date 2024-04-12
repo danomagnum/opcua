@@ -72,6 +72,26 @@ func NewFolderNode(nodeID *ua.NodeID, name string) *Node {
 
 func NewVariableNode(nodeID *ua.NodeID, name string, value any) *Node {
 	//eoid := ua.NewNumericExpandedNodeID(nodeID.Namespace(), nodeID.IntID())
+	vf, ok := value.(func() *ua.Variant)
+	if !ok {
+		typedef := ua.NewNumericExpandedNodeID(0, id.VariableNode)
+		n := NewNode(
+			nodeID,
+			map[ua.AttributeID]*ua.Variant{
+				ua.AttributeIDNodeClass:     ua.MustVariant(uint32(ua.NodeClassVariable)),
+				ua.AttributeIDBrowseName:    ua.MustVariant(attrs.BrowseName(name)),
+				ua.AttributeIDDisplayName:   ua.MustVariant(attrs.DisplayName(name, name)),
+				ua.AttributeIDDescription:   ua.MustVariant(uint32(ua.NodeClassVariable)),
+				ua.AttributeIDDataType:      ua.MustVariant(typedef),
+				ua.AttributeIDEventNotifier: ua.MustVariant(int16(0)),
+			},
+			[]*ua.ReferenceDescription{},
+			func() *ua.Variant {
+				return ua.MustVariant(value)
+			},
+		)
+		return n
+	}
 	typedef := ua.NewNumericExpandedNodeID(0, id.VariableNode)
 	n := NewNode(
 		nodeID,
@@ -84,9 +104,7 @@ func NewVariableNode(nodeID *ua.NodeID, name string, value any) *Node {
 			ua.AttributeIDEventNotifier: ua.MustVariant(int16(0)),
 		},
 		[]*ua.ReferenceDescription{},
-		func() *ua.Variant {
-			return ua.MustVariant(value)
-		},
+		vf,
 	)
 	return n
 }

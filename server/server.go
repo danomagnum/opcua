@@ -297,11 +297,11 @@ func (s *Server) acceptAndRegister(ctx context.Context, l *uacp.Listener) {
 			if err != nil {
 				switch x := err.(type) {
 				case *net.OpError:
-					// socket closed
+					// socket closed. Cannot recover from this.
 					if s.cfg.logger != nil {
 						s.cfg.logger.Error("socket closed: %s", err)
 					}
-					continue
+					return
 				case temporary:
 					if x.Temporary() {
 						continue

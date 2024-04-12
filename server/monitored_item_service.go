@@ -37,7 +37,15 @@ func (s *MonitoredItemService) DeleteMonitoredItem(id uint32) {
 		// id does not exist.
 		return
 	}
+
+	if item == nil || item.Req == nil || item.Req.ItemToMonitor == nil || item.Req.ItemToMonitor.NodeID == nil {
+		return
+	}
 	nodeid := item.Req.ItemToMonitor.NodeID.String()
+
+	if s == nil || s.Nodes == nil || s.Nodes[nodeid] == nil {
+		return
+	}
 
 	// delete the monitored item from all nodes
 	delete(s.Items, id)

@@ -60,6 +60,7 @@ func NewMapNamespace(srv *Server, name string) *MapNamespace {
 		Data:                 make(map[string]any),
 		ExternalNotification: make(chan string),
 	}
+	srv.AddNamespace(&mrw)
 	return &mrw
 }
 
@@ -181,14 +182,18 @@ func (ns *MapNamespace) Attribute(n *ua.NodeID, a ua.AttributeID) *ua.DataValue 
 		ns.srv.cfg.logger.Debug("'%s' Data at read: %v", ns.name, ns.Data)
 	}
 
-	if a == ua.AttributeIDNodeID {
+	// because our data is native go types we don't have any of the ua "attributes" attached to it.
+	// so depending on what attribute the client wants, we'll inspect the data and return the appropriate
+	// thing
+	switch a {
+
+	case ua.AttributeIDNodeID:
 		dv.Status = ua.StatusOK
 		dv.EncodingMask |= ua.DataValueValue
 		dv.Value = ua.MustVariant(n)
-	}
 
-	// we are going to use the node id directly to look it up from our data map.
-	if a == ua.AttributeIDValue {
+		// we are going to use the node id directly to look it up from our data map.
+	case ua.AttributeIDValue:
 		dv.Status = ua.StatusOK
 		dv.EncodingMask |= ua.DataValueValue
 		v, ok := ns.Data[key]
@@ -217,46 +222,39 @@ func (ns *MapNamespace) Attribute(n *ua.NodeID, a ua.AttributeID) *ua.DataValue 
 		default:
 			dv.Value = ua.MustVariant(tv)
 		}
-	}
-	// nothing in this namespace has an ID Description
-	if a == ua.AttributeIDDescription {
+		// nothing in this namespace has an ID Description
+	case ua.AttributeIDDescription:
 		dv.Status = ua.StatusOK
 		dv.EncodingMask |= ua.DataValueValue
 		dv.Value = ua.MustVariant(&ua.LocalizedText{EncodingMask: ua.LocalizedTextText, Text: ""})
-	}
 
-	if a == ua.AttributeIDBrowseName {
+	case ua.AttributeIDBrowseName:
 		dv.Status = ua.StatusOK
 		dv.EncodingMask |= ua.DataValueValue
 		dv.Value = ua.MustVariant(attrs.BrowseName(key))
-	}
-	if a == ua.AttributeIDDisplayName {
+	case ua.AttributeIDDisplayName:
 		dv.Status = ua.StatusOK
 		dv.EncodingMask |= ua.DataValueValue
 		dv.Value = ua.MustVariant(attrs.DisplayName(key, key))
-	}
-	if a == ua.AttributeIDAccessLevel {
+	case ua.AttributeIDAccessLevel:
 		dv.Status = ua.StatusOK
 		dv.EncodingMask |= ua.DataValueValue
 		level := byte(ua.AccessLevelExTypeCurrentWrite | ua.AccessLevelExTypeCurrentRead)
 		dv.Value = ua.MustVariant(level)
-	}
 
-	if a == ua.AttributeIDNodeClass {
+	case ua.AttributeIDNodeClass:
 		dv.Status = ua.StatusOK
 		dv.EncodingMask |= ua.DataValueValue
 		dv.Value = ua.MustVariant(int32(ua.NodeClassVariable))
-	}
-	// nothing in this namespace has event notifiers
-	if a == ua.AttributeIDEventNotifier {
+		// nothing in this namespace has event notifiers
+	case ua.AttributeIDEventNotifier:
 		dv.Status = ua.StatusOK
 		dv.EncodingMask |= ua.DataValueValue
 		dv.Value = ua.MustVariant(int16(0))
-	}
 
 	// values are in section 5.1.2 of the standard.
 	// https://reference.opcfoundation.org/Core/Part6/v104/docs/5.1.2
-	if a == ua.AttributeIDDataType {
+	case ua.AttributeIDDataType:
 		dv.Status = ua.StatusOK
 		dv.EncodingMask |= ua.DataValueValue
 		v := ns.Data[key]
@@ -313,20 +311,20 @@ func (ns *MapNamespace) Attribute(n *ua.NodeID, a ua.AttributeID) *ua.DataValue 
 				}
 			}
 		}
-	}
 
-	// when we support arrays this will have to change.
-	if a == ua.AttributeIDValueRank {
+		// when we support arrays this will have to change.
+	case ua.AttributeIDValueRank:
 		dv.Status = ua.StatusOK
 		dv.EncodingMask |= ua.DataValueValue
 		dv.Value = ua.MustVariant(int32(-1))
-	}
 
 	// when we support arrays this will have to change.
-	if a == ua.AttributeIDArrayDimensions {
+	case ua.AttributeIDArrayDimensions:
 		dv.Status = ua.StatusOK
 		dv.EncodingMask |= ua.DataValueValue
 		dv.Value = ua.MustVariant([]uint32{})
+	default:
+		return dv
 	}
 
 	if dv.Value == nil {
