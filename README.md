@@ -156,7 +156,7 @@ We would be happy if you can add your equipment to the list. Just open a PR :)
 | B&R Automation PC 3100                                  | v0.3.x            | production  | ACS          |
 | InfluxDB Telegraf plugin                                | v0.3.x            | ?           | Community    |
 
-## Supported Features
+## Supported Client Features
 
 The current focus is on the OPC UA Binary protocol over TCP. No other protocols are supported at this point.
 
@@ -177,6 +177,29 @@ The current focus is on the OPC UA Binary protocol over TCP. No other protocols 
 | Authentication | Anonymous                        | Yes       |             |
 |                | User Name Password               | Yes       |             |
 |                | X509 Certificate                 | Yes       |             |
+
+## Supported Server Features
+
+The current focus is on the OPC UA Binary protocol over TCP. No other protocols are supported at this point.
+
+| Categories     | Features                         | Supported | Notes       |
+|----------------|----------------------------------|-----------|-------------|
+| Encoding       | OPC UA Binary                    | Yes       |             |
+|                | OPC UA JSON                      |           | not planned |
+|                | OPC UA XML                       |           | not planned |
+| Transport      | UA-TCP UA-SC UA Binary           | Yes       |             |
+|                | OPC UA HTTPS                     |           | not planned |
+|                | SOAP-HTTP WS-SC UA Binary        |           | not planned |
+|                | SOAP-HTTP WS-SC UA XML           |           | not planned |
+|                | SOAP-HTTP WS-SC UA XML-UA Binary |           | not planned |
+| Encryption     | None                             | Yes       |             |
+|                | Basic128Rsa15                    | Untested  |             |
+|                | Basic256                         | Untested  |             |
+|                | Basic256Sha256                   | Untested  |             |
+| Authentication | Anonymous                        | Yes       |             |
+|                | User Name Password               | Untested  |             |
+|                | X509 Certificate                 | Untested  |             |
+
 
 ### Services
 
