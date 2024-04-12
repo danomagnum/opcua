@@ -12,7 +12,6 @@ import (
 	"flag"
 	"io"
 	"log"
-	"log/slog"
 	"os"
 	"os/signal"
 	"time"
@@ -30,6 +29,22 @@ var (
 	keyfile  = flag.String("key", "key.pem", "Path to PEM Private Key file")
 	gencert  = flag.Bool("gen-cert", false, "Generate a new certificate")
 )
+
+type Logger struct {
+}
+
+func (l *Logger) Debug(msg string, args ...any) {
+	log.Printf(msg, args...)
+}
+func (l *Logger) Error(msg string, args ...any) {
+	log.Printf(msg, args...)
+}
+func (l *Logger) Info(msg string, args ...any) {
+	log.Printf(msg, args...)
+}
+func (l *Logger) Warn(msg string, args ...any) {
+	log.Printf(msg, args...)
+}
 
 func main() {
 	flag.BoolVar(&debug.Enable, "debug", false, "enable debug logging")
@@ -86,7 +101,7 @@ func main() {
 	// the server.SetLogger takes a server.Logger interface.  This interface is met by
 	// the slog.Logger{}.  A simple wrapper could be made for other loggers if they don't already
 	// meet the interface.
-	logger := slog.New(slog.NewTextHandler(os.Stdout, nil))
+	logger := &Logger{}
 	opts = append(opts,
 		server.SetLogger(logger),
 	)
