@@ -41,23 +41,29 @@ func main() {
 	// Set your security options.
 	opts = append(opts,
 		server.EnableSecurity("None", ua.MessageSecurityModeNone),
-		server.EnableSecurity("Basic128Rsa15", ua.MessageSecurityModeSign),
-		server.EnableSecurity("Basic128Rsa15", ua.MessageSecurityModeSignAndEncrypt),
-		server.EnableSecurity("Basic256", ua.MessageSecurityModeSign),
-		server.EnableSecurity("Basic256", ua.MessageSecurityModeSignAndEncrypt),
-		server.EnableSecurity("Basic256Sha256", ua.MessageSecurityModeSignAndEncrypt),
-		server.EnableSecurity("Basic256Sha256", ua.MessageSecurityModeSign),
-		server.EnableSecurity("Aes128_Sha256_RsaOaep", ua.MessageSecurityModeSign),
-		server.EnableSecurity("Aes128_Sha256_RsaOaep", ua.MessageSecurityModeSignAndEncrypt),
-		server.EnableSecurity("Aes256_Sha256_RsaPss", ua.MessageSecurityModeSign),
-		server.EnableSecurity("Aes256_Sha256_RsaPss", ua.MessageSecurityModeSignAndEncrypt),
+		/*
+			These security modes are not implemented yet.
+			server.EnableSecurity("Basic128Rsa15", ua.MessageSecurityModeSign),
+			server.EnableSecurity("Basic128Rsa15", ua.MessageSecurityModeSignAndEncrypt),
+			server.EnableSecurity("Basic256", ua.MessageSecurityModeSign),
+			server.EnableSecurity("Basic256", ua.MessageSecurityModeSignAndEncrypt),
+			server.EnableSecurity("Basic256Sha256", ua.MessageSecurityModeSignAndEncrypt),
+			server.EnableSecurity("Basic256Sha256", ua.MessageSecurityModeSign),
+			server.EnableSecurity("Aes128_Sha256_RsaOaep", ua.MessageSecurityModeSign),
+			server.EnableSecurity("Aes128_Sha256_RsaOaep", ua.MessageSecurityModeSignAndEncrypt),
+			server.EnableSecurity("Aes256_Sha256_RsaPss", ua.MessageSecurityModeSign),
+			server.EnableSecurity("Aes256_Sha256_RsaPss", ua.MessageSecurityModeSignAndEncrypt),
+		*/
 	)
 
 	// Set your user authentication options.
 	opts = append(opts,
 		server.EnableAuthMode(ua.UserTokenTypeAnonymous),
-		server.EnableAuthMode(ua.UserTokenTypeUserName),
-		server.EnableAuthMode(ua.UserTokenTypeCertificate),
+		/*
+			These authentication modes are not implemented yet
+			server.EnableAuthMode(ua.UserTokenTypeUserName),
+			server.EnableAuthMode(ua.UserTokenTypeCertificate),
+		*/
 		//		server.EnableAuthWithoutEncryption(), // Dangerous and not recommended, shown for illustration only
 	)
 
