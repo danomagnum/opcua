@@ -199,7 +199,7 @@ func (s *Subscription) ModifyMonitoredItems(ctx context.Context, ts ua.Timestamp
 	}
 	var res *ua.ModifyMonitoredItemsResponse
 
-	err = s.c.Send(ctx, req, func(v interface{}) error {
+	err = s.c.Send(ctx, req, func(v ua.Response) error {
 
 		return safeAssign(v, &res)
 	})
