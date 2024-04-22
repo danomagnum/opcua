@@ -252,7 +252,7 @@ func (s *Subscription) SetMonitoringMode(ctx context.Context, monitoringMode ua.
 		MonitoredItemIDs: monitoredItemIDs,
 	}
 	var res *ua.SetMonitoringModeResponse
-	err = s.c.Send(ctx, req, func(v interface{}) error {
+	err = s.c.Send(ctx, req, func(v ua.Response) error {
 		return safeAssign(v, &res)
 	})
 	if err != nil {
