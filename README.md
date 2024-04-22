@@ -205,6 +205,7 @@ The current focus is on the OPC UA Binary protocol over TCP. No other protocols 
 
 Here is the current set of supported services. For low-level access use the client `Send` function directly.
 
+
 | Service Set                 | Service                       | Client | Server | Notes        |
 |-----------------------------|-------------------------------|--------|--------|--------------|
 | Discovery Service Set       | FindServers                   | Yes    |        |              |
@@ -237,7 +238,7 @@ Here is the current set of supported services. For low-level access use the clie
 | MonitoredItems Service Set  | CreateMonitoredItems          | Yes    | Yes    |              |
 |                             | DeleteMonitoredItems          | Yes    | Yes    |              |
 |                             | ModifyMonitoredItems          | Yes    | Yes    |              |
-|                             | SetMonitoringMode             |        | Yes    |              |
+|                             | SetMonitoringMode             | Yes    | Yes    |              |
 |                             | SetTriggering                 |        |        |              |
 | Subscription Service Set    | CreateSubscription            | Yes    | Yes    |              |
 |                             | ModifySubscription            |        |        |              |
@@ -248,6 +249,7 @@ Here is the current set of supported services. For low-level access use the clie
 |                             | TransferSubscriptions         |        |        |              |
 
 * not all encryption schemes are fully functional at this time
+
 
 ## Authors
 
