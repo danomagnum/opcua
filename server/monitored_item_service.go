@@ -54,6 +54,9 @@ func (s *MonitoredItemService) DeleteMonitoredItem(id uint32) {
 	delete(s.Items, id)
 	for i := len(s.Nodes[nodeid]) - 1; i >= 0; i-- {
 		n := s.Nodes[nodeid][i]
+		if n == nil {
+			continue
+		}
 		if n.ID == id {
 			slices.Delete(s.Nodes[nodeid], i, i+1)
 		}
