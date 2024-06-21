@@ -21,10 +21,7 @@ import (
 	"github.com/danomagnum/opcua/schema"
 	"github.com/danomagnum/opcua/ua"
 	"github.com/danomagnum/opcua/uacp"
-<<<<<<< HEAD
 	"github.com/danomagnum/opcua/uapolicy"
-=======
->>>>>>> 862f1e4ab8485cc8b413640bc92e2fd76e2e9b55
 )
 
 //go:generate go run ../cmd/predefined-nodes/main.go
