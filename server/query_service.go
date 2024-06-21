@@ -1,8 +1,8 @@
 package server
 
 import (
-	"github.com/gopcua/opcua/ua"
-	"github.com/gopcua/opcua/uasc"
+	"github.com/danomagnum/opcua/ua"
+	"github.com/danomagnum/opcua/uasc"
 )
 
 // QueryService implements the Query Service Set.

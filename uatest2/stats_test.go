@@ -7,9 +7,9 @@ import (
 
 	"github.com/pascaldekloe/goe/verify"
 
-	"github.com/gopcua/opcua"
-	"github.com/gopcua/opcua/stats"
-	"github.com/gopcua/opcua/ua"
+	"github.com/danomagnum/opcua"
+	"github.com/danomagnum/opcua/stats"
+	"github.com/danomagnum/opcua/ua"
 )
 
 func newExpVarInt(i int64) *expvar.Int {

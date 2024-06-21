@@ -3,9 +3,9 @@ package server
 import (
 	"time"
 
-	"github.com/gopcua/opcua/id"
-	"github.com/gopcua/opcua/server/attrs"
-	"github.com/gopcua/opcua/ua"
+	"github.com/danomagnum/opcua/id"
+	"github.com/danomagnum/opcua/server/attrs"
+	"github.com/danomagnum/opcua/ua"
 )
 
 func CurrentTimeNode() *Node {

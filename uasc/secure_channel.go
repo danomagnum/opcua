@@ -19,11 +19,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/gopcua/opcua/debug"
-	"github.com/gopcua/opcua/errors"
-	"github.com/gopcua/opcua/ua"
-	"github.com/gopcua/opcua/uacp"
-	"github.com/gopcua/opcua/uapolicy"
+	"github.com/danomagnum/opcua/debug"
+	"github.com/danomagnum/opcua/errors"
+	"github.com/danomagnum/opcua/ua"
+	"github.com/danomagnum/opcua/uacp"
+	"github.com/danomagnum/opcua/uapolicy"
 )
 
 const (
@@ -1173,7 +1173,7 @@ func (s *SecureChannel) nextRequestID() uint32 {
 
 // Close closes an existing secure channel
 func (s *SecureChannel) Close() (err error) {
-	// https://github.com/gopcua/opcua/pull/470
+	// https://github.com/danomagnum/opcua/pull/470
 	// guard against double close until we found the root cause
 	err = io.EOF
 	s.closeOnce.Do(func() { err = s.close() })

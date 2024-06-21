@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gopcua/opcua"
-	"github.com/gopcua/opcua/ua"
+	"github.com/danomagnum/opcua"
+	"github.com/danomagnum/opcua/ua"
 )
 
 // TestWrite performs an integration test to first write

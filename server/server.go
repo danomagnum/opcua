@@ -17,11 +17,11 @@ import (
 
 	"golang.org/x/exp/slices"
 
-	"github.com/gopcua/opcua/id"
-	"github.com/gopcua/opcua/schema"
-	"github.com/gopcua/opcua/ua"
-	"github.com/gopcua/opcua/uacp"
-	"github.com/gopcua/opcua/uapolicy"
+	"github.com/danomagnum/opcua/id"
+	"github.com/danomagnum/opcua/schema"
+	"github.com/danomagnum/opcua/ua"
+	"github.com/danomagnum/opcua/uacp"
+	"github.com/danomagnum/opcua/uapolicy"
 )
 
 //go:generate go run ../cmd/predefined-nodes/main.go
@@ -126,7 +126,7 @@ func New(opts ...Option) *Server {
 			CurrentTime: time.Now(),
 			State:       ua.ServerStateSuspended,
 			BuildInfo: &ua.BuildInfo{
-				ProductURI:       "https://github.com/gopcua/opcua",
+				ProductURI:       "https://github.com/danomagnum/opcua",
 				ManufacturerName: cfg.manufacturerName,
 				ProductName:      cfg.productName,
 				SoftwareVersion:  "0.0.0-dev",
