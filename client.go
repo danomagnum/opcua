@@ -18,13 +18,13 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/gopcua/opcua/debug"
-	"github.com/gopcua/opcua/errors"
-	"github.com/gopcua/opcua/id"
-	"github.com/gopcua/opcua/stats"
-	"github.com/gopcua/opcua/ua"
-	"github.com/gopcua/opcua/uacp"
-	"github.com/gopcua/opcua/uasc"
+	"github.com/danomagnum/opcua/debug"
+	"github.com/danomagnum/opcua/errors"
+	"github.com/danomagnum/opcua/id"
+	"github.com/danomagnum/opcua/stats"
+	"github.com/danomagnum/opcua/ua"
+	"github.com/danomagnum/opcua/uacp"
+	"github.com/danomagnum/opcua/uasc"
 )
 
 // FindServers returns the servers known to a server or discovery server.
@@ -184,7 +184,7 @@ type Client struct {
 // To modify configuration you can provide any number of Options as opts. See
 // #Option for details.
 //
-// https://godoc.org/github.com/gopcua/opcua#Option
+// https://godoc.org/github.com/danomagnum/opcua#Option
 func NewClient(endpoint string, opts ...Option) (*Client, error) {
 	cfg, err := ApplyConfig(opts...)
 	if err != nil {
@@ -263,7 +263,7 @@ func (c *Client) Connect(ctx context.Context) error {
 
 	// todo(fs): we might need to guard this with an option in case of a broken
 	// todo(fs): server. For the sake of simplicity we left the option out but
-	// todo(fs): see the discussion in https://github.com/gopcua/opcua/pull/512
+	// todo(fs): see the discussion in https://github.com/danomagnum/opcua/pull/512
 	// todo(fs): and you should find a commit that implements this option.
 	if err := c.UpdateNamespaces(ctx); err != nil {
 		c.Close(ctx)
@@ -381,7 +381,7 @@ func (c *Client) monitor(ctx context.Context) {
 						// todo(fs): why we are trying to create a new secure channel when we shut the client
 						// todo(fs): down.
 						//
-						// https://github.com/gopcua/opcua/pull/470
+						// https://github.com/danomagnum/opcua/pull/470
 						c.conn.Close()
 						if sc := c.SecureChannel(); sc != nil {
 							sc.Close()
@@ -629,7 +629,7 @@ func (c *Client) Close(ctx context.Context) error {
 		c.setSecureChannel(nil)
 	}
 
-	// https://github.com/gopcua/opcua/pull/462
+	// https://github.com/danomagnum/opcua/pull/462
 	//
 	// do not close the c.sechanErr channel since it leads to
 	// race conditions and it gets garbage collected anyway.
@@ -887,7 +887,7 @@ func (c *Client) ActivateSession(ctx context.Context, s *Session) error {
 
 		// close the previous session
 		//
-		// https://github.com/gopcua/opcua/issues/474
+		// https://github.com/danomagnum/opcua/issues/474
 		//
 		// We decided not to check the error of CloseSession() since we
 		// can't do much about it anyway and it creates a race in the

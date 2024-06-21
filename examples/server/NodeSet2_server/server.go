@@ -16,10 +16,10 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/gopcua/opcua/debug"
-	"github.com/gopcua/opcua/schema"
-	"github.com/gopcua/opcua/server"
-	"github.com/gopcua/opcua/ua"
+	"github.com/danomagnum/opcua/debug"
+	"github.com/danomagnum/opcua/schema"
+	"github.com/danomagnum/opcua/server"
+	"github.com/danomagnum/opcua/ua"
 )
 
 var (

@@ -6,11 +6,11 @@ import (
 	"log"
 	"time"
 
-	"github.com/gopcua/opcua/debug"
-	"github.com/gopcua/opcua/errors"
-	"github.com/gopcua/opcua/stats"
-	"github.com/gopcua/opcua/ua"
-	"github.com/gopcua/opcua/uasc"
+	"github.com/danomagnum/opcua/debug"
+	"github.com/danomagnum/opcua/errors"
+	"github.com/danomagnum/opcua/stats"
+	"github.com/danomagnum/opcua/ua"
+	"github.com/danomagnum/opcua/uasc"
 	"golang.org/x/exp/slices"
 )
 
@@ -278,7 +278,7 @@ func (c *Client) notifySubscription(ctx context.Context, sub *Subscription, noti
 	// todo(fs): The client sent the list of ids in the *previous* PublishRequest.
 	// todo(fs): If we want to handle them then we probably need to keep track
 	// todo(fs): of the message ids we have ack'ed.
-	// todo(fs): see discussion in https://github.com/gopcua/opcua/issues/337
+	// todo(fs): see discussion in https://github.com/danomagnum/opcua/issues/337
 
 	if notif == nil {
 		sub.notify(ctx, &PublishNotificationData{

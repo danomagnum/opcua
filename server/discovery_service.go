@@ -3,8 +3,8 @@ package server
 import (
 	"strings"
 
-	"github.com/gopcua/opcua/ua"
-	"github.com/gopcua/opcua/uasc"
+	"github.com/danomagnum/opcua/ua"
+	"github.com/danomagnum/opcua/uasc"
 )
 
 // DiscoveryService implements the Discovery Service Set

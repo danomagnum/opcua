@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gopcua/opcua"
-	"github.com/gopcua/opcua/debug"
-	"github.com/gopcua/opcua/monitor"
-	"github.com/gopcua/opcua/ua"
+	"github.com/danomagnum/opcua"
+	"github.com/danomagnum/opcua/debug"
+	"github.com/danomagnum/opcua/monitor"
+	"github.com/danomagnum/opcua/ua"
 )
 
 func main() {

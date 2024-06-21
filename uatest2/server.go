@@ -8,9 +8,9 @@ import (
 	"context"
 	"log"
 
-	"github.com/gopcua/opcua/id"
-	"github.com/gopcua/opcua/server"
-	"github.com/gopcua/opcua/ua"
+	"github.com/danomagnum/opcua/id"
+	"github.com/danomagnum/opcua/server"
+	"github.com/danomagnum/opcua/ua"
 )
 
 func startServer() *server.Server {
