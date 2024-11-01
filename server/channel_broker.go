@@ -93,6 +93,7 @@ outer:
 		select {
 		case <-ctx.Done():
 			// todo(fs): return error?
+			c.logger.Warn("Context Done for id %d", secureChannelID)
 			break outer
 
 		default:
@@ -100,6 +101,11 @@ outer:
 			if msg.Err == io.EOF {
 				if c.logger != nil {
 					c.logger.Warn("Secure Channel %d closed", secureChannelID)
+				}
+				break outer
+			} else if msg.Err != nil {
+				if c.logger != nil {
+					c.logger.Warn("Secure Channel %d closed (error %v)", secureChannelID, msg.Err)
 				}
 				break outer
 			}
