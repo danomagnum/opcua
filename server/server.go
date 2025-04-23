@@ -29,8 +29,6 @@ const defaultListenAddr = "opc.tcp://localhost:0"
 
 // Server is a high-level OPC-UA Server
 type Server struct {
-	url string
-
 	cfg *serverConfig
 
 	mu         sync.Mutex
@@ -69,7 +67,8 @@ type serverConfig struct {
 
 	cap ServerCapabilities
 
-	logger Logger
+	logger   Logger
+	bindAddr string
 }
 
 var capabilities = ServerCapabilities{
@@ -108,13 +107,8 @@ func New(opts ...Option) *Server {
 	for _, opt := range opts {
 		opt(cfg)
 	}
-	url := ""
-	if len(cfg.endpoints) != 0 {
-		url = cfg.endpoints[0]
-	}
 
 	s := &Server{
-		url:      url,
 		cfg:      cfg,
 		cb:       newChannelBroker(cfg.logger),
 		sb:       newSessionBroker(cfg.logger),
@@ -249,10 +243,15 @@ func (s *Server) Start(ctx context.Context) error {
 	// Register all service handlers
 	s.initHandlers()
 
-	if s.url == "" {
-		s.url = defaultListenAddr
+	if s.cfg.bindAddr == "" {
+		if s.cfg.endpoints[0] == "" {
+			s.cfg.bindAddr = defaultListenAddr
+		} else {
+			s.cfg.bindAddr = s.cfg.endpoints[0]
+		}
 	}
-	s.l, err = uacp.Listen(s.url, nil)
+
+	s.l, err = uacp.Listen(s.cfg.bindAddr, nil)
 	if err != nil {
 		return err
 	}

@@ -166,3 +166,20 @@ func SetLogger(logger Logger) Option {
 		s.logger = logger
 	}
 }
+
+// Bind is used to specify the tcp address to bind to.  This is used by the server to create a listener
+// use this if the address to bind to is not the same as the address in the first endpoint.
+//
+// The address should be in the form of "opc.tcp://<host>:<port>" or "opc.tcp://<host>" or "<host>:<port>" or "<host>"
+// if the opc.tcp prefix is not present, it will be added automatically.
+// if the port is not present, it will default to 4840
+// Example: Bind("localhost:4840") will bind to localhost:4840 and the server will listen on that address
+// Example: Bind("opc.tcp://localhost:4840") will bind to localhost:4840 and the server will listen on that address
+func Bind(addr string) Option {
+	if !strings.HasPrefix(addr, "opc.tcp://") {
+		addr = "opc.tcp://" + addr
+	}
+	return func(s *serverConfig) {
+		s.bindAddr = addr
+	}
+}
